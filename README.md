@@ -11,12 +11,12 @@
 ### 🏆 **Athalia Core - Framework IA Enterprise**
 
 **Plateforme d'automatisation DevOps de niveau expert :**
-- **327 fichiers Python** avec architecture modulaire
-- **83,015 lignes** de code Python professionnel
-- **1,774 tests** automatisés avec couverture complète
-- **278 fichiers** de documentation enterprise-grade
-- **59 scripts** utilitaires et outils CLI
-- **CI/CD complet** avec GitHub Actions et sécurité
+- **12 modules** spécialisés (AI, ML, Robotics, Security)
+- **22,733 lignes** de code Python professionnel
+- **1,134 tests** automatisés avec couverture > 80%
+- **Architecture modulaire** de niveau architecte
+- **CI/CD complet** avec GitHub Actions
+- **Documentation enterprise-grade**
 
 ---
 
@@ -24,10 +24,25 @@
 
 | Projet | Description | Tech Stack | Métriques Vérifiées |
 |--------|-------------|------------|---------------------|
-| **Athalia Core** | **Framework IA Enterprise & DevOps** | Python, AI/ML, Testing | **83K lignes, 1,774 tests** |
-| **Arkalia Luna Pro** | Système IA Enterprise | Python, FastAPI, Docker | 15,000+ lignes |
+| **Athalia Core** | **Framework IA Enterprise & DevOps** | Python, AI/ML, Testing | **22,733 lignes, 1,134 tests** |
+| **Arkalia Luna Pro** | **Système IA Enterprise Modulaire** | Python, FastAPI, Docker | **22,733 lignes, 12 modules IA** |
 | 🤖 **BBIA Simulation** | Simulation robotique Unity | Unity, Python, ROS | ~5,000 lignes |
 | 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web | ~3,000 lignes |
+
+---
+
+### �� **Arkalia Luna Pro - Système IA Enterprise**
+
+**Système d'Intelligence Artificielle modulaire de niveau enterprise :**
+- **12 modules IA** avec architecture modulaire avancée
+- **22,733 lignes** de code Python professionnel
+- **1,134 tests** avec couverture > 80% sur modules critiques
+- **14 services Docker** avec health checks automatiques
+- **34 métriques** Prometheus temps réel
+- **Intelligence générative** - Auto-génération de code Python
+- **Décisionneur autonome** avec circuit breaker et graceful degradation
+- **Monitoring enterprise** complet (Grafana, Prometheus, Loki)
+- **Sécurité renforcée** avec fail2ban, vault, sandbox
 
 ---
 
@@ -48,6 +63,8 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity">
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus">
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
 </div>
 
 ---
