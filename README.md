@@ -8,13 +8,26 @@
 
 ---
 
+### 🏆 **Athalia Core - Mon Chef-d'œuvre**
+
+**Framework IA Enterprise de niveau expert :**
+- **50+ modules** spécialisés (AI, ML, Robotics, Security)
+- **22,733 lignes** de code Python professionnel
+- **1,134 tests** automatisés avec couverture complète
+- **Architecture modulaire** de niveau architecte
+- **CI/CD complet** avec GitHub Actions
+- **Documentation enterprise-grade**
+
+---
+
 ### 🌟 **Mes Projets Phares**
 
-| Projet | Description | Tech Stack |
-|--------|-------------|------------|
-| �� **Arkalia Luna Pro** | Système IA Enterprise (15K+ lignes) | Python, FastAPI, Docker, K8s |
-| 🤖 **BBIA Simulation** | Simulation robotique Unity | Unity, Python, ROS |
-| 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web |
+| Projet | Description | Tech Stack | Lignes de Code |
+|--------|-------------|------------|----------------|
+| �� **Athalia Core** | **Framework IA Enterprise (50+ modules)** | Python, AI/ML, Testing | **22,733 lignes** |
+| �� **Arkalia Luna Pro** | Système IA Enterprise (15K+ lignes) | Python, FastAPI, Docker, K8s | 15,000+ lignes |
+| 🤖 **BBIA Simulation** | Simulation robotique Unity | Unity, Python, ROS | ~5,000 lignes |
+| 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web | ~3,000 lignes |
 
 ---
 
@@ -31,6 +44,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/AI%20ML-Expert-blue?style=for-the-badge&logo=openai" alt="AI/ML">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity">
@@ -48,18 +62,3 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=arkalia-luna-system&style=flat-square&color=blue" alt="Profile Views">
 </div>
-
-<!--
-**arkalia-luna-system/arkalia-luna-system** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
