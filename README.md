@@ -26,12 +26,27 @@
 |--------|-------------|------------|---------------------|
 | **Athalia Core** | **Framework IA Enterprise & DevOps** | Python, AI/ML, Testing | **22,733 lignes, 1,134 tests** |
 | **Arkalia Luna Pro** | **Système IA Enterprise Modulaire** | Python, FastAPI, Docker | **22,733 lignes, 12 modules IA** |
-| 🤖 **BBIA Simulation** | Simulation robotique Unity | Unity, Python, ROS | ~5,000 lignes |
+| 🤖 **BBIA Simulation** | **Robotique IA Émotionnelle** | Unity, Python, ROS | **737,690 lignes, 206 tests** |
 | 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web | ~3,000 lignes |
 
 ---
 
-### �� **Arkalia Luna Pro - Système IA Enterprise**
+### 🤖 **BBIA Simulation - Robotique IA Émotionnelle**
+
+**Système de simulation robotique avancé pour Reachy Mini Wireless :**
+- **1,765 fichiers Python** avec architecture modulaire
+- **737,690 lignes** de code Python professionnel
+- **206 tests** automatisés avec couverture complète
+- **8 émotions** avec transitions fluides (neutral, happy, sad, angry, curious, excited, surprised, fearful)
+- **Vision avancée** : Caméra 1080p, FOV 120°, reconnaissance d'objets et visages
+- **Audio intelligent** : 4 microphones simulés, synthèse vocale Amélie
+- **Contrôle robotique** : 6 DOF tête, animation antennes, simulation Unity
+- **IA émotionnelle** : Système de personnalité robotique avancé
+- **Technologies** : Unity 3D, ROS, pyttsx3, OpenCV, NumPy
+
+---
+
+### **Arkalia Luna Pro - Système IA Enterprise**
 
 **Système d'Intelligence Artificielle modulaire de niveau enterprise :**
 - **12 modules IA** avec architecture modulaire avancée
@@ -63,6 +78,7 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity">
+  <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS">
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus">
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana">
 </div>
