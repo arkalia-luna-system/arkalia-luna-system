@@ -1,4 +1,4 @@
-# �� Arkalia Luna - AI/ML Engineer & Full-Stack Developer
+# Arkalia Luna - AI/ML Engineer & Full-Stack Developer
 
 <div align="center">
   <img src="https://img.shields.io/badge/AI%20Engineer-Expert-blue?style=for-the-badge&logo=openai" alt="AI Engineer">
@@ -8,24 +8,24 @@
 
 ---
 
-### 🏆 **Athalia Core - Mon Chef-d'œuvre**
+### 🏆 **Athalia Core - Framework IA Enterprise**
 
-**Framework IA Enterprise de niveau expert :**
-- **50+ modules** spécialisés (AI, ML, Robotics, Security)
-- **22,733 lignes** de code Python professionnel
-- **1,134 tests** automatisés avec couverture complète
-- **Architecture modulaire** de niveau architecte
-- **CI/CD complet** avec GitHub Actions
-- **Documentation enterprise-grade**
+**Plateforme d'automatisation DevOps de niveau expert :**
+- **327 fichiers Python** avec architecture modulaire
+- **83,015 lignes** de code Python professionnel
+- **1,774 tests** automatisés avec couverture complète
+- **278 fichiers** de documentation enterprise-grade
+- **59 scripts** utilitaires et outils CLI
+- **CI/CD complet** avec GitHub Actions et sécurité
 
 ---
 
 ### 🌟 **Mes Projets Phares**
 
-| Projet | Description | Tech Stack | Lignes de Code |
-|--------|-------------|------------|----------------|
-| �� **Athalia Core** | **Framework IA Enterprise (50+ modules)** | Python, AI/ML, Testing | **22,733 lignes** |
-| �� **Arkalia Luna Pro** | Système IA Enterprise (15K+ lignes) | Python, FastAPI, Docker, K8s | 15,000+ lignes |
+| Projet | Description | Tech Stack | Métriques Vérifiées |
+|--------|-------------|------------|---------------------|
+| **Athalia Core** | **Framework IA Enterprise & DevOps** | Python, AI/ML, Testing | **83K lignes, 1,774 tests** |
+| **Arkalia Luna Pro** | Système IA Enterprise | Python, FastAPI, Docker | 15,000+ lignes |
 | 🤖 **BBIA Simulation** | Simulation robotique Unity | Unity, Python, ROS | ~5,000 lignes |
 | 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web | ~3,000 lignes |
 
