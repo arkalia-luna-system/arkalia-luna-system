@@ -27,22 +27,7 @@
 | **Athalia Core** | **Framework IA Enterprise & DevOps** | Python, AI/ML, Testing | **22,733 lignes, 1,134 tests** |
 | **Arkalia Luna Pro** | **Système IA Enterprise Modulaire** | Python, FastAPI, Docker | **22,733 lignes, 12 modules IA** |
 | 🤖 **BBIA Simulation** | **Robotique IA Émotionnelle** | Unity, Python, ROS | **737,690 lignes, 206 tests** |
-| 🎮 **Arkalia Quest** | Jeu d'aventure textuel | Flask, Python, Web | ~3,000 lignes |
-
----
-
-### 🤖 **BBIA Simulation - Robotique IA Émotionnelle**
-
-**Système de simulation robotique avancé pour Reachy Mini Wireless :**
-- **1,765 fichiers Python** avec architecture modulaire
-- **737,690 lignes** de code Python professionnel
-- **206 tests** automatisés avec couverture complète
-- **8 émotions** avec transitions fluides (neutral, happy, sad, angry, curious, excited, surprised, fearful)
-- **Vision avancée** : Caméra 1080p, FOV 120°, reconnaissance d'objets et visages
-- **Audio intelligent** : 4 microphones simulés, synthèse vocale Amélie
-- **Contrôle robotique** : 6 DOF tête, animation antennes, simulation Unity
-- **IA émotionnelle** : Système de personnalité robotique avancé
-- **Technologies** : Unity 3D, ROS, pyttsx3, OpenCV, NumPy
+| 🎮 **Arkalia Quest** | **Jeu Éducatif IA Émotionnelle** | Flask, Python, Web | **26,556 lignes, 15 tests** |
 
 ---
 
@@ -61,6 +46,38 @@
 
 ---
 
+### 🤖 **BBIA Simulation - Robotique IA Émotionnelle**
+
+**Système de simulation robotique avancé pour Reachy Mini Wireless :**
+- **1,765 fichiers Python** avec architecture modulaire
+- **737,690 lignes** de code Python professionnel
+- **206 tests** automatisés avec couverture complète
+- **8 émotions** avec transitions fluides (neutral, happy, sad, angry, curious, excited, surprised, fearful)
+- **Vision avancée** : Caméra 1080p, FOV 120°, reconnaissance d'objets et visages
+- **Audio intelligent** : 4 microphones simulés, synthèse vocale Amélie
+- **Contrôle robotique** : 6 DOF tête, animation antennes, simulation Unity
+- **IA émotionnelle** : Système de personnalité robotique avancé
+- **Technologies** : Unity 3D, ROS, pyttsx3, OpenCV, NumPy
+
+---
+
+### 🎮 **Arkalia Quest - Jeu Éducatif IA Émotionnelle**
+
+**Jeu éducatif immersif avec IA émotionnelle LUNA :**
+- **74 fichiers Python** avec architecture modulaire
+- **26,556 lignes** de code Python professionnel
+- **15 fichiers de test** avec couverture complète
+- **IA émotionnelle LUNA** avec système d'émotions dynamiques
+- **Mini-jeux éducatifs** : Mathématiques, logique, langues, sciences
+- **Gamification avancée** : Points, niveaux, badges, missions
+- **Accessibilité WCAG 2.1 AA** : Navigation clavier, lecteurs d'écran
+- **PWA responsive** : Application web progressive mobile-first
+- **WebSockets** : Communication temps réel
+- **Analytics avancés** : Suivi des performances et comportements
+- **Technologies** : Flask 3.0, SQLite3, HTML5/CSS3/JavaScript ES6+
+
+---
+
 ### 📊 **Statistiques GitHub**
 
 <div align="center">
@@ -76,6 +93,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/AI%20ML-Expert-blue?style=for-the-badge&logo=openai" alt="AI/ML">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity">
   <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS">
