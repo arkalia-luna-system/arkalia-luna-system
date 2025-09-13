@@ -44,8 +44,8 @@
 
 | Projet | Description | Stack | Métriques | Status |
 |--------|-------------|-------|-----------|---------|
-| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados | Flask + IA + Security | 123 py, 30 tests, 179 total | ✅ Production |
-| **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 57 py, 21 tests, 167 SVG | ✅ v2.0.0 |
+| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados | Flask + IA + Security | 144 py, 168 tests | ✅ Production |
+| **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel | Python + Audio + Vision | 19 py, 7 tests | ✅ Stable |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
@@ -57,7 +57,7 @@
 ### **ℹ️ Transparence Projets**
 - **Publics** : Tous les projets listés sont accessibles publiquement
 - **Base Template** : Peut nécessiter une connexion selon les paramètres GitHub
-- **Métriques** : Mises à jour manuellement, dernière vérification septembre 2025
+- **Métriques** : Mises à jour manuellement, dernière vérification 13 septembre 2025
 - **Statuts** : ✅ Production, 🚧 Beta, 📚 Archive, 🚀 Enterprise
 
 ### **🔗 Synergies Écosystème**
