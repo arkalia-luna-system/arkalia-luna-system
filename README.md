@@ -50,9 +50,25 @@
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
-| **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/athalia-dev-setup)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
+| **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques projets | Python + Analytics | 18 py, 236 tests | 📈 Analytics |
 | **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise | Python + Docker + CI/CD | 288 py, 88 tests | 🏢 Enterprise |
+
+### **ℹ️ Transparence Projets**
+- **Publics** : Tous les projets listés sont accessibles publiquement
+- **Base Template** : Peut nécessiter une connexion selon les paramètres GitHub
+- **Métriques** : Mises à jour manuellement, dernière vérification septembre 2025
+- **Statuts** : ✅ Production, 🚧 Beta, 📚 Archive, 🚀 Enterprise
+
+### **🔗 Synergies Écosystème**
+
+| Projet Principal | Utilise | Utilisé Par | Intégration |
+|------------------|---------|-------------|-------------|
+| **🎮 Arkalia Quest** | Luna Logo (badges), Metrics Collector | CIA (notifications éducatives) | API cross-platform |
+| **🎨 Luna Logo** | Base Template (structure) | Quest, CIA, Luna Pro | API SVG dynamique |
+| **📊 Metrics Collector** | Athalia DevOps (CI/CD) | Tous projets | Analytics centralisées |
+| **🚀 Luna Pro** | Metrics Collector, Logo | Quest (orchestration) | Enterprise hub |
+| **🔧 Athalia DevOps** | Base Template (patterns) | Tous projets | Infrastructure |
 
 ---
 
