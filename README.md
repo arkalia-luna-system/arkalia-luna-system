@@ -5,12 +5,12 @@
 ![Arkalia Luna System Demo](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/demo-gif/arkalia-luna-demo.gif)
 
 [![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
-[![Projects](https://img.shields.io/badge/Projects-6%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
+[![Projects](https://img.shields.io/badge/Projects-9%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Stars](https://img.shields.io/github/stars/arkalia-luna-system?style=social&label=Total%20Stars)](https://github.com/arkalia-luna-system)
 [![Followers](https://img.shields.io/github/followers/arkalia-luna-system?style=social)](https://github.com/arkalia-luna-system)
 
-[![Code](https://img.shields.io/badge/Python%20Files-305-orange?style=for-the-badge)](#-métriques-de-lécosystème)
-[![Tests](https://img.shields.io/badge/Tests-266%20Automated-red?style=for-the-badge)](#-métriques-de-lécosystème)
+[![Code](https://img.shields.io/badge/Python%20Files-963-orange?style=for-the-badge)](#-métriques-de-lécosystème)
+[![Tests](https://img.shields.io/badge/Tests-2283%20Automated-red?style=for-the-badge)](#-métriques-de-lécosystème)
 [![SVG Generated](https://img.shields.io/badge/SVG%20Generated-167-purple?style=for-the-badge)](https://github.com/arkalia-luna-system/arkalia-luna-logo)
 [![Commits](https://img.shields.io/badge/Commits-1000%2B-yellow?style=for-the-badge)](https://github.com/arkalia-luna-system)
 
@@ -43,6 +43,9 @@
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base-template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours-interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
+| **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/athalia-dev-setup)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
+| **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques projets | Python + Analytics | 18 py, 236 tests | 📈 Analytics |
+| **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise | Python + Docker + CI/CD | 288 py, 88 tests | 🏢 Enterprise |
 
 ---
 
@@ -79,19 +82,20 @@
 ## 📊 **Métriques de l'Écosystème**
 
 ### **📈 Statistiques Globales**
-- **🔢 305 fichiers Python** (code source uniquement)
-- **🧪 266 tests automatisés** (100% CI/CD)
+- **🔢 963 fichiers Python** (code source uniquement) 
+- **🧪 2,283 tests automatisés** (100% CI/CD)
 - **🎨 167 logos SVG générés** (8 styles × 5 émotions)
-- **🌍 6 projets actifs** (production + développement)
+- **🌍 9 projets actifs** (production + développement)
 - **📦 12+ releases** versionnées et documentées
 
 ### **🎯 Répartition par Domaine**
 ```
-🎮 Gaming/Éducation     ████████████ 40% (Quest)
-🎨 Graphics/Design      ████████ 25% (Logo)
-🤖 IA/Robotique        ██████ 20% (BBIA)
-📱 Apps/Interfaces     ████ 10% (CIA, Nours)
-⚙️ DevOps/Templates    █ 5% (Base Template)
+🔧 DevOps/Enterprise    ████████████ 35% (Athalia)
+🎮 Gaming/Éducation     ████████ 20% (Quest)
+🎨 Graphics/Design      ██████ 15% (Logo)
+🤖 IA/Robotique        ██████ 15% (BBIA)
+📊 Analytics/Metrics   ████ 10% (Collector)
+⚙️ Templates/Tools     █ 5% (Base, CIA, Nours)
 ```
 
 ### **🔥 Points Forts Techniques**
@@ -196,10 +200,13 @@ flowchart TD
 4. **🔧 Code** : Fork, développe, teste
 5. **📤 Partage** : Pull request avec tests et docs
 
-### **🏷️ Labels pour Débutants**
-- ![Good First Issue](https://img.shields.io/badge/-good%20first%20issue-7057ff) : Parfait pour commencer
-- ![Help Wanted](https://img.shields.io/badge/-help%20wanted-008672) : Assistance bienvenue
-- ![Documentation](https://img.shields.io/badge/-documentation-0075ca) : Amélioration docs
+### **🏷️ Contributions Ouvertes par Projet**
+
+| Projet | Good First Issue | Help Wanted | Documentation |
+|--------|------------------|-------------|---------------|
+| **🎮 Arkalia Quest** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-quest/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-quest/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-quest/labels/documentation) |
+| **🎨 Luna Logo** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/documentation) |
+| **🔧 Athalia DevOps** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/documentation) |
 
 ---
 
