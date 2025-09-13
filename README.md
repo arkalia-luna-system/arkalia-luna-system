@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="180">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="120">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140">
+  </picture>
   
   # 🌙 **Arkalia Luna System**
   
@@ -45,8 +48,8 @@
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 57 py, 21 tests, 167 SVG | ✅ v2.0.0 |
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel | Python + Audio + Vision | 19 py, 7 tests | ✅ Stable |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
-| **⚙️ [Base Template](https://github.com/arkalia-luna-system/base-template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
-| **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours-interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
+| **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
+| **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/athalia-dev-setup)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques projets | Python + Analytics | 18 py, 236 tests | 📈 Analytics |
 | **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise | Python + Docker + CI/CD | 288 py, 88 tests | 🏢 Enterprise |
