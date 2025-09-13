@@ -1,8 +1,12 @@
-# 🌙 **Arkalia Luna System**
-
-**Micro-studio IA/Robots/DevOps open-source — Architecture modulaire, IA de confiance, robotique éducative, performance et éthique**
-
-![Arkalia Luna System Demo](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/demo-gif/arkalia-luna-demo.gif)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="180">
+  
+  # 🌙 **Arkalia Luna System**
+  
+  **Micro-studio IA/Robots/DevOps open-source — Architecture modulaire, IA de confiance, robotique éducative, performance et éthique**
+  
+  ---
+</div>
 
 [![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Projects](https://img.shields.io/badge/Projects-9%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
