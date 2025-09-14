@@ -6,7 +6,9 @@
   
   # 🌙 **Arkalia Luna System**
   
-  **Micro-studio IA/Robots/DevOps open-source — Développeuse autodidacte depuis février 2025, apprentissage transparent et partagé**
+  **Développeuse autodidacte, passionnée d'open source — apprentissage accéléré depuis février 2025**  
+  🌙 Tout projet ici est 100% transparent, documenté chronologiquement selon mes vrais premiers commits [preuve publique].  
+  **Aucune formation informatique, pas d'école d'ingénieur, mais progression à force de pratique, de documentation, de rigueur et de communauté.**
   
   ---
 </div>
@@ -28,15 +30,15 @@
 
 ---
 
-## 🎯 **Ma Vision Authentique**
+## 🎯 **Ma Vision & Mes Valeurs**
 
-> *"Développeuse autodidacte depuis février 2025, je partage mon apprentissage brut et transparent. Chaque projet est une trace réelle de ma progression, mes erreurs et mes découvertes."*
+> *"En open source, je préfère mille erreurs sincères à une réussite mensongère."*
 
 **🔍 Mes Valeurs :**
-- **🧠 Apprentissage Transparent** : Chaque erreur est documentée et partagée
-- **🤖 Robotique Éducative** : Apprendre par l'expérience et l'expérimentation
-- **⚡ Progression Honnête** : Pas de fausse expertise, juste de la curiosité
-- **🌐 Partage Authentique** : Code, erreurs et apprentissages en open-source
+- **🧠 Transparence** : Dates, métriques, retours — tout est sourcé ou marqué "non mesuré"
+- **📚 Pédagogie et entraide** : J'explique mes bugs, mes échecs et mes astuces dans mon [journal d'apprentissage](LEARNING_JOURNAL.md), lisible par tous
+- **🌍 Inclusion** : Rendre l'informatique accessible à tous, défendre la diversité dans les techs
+- **⚡ Amélioration continue** : Progrès étape par étape, chaque jour un apprentissage
 
 **📚 [Voir mon journal d'apprentissage complet](LEARNING_JOURNAL.md) - Chaque erreur, chaque victoire, chaque moment de doute documenté depuis février 2025**
 
@@ -165,7 +167,8 @@ Septembre 2025 📱 Fullstack
 └─ 📚 Flutter, mobile, santé
 ```
 
-### **📈 Chronologie Vérifiable (Commits GitHub)**
+## 🔗 **Chronologie Réelle (Preuve GitHub)**
+
 | Projet | Premier Commit | SHA | Preuve |
 |--------|----------------|-----|--------|
 | **🌐 nours_interface** | 2025-02-28 | 074129a | [voir](https://github.com/arkalia-luna-system/nours_interface/commit/074129ae3df5d489e84e20434099fb19dc5157dd) |
@@ -179,6 +182,36 @@ Septembre 2025 📱 Fullstack
 | **📱 arkalia-cia** | 2025-09-12 | af44f73 | [voir](https://github.com/arkalia-luna-system/arkalia-cia/commit/af44f73c53992c5c978ffcc4c93d5fe6e64173b3) |
 
 **🔍 Toutes les dates reposent sur l'historique PUBLIC des commits GitHub – aucune timeline n'a été retouchée a posteriori.**
+
+---
+
+## 🌟 **Pourquoi Me Suivre ?**
+
+### **🚀 Mon Parcours en 7 Mois**
+- **Février 2025** : Premier "Hello World" web
+- **Mars 2025** : Premier CI/CD qui fonctionne
+- **Juin 2025** : Première IA qui "pense"
+- **Juillet 2025** : Premier robot qui "ressent"
+- **Août 2025** : Premier jeu éducatif complet
+- **Septembre 2025** : Première app mobile
+
+### **💡 Ce que tu vas découvrir**
+- **Des erreurs documentées** : Chaque bug est une leçon partagée
+- **Des victoires authentiques** : Pas de fausse modestie, juste du vrai
+- **Des projets qui marchent** : Code testé, documenté, déployé
+- **Une progression visible** : Tu peux voir mon évolution mois par mois
+
+### **🎯 Si tu es débutant·e**
+- **Tu n'es pas seul·e** : Je partage mes galères et mes doutes
+- **C'est possible** : 7 mois pour passer de zéro à 9 projets
+- **Apprends avec moi** : Chaque commit est une leçon
+
+### **🎯 Si tu es expérimenté·e**
+- **Donne-moi tes retours** : J'ai besoin de tes conseils
+- **Collabore** : Mes projets sont open-source
+- **Inspire-moi** : Montre-moi ce que je peux améliorer
+
+---
 
 ## 🗺️ **Roadmap & Navigation**
 
@@ -255,6 +288,11 @@ flowchart TD
 
 ## 📞 **Contact & Communauté**
 
+**Contacte-moi ou ouvre une issue sur n'importe quel dépôt**  
+Si tu es débutant·e, curieux·se, ou que tu veux échanger :  
+💬 **Je réponds toujours avec bienveillance**  
+🙏 **Tous feedbacks honnêtes, encouragements, suggestions d'amélioration ou questions sont les bienvenus**
+
 ### **🌐 Liens Officiels**
 - **📧 Contact** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com)
 - **🐙 GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system)
@@ -324,8 +362,8 @@ flowchart TD
 
 <div align="center">
 
-**🌙 Fait avec ❤️ par l'équipe Arkalia Luna System 🌟**
+**🌙 Fait avec ❤️ par Athalia 🌟**
 
-*"L'avenir se construit avec passion, rigueur et partage"*
+*"En open source, je préfère mille erreurs sincères à une réussite mensongère."*
 
 </div>
