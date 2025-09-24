@@ -1,8 +1,8 @@
 <div align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="120">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140">
-  </picture>
+
+<source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="120">
+<img alt="Arkalia Luna System" height="140" width="140"/>
+</source>
   
   # 🌙 **Arkalia Luna System**
   
@@ -14,7 +14,7 @@
 </div>
 
 [![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
-[![Projects](https://img.shields.io/badge/Projects-9%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
+[![Projects](https://img.shields.io/badge/Projects-10%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Stars](https://img.shields.io/github/stars/arkalia-luna-system?style=social&label=Total%20Stars)](https://github.com/arkalia-luna-system)
 [![Followers](https://img.shields.io/github/followers/arkalia-luna-system?style=social)](https://github.com/arkalia-luna-system)
 
@@ -52,6 +52,7 @@
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel | Python + Audio + Vision | 19 py, 7 tests | ✅ Stable |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
+| **📊 [Arkalia-aria](https://github.com/arkalia-luna-system/arkalia-aria)** | Assistant IA santé: suivi bien-être, rappel médication, coaching doux | Flutter + FastAPI + SQLite + Notifs | 12 py, 8 tests | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
@@ -112,7 +113,7 @@
 - **🔢 963 fichiers Python** (code source uniquement) 
 - **🧪 2,283 tests automatisés** (100% CI/CD)
 - **🎨 167 logos SVG générés** (8 styles × 5 émotions)
-- **🌍 9 projets actifs** (production + développement)
+- **🌍 10 projets actifs** (production + développement)
 - **📦 12+ releases** versionnées et documentées
 
 ### **🎯 Répartition par Domaine**
@@ -203,7 +204,7 @@ Septembre 2025 📱 Fullstack
 
 ### **🎯 Si tu es débutant·e**
 - **Tu n'es pas seul·e** : Je partage mes galères et mes doutes
-- **C'est possible** : 7 mois pour passer de zéro à 9 projets
+- **C'est possible** : 7 mois pour passer de zéro à 10 projets
 - **Apprends avec moi** : Chaque commit est une leçon
 
 ### **🎯 Si tu es expérimenté·e**
@@ -221,149 +222,3 @@ Septembre 2025 📱 Fullstack
 flowchart TD
     A[🌙 Arkalia Luna System] --> B{Quel domaine t'intéresse ?}
     
-    B -->|🎮 Gaming & IA| C[Arkalia Quest]
-    B -->|🎨 Design & API| D[Arkalia Luna Logo]
-    B -->|🤖 Robotique| E[BBIA Reachy Sim]
-    B -->|📱 Apps Mobile| F[Arkalia CIA]
-    B -->|⚙️ Templates| G[Base Template]
-    
-    C --> H[Architecture Flask<br/>179 tests<br/>Security avancée]
-    D --> I[FastAPI + SVG<br/>Monitoring<br/>8 styles générateurs]
-    E --> J[Moteur émotionnel<br/>Audio + Vision<br/>Robot Reachy]
-    F --> K[Flutter + Python<br/>Assistant conversationnel<br/>Cross-platform]
-    G --> L[Squelette professionnel<br/>CI/CD ready<br/>203 tests]
-    
-    style A fill:#2d3748,color:#ffffff
-    style C fill:#4299e1,color:#ffffff
-    style D fill:#9f7aea,color:#ffffff
-    style E fill:#48bb78,color:#ffffff
-    style F fill:#ed8936,color:#ffffff
-    style G fill:#38b2ac,color:#ffffff
-```
-
-### **🎯 Projets en Cours & Futurs**
-| Timeline | Projet | Objectif | Status |
-|----------|--------|----------|--------|
-| **Q1 2025** | Quest v3.1 | Multi-joueur + IA avancée | 🚧 En cours |
-| **Q1 2025** | Logo v2.1 | Plugins & marketplace | 📋 Planifié |
-| **Q2 2025** | BBIA v2.0 | Support robots multiples | 💡 Recherche |
-| **Q2 2025** | CIA v1.0 | Release stable mobile | 🚧 Beta |
-| **Q3 2025** | Écosystème | Intégrations cross-projets | 🌟 Vision |
-
----
-
-## 🤝 **Collaboration & Contribution**
-
-### **💼 Nous Recrutons Activement !**
-
-**🎯 Postes Ouverts (Remote/Hybride) :**
-- 🧠 **Développeur IA/ML Senior** : Moteurs cognitifs, PyTorch/TensorFlow
-- 🎨 **UI/UX Designer** : Flutter, interfaces innovantes
-- 🤖 **Ingénieur Robotique** : Reachy, simulation, vision
-- 🔒 **DevSecOps Engineer** : CI/CD, monitoring, sécurité
-- 📱 **Mobile Developer** : Flutter/Dart, apps cross-platform
-
-### **💭 Collaborations Recherchées**
-- 🧪 **Testeurs Passionnés** : QA et retours utilisateurs
-- 📚 **Rédacteurs Techniques** : Documentation et tutoriels
-- 🌍 **Ambassadeurs Communauté** : Événements, communication
-- 🎓 **Stagiaires/Étudiants** : Projets encadrés, apprentissage
-
-### **🚀 Comment Contribuer**
-1. **🔍 Explore** : Choisis un projet qui t'intéresse
-2. **📖 Lis** : Documentation et guides de contribution
-3. **💬 Discute** : Ouvre une issue ou rejoins les discussions
-4. **🔧 Code** : Fork, développe, teste
-5. **📤 Partage** : Pull request avec tests et docs
-
-### **🏷️ Contributions Ouvertes par Projet**
-
-| Projet | Good First Issue | Help Wanted | Documentation |
-|--------|------------------|-------------|---------------|
-| **🎮 Arkalia Quest** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-quest/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-quest/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-quest/labels/documentation) |
-| **🎨 Luna Logo** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/documentation) |
-| **🔧 Athalia DevOps** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/documentation) |
-
----
-
-## 📞 **Contact & Communauté**
-
-**Contacte-moi ou ouvre une issue sur n'importe quel dépôt**  
-Si tu es débutant·e, curieux·se, ou que tu veux échanger :  
-💬 **Je réponds toujours avec bienveillance**  
-🙏 **Tous feedbacks honnêtes, encouragements, suggestions d'amélioration ou questions sont les bienvenus**
-
-### **🌐 Liens Officiels**
-- **📧 Contact** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com)
-- **🐙 GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system)
-- **💼 LinkedIn** : [Profil Professionnel](https://linkedin.com/in/arkalia-luna)
-- **🌍 Portfolio** : [arkalia-luna.dev](https://arkalia-luna.dev)
-
-### **💬 Discussions & Support**
-- **🎯 GitHub Discussions** : Questions générales et idées
-- **🐛 Issues** : Bugs et demandes de fonctionnalités
-- **📚 Wiki** : Documentation collaborative
-- **🔔 Releases** : Notifications de nouvelles versions
-
----
-
-## 🏆 **Reconnaissance & Retours**
-
-### **💝 Apprentissage et Erreurs Partagées**
-> *"Chaque projet est une trace de mon apprentissage. Les erreurs sont documentées, les corrections expliquées."*  
-> — **Athalia** (Journal d'apprentissage)
-
-> *"BBIA a été mon premier contact avec l'IA émotionnelle. Beaucoup d'essais, d'erreurs et d'apprentissages."*  
-> — **Athalia** (Premier projet robotique)
-
-> *"Arkalia Quest m'a appris la sécurité web. Chaque vulnérabilité découverte était une leçon."*  
-> — **Athalia** (Apprentissage sécurité)
-
-### **📈 Métriques Réelles (Vérifiées)**
-- **🔗 Stars** : En cours de vérification (pas de fausses métriques)
-- **📥 Downloads** : Non mesurés (pas de tracking)
-- **🌍 Forks** : Non comptés (pas de fausses données)
-- **🔄 Uptime** : Non mesuré (pas de monitoring externe)
-
----
-
-## 🌟 **Pourquoi Arkalia Luna System ?**
-
-### **🎯 Ma Différence Authentique**
-- **🔬 Apprentissage Public** : Chaque erreur et succès est documenté
-- **📚 Pédagogie Intégrée** : Chaque projet enseigne car j'apprends en même temps
-- **🌐 Open Source Authentique** : Code, erreurs, méthodes transparentes
-- **⚡ Progression Honnête** : Pas de fausse expertise, juste de la curiosité
-- **🤝 Apprentissage Collaboratif** : Feedback constructif pour grandir ensemble
-
-### **🚀 Mon Engagement**
-*"Je développe en apprenant, en partageant mes erreurs et mes découvertes. Chaque ligne de code est une trace de ma progression : transparence, apprentissage, authenticité et curiosité."*
-
----
-
-## 📜 **Licences & Éthique**
-
-- **📄 Licence** : MIT (sauf mention contraire)
-- **🔒 Données** : Respect RGPD, anonymisation par défaut
-- **🌱 Impact** : Développement durable, optimisation énergétique
-- **🤝 Inclusion** : Accessibilité, diversité, non-discrimination
-
----
-
-## 🎉 **Rejoins l'Aventure !**
-
-**Arkalia Luna System** grandit grâce à sa communauté. Que tu sois développeur.se, designer, testeur.se, ou simplement curieux.se :
-
-[![Explore Projects](https://img.shields.io/badge/🚀-Explore%20Projects-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
-[![Join Community](https://img.shields.io/badge/💬-Join%20Community-green?style=for-the-badge)](https://github.com/orgs/arkalia-luna-system/discussions)
-[![Contribute](https://img.shields.io/badge/🔧-Start%20Contributing-orange?style=for-the-badge)](https://github.com/arkalia-luna-system/.github/blob/main/CONTRIBUTING.md)
-
----
-
-<div align="center">
-
-**🌙 Fait avec ❤️ par Athalia 🌟**
-
-*"En open source, je préfère mille erreurs sincères à une réussite mensongère."*
-
-</div>
