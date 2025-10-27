@@ -106,7 +106,7 @@
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Premier POC web • Fév 2025 • Archive didactique | Flask | 21 py | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps à l'échelle • 62 cmd sécurisées • 15 dashboards | FastAPI + Security | 108 modules, 198 tests | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Automatise tes métriques • CLI • Multi-format | Python + CLI | 9 modules, 13 tests | 📈 Production |
-| **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA • 7 modules • Grafana | Docker + Prometheus | 127 modules, 100 tests | 🏢 Enterprise |
+| **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Enterprise • 7 conteneurs • 34 métriques | Docker + Prometheus | 134 modules, 451 tests | 🏢 Enterprise |
 | **🧠 [Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD • 13 connecteurs santé | FastAPI + Flutter | 82 modules, 25 tests | ✅ Production |
 
 ### **ℹ️ Transparence Projets**
