@@ -4,17 +4,23 @@
     <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140">
   </picture>
   
-  <div align="center">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="50" style="margin: 5px; opacity: 0.8;"> 
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-awakening-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-mystery-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-power-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
-    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="50" style="margin: 5px; opacity: 0.8;">
+  <div align="center" style="height: 80px; overflow: hidden; position: relative;">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite; position: absolute;" alt="Logo 1">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 2.5s; position: absolute;" alt="Logo 2">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 5s; position: absolute;" alt="Logo 3">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-awakening-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 7.5s; position: absolute;" alt="Logo 4">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 10s; position: absolute;" alt="Logo 5">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-mystery-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 12.5s; position: absolute;" alt="Logo 6">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-power-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 15s; position: absolute;" alt="Logo 7">
+    <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="60" style="margin: 10px; opacity: 0.9; animation: slide 20s infinite 17.5s; position: absolute;" alt="Logo 8">
   </div>
-  <sub><em>🎨 196+ logos générés avec Luna Logo</em></sub>
+  <style>
+    @keyframes slide {
+      0%, 12.5% { opacity: 1; transform: scale(1); }
+      15%, 100% { opacity: 0; transform: scale(0.8); }
+    }
+  </style>
+  <sub><em>🎨 196+ logos générés avec Luna Logo • Carrousel automatique</em></sub>
   
   # 🌙 **Arkalia Luna System**
   
