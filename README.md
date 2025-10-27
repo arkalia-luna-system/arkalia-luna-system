@@ -363,6 +363,21 @@ flowchart TD
 
 </div>
 
+### **🌟 Reconnaissance Contributiveur.trice.s**
+Chaque contribution, même petite, fait avancer l'écosystème.
+
+> *"Chaque bug rapporté, chaque test, chaque commentaire constructif est valorisé. Tout le monde peut contribuer."*
+
+**🚀 Contribuer c'est simple :**
+- 📝 Corriger une typo
+- 🐛 Reporter un bug  
+- ✨ Proposer une feature
+- 🧪 Ajouter un test
+- 📚 Améliorer la doc
+- 💡 Partager une idée
+
+**En attente de premières contributions !** Ouvre une issue pour démarrer.
+
 ### **🚀 Comment Collaborer**
 
 | **Étape** | **Action** | **Github** |
