@@ -321,21 +321,22 @@ flowchart TD
 
 ---
 
-## 🎯 **Vision & Valeurs**
+## 🎯 **FAQ Rapide**
 
-### **💬 Nos Projets Parlent**
+> **Question : "Pourquoi ouvrir tout ton code ?"**  
+> **Réponse :** *"Chaque bug corrigé peut aider quelqu'un. Chaque erreur documentée évite 10h de frustration. L'apprentissage authentique, ça se partage."*
 
-**🤖 BBIA Reachy Sim** — *"Je suis le fruit de 6 mois de recherche en robotique émotionnelle. 44 modules, 51 tests, 12 émotions. Pas de fausse humilité : je suis le premier projet open-source capable de simuler un robot avec vraies émotions. Et si ça te fait peur, teste ma démo. Tu verras."*
+> **Question : "N'importe qui peut contribuer ?"**  
+> **Réponse :** *"Oui. Débutant.e, senior, designer, dev, maker... Chaque point de vue enrichit le projet. Une issue ? Un fix ? Un doc ? Bienvenue."*
 
-**🎮 Arkalia Quest** — *"Gaming éducatif, oui. Mais avec sécurité enterprise. 67 tests, 19k lignes. J'enseigne la cybersécurité aux ados sans les endormir. Si tu cherches comment faire un jeu fun ET sécurisé, viens voir mon code."*
+> **Question : "Que faire si je trouve un bug ?"**  
+> **Réponse :** *"Ouvre une issue, détaille-le (avec screenshots si possible), et je te donne un fix sous 48h. Si c'est critique, c'est prioritaire."*
 
-**🎨 Luna Logo** — *"Je génère 196 logos SVG en 0.03s. FastAPI, Prometheus, Grafana. Pas juste de l'art — de l'art automatisé. 8 styles, 5 variantes émotionnelles. Et si tu penses que générer des logos c'est facile, essaye de battre mes perfs."*
+> **Question : "Comment démarrer un projet Arkalia ?"**  
+> **Réponse :** *"Regarde la section 'Par où commencer' ci-dessus. Si t'es perdue, ouvre une issue avec ta question."*
 
-**🔧 Athalia DevOps** — *"108 modules, 198 tests, 62 commandes sécurisées. Je suis pas juste une plateforme — je suis une philosophie DevOps. Automatisation totale. Monitoring complet. Si tu veux voir comment faire du DevOps à l'échelle entreprise sans te planter, regarde comment je fonctionne."*
-
-**🧠 Arkalia ARIA** — *"Santé IA qui respecte vraiment le RGPD. 82 modules Python, 13 connecteurs santé. Je transforme tes données médicales en insights sans jamais les vendre. Si tu penses qu'on peut pas faire de l'IA éthique, check mon architecture."*
-
-**📊 Metrics Collector** — *"J'automatise ce que tout le monde fait manuellement. 550+ fichiers mesurés, 550+ tests trackés. Pas de bullshit, juste des faits. Si tu veux vraiment savoir la qualité de ton code, utilise-moi."*
+> **Question : "Pourquoi 'Arkalia Luna System' ?"**  
+> **Réponse :** *"Luna = phase de progression, de cycle, d'apprentissage. Arkalia = atelier où on assemble. System = ensemble cohérent."*
 
 **🌕 Luna Pro** — *"7 modules IA en orchestration enterprise. Monitoring Grafana, scaling Docker. Si tu cherches comment faire du vrai orchestration IA sans hype, je suis ton guide."*
 
