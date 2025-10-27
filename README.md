@@ -85,7 +85,7 @@
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
-| **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques projets | Python + Analytics | 18 py, 236 tests | 📈 Analytics |
+| **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques universel — CLI • Export multi-format • Dashboard • Validation | Python + Analytics + CLI | 9 modules, 13 tests, 1.1k lignes | 📈 Production |
 | **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise | Python + Docker + CI/CD | 288 py, 88 tests | 🏢 Enterprise |
 
 ### **ℹ️ Transparence Projets**
