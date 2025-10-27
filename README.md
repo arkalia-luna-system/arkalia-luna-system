@@ -131,7 +131,7 @@
 |------|--------|------------|
 | **GitHub Actions** | CI/CD automatisé | 100% projets |
 | **Black + Ruff** | Code formatting/linting | 100% projets |
-| **Pytest** | Tests automatisés | 266 tests total |
+| **Pytest** | Tests automatisés | 550+ tests total |
 | **MyPy** | Type checking | Projets critiques |
 | **Docker** | Déploiement | Production ready |
 
@@ -228,10 +228,10 @@ flowchart TD
     B -->|⚙️ Templates| G[Base Template]
     
     E --> J[12 émotions<br/>IA Whisper + YOLO<br/>Backend unifié Sim/Robot<br/>Production-ready]
-    C --> H[Architecture Flask<br/>179 tests<br/>Security avancée]
+    C --> H[Architecture Flask<br/>67 tests<br/>Security avancée]
     D --> I[FastAPI + SVG<br/>Monitoring<br/>8 styles générateurs]
     F --> K[Flutter + Python<br/>Assistant conversationnel<br/>Cross-platform]
-    G --> L[Squelette professionnel<br/>CI/CD ready<br/>203 tests]
+    G --> L[Squelette professionnel<br/>CI/CD ready<br/>4 tests]
     
     style A fill:#2d3748,color:#ffffff
     style E fill:#48bb78,color:#ffffff
@@ -244,7 +244,7 @@ flowchart TD
 ### **🎯 Projets en Cours & Futurs**
 | Timeline | Projet | Objectif | Status |
 |----------|--------|----------|--------|
-| **Q1 2025** | BBIA v2.0 | Support robots multiples + IA avancée | 🚧 En cours |
+| **Q2 2026** | BBIA v2.0 | Support robots multiples + IA avancée | 📋 Planifié |
 | **Q1 2025** | Quest v3.1 | Multi-joueur + IA avancée | 🚧 En cours |
 | **Q1 2025** | Logo v2.1 | Plugins & marketplace | 📋 Planifié |
 | **Q2 2025** | CIA v1.0 | Release stable mobile | 🚧 Beta |
@@ -282,7 +282,7 @@ flowchart TD
 |--------|------------------|-------------|---------------|
 | **🎮 Arkalia Quest** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-quest/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-quest/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-quest/labels/documentation) |
 | **🎨 Luna Logo** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/documentation) |
-| **🔧 Athalia DevOps** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/athalia-dev-setup/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/athalia-dev-setup/labels/documentation) |
+| **🔧 Athalia DevOps** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/ia-pipeline/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/ia-pipeline/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/ia-pipeline/labels/documentation) |
 
 ---
 
