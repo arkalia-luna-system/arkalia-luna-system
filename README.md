@@ -22,10 +22,6 @@
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> **`"Apprendre vite, coder mieux, partager tout."`** 🚀
 
-```
-═══════════════════════════════════════════════════════════════
-```
-
 </div>
 
 <div align="center">
