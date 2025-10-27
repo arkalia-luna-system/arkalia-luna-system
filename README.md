@@ -254,37 +254,29 @@ flowchart TD
 
 ---
 
-## 🤝 **Collaboration & Contribution**
+## 🤝 **Contribuer**
 
-### **💼 Nous Recrutons Activement !**
+### **🚀 Comment Collaborer**
 
-**🎯 Postes Ouverts (Remote/Hybride) :**
-- 🧠 **Développeur IA/ML Senior** : Moteurs cognitifs, PyTorch/TensorFlow
-- 🎨 **UI/UX Designer** : Flutter, interfaces innovantes
-- 🤖 **Ingénieur Robotique** : Reachy, simulation, vision
-- 🔒 **DevSecOps Engineer** : CI/CD, monitoring, sécurité
-- 📱 **Mobile Developer** : Flutter/Dart, apps cross-platform
+| **Étape** | **Action** | **Github** |
+|-----------|-----------|------------|
+| 🔍 **Explore** | Découvre les projets ouverts | [@arkalia-luna-system](https://github.com/arkalia-luna-system) |
+| 📚 **Lis** | Documentation et guides | [Wiki](https://github.com/arkalia-luna-system/.github/wiki) |
+| 💬 **Contribue** | Issues, Discussions, PRs | [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) |
 
-### **💭 Collaborations Recherchées**
-- 🧪 **Testeurs Passionnés** : QA et retours utilisateurs
-- 📚 **Rédacteurs Techniques** : Documentation et tutoriels
-- 🌍 **Ambassadeurs Communauté** : Événements, communication
-- 🎓 **Stagiaires/Étudiants** : Projets encadrés, apprentissage
+### **📋 Projets Actifs**
 
-### **🚀 Comment Contribuer**
-1. **🔍 Explore** : Choisis un projet qui t'intéresse
-2. **📖 Lis** : Documentation et guides de contribution
-3. **💬 Discute** : Ouvre une issue ou rejoins les discussions
-4. **🔧 Code** : Fork, développe, teste
-5. **📤 Partage** : Pull request avec tests et docs
-
-### **🏷️ Contributions Ouvertes par Projet**
-
-| Projet | Good First Issue | Help Wanted | Documentation |
-|--------|------------------|-------------|---------------|
-| **🎮 Arkalia Quest** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-quest/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-quest/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-quest/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-quest/labels/documentation) |
-| **🎨 Luna Logo** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/arkalia-luna-logo/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/arkalia-luna-logo/labels/documentation) |
-| **🔧 Athalia DevOps** | [![Good First Issue](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/good%20first%20issue?label=🟢%20Easy%20Start)](https://github.com/arkalia-luna-system/ia-pipeline/labels/good%20first%20issue) | [![Help Wanted](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/help%20wanted?label=🆘%20Help)](https://github.com/arkalia-luna-system/ia-pipeline/labels/help%20wanted) | [![Documentation](https://img.shields.io/github/issues/arkalia-luna-system/ia-pipeline/documentation?label=📚%20Docs)](https://github.com/arkalia-luna-system/ia-pipeline/labels/documentation) |
+| Projet | Type | Contribuer | Status |
+|--------|------|------------|---------|
+| **🤖 BBIA Reachy Sim** | Robotique IA | [Repo](https://github.com/arkalia-luna-system/bbia-sim) | ✅ Production |
+| **🎮 Arkalia Quest** | Gaming IA | [Repo](https://github.com/arkalia-luna-system/arkalia-quest) | ✅ Production |
+| **🎨 Luna Logo** | Design API | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | ✅ v2.0.0 |
+| **📱 Arkalia CIA** | Mobile Flutter | [Repo](https://github.com/arkalia-luna-system/arkalia-cia) | 🚧 Beta |
+| **🧠 Arkalia ARIA** | Santé IA | [Repo](https://github.com/arkalia-luna-system/arkalia-aria) | ✅ Production |
+| **🔧 Athalia DevOps** | DevOps | [Repo](https://github.com/arkalia-luna-system/ia-pipeline) | 🚀 Enterprise |
+| **🌕 Luna Pro** | Orchestrateur IA | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-pro) | 🏢 Enterprise |
+| **📊 Metrics Collector** | Analytics | [Repo](https://github.com/arkalia-luna-system/arkalia-metrics-collector) | 📈 Production |
+| **⚙️ Base Template** | Starter | [Repo](https://github.com/arkalia-luna-system/base_template) | ✅ Template |
 
 ---
 
