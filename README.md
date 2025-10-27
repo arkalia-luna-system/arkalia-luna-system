@@ -86,7 +86,7 @@
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | Plateforme DevOps enterprise — Orchestrateur unifié • 62 commandes sécurisées • 15 dashboards • API FastAPI • Monitoring | Python + FastAPI + Security + AI | 352 modules, 2180 tests, 85k lignes | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur métriques universel — CLI • Export multi-format • Dashboard • Validation | Python + Analytics + CLI | 9 modules, 13 tests, 1.1k lignes | 📈 Production |
-| **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise | Python + Docker + CI/CD | 288 py, 88 tests | 🏢 Enterprise |
+| **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA Enterprise — 7 modules IA • ZeroIA • Sandozia • Cognitive Reactor • Monitoring Grafana | Python + Docker + FastAPI + Prometheus | 5143 modules, 100 tests, 509 exécutés | 🏢 Enterprise |
 
 ### **ℹ️ Transparence Projets**
 - **Publics** : Tous les projets listés sont accessibles publiquement
