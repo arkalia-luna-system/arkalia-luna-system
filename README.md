@@ -49,8 +49,8 @@
 [![BBIA Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 [![BBIA Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://python.org)
 [![BBIA License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/arkalia-luna-system/bbia-sim)
-[![BBIA Tests](https://img.shields.io/badge/tests-150%2B%20passing-brightgreen.svg)](https://github.com/arkalia-luna-system/bbia-sim/actions)
-[![BBIA Coverage](https://img.shields.io/badge/coverage-63%25-brightgreen.svg)](https://github.com/arkalia-luna-system/bbia-sim)
+[![BBIA Files](https://img.shields.io/badge/files-44%20modules-blue.svg)](https://github.com/arkalia-luna-system/bbia-sim)
+[![BBIA Tests](https://img.shields.io/badge/tests-51%20files-green.svg)](https://github.com/arkalia-luna-system/bbia-sim/actions)
 [![BBIA SDK](https://img.shields.io/badge/SDK%20conformity-100%25-success.svg)](https://github.com/pollen-robotics/reachy_mini)
 [![BBIA AI](https://img.shields.io/badge/IA-Whisper%20%7C%20YOLO%20%7C%20MediaPipe-purple.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 
@@ -74,7 +74,7 @@
 
 | Projet | Description | Stack | Métriques | Status |
 |--------|-------------|-------|-----------|---------|
-| **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel — 12 émotions, IA légère, backend unifié | Python + MuJoCo + Whisper + YOLO | 150 py, 150+ tests, 11k lignes | ✅ Production |
+| **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel — 12 émotions, IA légère, backend unifié | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 6.8k lignes | ✅ Production |
 | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados | Flask + IA + Security | 144 py, 168 tests | ✅ Production |
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
