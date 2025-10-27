@@ -244,11 +244,13 @@ flowchart TD
 ### **🎯 Projets en Cours & Futurs**
 | Timeline | Projet | Objectif | Status |
 |----------|--------|----------|--------|
-| **Q2 2026** | BBIA v2.0 | Support robots multiples + IA avancée | 📋 Planifié |
-| **Q1 2025** | Quest v3.1 | Multi-joueur + IA avancée | 🚧 En cours |
-| **Q1 2025** | Logo v2.1 | Plugins & marketplace | 📋 Planifié |
-| **Q2 2025** | CIA v1.0 | Release stable mobile | 🚧 Beta |
-| **Q3 2025** | Écosystème | Intégrations cross-projets | 🌟 Vision |
+| **Q1 2026** | BBIA v2.0 | Support robots multiples + IA avancée | 📋 Planifié |
+| **Q2 2026** | Quest v4.0 | Multi-joueur + IA avancée | 📋 Planifié |
+| **Q1 2026** | Luna Logo v3.0 | Plugins & marketplace | 📋 Planifié |
+| **Q1 2026** | Arkalia CIA v1.0 | Release stable mobile | 🚧 En cours (Beta) |
+| **Q2 2026** | Arkalia ARIA v2.0 | IA avancée + nouveaux connecteurs | 📋 Planifié |
+| **Q3 2026** | Luna Pro v4.0 | Scaling enterprise + IA modulaire | 📋 Planifié |
+| **Q4 2026** | Écosystème unifié | Intégrations cross-projets | 🌟 Vision |
 
 ---
 
