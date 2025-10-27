@@ -309,14 +309,27 @@ flowchart TD
 | **📦 Releases** | 12+ | Versionnées |
 
 ### **💡 Insights d'Apprentissage**
-> *"BBIA m'a appris que l'IA émotionnelle n'est pas juste du code — c'est créer une connexion."*  
-> — Robotique • v1.3.0 Production
 
-> *"Athalia DevOps m'a forcée à penser comme une architecte système, pas juste développeuse."*  
-> — Enterprise • 108 modules, 198 tests
+> *"BBIA était mon premier robot. Au début j'étais perdue. Maintenant il me parle. C'est magique de créer des émotions dans 6800 lignes de code."*  
+> — Robotique • v1.3.0 Production • 6 mois de R&D
 
-> *"Metrics Collector prouve qu'automatiser > manuel. 550+ fichiers mesurés automatiquement."*  
-> — Analytics • Production-ready
+> *"Athalia DevOps m'a forcée à penser comme une architecte système. 108 modules ? C'est rien. Le vrai défi c'est les 62 commandes sécurisées qui tournent."*  
+> — Enterprise • Production-ready • 198 tests
+
+> *"550 fichiers Python mesurés automatiquement. Si tu fais encore tes métriques à la main, je t'ai perdue."*  
+> — Metrics Collector • Analytics
+
+### **🎉 Fun Facts Techniques**
+
+| **Achievement** | **Story** |
+|-----------------|-----------|
+| **🤖 12 émotions** en 3 mois | BBIA : du "Hello World" robot à l'IA émotionnelle |
+| **🎨 196 logos** générés | Luna Logo : de 0 à FastAPI en 1 mois |
+| **🎮 67 tests** en production | Quest : sécurité enterprise apprise sur le tas |
+| **📊 550+ modules** trackés | Metrics : le projet qui m'a sauvée du chaos |
+| **⚡ 0.03s** par logo | Performance > hype |
+| **🔒 AES-256** par défaut | CIA : privacy-first depuis le jour 1 |
+| **🌍 7 mois** | De "c'est quoi Python" à 10 projets en production |
 
 ---
 
