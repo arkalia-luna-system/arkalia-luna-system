@@ -1,8 +1,11 @@
 <div align="center">
+  
   <picture>
     <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="120">
     <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140">
   </picture>
+  
+  <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="80" style="margin-left: 20px; vertical-align: middle;">
   
   # 🌙 **Arkalia Luna System**
   
