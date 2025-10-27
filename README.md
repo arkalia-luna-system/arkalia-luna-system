@@ -379,7 +379,7 @@ flowchart TD
 
 ### **🎉 Fun Facts Techniques**
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_mystery-200.svg" width="20" style="float: right; margin: 0 0 0 10px;" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="20" style="float: right; margin: 0 0 0 10px;" />
 
 | **Achievement** | **Story** |
 |-----------------|-----------|
@@ -391,7 +391,7 @@ flowchart TD
 | **🔒 AES-256** par défaut | CIA : privacy-first depuis le jour 1 |
 | **🌍 7 mois** | De "c'est quoi Python" à 10 projets en production |
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="20" style="float: right; margin: 5px;" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple_advanced-power-200.svg" width="20" style="float: right; margin: 5px;" />
 
 ---
 
