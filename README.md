@@ -150,22 +150,27 @@
 - **🌍 10 projets actifs** (production + développement)
 - **📦 12+ releases** versionnées et documentées
 
-### **🎯 Répartition par Domaine**
-```
-🔧 DevOps/Enterprise    ████████████ 35% (Athalia)
-🎮 Gaming/Éducation     ███████ 18% (Quest)
-🎨 Graphics/Design      █████ 13% (Logo)
-🤖 IA/Robotique        █████████ 22% (BBIA)
-📊 Analytics/Metrics   ████ 10% (Collector)
-⚙️ Templates/Tools     █ 5% (Base, CIA, Nours)
-```
+### **🎯 Focus par Domaine**
+| **Domaine** | **Projets** | **Ton Impact** |
+|-------------|-------------|----------------|
+| **🤖 Robotique IA** | BBIA, Luna Pro | Vraies émotions robot |
+| **🎮 Gaming Educatif** | Quest | Sécurité enterprise |
+| **🎨 Design Automatisé** | Luna Logo | 0.03s génération |
+| **📱 Mobile Santé** | CIA, ARIA | Privacy-first, RGPD |
+| **🔧 DevOps** | Athalia | 62 cmd sécurisées |
+| **📊 Analytics** | Metrics | 550+ fichiers auto |
 
-### **🔥 Points Forts Techniques**
-- **Architecture modulaire** : Factory patterns, separation of concerns
-- **Sécurité avancée** : Rate limiting, IP blocking, input sanitization
-- **Performance optimisée** : <100ms response times, compression
-- **Monitoring complet** : Métriques temps réel, alerting
-- **Tests exhaustifs** : Unitaires, intégration, performance, sécurité
+### **⚡ Tech Highlights**
+
+| **Capacité** | **Preuve** | **Projet** |
+|--------------|------------|------------|
+| **Architecture modulaire** | Factory patterns, IOC | BBIA, Athalia |
+| **Sécurité enterprise** | Rate limiting, IP blocking | Quest, CIA |
+| **Performance extrême** | <100ms, 0.03s génération | Luna Logo |
+| **Monitoring temps réel** | Prometheus, Grafana | Luna Pro |
+| **Tests exhaustifs** | 550+ tests, CI/CD 100% | Tous projets |
+| **Multi-plateforme** | Mobile, Web, Desktop | CIA, ARIA, Quest |
+| **IA intégrée** | 12 émotions, LUNA, YOLO | BBIA, Quest |
 
 ---
 
