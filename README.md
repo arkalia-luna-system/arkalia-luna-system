@@ -1,31 +1,48 @@
 <div align="center">
   
-  <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="120" height="120">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="120" height="120">
   
-  <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="120" height="120" style="margin-left: 20px; vertical-align: middle;">
-  
-  # 🌙 **Arkalia Luna System**
-  
-  **Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps**
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="120" height="120" style="margin-left: 20px; vertical-align: middle;">
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> *"Apprendre vite, coder mieux, partager tout. 7 mois, 550+ modules, 0 bullshit."*
-  
 </div>
-
----
 
 <div align="center">
 
-### **⚡ Quick Stats Live**
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║            🌙 A R K A L I A   L U N A   S Y S T E M 🌙       ║
+║                                                               ║
+║     🤖 IA • 🎮 Gaming • 🎨 Design • 📱 Mobile • 🔧 DevOps     ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
 
-*Mis à jour automatiquement via GitHub Actions*
+**`Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps`**
 
-| ![Python Files](https://img.shields.io/badge/Python_Files-550%2B-orange?style=flat-square) | ![Tests](https://img.shields.io/badge/Tests-550%2B%20Automated-green?style=flat-square) | ![Projects](https://img.shields.io/badge/Projects-10%20Active-blue?style=flat-square) | ![SVG Generated](https://img.shields.io/badge/Logos_SVG-196%20Generated-purple?style=flat-square) |
-|------------|----------|-------------|--------------|
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> **`"Apprendre vite, coder mieux, partager tout."`** 🚀
+
+```
+═══════════════════════════════════════════════════════════════
+```
 
 </div>
 
----
+<div align="center">
+
+### **⚡ LIVE METRICS DASHBOARD**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  🐍 Python Files: 550+  │  🧪 Tests: 550+  │  📦 Projects: 10  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+| ![Python](https://img.shields.io/badge/PYTHON-550%2B_files-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Tests](https://img.shields.io/badge/TESTS-550%2B_Automated-25A162?style=for-the-badge&logo=automated&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-10_active-181717?style=for-the-badge&logo=github&logoColor=white) | ![SVG](https://img.shields.io/badge/LOGO_SVG-196_generated-FF6B9D?style=for-the-badge&logo=svg&logoColor=white) |
+|:---:|:---:|:---:|:---:|
+| **Modules** | **Coverage** | **Production** | **Assets** |
+
+</div>
 
 [![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Projects](https://img.shields.io/badge/Projects-10%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
@@ -44,21 +61,29 @@
 
 ---
 
-## 🚀 **Qui je suis ?**
+<div align="center">
 
-**Autodidacte en accéléré. 7 mois. 10 projets. Production-ready.**
+## 🚀 **QUI JE SUIS ?**
+
+**`Autodidacte en accéléré. 7 mois. 10 projets. Production-ready.`**
+
+</div>
 
 <div align="center">
 
-| 📊 | **Timeline Avancée (7 mois)** | ✨ |
-|----|-------------------------------|-----|
-| 📅 Fév 2025 | Premier "Hello World" Python | 🌱 |
-| 🌟 Mars 2025 | Premier projet CI/CD complet | 🌱 |
-| 🚀 Juin 2025 | Architecture IA modulaire | 🌟 |
-| 🔬 Juil 2025 | Premier robot émotionnel (BBIA) | 🤖 |
-| 🎨 Août 2025 | Générateur logos SVG en 0.03s | 🎨 |
-| 🎮 Sep 2025 | Jeu éducatif sécurisé | 🎮 |
-| ✅ Oct 2025 | 10 projets actifs, 550+ modules | 🏆 |
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                    📈 EVOLUTION TIMELINE                           │
+├────────────────────────────────────────────────────────────────────┤
+│  📅 Feb 2025 → 🌱 Premier "Hello World" Python                    │
+│  🌟 Mar 2025 → 🌱 Premier projet CI/CD complet                    │
+│  🚀 Jun 2025 → 🌟 Architecture IA modulaire                       │
+│  🔬 Jul 2025 → 🤖 Premier robot émotionnel (BBIA)                 │
+│  🎨 Aug 2025 → 🎨 Générateur logos SVG en 0.03s                   │
+│  🎮 Sep 2025 → 🎮 Jeu éducatif sécurisé                           │
+│  ✅ Oct 2025 → 🏆 10 projets actifs, 550+ modules                 │
+└────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
@@ -70,37 +95,75 @@
 
 ---
 
-## 🎯 **Par Où Commencer ?**
-
-**Première visite ?** Tu cherches quoi ?
-
-| **Tu es** | **Commence par** | **Pourquoi** |
-|-----------|------------------|--------------|
-| **🤖 Curieux IA** | [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) | Premier robot émotionnel open-source avec démos live |
-| **🎮 Makers/Édu** | [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) | Gaming éducatif cybersécurité, 100% fun |
-| **🎨 Designer** | [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | Génère 196 logos en 0.03s, 8 styles |
-| **📱 Mobile Dev** | [CIA](https://github.com/arkalia-luna-system/arkalia-cia) ou [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) | Flutter santé + RGPD |
-| **🔧 DevOps** | [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) | 62 commandes, 15 dashboards |
-| **⚡ Veux démarrer vite** | [Base Template](https://github.com/arkalia-luna-system/base_template) | Prêt en 30s, CI/CD inclus |
-| **🤝 Veux contribuer** | [Comment contribuer](#-contribuer) | Tous projets ouverts |
-
----
-
-## 🏆 **Projet Vedette : BBIA Reachy Sim**
-
 <div align="center">
 
-[![BBIA Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/arkalia-luna-system/bbia-sim)
-[![BBIA Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://python.org)
-[![BBIA License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/arkalia-luna-system/bbia-sim)
-[![BBIA Files](https://img.shields.io/badge/files-44%20modules-blue.svg)](https://github.com/arkalia-luna-system/bbia-sim)
-[![BBIA Tests](https://img.shields.io/badge/tests-51%20files-green.svg)](https://github.com/arkalia-luna-system/bbia-sim/actions)
-[![BBIA SDK](https://img.shields.io/badge/SDK%20conformity-100%25-success.svg)](https://github.com/pollen-robotics/reachy_mini)
-[![BBIA AI](https://img.shields.io/badge/IA-Whisper%20%7C%20YOLO%20%7C%20MediaPipe-purple.svg)](https://github.com/arkalia-luna-system/bbia-sim)
+## 🎯 **PAR OÙ COMMENCER ?**
+
+**`Première visite ? Choisis ton chemin :`**
 
 </div>
 
-### 🎯 **What is BBIA ?**
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                      🚀 NAVIGATION SYSTEM                      ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  🤖 [IA/Robotique] → BBIA Reachy Sim                         ║
+║     └─ Premier robot émotionnel • 12 émotions • Demo live     ║
+║                                                               ║
+║  🎮 [Gaming/Édu] → Arkalia Quest                             ║
+║     └─ Cybersécurité fun • 302 tests • Production-ready      ║
+║                                                               ║
+║  🎨 [Design/API] → Luna Logo                                 ║
+║     └─ 196 logos en 0.03s • 8 styles • FastAPI               ║
+║                                                               ║
+║  📱 [Mobile/Santé] → CIA | ARIA                               ║
+║     └─ Flutter RGPD • AES-256 • 100% offline                  ║
+║                                                               ║
+║  🔧 [DevOps] → Athalia DevOps                                ║
+║     └─ 62 cmd sécurisées • 15 dashboards                      ║
+║                                                               ║
+║  ⚡ [Quick Start] → Base Template                             ║
+║     └─ Prêt en 30s • CI/CD inclus                             ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+| **Tu es** | **Commence par** | **Pourquoi** |
+|-----------|------------------|--------------|
+| 🤖 **Curieux IA** | [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) | Premier robot émotionnel open-source avec démos live |
+| 🎮 **Makers/Édu** | [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) | Gaming éducatif cybersécurité, 100% fun |
+| 🎨 **Designer** | [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | Génère 196 logos en 0.03s, 8 styles |
+| 📱 **Mobile Dev** | [CIA](https://github.com/arkalia-luna-system/arkalia-cia) ou [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) | Flutter santé + RGPD |
+| 🔧 **DevOps** | [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) | 62 commandes, 15 dashboards |
+| ⚡ **Veux démarrer vite** | [Base Template](https://github.com/arkalia-luna-system/base_template) | Prêt en 30s, CI/CD inclus |
+| 🤝 **Veux contribuer** | [Comment contribuer](#-contribuer) | Tous projets ouverts |
+
+---
+
+<div align="center">
+
+## 🏆 **PROJET VEDETTE : BBIA REACHY SIM**
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║                    🤖 COGNITIVE ENGINE                        ║
+║                 12 EMOTIONS • IA LIGHTWEIGHT                  ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+<div align="center">
+
+[![BBIA Version](https://img.shields.io/badge/VERSION-1.3.0-0078D4?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
+[![Python](https://img.shields.io/badge/PYTHON-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&logo=license&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
+[![SDK](https://img.shields.io/badge/SDK-100%25-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
+
+</div>
+
+### **🎯 What is BBIA ?**
 
 **Moteur cognitif robotique émotionnel** — Premier projet open-source de robotique émotionnelle avec IA légère intégrée pour Reachy Mini
 
@@ -118,9 +181,19 @@
 
 ---
 
-## 🚀 **Projets Phares**
+<div align="center">
 
-> 💡 *Chaque projet a été conçu pour répondre à un besoin réel. Des passionnés de robotique aux écoles, des développeurs aux entreprises — découvre comment nos outils servent de vraies personnes.*
+## 🚀 **PROJETS PHARES**
+
+```
+╔═══════════════════════════════════════════════════════════════╗
+║              🌐 ECOSYSTEM • 10 PROJECTS • ACTIVE             ║
+╚═══════════════════════════════════════════════════════════════╝
+```
+
+> 💡 *Chaque projet résout un problème réel. Robotique • Gaming • Design • Mobile • DevOps*
+
+</div>
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="25" style="margin: 0 3px;" />
