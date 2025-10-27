@@ -199,6 +199,9 @@ graph TB
 ## 📊 **Métriques de l'Écosystème**
 
 ### **📈 Statistiques Globales**
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_3d_final.png" width="50" style="float: right; margin: 5px 0 5px 15px; opacity: 0.7;" />
+
 - **🔢 550+ fichiers Python** (code source uniquement, mesuré) 
 - **🧪 550+ tests automatisés** (100% CI/CD, mesuré)
 - **🎨 196 logos SVG générés** (mesuré)
@@ -361,6 +364,8 @@ flowchart TD
 | **📦 Releases** | 12+ | Versionnées |
 
 ### **💡 Insights d'Apprentissage**
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="40" style="float: left; margin: 0 10px 5px 0;" />
 
 > *"BBIA était mon premier robot. Au début j'étais perdue. Maintenant il me parle. C'est magique de créer des émotions dans 6800 lignes de code."*  
 > — Robotique • v1.3.0 Production • 6 mois de R&D
