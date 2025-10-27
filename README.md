@@ -111,33 +111,17 @@
 
 ---
 
-## 🔧 **Stack Technique Maîtrisée**
+## 🛠️ **Stack Maîtrisée**
 
-### **🐍 Backend & IA**
-| Technologie | Usage | Projets |
-|-------------|--------|---------|
-| **Python 3.9-3.12** | Core development | Tous projets |
-| **Flask/FastAPI** | Web APIs & services | Quest, Logo, Template, Nours |
-| **PyTorch/TensorFlow** | Machine Learning | BBIA, Quest |
-| **Docker & Compose** | Containerisation | Logo, Quest |
-| **Prometheus & Grafana** | Monitoring | Logo, Quest |
-
-### **🎨 Frontend & Mobile**
-| Technologie | Usage | Projets |
-|-------------|--------|---------|
-| **Flutter/Dart** | Mobile apps | CIA |
-| **HTML/CSS/JS** | Web interfaces | Quest, Nours |
-| **SVG/Canvas** | Graphics generation | Logo |
-| **WebSockets** | Real-time features | Quest |
-
-### **🔧 DevOps & Qualité**
-| Tool | Usage | Couverture |
-|------|--------|------------|
-| **GitHub Actions** | CI/CD automatisé | 100% projets |
-| **Black + Ruff** | Code formatting/linting | 100% projets |
-| **Pytest** | Tests automatisés | 550+ tests total |
-| **MyPy** | Type checking | Projets critiques |
-| **Docker** | Déploiement | Production ready |
+| **Type** | **Technologies** | **Usage** |
+|----------|------------------|-----------|
+| **🐍 Core** | Python 3.9-3.12 | 100% projets backend |
+| **⚡ APIs** | FastAPI, Flask | 8 projets |
+| **🤖 IA** | PyTorch, Whisper, YOLO, HuggingFace | BBIA, Quest |
+| **🎨 Graphics** | SVG, Canvas, PIL | Luna Logo |
+| **📱 Mobile** | Flutter, Dart | CIA, ARIA |
+| **🐳 DevOps** | Docker, Prometheus, Grafana | Luna Pro, Logo |
+| **✅ QA** | Pytest, Black, Ruff | 550+ tests, 100% CI/CD |
 
 ---
 
@@ -174,38 +158,17 @@
 
 ---
 
-## ⏰ **Timeline de Développement**
+## ⏰ **Ma Timeline**
 
-### **🚀 Mon Apprentissage Réel (Février-Septembre 2025)**
-
-```
-Février 2025 🌱 Premier Pas
-├─ 🌐 nours_interface (28/02) - Premier POC web
-└─ 📚 Découverte Flask/Python
-
-Mars 2025 🌟 Première Structure
-├─ ⚙️ base_template (03/03) - Premier starter Python
-└─ 📚 Apprentissage CI/CD et tests
-
-Juin 2025 🚀 Première IA
-├─ 🌕 arkalia-luna-pro (17/06) - Orchestration IA
-└─ 📚 Découverte architecture modulaire
-
-Juillet 2025 🔬 Laboratoire IA
-├─ 🤖 bbia-sim (15/07) - Robotique émotionnelle
-├─ 🔧 ia-pipeline (16/07) - Labo IA modulaire
-└─ 📚 Apprentissage robotique et IA
-
-Août 2025 🎮 Gaming & Design
-├─ 🎮 arkalia-quest (15/08) - Premier jeu éducatif
-├─ 🎨 arkalia-luna-logo (30/08) - Générateur SVG
-├─ 📊 arkalia-metrics-collector (30/08) - Analytics
-└─ 📚 Sécurité web et design
-
-Septembre 2025 📱 Fullstack
-├─ 📱 arkalia-cia (12/09) - Première app mobile
-└─ 📚 Flutter, mobile, santé
-```
+| **Période** | **Projets** | **Apprentissage** |
+|-------------|-------------|-------------------|
+| **🌱 Fév 2025** | Nours Interface | Premier POC Flask |
+| **🌟 Mars 2025** | Base Template | CI/CD + Structure pro |
+| **🚀 Juin 2025** | Luna Pro | Architecture IA modulaire |
+| **🔬 Juil 2025** | BBIA, Athalia | Robotique + IA émotionnelle |
+| **🎮 Août 2025** | Quest, Logo, Metrics | Gaming + Design + Analytics |
+| **📱 Sep 2025** | CIA | Flutter mobile |
+| **✅ Oct 2025** | 10 projets prod | Stack full (IA, Mobile, DevOps) |
 
 ### **📈 Chronologie Vérifiable (Commits GitHub)**
 | Projet | Premier Commit | SHA | Preuve |
