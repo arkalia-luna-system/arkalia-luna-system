@@ -80,8 +80,8 @@
 |--------|-------------|-------|-----------|---------|
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Projet vedette — Robotique émotionnelle IA • 14 modules • 12 émotions • Vision/Audio/Voice • Backend Sim/Robot unifié | Python + MuJoCo + Whisper + YOLO + HuggingFace | 44 modules, 51 tests, 6.8k lignes, 10 démos | ✅ Production |
 | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados — Gamification • Missions • LUNA IA • WebSocket • Sécurité enterprise | Flask + IA + WebSocket + Security | 40 core modules, 67 tests, 19k lignes | ✅ Production |
-| **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
-| **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
+| **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG professionnel — 8 styles • 5 variantes émotionnelles • API FastAPI • Monitoring Prometheus | FastAPI + SVG + Prometheus + Grafana | 25 modules, 23 tests, 167 SVG exports | ✅ v2.0.0 |
+| **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant mobile santé Flutter — Documents AES-256 • Rappels • ICE • Offline 100% | Flutter + Python FastAPI | 6 modules Dart, 61 tests, 66% coverage | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique | Flask + Web | 21 py, 0 tests | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | Plateforme DevOps enterprise | Python + AI + CI/CD | 352 py, 1693 tests | 🚀 Enterprise |
