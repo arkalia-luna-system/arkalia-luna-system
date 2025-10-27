@@ -11,9 +11,9 @@
 ```
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║            🌙 A R K A L I A   L U N A   S Y S T E M 🌙       ║
+║                   🌙 Arkalia Luna System 🌙                 ║
 ║                                                               ║
-║     🤖 IA • 🎮 Gaming • 🎨 Design • 📱 Mobile • 🔧 DevOps     ║
+║         🤖 IA • 🎮 Gaming • 🎨 Design • 📱 Mobile • 🔧 DevOps  ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
@@ -30,7 +30,7 @@
 
 <div align="center">
 
-### **⚡ LIVE METRICS DASHBOARD**
+### **⚡ Live Metrics Dashboard**
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -63,7 +63,7 @@
 
 <div align="center">
 
-## 🚀 **QUI JE SUIS ?**
+## 🚀 **Qui je suis ?**
 
 **`Autodidacte en accéléré. 7 mois. 10 projets. Production-ready.`**
 
@@ -73,12 +73,12 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
-│                    📈 EVOLUTION TIMELINE                           │
+│                         📈 Evolution Timeline                        │
 ├────────────────────────────────────────────────────────────────────┤
 │  📅 Feb 2025 → 🌱 Premier "Hello World" Python                    │
-│  🌟 Mar 2025 → 🌱 Premier projet CI/CD complet                    │
+│  🌟 Mar 2025 → 🌱 Premier projet CI/CD complet                   │
 │  🚀 Jun 2025 → 🌟 Architecture IA modulaire                       │
-│  🔬 Jul 2025 → 🤖 Premier robot émotionnel (BBIA)                 │
+│  🔬 Jul 2025 → 🤖 Premier robot émotionnel (BBIA)                  │
 │  🎨 Aug 2025 → 🎨 Générateur logos SVG en 0.03s                   │
 │  🎮 Sep 2025 → 🎮 Jeu éducatif sécurisé                           │
 │  ✅ Oct 2025 → 🏆 10 projets actifs, 550+ modules                 │
@@ -97,7 +97,7 @@
 
 <div align="center">
 
-## 🎯 **PAR OÙ COMMENCER ?**
+## 🎯 **Par où commencer ?**
 
 **`Première visite ? Choisis ton chemin :`**
 
@@ -105,7 +105,7 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║                      🚀 NAVIGATION SYSTEM                      ║
+║                     🚀 Navigation System                       ║
 ╠═══════════════════════════════════════════════════════════════╣
 ║                                                               ║
 ║  🤖 [IA/Robotique] → BBIA Reachy Sim                         ║
@@ -143,12 +143,12 @@
 
 <div align="center">
 
-## 🏆 **PROJET VEDETTE : BBIA REACHY SIM**
+## 🏆 **Projet Vedette : BBIA Reachy Sim**
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║                    🤖 COGNITIVE ENGINE                        ║
-║                 12 EMOTIONS • IA LIGHTWEIGHT                  ║
+║                       🤖 Cognitive Engine                     ║
+║                  12 émotions • IA lightweight                 ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
@@ -183,11 +183,11 @@
 
 <div align="center">
 
-## 🚀 **PROJETS PHARES**
+## 🚀 **Projets Phares**
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║              🌐 ECOSYSTEM • 10 PROJECTS • ACTIVE             ║
+║              🌐 Écosystème • 10 projets • Actifs              ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
