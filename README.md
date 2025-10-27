@@ -10,8 +10,22 @@
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> *"Apprendre vite, coder mieux, partager tout. 7 mois, 550+ modules, 0 bullshit."*
   
-  ---
 </div>
+
+---
+
+<div align="center">
+
+### **⚡ Quick Stats Live**
+
+*Mis à jour automatiquement via GitHub Actions*
+
+| ![Python Files](https://img.shields.io/badge/Python_Files-550%2B-orange?style=flat-square) | ![Tests](https://img.shields.io/badge/Tests-550%2B%20Automated-green?style=flat-square) | ![Projects](https://img.shields.io/badge/Projects-10%20Active-blue?style=flat-square) | ![SVG Generated](https://img.shields.io/badge/Logos_SVG-196%20Generated-purple?style=flat-square) |
+|------------|----------|-------------|--------------|
+
+</div>
+
+---
 
 [![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Projects](https://img.shields.io/badge/Projects-10%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
@@ -34,12 +48,19 @@
 
 **Autodidacte en accéléré. 7 mois. 10 projets. Production-ready.**
 
-**En chiffres :**
-- 📅 **Février 2025** : Premier "Hello World" Python
-- 🤖 **Juillet 2025** : Premier robot émotionnel opérationnel
-- 🎨 **Août 2025** : Générateur logos SVG en 0.03s
-- 🎮 **Septembre 2025** : Jeu éducatif avec sécurité enterprise
-- ✅ **Maintenant** : 10 projets actifs, 550+ modules, tout testé
+<div align="center">
+
+| 📊 | **Timeline Avancée (7 mois)** | ✨ |
+|----|-------------------------------|-----|
+| 📅 Fév 2025 | Premier "Hello World" Python | 🌱 |
+| 🌟 Mars 2025 | Premier projet CI/CD complet | 🌱 |
+| 🚀 Juin 2025 | Architecture IA modulaire | 🌟 |
+| 🔬 Juil 2025 | Premier robot émotionnel (BBIA) | 🤖 |
+| 🎨 Août 2025 | Générateur logos SVG en 0.03s | 🎨 |
+| 🎮 Sep 2025 | Jeu éducatif sécurisé | 🎮 |
+| ✅ Oct 2025 | 10 projets actifs, 550+ modules | 🏆 |
+
+</div>
 
 **Philosophie :**
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_3d_final.png" width="25" style="vertical-align: middle; margin: 0 5px; opacity: 0.6;" />
