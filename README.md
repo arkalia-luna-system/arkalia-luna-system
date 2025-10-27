@@ -4,17 +4,6 @@
     <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140">
   </picture>
   
-  <div align="center">
-  
-  ![Logo1](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg) ![Logo2](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg) ![Logo3](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg)
-  
-  ![Logo4](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-awakening-200.svg) ![Logo5](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg) ![Logo6](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-mystery-200.svg)
-  
-  ![Logo7](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-power-200.svg) ![Logo8](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg) ![Logo9](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism-power-200.svg)
-  
-  </div>
-  <sub><em>🎨 196+ logos générés • [Voir tous les styles →](https://github.com/arkalia-luna-system/arkalia-luna-logo/tree/main/exports/screenshots)</em></sub>
-  
   # 🌙 **Arkalia Luna System**
   
   **Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps**
