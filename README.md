@@ -338,8 +338,6 @@ flowchart TD
 > **Question : "Pourquoi 'Arkalia Luna System' ?"**  
 > **Réponse :** *"Luna = phase de progression, de cycle, d'apprentissage. Arkalia = atelier où on assemble. System = ensemble cohérent."*
 
-**🌕 Luna Pro** — *"7 modules IA en orchestration enterprise. Monitoring Grafana, scaling Docker. Si tu cherches comment faire du vrai orchestration IA sans hype, je suis ton guide."*
-
 ---
 
 <div align="center">
