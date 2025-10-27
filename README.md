@@ -60,7 +60,11 @@
 
 **Moteur cognitif robotique émotionnel** — Premier projet open-source de robotique émotionnelle avec IA légère intégrée pour Reachy Mini
 
-> 🤖 **12 émotions robotiques** avec transitions fluides • 👁️ **IA Vision** (YOLO + MediaPipe) • 🗣️ **IA Vocale** (Whisper STT/TTS) • 🚀 **Backend unifié** Sim/Robot • ✅ **Production-ready** (63% coverage, 150+ tests)
+**✨ 14 Modules IA** : Émotions • Vision YOLO • Voice Whisper • Behavior • HuggingFace • Emotion Recognition • Adaptive Behavior • RobotAPI • Simulation MuJoCo • FastAPI • WebSocket • Daemon • Backends Unifiés • Dashboard
+
+**🚀 10 Démos Fonctionnelles** : Émotions • Vision • Voice • Behavior • IA Avancée • Simulation 3D • Viewer • Telemetry • Tracking • Contrôle Pose
+
+> 🤖 **12 émotions robotiques** avec transitions fluides • 👁️ **IA Vision** (YOLO + MediaPipe) • 🗣️ **IA Vocale** (Whisper STT/TTS) • 🚀 **Backend unifié** Sim/Robot • 🧠 **Comportements adaptatifs** • ✅ **Production-ready** (44 modules, 51 tests, 6.8k lignes)
 
 <div align="center">
 
@@ -74,7 +78,7 @@
 
 | Projet | Description | Stack | Métriques | Status |
 |--------|-------------|-------|-----------|---------|
-| **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Moteur cognitif robot émotionnel — 12 émotions, IA légère, backend unifié | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 6.8k lignes | ✅ Production |
+| **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Projet vedette — Robotique émotionnelle IA • 14 modules • 12 émotions • Vision/Audio/Voice • Backend Sim/Robot unifié | Python + MuJoCo + Whisper + YOLO + HuggingFace | 44 modules, 51 tests, 6.8k lignes, 10 démos | ✅ Production |
 | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados | Flask + IA + Security | 144 py, 168 tests | ✅ Production |
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
