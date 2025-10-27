@@ -8,7 +8,7 @@
   
   **Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps**
 
-*"Apprendre vite, coder mieux, partager tout. 7 mois, 550+ modules, 0 bullshit."*
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> *"Apprendre vite, coder mieux, partager tout. 7 mois, 550+ modules, 0 bullshit."*
   
   ---
 </div>
@@ -42,6 +42,7 @@
 - ✅ **Maintenant** : 10 projets actifs, 550+ modules, tout testé
 
 **Philosophie :**
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_3d_final.png" width="25" style="vertical-align: middle; margin: 0 5px; opacity: 0.6;" />
 > *"Je documente tout. Mes erreurs. Mes succès. Ma progression chaotique. Parce que l'apprentissage authentique, ça se partage."*
 
 **[📔 Voir mon journal d'apprentissage](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/LEARNING_JOURNAL.md)** • **[🐛 Logs bugs corrigés](https://github.com/arkalia-luna-system/arkalia-luna-system/issues?q=is%3Aissue+is%3Aclosed)** • **[📅 Roadmap complète](#-projets-en-cours--futurs)**
