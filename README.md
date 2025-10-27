@@ -198,101 +198,69 @@
 
 ---
 
-## 🗺️ **Vue d'Ensemble de l'Écosystème**
+## 🗺️ **Architecture Écosystème**
 
 <div align="center">
 
 ```mermaid
-graph LR
-    subgraph "🤖 Robotique & IA"
-        A[BBIA Reachy Sim<br/>12 émotions<br/>IA Whisper + YOLO]
+flowchart TB
+    subgraph stack["🛠️ Stack Technique"]
+        PYTHON["🐍 Python 3.9+"]
+        APIS["⚡ FastAPI • Flask"]
+        AI["🤖 Whisper • YOLO"]
     end
     
-    subgraph "🎮 Gaming & IA"
-        B[Arkalia Quest<br/>Cybersecurity<br/>40 modules]
+    subgraph core["🎯 Projets Core"]
+        BBIA["🤖 BBIA Reachy Sim<br/>Robot émotionnel<br/>12 états • IA Vision"]
+        QUEST["🎮 Arkalia Quest<br/>Gaming éducatif<br/>Cybersécurité"]
+        LOGO["🎨 Luna Logo<br/>Génération SVG<br/>0.03s • 196 logos"]
     end
     
-    subgraph "🎨 Design & Créa"
-        C[Luna Logo<br/>196 SVG<br/>0.03s]
+    subgraph infra["🔧 Infrastructure"]
+        ATHALIA["🔧 Athalia DevOps<br/>62 commandes<br/>Security"]
+        LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>7 containers"]
     end
     
-    subgraph "📱 Mobile & Santé"
-        D[CIA<br/>Flutter santé]
-        E[ARIA<br/>IA santé RGPD]
+    subgraph mobile["📱 Mobile & Santé"]
+        CIA["📱 CIA<br/>Assistant santé<br/>Flutter • AES-256"]
+        ARIA["🧠 ARIA<br/>Tracking douleur<br/>RGPD • 13 connecteurs"]
     end
     
-    subgraph "🔧 DevOps & Infra"
-        F[Athalia<br/>62 commandes]
-        G[Luna Pro<br/>7 conteneurs]
+    subgraph utils["📊 Outils & Analytics"]
+        METRICS["📊 Metrics Collector<br/>Auto • CLI<br/>550+ fichiers"]
+        TEMPLATE["⚙️ Base Template<br/>Starter FastAPI<br/>CI/CD ready"]
     end
     
-    subgraph "📊 Analytics & Outils"
-        H[Metrics<br/>CLI auto]
-        I[Template<br/>FastAPI]
-    end
+    PYTHON --> BBIA
+    PYTHON --> QUEST
+    PYTHON --> LOGO
     
-    A --> G
-    B --> H
-    C --> H
-    D --> E
-    F --> G
-    H --> F
+    APIS --> BBIA
+    APIS --> LUNA
+    APIS --> CIA
     
-    style A fill:#48bb78
-    style B fill:#4299e1
-    style C fill:#9f7aea
-    style E fill:#ed8936
-    style G fill:#f6ad55
+    AI --> BBIA
+    AI --> QUEST
+    
+    METRICS --> BBIA
+    METRICS --> QUEST
+    METRICS --> LUNA
+    
+    TEMPLATE --> ATHALIA
+    TEMPLATE --> LUNA
+    
+    ATHALIA --> LUNA
+    CIA --> ARIA
+    
+    style BBIA fill:#48bb78,stroke:#2d7a4d,stroke-width:3px
+    style QUEST fill:#4299e1,stroke:#2c5aa0,stroke-width:3px
+    style LOGO fill:#9f7aea,stroke:#6b46c1,stroke-width:3px
+    style LUNA fill:#f6ad55,stroke:#c05621,stroke-width:3px
+    style ARIA fill:#ed8936,stroke:#c05621,stroke-width:3px
+    style METRICS fill:#38b2ac,stroke:#2c7a7b,stroke-width:3px
 ```
 
 </div>
-
----
-
-## 📁 **Structure des Projets**  
-
-```mermaid
-graph TB
-    subgraph "🤖 Robotique & IA"
-        BBIA[BBIA Reachy Sim<br/>12 émotions<br/>IA Whisper + YOLO<br/>Production]
-    end
-    
-    subgraph "🎮 Gaming & Éducation"
-        Quest[Arkalia Quest<br/>Gaming Cybersec<br/>40 modules<br/>Production]
-    end
-    
-    subgraph "🎨 Design & Création"
-        Logo[Luna Logo<br/>SVG 0.03s<br/>196 exports<br/>Production]
-    end
-    
-    subgraph "📱 Mobile & Santé"
-        CIA[Arkalia CIA<br/>Flutter santé<br/>Beta]
-        ARIA[Arkalia ARIA<br/>IA santé<br/>13 connecteurs<br/>Production]
-    end
-    
-    subgraph "🔧 DevOps & Infrastructure"
-        Athalia[Athalia DevOps<br/>62 cmd<br/>15 dashboards<br/>Enterprise]
-        Luna[Luna Pro<br/>7 conteneurs<br/>134 modules<br/>Enterprise]
-    end
-    
-    subgraph "📊 Analytics & Outils"
-        Metrics[Metrics Collector<br/>CLI auto<br/>9 modules]
-        Template[Base Template<br/>Starter FastAPI<br/>Template]
-    end
-    
-    BBIA --> Metrics
-    Quest --> Metrics
-    Logo --> Metrics
-    Athalia --> Luna
-    CIA --> ARIA
-    
-    style BBIA fill:#48bb78
-    style Quest fill:#4299e1
-    style Logo fill:#9f7aea
-    style ARIA fill:#ed8936
-    style Athalia fill:#38b2ac
-    style Luna fill:#f6ad55
-```
 
 ---
 
@@ -359,33 +327,38 @@ graph TB
 
 **🔍 Toutes les dates reposent sur l'historique PUBLIC des commits GitHub – aucune timeline n'a été retouchée a posteriori.**
 
-## 🗺️ **Roadmap & Navigation**
+## 🎯 **Navigation Interactive**
 
-### **🎯 Comment Explorer Nos Projets**
+<div align="center">
 
 ```mermaid
-flowchart TD
-    A[🌙 Arkalia Luna System] --> B{Quel domaine t'intéresse ?}
+flowchart LR
+    START([🌙 Arkalia Luna System]) --> TYPE{Type de projet ?}
     
-    B -->|🤖 Robotique & IA| E[BBIA Reachy Sim]
-    B -->|🎮 Gaming & IA| C[Arkalia Quest]
-    B -->|🎨 Design & API| D[Arkalia Luna Logo]
-    B -->|📱 Apps Mobile| F[Arkalia CIA]
-    B -->|⚙️ Templates| G[Base Template]
+    TYPE -->|IA/Robotique| BBIA[🤖 BBIA<br/>12 émotions • YOLO<br/>Production]
+    TYPE -->|Gaming| QUEST[🎮 Quest<br/>Cybersécurité<br/>302 tests]
+    TYPE -->|Design| LOGO[🎨 Luna Logo<br/>196 SVG • 0.03s<br/>FastAPI]
+    TYPE -->|Mobile| CIA[📱 CIA • ARIA<br/>Flutter • RGPD<br/>Health]
+    TYPE -->|DevOps| ATHALIA[🔧 Athalia<br/>62 cmd • Security<br/>Enterprise]
+    TYPE -->|Quick Start| TEMPLATE[⚙️ Template<br/>FastAPI • CI/CD<br/>30s setup]
     
-    E --> J[12 émotions<br/>IA Whisper + YOLO<br/>Backend unifié Sim/Robot<br/>Production-ready]
-    C --> H[Architecture Flask<br/>67 tests<br/>Security avancée]
-    D --> I[FastAPI + SVG<br/>Monitoring<br/>8 styles générateurs]
-    F --> K[Flutter + Python<br/>Assistant conversationnel<br/>Cross-platform]
-    G --> L[Squelette professionnel<br/>CI/CD ready<br/>4 tests]
+    BBIA --> D1[🤖 95 modules<br/>🧪 46 tests<br/>📹 13 démos]
+    QUEST --> D2[📚 40 modules<br/>🧪 302 tests<br/>🎓 Édu]
+    LOGO --> D3[🎨 25 modules<br/>⚡ 0.03s<br/>📊 Prometheus]
+    CIA --> D4[📱 18 Dart<br/>🔒 AES-256<br/>🏥 Santé]
+    ATHALIA --> D5[🔧 108 modules<br/>🔐 62 cmd<br/>📊 15 dashboards]
+    TEMPLATE --> D6[⚙️ Starter<br/>🚀 CI/CD<br/>✅ 4 tests]
     
-    style A fill:#2d3748,color:#ffffff
-    style E fill:#48bb78,color:#ffffff
-    style C fill:#4299e1,color:#ffffff
-    style D fill:#9f7aea,color:#ffffff
-    style F fill:#ed8936,color:#ffffff
-    style G fill:#38b2ac,color:#ffffff
+    style START fill:#2d3748,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    style BBIA fill:#48bb78,stroke:#2d7a4d,stroke-width:2px
+    style QUEST fill:#4299e1,stroke:#2c5aa0,stroke-width:2px
+    style LOGO fill:#9f7aea,stroke:#6b46c1,stroke-width:2px
+    style CIA fill:#ed8936,stroke:#c05621,stroke-width:2px
+    style ATHALIA fill:#f6ad55,stroke:#c05621,stroke-width:2px
+    style TEMPLATE fill:#38b2ac,stroke:#2c7a7b,stroke-width:2px
 ```
+
+</div>
 
 ### **🎯 Projets en Cours & Futurs**
 | Timeline | Projet | Objectif | Status |
