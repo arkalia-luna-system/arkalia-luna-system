@@ -79,7 +79,7 @@
 | Projet | Description | Stack | Métriques | Status |
 |--------|-------------|-------|-----------|---------|
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Projet vedette — Robotique émotionnelle IA • 14 modules • 12 émotions • Vision/Audio/Voice • Backend Sim/Robot unifié | Python + MuJoCo + Whisper + YOLO + HuggingFace | 44 modules, 51 tests, 6.8k lignes, 10 démos | ✅ Production |
-| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados | Flask + IA + Security | 144 py, 168 tests | ✅ Production |
+| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour ados — Gamification • Missions • LUNA IA • WebSocket • Sécurité enterprise | Flask + IA + WebSocket + Security | 40 core modules, 67 tests, 19k lignes | ✅ Production |
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG + API | FastAPI + SVG + Monitoring | 49 py, 23 tests, 167 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant IA conversationnel | Flutter + Python + API | 35 py, 5 tests | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python pro | Flask + CI/CD + Tests | 50 py, 203 tests | ✅ Template |
