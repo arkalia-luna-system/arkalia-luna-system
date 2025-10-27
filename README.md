@@ -44,18 +44,29 @@
 
 ## 🏆 **Projet Vedette : BBIA Reachy Sim**
 
+<div align="center">
+
 [![BBIA Version](https://img.shields.io/badge/version-1.3.0-blue.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 [![BBIA Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://python.org)
 [![BBIA License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 [![BBIA Tests](https://img.shields.io/badge/tests-150%2B%20passing-brightgreen.svg)](https://github.com/arkalia-luna-system/bbia-sim/actions)
 [![BBIA Coverage](https://img.shields.io/badge/coverage-63%25-brightgreen.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 [![BBIA SDK](https://img.shields.io/badge/SDK%20conformity-100%25-success.svg)](https://github.com/pollen-robotics/reachy_mini)
+[![BBIA AI](https://img.shields.io/badge/IA-Whisper%20%7C%20YOLO%20%7C%20MediaPipe-purple.svg)](https://github.com/arkalia-luna-system/bbia-sim)
 
-**Moteur cognitif robotique émotionnel avec IA légère intégrée** — Premier projet open-source de ce type pour Reachy Mini
+</div>
 
-🤖 **12 émotions robotiques** • 👁️ **IA Vision** (YOLO + MediaPipe) • 🗣️ **IA Vocale** (Whisper) • 🚀 **Backend unifié** Sim/Robot • ✅ **Production-ready**
+### 🎯 **What is BBIA ?**
 
-👉 **[Explorer BBIA](https://github.com/arkalia-luna-system/bbia-sim)** | 📚 [Guide Débutant](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) | 🔬 [Guide Avancé](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_AVANCE.md)
+**Moteur cognitif robotique émotionnel** — Premier projet open-source de robotique émotionnelle avec IA légère intégrée pour Reachy Mini
+
+> 🤖 **12 émotions robotiques** avec transitions fluides • 👁️ **IA Vision** (YOLO + MediaPipe) • 🗣️ **IA Vocale** (Whisper STT/TTS) • 🚀 **Backend unifié** Sim/Robot • ✅ **Production-ready** (63% coverage, 150+ tests)
+
+<div align="center">
+
+👉 **[🚀 Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** | 📚 [Guide Débutant](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) | 🔬 [Guide Avancé](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_AVANCE.md) | 🏗️ [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
+
+</div>
 
 ---
 
