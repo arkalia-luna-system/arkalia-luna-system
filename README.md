@@ -100,6 +100,10 @@
 
 > 💡 *Chaque projet a été conçu pour répondre à un besoin réel. Des passionnés de robotique aux écoles, des développeurs aux entreprises — découvre comment nos outils servent de vraies personnes.*
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism-power-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-awakening-200.svg" width="25" style="margin: 0 3px;" />
+</div>
+
 | | Projet | Description | Stack | Métriques | Status |
 |---|--------|-------------|-------|-----------|---------|
 | ![BBIA](https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif)<br/><sub>✅ Déployé robot réel</sub> | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Robot avec vraies émotions • 12 états • Vision YOLO • Voice Whisper • MuJoCo 3D<br/>*Pour makers, écoles, curieux IA* | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 13 démos | ✅ Production |
@@ -369,6 +373,8 @@ flowchart TD
 
 ### **🎉 Fun Facts Techniques**
 
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_mystery-200.svg" width="20" style="float: right; margin: 0 0 0 10px;" />
+
 | **Achievement** | **Story** |
 |-----------------|-----------|
 | **🤖 12 émotions** en 3 mois | BBIA : du "Hello World" robot à l'IA émotionnelle |
@@ -378,6 +384,8 @@ flowchart TD
 | **⚡ 0.03s** par logo | Performance > hype |
 | **🔒 AES-256** par défaut | CIA : privacy-first depuis le jour 1 |
 | **🌍 7 mois** | De "c'est quoi Python" à 10 projets en production |
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="20" style="float: right; margin: 5px;" />
 
 ---
 
