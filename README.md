@@ -16,9 +16,9 @@
 [![Stars](https://img.shields.io/github/stars/arkalia-luna-system?style=social&label=Total%20Stars)](https://github.com/arkalia-luna-system)
 [![Followers](https://img.shields.io/github/followers/arkalia-luna-system?style=social)](https://github.com/arkalia-luna-system)
 
-[![Code](https://img.shields.io/badge/Python%20Files-963-orange?style=for-the-badge)](#-métriques-de-lécosystème)
-[![Tests](https://img.shields.io/badge/Tests-2283%20Automated-red?style=for-the-badge)](#-métriques-de-lécosystème)
-[![SVG Generated](https://img.shields.io/badge/SVG%20Generated-167-purple?style=for-the-badge)](https://github.com/arkalia-luna-system/arkalia-luna-logo)
+[![Code](https://img.shields.io/badge/Python%20Files-550%2B-orange?style=for-the-badge)](#-métriques-de-lécosystème)
+[![Tests](https://img.shields.io/badge/Tests-550%2B%20Automated-red?style=for-the-badge)](#-métriques-de-lécosystème)
+[![SVG Generated](https://img.shields.io/badge/SVG%20Generated-196-purple?style=for-the-badge)](https://github.com/arkalia-luna-system/arkalia-luna-logo)
 [![Commits](https://img.shields.io/badge/Commits-1000%2B-yellow?style=for-the-badge)](https://github.com/arkalia-luna-system)
 
 [![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Flask%20%7C%20FastAPI%20%7C%20Docker-blue)](https://github.com/arkalia-luna-system)
@@ -140,9 +140,9 @@
 ## 📊 **Métriques de l'Écosystème**
 
 ### **📈 Statistiques Globales**
-- **🔢 963 fichiers Python** (code source uniquement) 
-- **🧪 2,283 tests automatisés** (100% CI/CD)
-- **🎨 167 logos SVG générés** (8 styles × 5 émotions)
+- **🔢 550+ fichiers Python** (code source uniquement, mesuré) 
+- **🧪 550+ tests automatisés** (100% CI/CD, mesuré)
+- **🎨 196 logos SVG générés** (mesuré)
 - **🌍 9 projets actifs** (production + développement)
 - **📦 12+ releases** versionnées et documentées
 
