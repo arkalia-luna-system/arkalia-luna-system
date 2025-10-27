@@ -99,15 +99,15 @@
 | Projet | Description | Stack | Métriques | Status |
 |--------|-------------|-------|-----------|---------|
 | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Robot avec vraies émotions • 12 états • Vision YOLO • Voice Whisper • MuJoCo 3D | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 13 démos | ✅ Production |
-| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise | Flask + IA + WebSocket | 28 modules, 19k lignes | ✅ Production |
+| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise | Flask + IA + WebSocket | 40 modules, 302 tests | ✅ Production |
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Logos SVG en 0.03s • 8 styles • 5 variantes • Monitoring temps réel | FastAPI + Prometheus | 25 modules, 196 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 • 100% offline • Seniors-friendly | Flutter + FastAPI | 18 Dart, 9 Python | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter kit FastAPI • Prêt en 30s • 29 scripts • CI/CD | FastAPI + Uvicorn | 34 modules | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Premier POC web • Fév 2025 • Archive didactique | Flask | 21 py | 📚 Archive |
-| **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps à l'échelle • 62 cmd sécurisées • 15 dashboards | FastAPI + Security | 108 modules, 198 tests | 🚀 Enterprise |
+| **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps à l'échelle • 62 cmd sécurisées • 15 dashboards | FastAPI + Security | 108 modules core, 198 tests | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Automatise tes métriques • CLI • Multi-format | Python + CLI | 9 modules, 13 tests | 📈 Production |
 | **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Enterprise • 7 conteneurs • 34 métriques | Docker + Prometheus | 134 modules, 451 tests | 🏢 Enterprise |
-| **🧠 [Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD • 13 connecteurs santé | FastAPI + Flutter | 82 modules, 25 tests | ✅ Production |
+| **🧠 [Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD • 13 connecteurs santé | FastAPI + Flutter | 12 modules core, 25 tests | ✅ Production |
 
 ### **ℹ️ Transparence Projets**
 - **Publics** : Tous les projets listés sont accessibles publiquement
