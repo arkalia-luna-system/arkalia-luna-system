@@ -100,11 +100,11 @@
 
 > 💡 *Chaque projet a été conçu pour répondre à un besoin réel. Des passionnés de robotique aux écoles, des développeurs aux entreprises — découvre comment nos outils servent de vraies personnes.*
 
-| Projet | Description | Stack | Métriques | Status |
-|--------|-------------|-------|-----------|---------|
-| **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Robot avec vraies émotions • 12 états • Vision YOLO • Voice Whisper • MuJoCo 3D<br/>*Pour makers, écoles, curieux IA* | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 13 démos | ✅ Production |
-| **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise<br/>*Pour ados, éducateurs, apprenants sécurité* | Flask + IA + WebSocket | 40 modules, 302 tests | ✅ Production |
-| **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Logos SVG en 0.03s • 8 styles • 5 variantes • Monitoring temps réel<br/>*Pour créateurs, startups, développeurs* | FastAPI + Prometheus | 25 modules, 196 SVG | ✅ v2.0.0 |
+| | Projet | Description | Stack | Métriques | Status |
+|---|--------|-------------|-------|-----------|---------|
+| ![BBIA](https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif) | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Robot avec vraies émotions • 12 états • Vision YOLO • Voice Whisper • MuJoCo 3D<br/>*Pour makers, écoles, curieux IA* | Python + MuJoCo + Whisper + YOLO | 44 modules, 51 tests, 13 démos | ✅ Production |
+| ![Quest](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-quest/main/static/icons/icon-192x192.png) | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise<br/>*Pour ados, éducateurs, apprenants sécurité* | Flask + IA + WebSocket | 40 modules, 302 tests | ✅ Production |
+| ![Logo](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg) | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Logos SVG en 0.03s • 8 styles • 5 variantes • Monitoring temps réel<br/>*Pour créateurs, startups, développeurs* | FastAPI + Prometheus | 25 modules, 196 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 • 100% offline • Seniors-friendly<br/>*Pour seniors, familles, proches aidants* | Flutter + FastAPI | 18 Dart, 9 Python | 🚧 Beta |
 | **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter kit FastAPI • Prêt en 30s • 29 scripts • CI/CD<br/>*Pour devs solo, équipes, freelances* | FastAPI + Uvicorn | 34 modules | ✅ Template |
 | **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Premier POC web • Fév 2025 • Archive didactique<br/>*Mon premier "Hello World" Flask* | Flask | 21 py | 📚 Archive |
