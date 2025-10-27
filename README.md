@@ -8,17 +8,9 @@
 
 <div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║                   🌙 Arkalia Luna System 🌙                 ║
-║                                                               ║
-║         🤖 IA • 🎮 Gaming • 🎨 Design • 📱 Mobile • 🔧 DevOps  ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+# 🌙 **Arkalia Luna System**
 
-**`Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps`**
+**Autodidacte depuis février 2025 • 10 projets en production • IA • Robotique • DevOps**
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="30" style="vertical-align: middle; margin: 0 5px;" /> **`"Apprendre vite, coder mieux, partager tout."`** 🚀
 
@@ -28,11 +20,7 @@
 
 ### **⚡ Live Metrics Dashboard**
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🐍 Python Files: 550+  │  🧪 Tests: 550+  │  📦 Projects: 10  │
-└─────────────────────────────────────────────────────────────┘
-```
+**🐍 Python Files: 550+ • 🧪 Tests: 550+ • 📦 Projects: 10**
 
 | ![Python](https://img.shields.io/badge/PYTHON-550%2B_files-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Tests](https://img.shields.io/badge/TESTS-550%2B_Automated-25A162?style=for-the-badge&logo=automated&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-10_active-181717?style=for-the-badge&logo=github&logoColor=white) | ![SVG](https://img.shields.io/badge/LOGO_SVG-196_generated-FF6B9D?style=for-the-badge&logo=svg&logoColor=white) |
 |:---:|:---:|:---:|:---:|
@@ -67,19 +55,15 @@
 
 <div align="center">
 
-```
-┌────────────────────────────────────────────────────────────────────┐
-│                         📈 Evolution Timeline                        │
-├────────────────────────────────────────────────────────────────────┤
-│  📅 Feb 2025 → 🌱 Premier "Hello World" Python                    │
-│  🌟 Mar 2025 → 🌱 Premier projet CI/CD complet                   │
-│  🚀 Jun 2025 → 🌟 Architecture IA modulaire                       │
-│  🔬 Jul 2025 → 🤖 Premier robot émotionnel (BBIA)                  │
-│  🎨 Aug 2025 → 🎨 Générateur logos SVG en 0.03s                   │
-│  🎮 Sep 2025 → 🎮 Jeu éducatif sécurisé                           │
-│  ✅ Oct 2025 → 🏆 10 projets actifs, 550+ modules                 │
-└────────────────────────────────────────────────────────────────────┘
-```
+**📈 Timeline Evolution**
+
+- 📅 **Feb 2025** : Premier "Hello World" Python
+- 🌟 **Mar 2025** : Premier projet CI/CD complet
+- 🚀 **Jun 2025** : Architecture IA modulaire
+- 🔬 **Jul 2025** : Premier robot émotionnel (BBIA)
+- 🎨 **Aug 2025** : Générateur logos SVG en 0.03s
+- 🎮 **Sep 2025** : Jeu éducatif sécurisé
+- ✅ **Oct 2025** : 10 projets actifs, 550+ modules
 
 </div>
 
@@ -99,31 +83,14 @@
 
 </div>
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                     🚀 Navigation System                       ║
-╠═══════════════════════════════════════════════════════════════╣
-║                                                               ║
-║  🤖 [IA/Robotique] → BBIA Reachy Sim                         ║
-║     └─ Premier robot émotionnel • 12 émotions • Demo live     ║
-║                                                               ║
-║  🎮 [Gaming/Édu] → Arkalia Quest                             ║
-║     └─ Cybersécurité fun • 302 tests • Production-ready      ║
-║                                                               ║
-║  🎨 [Design/API] → Luna Logo                                 ║
-║     └─ 196 logos en 0.03s • 8 styles • FastAPI               ║
-║                                                               ║
-║  📱 [Mobile/Santé] → CIA | ARIA                               ║
-║     └─ Flutter RGPD • AES-256 • 100% offline                  ║
-║                                                               ║
-║  🔧 [DevOps] → Athalia DevOps                                ║
-║     └─ 62 cmd sécurisées • 15 dashboards                      ║
-║                                                               ║
-║  ⚡ [Quick Start] → Base Template                             ║
-║     └─ Prêt en 30s • CI/CD inclus                             ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+### **🚀 Navigation**
+
+- 🤖 **[IA/Robotique]** → [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) — Premier robot émotionnel • 12 émotions • Demo live
+- 🎮 **[Gaming/Édu]** → [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) — Cybersécurité fun • 302 tests • Production-ready
+- 🎨 **[Design/API]** → [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) — 196 logos en 0.03s • 8 styles • FastAPI
+- 📱 **[Mobile/Santé]** → [CIA](https://github.com/arkalia-luna-system/arkalia-cia) | [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) — Flutter RGPD • AES-256 • 100% offline
+- 🔧 **[DevOps]** → [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) — 62 cmd sécurisées • 15 dashboards
+- ⚡ **[Quick Start]** → [Base Template](https://github.com/arkalia-luna-system/base_template) — Prêt en 30s • CI/CD inclus
 
 | **Tu es** | **Commence par** | **Pourquoi** |
 |-----------|------------------|--------------|
@@ -141,12 +108,7 @@
 
 ## 🏆 **Projet Vedette : BBIA Reachy Sim**
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                       🤖 Cognitive Engine                     ║
-║                  12 émotions • IA lightweight                 ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+**🤖 Cognitive Engine • 12 émotions • IA lightweight**
 
 </div>
 
@@ -181,11 +143,7 @@
 
 ## 🚀 **Projets Phares**
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║              🌐 Écosystème • 10 projets • Actifs              ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+**🌐 Écosystème • 10 projets • Actifs**
 
 > 💡 *Chaque projet résout un problème réel. Robotique • Gaming • Design • Mobile • DevOps*
 
