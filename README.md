@@ -46,6 +46,22 @@
 
 ---
 
+## 🎯 **Par Où Commencer ?**
+
+**Première visite ?** Tu cherches quoi ?
+
+| **Tu es** | **Commence par** | **Pourquoi** |
+|-----------|------------------|--------------|
+| **🤖 Curieux IA** | [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) | Premier robot émotionnel open-source avec démos live |
+| **🎮 Makers/Édu** | [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) | Gaming éducatif cybersécurité, 100% fun |
+| **🎨 Designer** | [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | Génère 196 logos en 0.03s, 8 styles |
+| **📱 Mobile Dev** | [CIA](https://github.com/arkalia-luna-system/arkalia-cia) ou [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) | Flutter santé + RGPD |
+| **🔧 DevOps** | [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) | 62 commandes, 15 dashboards |
+| **⚡ Veux démarrer vite** | [Base Template](https://github.com/arkalia-luna-system/base_template) | Prêt en 30s, CI/CD inclus |
+| **🤝 Veux contribuer** | [Comment contribuer](#-contribuer) | Tous projets ouverts |
+
+---
+
 ## 🏆 **Projet Vedette : BBIA Reachy Sim**
 
 <div align="center">
@@ -86,8 +102,8 @@
 | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise | Flask + IA + WebSocket | 28 modules, 19k lignes | ✅ Production |
 | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Logos SVG en 0.03s • 8 styles • 5 variantes • Monitoring temps réel | FastAPI + Prometheus | 25 modules, 196 SVG | ✅ v2.0.0 |
 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 • 100% offline • Seniors-friendly | Flutter + FastAPI | 18 Dart, 9 Python | 🚧 Beta |
-| **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter kit FastAPI pro • Prêt en 30s • 29 scripts • CI/CD inclus | FastAPI + Uvicorn | 34 modules | ✅ Template |
-| **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Premier POC web • Historique février 2025 | Flask | 21 py | 📚 Archive |
+| **⚙️ [Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter kit FastAPI • Prêt en 30s • 29 scripts • CI/CD | FastAPI + Uvicorn | 34 modules | ✅ Template |
+| **🌐 [Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Premier POC web • Fév 2025 • Archive didactique | Flask | 21 py | 📚 Archive |
 | **🔧 [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps à l'échelle • 62 cmd sécurisées • 15 dashboards | FastAPI + Security | 108 modules, 198 tests | 🚀 Enterprise |
 | **📊 [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Automatise tes métriques • CLI • Multi-format | Python + CLI | 9 modules, 13 tests | 📈 Production |
 | **🌕 [Arkalia Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA • 7 modules • Grafana | Docker + Prometheus | 127 modules, 100 tests | 🏢 Enterprise |
