@@ -44,6 +44,8 @@
 **Philosophie :**
 > *"Je documente tout. Mes erreurs. Mes succès. Ma progression chaotique. Parce que l'apprentissage authentique, ça se partage."*
 
+**[📔 Voir mon journal d'apprentissage](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/LEARNING_JOURNAL.md)** • **[🐛 Logs bugs corrigés](https://github.com/arkalia-luna-system/arkalia-luna-system/issues?q=is%3Aissue+is%3Aclosed)** • **[📅 Roadmap complète](#-projets-en-cours--futurs)**
+
 ---
 
 ## 🎯 **Par Où Commencer ?**
@@ -140,6 +142,53 @@
 | **📱 Mobile** | Flutter, Dart | CIA, ARIA |
 | **🐳 DevOps** | Docker, Prometheus, Grafana | Luna Pro, Logo |
 | **✅ QA** | Pytest, Black, Ruff | 550+ tests, 100% CI/CD |
+
+---
+
+## 🗺️ **Écosystème Arkalia Luna System**
+
+```mermaid
+graph TB
+    subgraph "🤖 Robotique & IA"
+        BBIA[BBIA Reachy Sim<br/>12 émotions<br/>IA Whisper + YOLO<br/>Production]
+    end
+    
+    subgraph "🎮 Gaming & Éducation"
+        Quest[Arkalia Quest<br/>Gaming Cybersec<br/>40 modules<br/>Production]
+    end
+    
+    subgraph "🎨 Design & Création"
+        Logo[Luna Logo<br/>SVG 0.03s<br/>196 exports<br/>Production]
+    end
+    
+    subgraph "📱 Mobile & Santé"
+        CIA[Arkalia CIA<br/>Flutter santé<br/>Beta]
+        ARIA[Arkalia ARIA<br/>IA santé<br/>13 connecteurs<br/>Production]
+    end
+    
+    subgraph "🔧 DevOps & Infrastructure"
+        Athalia[Athalia DevOps<br/>62 cmd<br/>15 dashboards<br/>Enterprise]
+        Luna[Luna Pro<br/>7 conteneurs<br/>134 modules<br/>Enterprise]
+    end
+    
+    subgraph "📊 Analytics & Outils"
+        Metrics[Metrics Collector<br/>CLI auto<br/>9 modules]
+        Template[Base Template<br/>Starter FastAPI<br/>Template]
+    end
+    
+    BBIA --> Metrics
+    Quest --> Metrics
+    Logo --> Metrics
+    Athalia --> Luna
+    CIA --> ARIA
+    
+    style BBIA fill:#48bb78
+    style Quest fill:#4299e1
+    style Logo fill:#9f7aea
+    style ARIA fill:#ed8936
+    style Athalia fill:#38b2ac
+    style Luna fill:#f6ad55
+```
 
 ---
 
