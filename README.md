@@ -42,6 +42,7 @@
 [![AI](https://img.shields.io/badge/AI-Cognitive%20Engines%20%7C%20Emotions%20%7C%20LUNA-purple)](https://github.com/arkalia-luna-system)
 [![Robotics](https://img.shields.io/badge/Robotics-Reachy%20Mini%20%7C%20Simulation-green)](https://github.com/arkalia-luna-system)
 [![DevOps](https://img.shields.io/badge/DevOps-CI%2FCD%20%7C%20Docker%20%7C%20Monitoring-yellow)](https://github.com/arkalia-luna-system)
+[![Design](https://img.shields.io/badge/Design-SVG%20%7C%20Branding%20%7C%20Assets-pink?style=for-the-badge)](https://github.com/arkalia-luna-system)
 
 ---
 
@@ -151,7 +152,7 @@
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="25" style="margin: 0 3px;" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="25" style="margin: 0 3px;" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple_advanced-power-200.svg" width="25" style="margin: 0 3px;" />
 </div>
 
 | | Projet | Description | Stack | Métriques | Status |
@@ -316,7 +317,7 @@ flowchart TB
 | **🔬 Juil 2025** | BBIA, Athalia | Robotique + IA émotionnelle |
 | **🎮 Août 2025** | Quest, Logo, Metrics | Gaming + Design + Analytics |
 | **📱 Sep 2025** | CIA | Flutter mobile |
-| **✅ Oct 2025** | 10 projets prod | Stack full (IA, Mobile, DevOps) |
+| **✅ Oct 2025** | 11 projets prod | Stack full (IA, Mobile, DevOps, Design) |
 
 ### **📈 Chronologie Vérifiable (Commits GitHub)**
 | Projet | Premier Commit | SHA | Preuve |
@@ -341,14 +342,14 @@ flowchart TB
 flowchart LR
     START([🌙 Arkalia Luna System]) --> TYPE{Type de projet ?}
     
-    TYPE -->|IA/Robotique| BBIA[🤖 BBIA<br/>12 émotions • YOLO<br/>Production]
+    TYPE -->|IA/Robotique| BBIA[🤖 BBIA<br/>12 émotions • MediaPipe<br/>v1.3.2 Production]
     TYPE -->|Gaming| QUEST[🎮 Quest<br/>Cybersécurité<br/>302 tests]
     TYPE -->|Design| LOGO[🎨 Luna Logo<br/>196 SVG • 0.03s<br/>FastAPI]
     TYPE -->|Mobile| CIA[📱 CIA • ARIA<br/>Flutter • RGPD<br/>Health]
     TYPE -->|DevOps| ATHALIA[🔧 Athalia<br/>62 cmd • Security<br/>Enterprise]
     TYPE -->|Quick Start| TEMPLATE[⚙️ Template<br/>FastAPI • CI/CD<br/>30s setup]
     
-    BBIA --> D1[🤖 95 modules<br/>🧪 46 tests<br/>📹 13 démos]
+    BBIA --> D1[🤖 95 modules<br/>🧪 1334 tests<br/>📹 13 démos<br/>~64% coverage]
     QUEST --> D2[📚 40 modules<br/>🧪 302 tests<br/>🎓 Édu]
     LOGO --> D3[🎨 25 modules<br/>⚡ 0.03s<br/>📊 Prometheus]
     CIA --> D4[📱 18 Dart<br/>🔒 AES-256<br/>🏥 Santé]
@@ -455,7 +456,7 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 | **🧪 Tests Automatisés** | 550+ | CI/CD vérifiés |
 | **🎨 SVG Générés** | 196 | Luna Logo |
 | **🤖 Émotions IA** | 12 | BBIA Reachy |
-| **🌍 Projets Actifs** | 10 | Tous en prod |
+| **🌍 Projets Actifs** | 11 | Tous en prod |
 | **📦 Releases** | 12+ | Versionnées |
 
 ### **💡 Insights d'Apprentissage**
@@ -463,7 +464,7 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia-sim/main/assets/images/robot_animation.gif" width="40" style="float: left; margin: 0 10px 5px 0;" />
 
 > *"BBIA était mon premier robot. Au début j'étais perdue. Maintenant il me parle. C'est magique de créer des émotions dans 6800 lignes de code."*  
-> — Robotique • v1.3.0 Production • 6 mois de R&D
+> — Robotique • v1.3.2 Production • 1334 tests • ~64% coverage • 6 mois de R&D
 
 > *"Athalia DevOps m'a forcée à penser comme une architecte système. 108 modules ? C'est rien. Le vrai défi c'est les 62 commandes sécurisées qui tournent."*  
 > — Enterprise • Production-ready • 198 tests
@@ -478,12 +479,12 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 | **Achievement** | **Story** |
 |-----------------|-----------|
 | **🤖 12 émotions** en 3 mois | BBIA : du "Hello World" robot à l'IA émotionnelle |
-| **🎨 196 logos** générés | Luna Logo : de 0 à FastAPI en 1 mois |
+| **🎨 196+ logos** générés | Luna Logo : de 0 à FastAPI en 1 mois • BBIA Branding : identité complète |
 | **🎮 67 tests** en production | Quest : sécurité enterprise apprise sur le tas |
 | **📊 550+ modules** trackés | Metrics : le projet qui m'a sauvée du chaos |
 | **⚡ 0.03s** par logo | Performance > hype |
 | **🔒 AES-256** par défaut | CIA : privacy-first depuis le jour 1 |
-| **🌍 7 mois** | De "c'est quoi Python" à 10 projets en production |
+| **🌍 7 mois** | De "c'est quoi Python" à 11 projets en production |
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple_advanced-power-200.svg" width="20" style="float: right; margin: 5px;" />
 
