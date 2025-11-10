@@ -136,7 +136,8 @@ echo ""
 ./update.sh
 
 # 2. Générer les sections
-python3 generate-readme-sections.py
+python3 update-profile.py --export config/projects-data.json
+python3 auto-update-readme.py
 
 # 3. Afficher un résumé
 echo ""
@@ -232,7 +233,7 @@ for project in data['projects']:
 
 ### **Ajouter des Métriques Personnalisées**
 
-Éditez `generate-readme-sections.py` pour ajouter :
+Éditez `auto-update-readme.py` pour ajouter :
 - Badges personnalisés
 - Statistiques calculées
 - Graphiques
