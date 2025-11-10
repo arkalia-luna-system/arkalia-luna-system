@@ -51,7 +51,7 @@
 
 ## 🚀 **Qui je suis ?**
 
-**`Autodidacte en accéléré. 7 mois. 10 projets. Production-ready.`**
+**`Autodidacte en accéléré. 7 mois. 11 projets. Production-ready.`**
 
 </div>
 
@@ -126,7 +126,7 @@
 
 </div>
 
-### **🎯 What is BBIA ?**
+### **🎯 Qu'est-ce que BBIA ?**
 
 **Moteur cognitif robotique émotionnel** — Premier projet open-source de robotique émotionnelle avec IA légère intégrée pour Reachy Mini
 
@@ -161,7 +161,7 @@
 | | Projet | Description | Stack | Métriques | Status |
 |---|--------|-------------|-------|-----------|---------|
 | ![BBIA Logo](https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png)<br/><sub>✅ Déployé robot réel</sub><br/>📹 [Demo](https://github.com/arkalia-luna-system/bbia-sim#-démos) | **🤖 [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🏆 Robot avec vraies émotions • 12 états • Vision YOLO/MediaPipe/DeepFace • Voice Whisper • Pose Detection • MuJoCo 3D<br/>*Pour makers, écoles, curieux IA* | Python + MuJoCo + Whisper + YOLO + MediaPipe | 95 modules, 1334 tests, ~64% coverage, 13 démos | ✅ Production v1.3.2 |
-| ![Quest](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-quest/main/static/icons/icon-512x512.png)<br/><sub>🎓 Testé en classe</sub><br/>🎮 [Jouer](https://github.com/arkalia-luna-system/arkalia-quest) | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 67 tests enterprise<br/>*Pour ados, éducateurs, apprenants sécurité* | Flask + IA + WebSocket | 40 modules, 302 tests | ✅ Production |
+| ![Quest](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-quest/main/static/icons/icon-512x512.png)<br/><sub>🎓 Testé en classe</sub><br/>🎮 [Jouer](https://github.com/arkalia-luna-system/arkalia-quest) | **🎮 [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif fun • Cybersecurity pour ados • IA LUNA • 302 tests<br/>*Pour ados, éducateurs, apprenants sécurité* | Flask + IA + WebSocket | 40 modules, 302 tests | ✅ Production |
 | ![Logo](https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg)<br/><sub>🎨 196+ générés</sub><br/>⚡ [Try Now](https://github.com/arkalia-luna-system/arkalia-luna-logo) | **🎨 [Arkalia Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Logos SVG en 0.03s • 8 styles • 5 variantes • Monitoring temps réel<br/>*Pour créateurs, startups, développeurs* | FastAPI + Prometheus | 25 modules, 196 SVG | ✅ v2.0.0 |
 | ![BBIA Logo](https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png)<br/><sub>🎨 Futur logo BBIA Sim</sub><br/>✨ [Branding](https://github.com/arkalia-luna-system/bbia_branding) | **🎨 [BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding)** | Identité visuelle BBIA • Assets design • Guidelines branding • Logo officiel<br/>*Ressources design pour robotique émotionnelle* | Design + Assets | Logos, icônes, guidelines | ✅ Production |
 | 🏥 | **📱 [Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 • 100% offline • Seniors-friendly<br/>*Pour seniors, familles, proches aidants* | Flutter + FastAPI | 18 Dart, 9 Python | 🚧 Beta |
@@ -331,7 +331,7 @@ flowchart TB
 | **🤖 bbia-sim** | 2025-07-15 | 4aec2af | [voir](https://github.com/arkalia-luna-system/bbia-sim/commit/4aec2af6955e76e83ea53597ad893db214a1ddc3) |
 | **🔧 ia-pipeline** | 2025-07-16 | 1d2b59e | [voir](https://github.com/arkalia-luna-system/ia-pipeline/commit/1d2b59ef81cd60db3696cc2212a1dc860b067104) |
 | **🎮 arkalia-quest** | 2025-08-15 | 7bdc343 | [voir](https://github.com/arkalia-luna-system/arkalia-quest/commit/7bdc3430bd0c643d73b5e57f2b18a988bc82c89a) |
-| **🎨 arkalia-luna-logo** | 2025-08-30 | 7ebe6c6 | [voir](https://github.com/arkalia-luna-system/Arkalia-luna-logo/commit/7ebe6c6a65933f3504491672a8e27d3f71ba8f0a) |
+| **🎨 arkalia-luna-logo** | 2025-08-30 | 7ebe6c6 | [voir](https://github.com/arkalia-luna-system/arkalia-luna-logo/commit/7ebe6c6a65933f3504491672a8e27d3f71ba8f0a) |
 | **📊 arkalia-metrics-collector** | 2025-08-30 | 94fcb83 | [voir](https://github.com/arkalia-luna-system/arkalia-metrics-collector/commit/94fcb831d60873d0466a7516abe1fc6927f1a464) |
 | **📱 arkalia-cia** | 2025-09-12 | af44f73 | [voir](https://github.com/arkalia-luna-system/arkalia-cia/commit/af44f73c53992c5c978ffcc4c93d5fe6e64173b3) |
 
@@ -388,7 +388,7 @@ flowchart LR
 <div align="center">
 
 ### 🚀 **Tu as une question ou envie de contribuer ?** 
-**[📬 Créer une issue](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)** • **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[📚 Wiki](https://github.com/arkalia-luna-system/.github/wiki)**
+**[📬 Créer une issue](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)** • **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[📚 Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki)**
 
 *Je réponds à tout sous 48h (pas d'offres commerciales, merci !)*
 
@@ -414,7 +414,7 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 | **Étape** | **Action** | **Github** |
 |-----------|-----------|------------|
 | 🔍 **Explore** | Découvre les projets ouverts | [@arkalia-luna-system](https://github.com/arkalia-luna-system) |
-| 📚 **Lis** | Documentation et guides | [Wiki](https://github.com/arkalia-luna-system/.github/wiki) |
+| 📚 **Lis** | Documentation et guides | [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) |
 | 💬 **Contribue** | Issues, Discussions, PRs | [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) |
 
 ### **📋 Projets Actifs**
@@ -483,7 +483,7 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 |-----------------|-----------|
 | **🤖 12 émotions** en 3 mois | BBIA : du "Hello World" robot à l'IA émotionnelle |
 | **🎨 196+ logos** générés | Luna Logo : de 0 à FastAPI en 1 mois • BBIA Branding : identité complète |
-| **🎮 67 tests** en production | Quest : sécurité enterprise apprise sur le tas |
+| **🎮 302 tests** en production | Quest : sécurité enterprise apprise sur le tas |
 | **📊 550+ modules** trackés | Metrics : le projet qui m'a sauvée du chaos |
 | **⚡ 0.03s** par logo | Performance > hype |
 | **🔒 AES-256** par défaut | CIA : privacy-first depuis le jour 1 |
@@ -514,7 +514,7 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 
 <div align="center">
 
-**[🚀 Explorer les Projets](https://github.com/arkalia-luna-system)** • **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[📚 Contribuer](https://github.com/arkalia-luna-system/.github/blob/main/CONTRIBUTING.md)**
+**[🚀 Explorer les Projets](https://github.com/arkalia-luna-system)** • **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[📚 Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/CONTRIBUTING.md)**
 
 **🌙 Arkalia Luna System** — Open Source Authentique • 11 Projets • 550+ Modules • 550+ Tests • Design & Branding
 
