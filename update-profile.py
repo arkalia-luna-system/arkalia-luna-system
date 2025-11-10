@@ -275,6 +275,101 @@ class GitHubProfileUpdater:
 
         return None
 
+    def extract_description_from_readme(self, readme_path: Path) -> str:
+        """Extrait la description depuis un README"""
+        try:
+            content = readme_path.read_text(encoding="utf-8", errors="ignore")
+            # Cherche le premier paragraphe après le titre principal
+            lines = content.split("\n")
+            description = ""
+            found_title = False
+
+            for line in lines[:50]:  # Limite aux 50 premières lignes
+                line = line.strip()
+                if not line:
+                    continue
+                # Ignore les titres, badges, liens
+                if line.startswith("#") or line.startswith("[!") or line.startswith("http"):
+                    if line.startswith("#"):
+                        found_title = True
+                    continue
+                # Prend le premier paragraphe significatif après le titre
+                if found_title and len(line) > 20:
+                    description = line
+                    break
+
+            # Si pas trouvé, cherche dans les premières lignes
+            if not description:
+                for line in lines[:20]:
+                    line = line.strip()
+                    if len(line) > 30 and not line.startswith("#") and not line.startswith("["):
+                        description = line
+                        break
+
+            return description[:200] if description else ""  # Limite à 200 caractères
+        except Exception:
+            return ""
+
+    def detect_secondary_languages(self, project_path: Path) -> List[str]:
+        """Détecte les langages secondaires dans un projet"""
+        languages = []
+
+        if not project_path.exists():
+            return languages
+
+        # Extensions connues
+        lang_extensions = {
+            ".sh": "Shell",
+            ".bash": "Shell",
+            ".zsh": "Shell",
+            ".dockerfile": "Dockerfile",
+            "Dockerfile": "Dockerfile",
+            ".yml": "YAML",
+            ".yaml": "YAML",
+            ".json": "JSON",
+            ".md": "Markdown",
+            ".html": "HTML",
+            ".css": "CSS",
+            ".js": "JavaScript",
+            ".ts": "TypeScript",
+            ".go": "Go",
+            ".rs": "Rust",
+            ".java": "Java",
+            ".cpp": "C++",
+            ".c": "C",
+        }
+
+        found_extensions = set()
+
+        try:
+            # Cherche dans les fichiers racine et premiers niveaux
+            for item in project_path.iterdir():
+                if item.is_file():
+                    ext = item.suffix.lower()
+                    if ext in lang_extensions:
+                        found_extensions.add(lang_extensions[ext])
+                    elif item.name.lower() in ["dockerfile", "makefile"]:
+                        if item.name.lower() == "dockerfile":
+                            found_extensions.add("Dockerfile")
+                        elif item.name.lower() == "makefile":
+                            found_extensions.add("Makefile")
+
+            # Cherche aussi dans les sous-dossiers principaux (max 2 niveaux)
+            for item in project_path.iterdir():
+                if item.is_dir() and not item.name.startswith("."):
+                    try:
+                        for subitem in item.iterdir():
+                            if subitem.is_file():
+                                ext = subitem.suffix.lower()
+                                if ext in lang_extensions:
+                                    found_extensions.add(lang_extensions[ext])
+                    except (PermissionError, OSError):
+                        continue
+        except (PermissionError, OSError):
+            pass
+
+        return sorted(list(found_extensions))
+
     def analyze_project(self, repo_data: Dict[str, Any]) -> ProjectInfo:
         """Analyse un projet et trouve ses infos locales"""
         repo_name = repo_data["name"]
@@ -294,6 +389,13 @@ class GitHubProfileUpdater:
         if local_path:
             project.local_path = local_path
             project.readme_path = self.find_readme(local_path)
+
+            # Extrait la description depuis le README si disponible
+            if project.readme_path:
+                readme_desc = self.extract_description_from_readme(project.readme_path)
+                if readme_desc and not project.description:
+                    project.description = readme_desc
+
             print(f"  ✅ {repo_name}: {local_path}")
         else:
             print(f"  ⚠️  {repo_name}: non trouvé localement")
@@ -329,11 +431,20 @@ class GitHubProfileUpdater:
             "last_updated": datetime.now().isoformat(),
         }
 
-        # Compte les langages
+        # Compte les langages (principal + secondaires)
         languages_dict: Dict[str, int] = {}
         for project in self.projects:
+            # Langage principal
             if project.language:
                 languages_dict[project.language] = languages_dict.get(project.language, 0) + 1
+
+            # Langages secondaires
+            if project.local_path:
+                secondary_langs = self.detect_secondary_languages(project.local_path)
+                for lang in secondary_langs:
+                    # Ne compte pas le langage principal comme secondaire
+                    if lang != project.language:
+                        languages_dict[lang] = languages_dict.get(lang, 0) + 1
         stats["languages"] = languages_dict
 
         return stats

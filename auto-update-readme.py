@@ -22,40 +22,71 @@ def load_projects_data(data_file: Path) -> Dict[str, Any]:
 
 def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
     """Génère la section statistiques en markdown"""
-    lines = [
-        "### **📈 Statistiques Globales**",
-        "",
-        f"- **🔢 {stats['total_projects']} projets** au total",
-        f"- **📁 {stats['local_projects']} projets** trouvés localement",
-        f"- **📖 {stats['projects_with_readme']} projets** avec README",
-        f"- **⭐ {stats['total_stars']} stars** totales",
-        "",
-    ]
-
+    # Compte les langages avec formatage
+    lang_list = []
     if stats.get("languages"):
-        languages = ", ".join(stats["languages"].keys())
-        lines.append(f"- **💻 Langages** : {languages}")
-        lines.append("")
+        for lang, count in sorted(stats["languages"].items(), key=lambda x: x[1], reverse=True):
+            lang_list.append(f"{lang} ({count})")
+        lang_str = ", ".join(lang_list)
+    else:
+        lang_str = "N/A"
 
-    lines.append(f"*Dernière mise à jour automatique : {stats.get('last_updated', 'N/A')}*")
+    lines = [
+        "### 📈 Statistiques",
+        "",
+        f"- **Projets** : {stats['total_projects']} en production",
+        f"- **Langages** : {lang_str}",
+        "",
+        "<sub>*Dernière mise à jour : novembre 2025*</sub>",
+    ]
 
     return "\n".join(lines)
 
 
 def generate_languages_table(stats: Dict[str, Any]) -> str:
-    """Génère le tableau des langages"""
-    if not stats.get("languages"):
-        return ""
+    """Génère le tableau des langages (non utilisé actuellement, format intégré dans stats)"""
+    # Cette fonction n'est plus utilisée car les langages sont dans la section stats
+    return ""
 
+
+def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
+    """Génère le tableau des projets depuis les données JSON"""
     lines = [
-        "### **💻 Répartition par Langage**",
-        "",
-        "| Langage | Projets |",
-        "|---------|---------|",
+        "| Projet | Description | Stack | Status |",
+        "|:------:|:-----------:|:-----:|:-----:|",
     ]
 
-    for lang, count in sorted(stats["languages"].items(), key=lambda x: x[1], reverse=True):
-        lines.append(f"| {lang} | {count} |")
+    for project in projects:
+        name = project.get("name", "")
+        github_url = project.get("github_url", "")
+        description = project.get("description", "") or "Projet en développement"
+        language = project.get("language", "Python")
+
+        # Détermine le statut basé sur le nom ou la description
+        status = "✅ Production"
+        name_lower = name.lower()
+        if "template" in name_lower or "base" in name_lower:
+            status = "✅ Template"
+        elif "beta" in name_lower or "cia" in name_lower:
+            status = "🚧 Beta"
+        elif "enterprise" in name_lower or "pro" in name_lower or "athalia" in name_lower:
+            status = "🚀 Enterprise"
+
+        # Stack simplifié
+        stack = language
+        if "docker" in description.lower() or "container" in description.lower():
+            stack = f"{language} + Docker"
+        elif "flutter" in description.lower():
+            stack = "Flutter"
+        elif "fastapi" in description.lower():
+            stack = "FastAPI"
+        elif "flask" in description.lower():
+            stack = "Flask + IA"
+
+        # Limite la description
+        desc_short = description[:80] + "..." if len(description) > 80 else description
+
+        lines.append(f"| **[{name}]({github_url})** | {desc_short} | {stack} | {status} |")
 
     return "\n".join(lines)
 
@@ -189,7 +220,7 @@ def main():
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
-    data_file = script_dir / "projects-data.json"
+    data_file = script_dir / "config" / "projects-data.json"
     readme_path = script_dir / args.readme
 
     if not data_file.exists():
@@ -211,6 +242,7 @@ def main():
     # Charge les données
     data = load_projects_data(data_file)
     stats = data.get("stats", {})
+    projects = data.get("projects", [])
 
     # Lit le README
     content = readme_path.read_text(encoding="utf-8")
@@ -238,6 +270,16 @@ def main():
         if lang_updated:
             updated = True
             print("✅ Section languages mise à jour")
+
+    # Met à jour le tableau des projets si marqueur présent
+    if "<!-- AUTO-UPDATE:projects -->" in content:
+        projects_content = generate_projects_table(projects)
+        content, projects_updated = update_readme_section(
+            content, "projects", projects_content, args.dry_run
+        )
+        if projects_updated:
+            updated = True
+            print("✅ Tableau des projets mis à jour")
 
     # Sauvegarde si pas en dry-run
     if updated and not args.dry_run:

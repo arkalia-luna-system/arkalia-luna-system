@@ -1,15 +1,10 @@
-name: Update GitHub Profile
+name: 🌙 Mise à jour automatique du profil
 
 on:
   schedule:
-    # Toutes les semaines le dimanche à minuit UTC
-    - cron: "0 0 * * 0"
-  workflow_dispatch: # Permet l'exécution manuelle
-  push:
-    branches:
-      - main
-    paths:
-      - "config/projects-data.json"
+    # Exécute tous les dimanches à 2h du matin UTC
+    - cron: "0 2 * * 0"
+  workflow_dispatch: # Permet de déclencher manuellement
 
 jobs:
   update-profile:
@@ -18,44 +13,35 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python
+      - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install --upgrade pip
+          pip install requests
 
-      - name: Set GitHub Token
+      - name: 🔍 Découvrir les projets
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "GITHUB_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV
+          python update-profile.py --export config/projects-data.json
 
-      - name: Update profile data
+      - name: 📝 Mettre à jour le README
         run: |
-          python -m github_profile.core.updater
+          python auto-update-readme.py
 
-      - name: Generate README sections
-        run: |
-          python -m github_profile.generators.sections
-
-      - name: Auto-update README
-        run: |
-          python -m github_profile.core.auto_update
-
-      - name: Commit changes
+      - name: 📤 Commit et push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add config/projects-data.json README.md docs/README_SECTIONS.md
-          git diff --staged --quiet || git commit -m "chore: auto-update profile data [skip ci]"
+          git add config/projects-data.json README.md
+          git diff --staged --quiet || git commit -m "🌙 Mise à jour automatique : $(date +'%Y-%m-%d')"
           git push
