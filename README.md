@@ -18,7 +18,7 @@
 
 | ![Python](https://img.shields.io/badge/PYTHON-550%2B_files-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Tests](https://img.shields.io/badge/TESTS-550%2B_Automated-25A162?style=for-the-badge&logo=test&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-11_active-181717?style=for-the-badge&logo=github&logoColor=white) | ![SVG](https://img.shields.io/badge/SVG-196_generated-FF6B9D?style=for-the-badge&logo=svg&logoColor=white) |
 |:---:|:---:|:---:|:---:|
-| **Modules** | **Coverage** | **Production** | **Assets** |
+| **550+ modules** | **~64% coverage** | **11 projets** | **196 SVG** |
 
 </div>
 
@@ -70,7 +70,7 @@
 [![Version](https://img.shields.io/badge/VERSION-1.3.2-14B8A6?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&logo=license&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
-[![SDK](https://img.shields.io/badge/SDK-100%25-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
+[![SDK](https://img.shields.io/badge/SDK-Reachy_Mini-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
 
 </div>
 
@@ -287,7 +287,7 @@ flowchart TB
 
 **Ressources :** [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) • [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) • [@arkalia-luna-system](https://github.com/arkalia-luna-system)
 
-<sub>*Réponse sous 48h pour les questions techniques et contributions. Tous les projets sont ouverts aux contributions.*</sub>
+<sub>*Réponse rapide pour les questions techniques et contributions. Tous les projets sont ouverts aux contributions.*</sub>
 
 ---
 
@@ -366,9 +366,6 @@ A: *[BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) — Robot
 
 <code style="background: rgba(20, 184, 166, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(20, 184, 166, 0.3);">"Build. Ship. Iterate."</code>
 
-<br/><br/>
-
-[![GitHub followers](https://img.shields.io/github/followers/arkalia-luna-system?style=social&label=Follow)](https://github.com/arkalia-luna-system)
-[![GitHub stars](https://img.shields.io/github/stars/arkalia-luna-system?style=social&label=Star)](https://github.com/arkalia-luna-system)
+<br/>
 
 </div>
