@@ -46,16 +46,6 @@
 
 <div align="center">
 
-### 🏆 Trophées GitHub
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=arkalia-luna-system&theme=dark&no-frame=true&column=7&margin-w=15&margin-h=15&rank_icon=github)](https://github.com/arkalia-luna-system?tab=achievements)
-
-</div>
-
-<br/>
-
-<div align="center">
-
 **Stack Technique**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
