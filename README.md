@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-serenity-200.svg" alt="Arkalia Luna System" width="180" height="180" style="border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.4);" title="Arkalia Luna System - Écosystème IA & Robotique">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" alt="Arkalia Luna System" width="180" height="180" style="border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.4);" title="Arkalia Luna System - Écosystème IA & Robotique">
 
 # 🌙 Arkalia Luna System
 
@@ -34,6 +34,11 @@
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=dark&hide_border=true&background=0D1117&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6&border=rounded)
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=14B8A6&line=14B8A6&point=14B8A6&area=true&area_color=14B8A620)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="45" height="45" style="opacity: 0.6; margin: 0 8px; border-radius: 8px;" title="Snowy" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="45" height="45" style="opacity: 0.6; margin: 0 8px; border-radius: 8px;" title="Sunny" />
 
 </div>
 
@@ -138,7 +143,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/arkalia-luna-logo">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-serenity-200.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Luna Logo"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Luna Logo"/>
 <br/><br/>
 <strong>Luna Logo</strong>
 <br/>
@@ -188,6 +193,9 @@
 <div align="center">
 
 ## 🗺️ Architecture Écosystème
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
 
 ```mermaid
 flowchart TB
@@ -358,6 +366,11 @@ A: *[BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) — Robot
 <div align="center">
 
 **[Explorer les Projets](https://github.com/arkalia-luna-system)** • **[Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/CONTRIBUTING.md)**
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
 
 <br/>
 
