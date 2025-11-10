@@ -133,7 +133,7 @@ echo "🌙 Mise à jour du profil GitHub..."
 echo ""
 
 # 1. Découvrir les projets
-./update.sh
+./scripts/update-all.sh
 
 # 2. Générer les sections
 python3 update-profile.py --export config/projects-data.json

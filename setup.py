@@ -33,11 +33,8 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "update-profile=github_profile.core.updater:main",
-            "generate-sections=github_profile.generators.sections:main",
-            "auto-update=github_profile.core.auto_update:main",
-            "transform-professional=github_profile.transformers.professional:main",
-            "optimize-performance=github_profile.transformers.performance:main",
+            "update-profile=update_profile:main",
+            "auto-update-readme=auto_update_readme:main",
         ],
     },
     classifiers=[
