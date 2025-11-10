@@ -48,7 +48,7 @@
 
 ### 🏆 Trophées GitHub
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=arkalia-luna-system&theme=dark&no-frame=true&column=7&margin-w=15&margin-h=15&rank_icon=github)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=arkalia-luna-system&theme=dark&no-frame=true&column=7&margin-w=15&margin-h=15&rank_icon=github)](https://github.com/arkalia-luna-system?tab=achievements)
 
 </div>
 
@@ -169,7 +169,7 @@
 | **[Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD | FastAPI + Flutter | ✅ Production |
 | **[Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter FastAPI • CI/CD | FastAPI | ✅ Template |
 | **[Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps • 62 cmd sécurisées | FastAPI | 🚀 Enterprise |
-| **[Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Analytics centralisées | Python + CLI | 📈 Production |
+| **[Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Analytics centralisées | Python + CLI | ✅ Production |
 | **[Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Enterprise | Docker | 🏢 Enterprise |
 
 <sub>**Note :** Tous les projets sont publics. Statuts : ✅ Production • 🚧 Beta • 🚀 Enterprise • ✅ Template</sub>
@@ -270,7 +270,7 @@ flowchart TB
 - **Projets** : 11 en production
 - **Langages** : Python (9), Shell (1), HTML (1)
 
-<sub>*Dernière mise à jour : 2025-11-10*</sub>
+<sub>*Dernière mise à jour : novembre 2025*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap
@@ -318,14 +318,14 @@ flowchart TB
 
 ## 📊 Impact & Performance
 
-| Métrique | Valeur |
-|:--------:|:------:|
-| **Fichiers Python** | 550+ |
-| **Tests Automatisés** | 550+ |
-| **SVG Générés** | 196 |
-| **Émotions IA** | 12 |
-| **Projets** | 11 |
-| **Releases** | 12+ |
+| Métrique | Valeur | Détails |
+|:--------:|:------:|:-------|
+| **Couverture Tests** | ~64% | BBIA : 1334 tests, 95 modules |
+| **Temps Génération** | 0.03s | Luna Logo : génération SVG |
+| **Containers** | 7 | Luna Pro : orchestration complète |
+| **Connecteurs** | 13 | ARIA : intégrations santé |
+| **Commandes DevOps** | 62 | Athalia : pipeline sécurisé |
+| **Releases** | 12+ | Versions stables déployées |
 
 ---
 
@@ -352,7 +352,7 @@ A: *Ouvrez une issue avec détails (screenshots si possible). Fix sous 48h si cr
 <details>
 <summary><b>Q: Comment démarrer ?</b></summary>
 
-A: *Consultez la section [Projets Phares](#-projets-phares) ci-dessus.*
+A: *Consultez la section [Projets Phares](#-projets-phares) ci-dessus pour découvrir les projets et leurs documentations.*
 </details>
 
 <details>
