@@ -47,7 +47,7 @@
 
 *Robot émotionnel open-source avec moteur cognitif et expression d'émotions*
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="220" height="220" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.35);" title="BBIA - Cognitive Engine Robotique">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="300" height="300" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.35);" title="BBIA - Cognitive Engine Robotique">
 
 [![Version](https://img.shields.io/badge/VERSION-1.3.2-14B8A6?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
