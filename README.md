@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-awakening-200.svg" alt="Arkalia Luna System" width="180" height="180" style="border-radius: 24px; box-shadow: 0 12px 24px rgba(0, 129, 129, 0.3);" title="Arkalia Luna System - Écosystème IA & Robotique">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-power-200.svg" alt="Arkalia Luna System" width="180" height="180" style="border-radius: 24px; box-shadow: 0 12px 24px rgba(59, 130, 246, 0.4);" title="Arkalia Luna System - Écosystème IA & Robotique">
 
 # 🌙 Arkalia Luna System
 
 **Développeur Full-Stack • 11 projets en production • IA • Robotique • Design • DevOps**
 
-<code style="background: rgba(0, 129, 129, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(0, 129, 129, 0.2);">"Construire des systèmes qui comptent."</code>
+<code style="background: rgba(59, 130, 246, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(59, 130, 246, 0.3);">"Construire des systèmes qui comptent."</code>
 
 </div>
 
@@ -28,12 +28,12 @@
 
 ### 📊 Statistiques GitHub
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=008181&icon_color=008181&border_radius=12"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=008181&border_radius=12"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&border_radius=12"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=3B82F6&border_radius=12"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=dark&hide_border=true&background=0D1117&ring=008181&fire=008181&currStreakLabel=008181&border=rounded)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=dark&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&border=rounded)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=008181&line=008181&point=008181&area=true&area_color=00818120)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=3B82F6&line=3B82F6&point=3B82F6&area=true&area_color=3B82F620)
 
 </div>
 
@@ -72,9 +72,9 @@
 
 *Robot émotionnel open-source avec moteur cognitif et expression d'émotions*
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="160" height="160" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(0, 129, 129, 0.3);" title="BBIA - Cognitive Engine Robotique">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="160" height="160" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(59, 130, 246, 0.35);" title="BBIA - Cognitive Engine Robotique">
 
-[![Version](https://img.shields.io/badge/VERSION-1.3.2-008181?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
+[![Version](https://img.shields.io/badge/VERSION-1.3.2-3B82F6?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&logo=license&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![SDK](https://img.shields.io/badge/SDK-100%25-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
@@ -120,7 +120,7 @@
 <tr>
 <td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/bbia-sim">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(0, 129, 129, 0.25); transition: transform 0.2s;" alt="BBIA Sim"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3); transition: transform 0.2s;" alt="BBIA Sim"/>
 <br/><br/>
 <strong>BBIA Sim</strong>
 <br/>
@@ -129,7 +129,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/bbia_branding">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(0, 129, 129, 0.25);" alt="BBIA Branding"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);" alt="BBIA Branding"/>
 <br/><br/>
 <strong>BBIA Branding</strong>
 <br/>
@@ -138,7 +138,7 @@
 </td>
 <td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/arkalia-luna-logo">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-creative-200.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(0, 129, 129, 0.25);" alt="Luna Logo"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/unified/logos/base/arkalia-luna-ultra-max-power-200.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(59, 130, 246, 0.3);" alt="Luna Logo"/>
 <br/><br/>
 <strong>Luna Logo</strong>
 <br/>
@@ -363,7 +363,7 @@ A: *[BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) — Robot
 
 **🌙 Arkalia Luna System** — Open Source • 11 Projets • 550+ Modules • Design & Branding
 
-<code style="background: rgba(0, 129, 129, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(0, 129, 129, 0.2);">"Build. Ship. Iterate."</code>
+<code style="background: rgba(59, 130, 246, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(59, 130, 246, 0.3);">"Build. Ship. Iterate."</code>
 
 <br/><br/>
 
