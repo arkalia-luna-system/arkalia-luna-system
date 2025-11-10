@@ -12,18 +12,6 @@
 
 <div align="center">
 
-# 🌙 **Arkalia Luna System**
-
-**Autodidacte depuis février 2025 • 11 projets en production • IA • Robotique • Design • DevOps**
-
-**`"Apprendre vite, coder mieux, partager tout."`** 🚀
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="20"  style="vertical-align: middle; margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="20"  style="vertical-align: middle; margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="20"  style="vertical-align: middle; margin: 0 3px" />
-
-</div>
-
-<div align="center">
-
 ### **⚡ Live Metrics Dashboard**
 
 **🐍 Python Files: 550+ • 🧪 Tests: 550+ • 📦 Projects: 11**
@@ -101,27 +89,27 @@
 </div>
 
 **🎯 Caractéristiques :**
-- ⚡ **Génération ultra-rapide** : 0.03 secondes par logo (vectoriel) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"  style="vertical-align: middle" />
-- 🎨 **8 styles uniques** : Ultimate, AI-Moon, Advanced, Simple-Advanced, Ultra-Max, Realism Max, Ultimate, Cosmic <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="18"  style="vertical-align: middle" />
-- 🌈 **5 variantes émotionnelles** : Power, Serenity, Creative, Awakening, Mystery <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="18"  style="vertical-align: middle" />
-- 🚀 **API FastAPI complète** : 9 endpoints REST avec documentation Swagger <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="18"  style="vertical-align: middle" />
-- 📊 **Monitoring temps réel** : Prometheus + Grafana intégrés <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="18"  style="vertical-align: middle" />
-- 🐳 **Production-ready** : Docker Compose avec 5 services <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="18"  style="vertical-align: middle" />
-- ✅ **297 tests automatisés** : 78% de couverture de code <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"  style="vertical-align: middle" />
+- ⚡ **Génération ultra-rapide** : 0.03 secondes par logo (vectoriel) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"   style="vertical-align: middle" />
+- 🎨 **8 styles uniques** : Ultimate, AI-Moon, Advanced, Simple-Advanced, Ultra-Max, Realism Max, Ultimate, Cosmic <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="18"   style="vertical-align: middle" />
+- 🌈 **5 variantes émotionnelles** : Power, Serenity, Creative, Awakening, Mystery <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="18"   style="vertical-align: middle" />
+- 🚀 **API FastAPI complète** : 9 endpoints REST avec documentation Swagger <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="18"   style="vertical-align: middle" />
+- 📊 **Monitoring temps réel** : Prometheus + Grafana intégrés <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="18"   style="vertical-align: middle" />
+- 🐳 **Production-ready** : Docker Compose avec 5 services <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="18"   style="vertical-align: middle" />
+- ✅ **297 tests automatisés** : 78% de couverture de code <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"   style="vertical-align: middle" />
 
-**[🚀 Découvrir le projet](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[📚 Documentation API](https://github.com/arkalia-luna-system/Arkalia-luna-logo/blob/main/docs/API.md)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[🎨 Voir tous les logos](https://github.com/arkalia-luna-system/Arkalia-luna-logo/tree/main/exports)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" />
+**[🚀 Découvrir le projet](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[📚 Documentation API](https://github.com/arkalia-luna-system/Arkalia-luna-logo/blob/main/docs/API.md)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[🎨 Voir tous les logos](https://github.com/arkalia-luna-system/Arkalia-luna-logo/tree/main/exports)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" />
 
 ---
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="30"  style="margin: 0 3px" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="30"   style="margin: 0 3px" />
 
 ## 🚀 **Qui je suis ?**
 
-**`Autodidacte depuis février 2025 • 11 projets en production • IA • Robotique • Design • DevOps`** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="20"  style="vertical-align: middle" />
+**`Autodidacte depuis février 2025 • 11 projets en production • IA • Robotique • Design • DevOps`** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="20"   style="vertical-align: middle" />
 
-**[📔 Journal d'apprentissage détaillé](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/LEARNING_JOURNAL.md)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[🐛 Bugs corrigés](https://github.com/arkalia-luna-system/arkalia-luna-system/issues?q=is%3Aissue+is%3Aclosed)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" />
+**[📔 Journal d'apprentissage détaillé](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/LEARNING_JOURNAL.md)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[🐛 Bugs corrigés](https://github.com/arkalia-luna-system/arkalia-luna-system/issues?q=is%3Aissue+is%3Aclosed)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" />
 
 </div>
 
@@ -137,23 +125,23 @@
 
 ### **🚀 Navigation**
 
-- 🤖 **[IA/Robotique]** → [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="20"  style="vertical-align: middle; margin: 0 3px" title="BBIA" /> — Premier robot émotionnel • 12 émotions • Demo live <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"  style="vertical-align: middle" />
-- 🎮 **[Gaming/Édu]** → [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) — Cybersécurité fun • 302 tests • Production-ready <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="16"  style="vertical-align: middle" />
-- 🎨 **[Design/API]** → [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) — 196 logos en 0.03s • 8 styles • FastAPI <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> | [BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding) — Identité visuelle complète <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"  style="vertical-align: middle" />
-- 📱 **[Mobile/Santé]** → [CIA](https://github.com/arkalia-luna-system/arkalia-cia) | [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) — Flutter RGPD • AES-256 • 100% offline <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"  style="vertical-align: middle" />
-- 🔧 **[DevOps]** → [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) — 62 cmd sécurisées • 15 dashboards <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"  style="vertical-align: middle" />
-- ⚡ **[Quick Start]** → [Base Template](https://github.com/arkalia-luna-system/base_template) — Prêt en 30s • CI/CD inclus <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="16"  style="vertical-align: middle" />
+- 🤖 **[IA/Robotique]** → [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="20"   style="vertical-align: middle; margin: 0 3px" title="BBIA" /> — Premier robot émotionnel • 12 émotions • Demo live <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"   style="vertical-align: middle" />
+- 🎮 **[Gaming/Édu]** → [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) — Cybersécurité fun • 302 tests • Production-ready <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="16"   style="vertical-align: middle" />
+- 🎨 **[Design/API]** → [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) — 196 logos en 0.03s • 8 styles • FastAPI <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> | [BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding) — Identité visuelle complète <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"   style="vertical-align: middle" />
+- 📱 **[Mobile/Santé]** → [CIA](https://github.com/arkalia-luna-system/arkalia-cia) | [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) — Flutter RGPD • AES-256 • 100% offline <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"   style="vertical-align: middle" />
+- 🔧 **[DevOps]** → [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) — 62 cmd sécurisées • 15 dashboards <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"   style="vertical-align: middle" />
+- ⚡ **[Quick Start]** → [Base Template](https://github.com/arkalia-luna-system/base_template) — Prêt en 30s • CI/CD inclus <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="16"   style="vertical-align: middle" />
 
 | **Tu es** | **Commence par** | **Pourquoi** |
 |-----------|------------------|--------------|
-| 🤖 **Curieux IA** | [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="18"  style="vertical-align: middle; margin: 0 3px" title="BBIA" /> | Premier robot émotionnel open-source avec démos live |
-| 🎮 **Makers/Édu** | [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) | Gaming éducatif cybersécurité, 100% fun <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| 🎨 **Designer** | [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"  style="vertical-align: middle; margin: 0 3px" title="Luna Logo" /> | Génère 196 logos en 0.03s, 8 styles |
-| 🎨 **Branding** | [BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding) | Identité visuelle complète • Logo officiel • Assets 2D/3D • Guidelines <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"  style="vertical-align: middle" /> |
-| 📱 **Mobile Dev** | [CIA](https://github.com/arkalia-luna-system/arkalia-cia) ou [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) | Flutter santé + RGPD <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"  style="vertical-align: middle" /> |
-| 🔧 **DevOps** | [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) | 62 commandes, 15 dashboards <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| ⚡ **Veux démarrer vite** | [Base Template](https://github.com/arkalia-luna-system/base_template) | Prêt en 30s, CI/CD inclus <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| 🤝 **Veux contribuer** | [Comment contribuer](#-contribuer) | Tous projets ouverts <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"  style="vertical-align: middle" /> |
+| 🤖 **Curieux IA** | [BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="18"   style="vertical-align: middle; margin: 0 3px" title="BBIA" /> | Premier robot émotionnel open-source avec démos live |
+| 🎮 **Makers/Édu** | [Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest) | Gaming éducatif cybersécurité, 100% fun <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| 🎨 **Designer** | [Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"   style="vertical-align: middle; margin: 0 3px" title="Luna Logo" /> | Génère 196 logos en 0.03s, 8 styles |
+| 🎨 **Branding** | [BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding) | Identité visuelle complète • Logo officiel • Assets 2D/3D • Guidelines <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"   style="vertical-align: middle" /> |
+| 📱 **Mobile Dev** | [CIA](https://github.com/arkalia-luna-system/arkalia-cia) ou [ARIA](https://github.com/arkalia-luna-system/arkalia-aria) | Flutter santé + RGPD <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"   style="vertical-align: middle" /> |
+| 🔧 **DevOps** | [Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline) | 62 commandes, 15 dashboards <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| ⚡ **Veux démarrer vite** | [Base Template](https://github.com/arkalia-luna-system/base_template) | Prêt en 30s, CI/CD inclus <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| 🤝 **Veux contribuer** | [Comment contribuer](#-contribuer) | Tous projets ouverts <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"   style="vertical-align: middle" /> |
 
 ---
 
@@ -184,15 +172,15 @@
 
 **Moteur cognitif robotique émotionnel** — Premier projet open-source de robotique émotionnelle avec IA légère intégrée pour Reachy Mini
 
-**✨ 14 Modules IA** : <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="16"  style="vertical-align: middle; margin: 0 3px" /> Émotions • Vision YOLO • Voice Whisper • Behavior • HuggingFace • Emotion Recognition • Adaptive Behavior • RobotAPI • Simulation MuJoCo • FastAPI • WebSocket • Daemon • Backends Unifiés • Dashboard
+**✨ 14 Modules IA** : <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="16"   style="vertical-align: middle; margin: 0 3px" /> Émotions • Vision YOLO • Voice Whisper • Behavior • HuggingFace • Emotion Recognition • Adaptive Behavior • RobotAPI • Simulation MuJoCo • FastAPI • WebSocket • Daemon • Backends Unifiés • Dashboard
 
-**🚀 13 Démos Fonctionnelles** : <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="16"  style="vertical-align: middle; margin: 0 3px" /> Émotions • Vision • Voice • Behavior • IA Avancée • Simulation 3D • Viewer • Telemetry • Tracking • Contrôle Pose • Hello Sim • Surprise Viewer • Follow Face
+**🚀 13 Démos Fonctionnelles** : <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="16"   style="vertical-align: middle; margin: 0 3px" /> Émotions • Vision • Voice • Behavior • IA Avancée • Simulation 3D • Viewer • Telemetry • Tracking • Contrôle Pose • Hello Sim • Surprise Viewer • Follow Face
 
-> <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="14"  style="vertical-align: middle; margin: 0 3px" /> 🤖 **12 émotions robotiques** avec transitions fluides • 👁️ **IA Vision** (YOLO + MediaPipe + DeepFace) • 🗣️ **IA Vocale** (Whisper STT/TTS) • 🎯 **Pose Detection** (MediaPipe 33 points) • 🚀 **Backend unifié** Sim/Robot • 🧠 **Comportements adaptatifs** • ✅ **Production-ready** (95 modules, 1334 tests collectés, ~64% coverage)
+> <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="14"   style="vertical-align: middle; margin: 0 3px" /> 🤖 **12 émotions robotiques** avec transitions fluides • 👁️ **IA Vision** (YOLO + MediaPipe + DeepFace) • 🗣️ **IA Vocale** (Whisper STT/TTS) • 🎯 **Pose Detection** (MediaPipe 33 points) • 🚀 **Backend unifié** Sim/Robot • 🧠 **Comportements adaptatifs** • ✅ **Production-ready** (95 modules, 1334 tests collectés, ~64% coverage)
 
 <div align="center">
 
-👉 **[🚀 Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="24"  style="vertical-align: middle; margin: 0 3px" title="BBIA" /> | 📚 [Guide Débutant](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) | 🔬 [Guide Avancé](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_AVANCE.md) | 🏗️ [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
+👉 **[🚀 Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="24"   style="vertical-align: middle; margin: 0 3px" title="BBIA" /> | 📚 [Guide Débutant](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) | 🔬 [Guide Avancé](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_AVANCE.md) | 🏗️ [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
 
 </div>
 
@@ -204,12 +192,12 @@
 
 **🌐 Écosystème • 11 projets • Actifs**
 
-> 💡 *Chaque projet résout un problème réel. Robotique • Gaming • Design • Mobile • DevOps* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"  style="vertical-align: middle" />
+> 💡 *Chaque projet résout un problème réel. Robotique • Gaming • Design • Mobile • DevOps* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="18"   style="vertical-align: middle" />
 
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="30"  style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" alt="BBIA Logo" width="30"  style="margin: 0 3px" title="BBIA Branding" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="30"   style="margin: 0 3px" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" alt="BBIA Logo" width="30"   style="margin: 0 3px" title="BBIA Branding" />
 </div>
 
 | | Projet | Description | Stack | Métriques | Status |
@@ -227,21 +215,21 @@
 | 🧠 | **🧠 [Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD • 13 connecteurs santé<br/>*Pour tracking douleur, recherche santé* | FastAPI + Flutter | 12 modules, 25 tests | ✅ Production |
 
 ### **ℹ️ Transparence Projets**
-- **Publics** : Tous les projets listés sont accessibles publiquement <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"  style="vertical-align: middle" />
-- **Base Template** : Peut nécessiter une connexion selon les paramètres GitHub <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"  style="vertical-align: middle" />
-- **Métriques** : Mises à jour manuellement, dernière vérification octobre 2025 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" />
-- **Statuts** : ✅ Production, 🚧 Beta, 📚 Archive, 🚀 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"  style="vertical-align: middle" />
+- **Publics** : Tous les projets listés sont accessibles publiquement <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"   style="vertical-align: middle" />
+- **Base Template** : Peut nécessiter une connexion selon les paramètres GitHub <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"   style="vertical-align: middle" />
+- **Métriques** : Mises à jour manuellement, dernière vérification octobre 2025 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" />
+- **Statuts** : ✅ Production, 🚧 Beta, 📚 Archive, 🚀 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"   style="vertical-align: middle" />
 
 ### **🔗 Synergies Écosystème**
 
 | Projet Principal | Utilise | Utilisé Par | Intégration |
 |------------------|---------|-------------|-------------|
-| **🎮 Arkalia Quest** | Luna Logo (badges), Metrics Collector | CIA (notifications éducatives) | API cross-platform <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🎨 Luna Logo** | Base Template (structure) | Quest, CIA, Luna Pro | API SVG dynamique <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **🎨 BBIA Branding** | Luna Logo (génération) | BBIA, Quest, Luna Pro | Identité visuelle unifiée <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"  style="vertical-align: middle" /> |
-| **📊 Metrics Collector** | Athalia DevOps (CI/CD) | Tous projets | Analytics centralisées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🚀 Luna Pro** | Metrics Collector, Logo | Quest (orchestration) | Enterprise hub <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🔧 Athalia DevOps** | Base Template (patterns) | Tous projets | Infrastructure <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"  style="vertical-align: middle" /> |
+| **🎮 Arkalia Quest** | Luna Logo (badges), Metrics Collector | CIA (notifications éducatives) | API cross-platform <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🎨 Luna Logo** | Base Template (structure) | Quest, CIA, Luna Pro | API SVG dynamique <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **🎨 BBIA Branding** | Luna Logo (génération) | BBIA, Quest, Luna Pro | Identité visuelle unifiée <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"   style="vertical-align: middle" /> |
+| **📊 Metrics Collector** | Athalia DevOps (CI/CD) | Tous projets | Analytics centralisées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🚀 Luna Pro** | Metrics Collector, Logo | Quest (orchestration) | Enterprise hub <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🔧 Athalia DevOps** | Base Template (patterns) | Tous projets | Infrastructure <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"   style="vertical-align: middle" /> |
 
 ---
 
@@ -249,13 +237,13 @@
 
 | **Type** | **Technologies** | **Usage** |
 |----------|------------------|-----------|
-| **🐍 Core** | Python 3.11-3.12 | 100% projets backend <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **⚡ APIs** | FastAPI, Flask | 8 projets <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🤖 IA** | PyTorch, Whisper, YOLO, HuggingFace, MediaPipe, DeepFace | BBIA, Quest <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🎨 Graphics & Design** | SVG, Canvas, PIL, Branding Assets | Luna Logo, BBIA Branding <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **📱 Mobile** | Flutter, Dart | CIA, ARIA <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🐳 DevOps** | Docker, Prometheus, Grafana | Luna Pro, Logo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **✅ QA** | Pytest, Black, Ruff | 550+ tests, 100% CI/CD <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
+| **🐍 Core** | Python 3.11-3.12 | 100% projets backend <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **⚡ APIs** | FastAPI, Flask | 8 projets <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🤖 IA** | PyTorch, Whisper, YOLO, HuggingFace, MediaPipe, DeepFace | BBIA, Quest <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🎨 Graphics & Design** | SVG, Canvas, PIL, Branding Assets | Luna Logo, BBIA Branding <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **📱 Mobile** | Flutter, Dart | CIA, ARIA <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🐳 DevOps** | Docker, Prometheus, Grafana | Luna Pro, Logo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **✅ QA** | Pytest, Black, Ruff | 550+ tests, 100% CI/CD <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
 
 ---
 
@@ -391,13 +379,13 @@ flowchart LR
 ### **🎯 Projets en Cours & Futurs**
 | Timeline | Projet | Objectif | Status |
 |----------|--------|----------|--------|
-| **Q1 2026** | BBIA v2.0 | Support robots multiples + IA avancée | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **Q2 2026** | Quest v4.0 | Multi-joueur + IA avancée | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **Q1 2026** | Luna Logo v3.0 | Plugins & marketplace | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **Q1 2026** | Arkalia CIA v1.0 | Release stable mobile | 🚧 En cours (Beta) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| **Q2 2026** | Arkalia ARIA v2.0 | IA avancée + nouveaux connecteurs | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **Q3 2026** | Luna Pro v4.0 | Scaling enterprise + IA modulaire | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **Q4 2026** | Écosystème unifié | Intégrations cross-projets | 🌟 Vision <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"  style="vertical-align: middle" /> |
+| **Q1 2026** | BBIA v2.0 | Support robots multiples + IA avancée | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **Q2 2026** | Quest v4.0 | Multi-joueur + IA avancée | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **Q1 2026** | Luna Logo v3.0 | Plugins & marketplace | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **Q1 2026** | Arkalia CIA v1.0 | Release stable mobile | 🚧 En cours (Beta) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| **Q2 2026** | Arkalia ARIA v2.0 | IA avancée + nouveaux connecteurs | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **Q3 2026** | Luna Pro v4.0 | Scaling enterprise + IA modulaire | 📋 Planifié <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **Q4 2026** | Écosystème unifié | Intégrations cross-projets | 🌟 Vision <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"   style="vertical-align: middle" /> |
 
 ---
 
@@ -406,65 +394,65 @@ flowchart LR
 <div align="center">
 
 ### 🚀 **Vous avez une question ou envie de contribuer ?** 
-**[📬 Créer une issue](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[📚 Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki)**
+**[📬 Créer une issue](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[📚 Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki)**
 
-*Je réponds à tout sous 48h (pas d'offres commerciales, merci !)* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"  style="vertical-align: middle" />
+*Je réponds à tout sous 48h (pas d'offres commerciales, merci !)* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"   style="vertical-align: middle" />
 
 </div>
 
 ### **🌟 Reconnaissance Contributiveur.trice.s**
 Chaque contribution, même petite, fait avancer l'écosystème.
 
-> *"Chaque bug rapporté, chaque test, chaque commentaire constructif est valorisé. Tout le monde peut contribuer."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="18"  style="vertical-align: middle" />
+> *"Chaque bug rapporté, chaque test, chaque commentaire constructif est valorisé. Tout le monde peut contribuer."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="18"   style="vertical-align: middle" />
 
 **🚀 Contribuer c'est simple :**
-- 📝 Corriger une typo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"  style="vertical-align: middle" />
-- 🐛 Reporter un bug <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"  style="vertical-align: middle" />
-- ✨ Proposer une feature <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"  style="vertical-align: middle" />
-- 🧪 Ajouter un test <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" />
-- 📚 Améliorer la doc <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"  style="vertical-align: middle" />
-- 💡 Partager une idée <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="14"  style="vertical-align: middle" />
+- 📝 Corriger une typo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"   style="vertical-align: middle" />
+- 🐛 Reporter un bug <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"   style="vertical-align: middle" />
+- ✨ Proposer une feature <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"   style="vertical-align: middle" />
+- 🧪 Ajouter un test <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" />
+- 📚 Améliorer la doc <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"   style="vertical-align: middle" />
+- 💡 Partager une idée <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="14"   style="vertical-align: middle" />
 
-**En attente de premières contributions !** Ouvre une issue pour démarrer. <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="18"  style="vertical-align: middle" />
+**En attente de premières contributions !** Ouvre une issue pour démarrer. <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="18"   style="vertical-align: middle" />
 
 ### **🚀 Comment Collaborer**
 
 | **Étape** | **Action** | **Github** |
 |-----------|-----------|------------|
-| 🔍 **Explore** | Découvre les projets ouverts | [@arkalia-luna-system](https://github.com/arkalia-luna-system) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| 📚 **Lis** | Documentation et guides | [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| 💬 **Contribue** | Issues, Discussions, PRs | [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"  style="vertical-align: middle" /> |
+| 🔍 **Explore** | Découvre les projets ouverts | [@arkalia-luna-system](https://github.com/arkalia-luna-system) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| 📚 **Lis** | Documentation et guides | [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| 💬 **Contribue** | Issues, Discussions, PRs | [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"   style="vertical-align: middle" /> |
 
 ### **📋 Projets Actifs**
 
 | Projet | Type | Contribuer | 📚 Docs | Status |
 |--------|------|------------|---------|--------|
-| **🤖 BBIA Reachy Sim** | Robotique IA | [Repo](https://github.com/arkalia-luna-system/bbia-sim) | [📖](https://github.com/arkalia-luna-system/bbia-sim) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🎮 Arkalia Quest** | Gaming IA | [Repo](https://github.com/arkalia-luna-system/arkalia-quest) | [📖](https://github.com/arkalia-luna-system/arkalia-quest) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🎨 Luna Logo** | Design API | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | [📖](https://github.com/arkalia-luna-system/arkalia-luna-logo) | ✅ v2.0.0 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **🎨 BBIA Branding** | Branding & Design | [Repo](https://github.com/arkalia-luna-system/bbia_branding) | [📖](https://github.com/arkalia-luna-system/bbia_branding) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"  style="vertical-align: middle" /> |
-| **📱 Arkalia CIA** | Mobile Flutter | [Repo](https://github.com/arkalia-luna-system/arkalia-cia) | [📖](https://github.com/arkalia-luna-system/arkalia-cia) | 🚧 Beta <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🧠 Arkalia ARIA** | Santé IA | [Repo](https://github.com/arkalia-luna-system/arkalia-aria) | [📖](https://github.com/arkalia-luna-system/arkalia-aria) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🔧 Athalia DevOps** | DevOps | [Repo](https://github.com/arkalia-luna-system/ia-pipeline) | [📖](https://github.com/arkalia-luna-system/ia-pipeline) | 🚀 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🌕 Luna Pro** | Orchestrateur IA | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-pro) | [📖](https://github.com/arkalia-luna-system/arkalia-luna-pro) | 🏢 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"  style="vertical-align: middle" /> |
-| **📊 Metrics Collector** | Analytics | [Repo](https://github.com/arkalia-luna-system/arkalia-metrics-collector) | [📖](https://github.com/arkalia-luna-system/arkalia-metrics-collector) | 📈 Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
-| **⚙️ Base Template** | Starter | [Repo](https://github.com/arkalia-luna-system/base_template) | [📖](https://github.com/arkalia-luna-system/base_template) | ✅ Template <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"  style="vertical-align: middle" /> |
+| **🤖 BBIA Reachy Sim** | Robotique IA | [Repo](https://github.com/arkalia-luna-system/bbia-sim) | [📖](https://github.com/arkalia-luna-system/bbia-sim) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🎮 Arkalia Quest** | Gaming IA | [Repo](https://github.com/arkalia-luna-system/arkalia-quest) | [📖](https://github.com/arkalia-luna-system/arkalia-quest) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🎨 Luna Logo** | Design API | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-logo) | [📖](https://github.com/arkalia-luna-system/arkalia-luna-logo) | ✅ v2.0.0 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **🎨 BBIA Branding** | Branding & Design | [Repo](https://github.com/arkalia-luna-system/bbia_branding) | [📖](https://github.com/arkalia-luna-system/bbia_branding) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"   style="vertical-align: middle" /> |
+| **📱 Arkalia CIA** | Mobile Flutter | [Repo](https://github.com/arkalia-luna-system/arkalia-cia) | [📖](https://github.com/arkalia-luna-system/arkalia-cia) | 🚧 Beta <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🧠 Arkalia ARIA** | Santé IA | [Repo](https://github.com/arkalia-luna-system/arkalia-aria) | [📖](https://github.com/arkalia-luna-system/arkalia-aria) | ✅ Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🔧 Athalia DevOps** | DevOps | [Repo](https://github.com/arkalia-luna-system/ia-pipeline) | [📖](https://github.com/arkalia-luna-system/ia-pipeline) | 🚀 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🌕 Luna Pro** | Orchestrateur IA | [Repo](https://github.com/arkalia-luna-system/arkalia-luna-pro) | [📖](https://github.com/arkalia-luna-system/arkalia-luna-pro) | 🏢 Enterprise <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"   style="vertical-align: middle" /> |
+| **📊 Metrics Collector** | Analytics | [Repo](https://github.com/arkalia-luna-system/arkalia-metrics-collector) | [📖](https://github.com/arkalia-luna-system/arkalia-metrics-collector) | 📈 Production <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
+| **⚙️ Base Template** | Starter | [Repo](https://github.com/arkalia-luna-system/base_template) | [📖](https://github.com/arkalia-luna-system/base_template) | ✅ Template <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-power-200.svg" width="14"   style="vertical-align: middle" /> |
 
 ---
 
 ## 📞 **Contact & Communauté**
 
 ### **🌐 Liens Officiels**
-- **📧 Contact** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"  style="vertical-align: middle" />
-- **🐙 GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" />
-- **💼 LinkedIn** : [Profil Professionnel](https://linkedin.com/in/arkalia-luna) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"  style="vertical-align: middle" />
-- **🌍 Portfolio** : [arkalia-luna.dev](https://arkalia-luna.dev) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"  style="vertical-align: middle" />
+- **📧 Contact** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="16"   style="vertical-align: middle" />
+- **🐙 GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" />
+- **💼 LinkedIn** : [Profil Professionnel](https://linkedin.com/in/arkalia-luna) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="16"   style="vertical-align: middle" />
+- **🌍 Portfolio** : [arkalia-luna.dev](https://arkalia-luna.dev) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"   style="vertical-align: middle" />
 
 ### **💬 Discussions & Support**
-- **🎯 GitHub Discussions** : Questions générales et idées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"  style="vertical-align: middle" />
-- **🐛 Issues** : Bugs et demandes de fonctionnalités <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"  style="vertical-align: middle" />
-- **📚 Wiki** : Documentation collaborative <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"  style="vertical-align: middle" />
-- **🔔 Releases** : Notifications de nouvelles versions <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"  style="vertical-align: middle" />
+- **🎯 GitHub Discussions** : Questions générales et idées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="14"   style="vertical-align: middle" />
+- **🐛 Issues** : Bugs et demandes de fonctionnalités <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="14"   style="vertical-align: middle" />
+- **📚 Wiki** : Documentation collaborative <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"   style="vertical-align: middle" />
+- **🔔 Releases** : Notifications de nouvelles versions <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"   style="vertical-align: middle" />
 
 ---
 
@@ -473,40 +461,40 @@ Chaque contribution, même petite, fait avancer l'écosystème.
 ### **🚀 Performance Réelle**
 | Métrique | Valeur | Source |
 |----------|--------|--------|
-| **📁 Fichiers Python** | 550+ | [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🧪 Tests Automatisés** | 550+ | CI/CD vérifiés <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🎨 SVG Générés** | 196 | Luna Logo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle" /> |
-| **🤖 Émotions IA** | 12 | BBIA Reachy <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"  style="vertical-align: middle" /> |
-| **🌍 Projets Actifs** | 11 | Tous en prod <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"  style="vertical-align: middle" /> |
-| **📦 Releases** | 12+ | Versionnées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"  style="vertical-align: middle" /> |
+| **📁 Fichiers Python** | 550+ | [Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector) <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🧪 Tests Automatisés** | 550+ | CI/CD vérifiés <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-power-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🎨 SVG Générés** | 196 | Luna Logo <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle" /> |
+| **🤖 Émotions IA** | 12 | BBIA Reachy <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="14"   style="vertical-align: middle" /> |
+| **🌍 Projets Actifs** | 11 | Tous en prod <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-creative-200.svg" width="14"   style="vertical-align: middle" /> |
+| **📦 Releases** | 12+ | Versionnées <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/realism_max-serenity-200.svg" width="14"   style="vertical-align: middle" /> |
 
 ---
 
 ## 🎯 **FAQ Rapide**
 
 > **Question : "Pourquoi ouvrir tout le code ?"**  
-> **Réponse :** *"Chaque bug corrigé peut aider quelqu'un. Chaque erreur documentée évite 10h de frustration. L'apprentissage authentique, ça se partage."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"  style="vertical-align: middle" />
+> **Réponse :** *"Chaque bug corrigé peut aider quelqu'un. Chaque erreur documentée évite 10h de frustration. L'apprentissage authentique, ça se partage."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/advanced-serenity-200.svg" width="16"   style="vertical-align: middle" />
 
 > **Question : "N'importe qui peut contribuer ?"**  
-> **Réponse :** *"Oui. Débutant.e, senior, designer, dev, maker... Chaque point de vue enrichit le projet. Une issue ? Un fix ? Un doc ? Bienvenue."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"  style="vertical-align: middle" />
+> **Réponse :** *"Oui. Débutant.e, senior, designer, dev, maker... Chaque point de vue enrichit le projet. Une issue ? Un fix ? Un doc ? Bienvenue."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/dashboard-awakening-200.svg" width="16"   style="vertical-align: middle" />
 
 > **Question : "Que faire si je trouve un bug ?"**  
-> **Réponse :** *"Ouvre une issue, détaille-le (avec screenshots si possible), et je te donne un fix sous 48h. Si c'est critique, c'est prioritaire."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="16"  style="vertical-align: middle" />
+> **Réponse :** *"Ouvre une issue, détaille-le (avec screenshots si possible), et je te donne un fix sous 48h. Si c'est critique, c'est prioritaire."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/simple-awakening-200.svg" width="16"   style="vertical-align: middle" />
 
 > **Question : "Comment démarrer un projet Arkalia ?"**  
-> **Réponse :** *"Consultez la section 'Par où commencer' ci-dessus. En cas de question, ouvrez une issue."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"  style="vertical-align: middle" />
+> **Réponse :** *"Consultez la section 'Par où commencer' ci-dessus. En cas de question, ouvrez une issue."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"   style="vertical-align: middle" />
 
 > **Question : "Pourquoi 'Arkalia Luna System' ?"**  
-> **Réponse :** *"Luna = phase de progression, de cycle, d'apprentissage. Arkalia = atelier où on assemble. System = ensemble cohérent."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"  style="vertical-align: middle" />
+> **Réponse :** *"Luna = phase de progression, de cycle, d'apprentissage. Arkalia = atelier où on assemble. System = ensemble cohérent."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="18"   style="vertical-align: middle" />
 
 ---
 
 <div align="center">
 
-**[🚀 Explorer les Projets](https://github.com/arkalia-luna-system)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"  style="vertical-align: middle; margin: 0 3px" /> **[📚 Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/CONTRIBUTING.md)**
+**[🚀 Explorer les Projets](https://github.com/arkalia-luna-system)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[💬 Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-creative-200.svg" width="16"   style="vertical-align: middle; margin: 0 3px" /> **[📚 Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/CONTRIBUTING.md)**
 
 **🌙 Arkalia Luna System** — Open Source Authentique • 11 Projets • 550+ Modules • 550+ Tests • Design & Branding
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="20"  style="vertical-align: middle; margin: 0 3px" /> *"Code. Push. Learn. Repeat."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="20"  style="vertical-align: middle; margin: 0 3px" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="20"   style="vertical-align: middle; margin: 0 3px" /> *"Code. Push. Learn. Repeat."* <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ai_moon-serenity-200.svg" width="20"   style="vertical-align: middle; margin: 0 3px" />
 
 </div>
