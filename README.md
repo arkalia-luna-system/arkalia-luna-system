@@ -31,8 +31,6 @@
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=14B8A6&icon_color=14B8A6&border_radius=12"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=14B8A6&border_radius=12"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=dark&hide_border=true&background=0D1117&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6&border=rounded)
-
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=14B8A6&line=14B8A6&point=14B8A6&area=true&area_color=14B8A620)
 
 <br/>
