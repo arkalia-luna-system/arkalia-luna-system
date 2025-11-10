@@ -37,11 +37,9 @@ dev = [
 ]
 
 [project.scripts]
-update-profile = "github_profile.core.updater:main"
-generate-sections = "github_profile.generators.sections:main"
-auto-update = "github_profile.core.auto_update:main"
-transform-professional = "github_profile.transformers.professional:main"
-optimize-performance = "github_profile.transformers.performance:main"
+# Scripts sont standalone, utiliser directement:
+# python update-profile.py
+# python auto-update-readme.py
 
 [tool.setuptools]
 packages = ["github_profile"]

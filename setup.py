@@ -17,8 +17,8 @@ setup(
     author="Arkalia Luna System",
     author_email="arkalia.luna.system@gmail.com",
     url="https://github.com/arkalia-luna-system/arkalia-luna-system",
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    # Scripts sont standalone, pas de packages à installer
+    packages=[],
     python_requires=">=3.11",
     install_requires=[
         "requests>=2.31.0",
