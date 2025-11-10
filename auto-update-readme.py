@@ -14,10 +14,11 @@ from pathlib import Path
 from typing import Dict, List, Any, Tuple
 
 
-def load_projects_data(data_file: Path) -> Dict[str, Any]:  # type: ignore[return-value]
+def load_projects_data(data_file: Path) -> Dict[str, Any]:
     """Charge les données des projets"""
     with open(data_file, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data: Dict[str, Any] = json.load(f)
+        return data
 
 
 def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:

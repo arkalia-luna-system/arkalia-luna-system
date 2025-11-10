@@ -3,7 +3,6 @@
     "base_path": "/Volumes/T7",
     "github_token_env": "GITHUB_TOKEN",
     "output": {
-        "projects_data": "config/projects-data.json",
         "projects_data": "config/projects-data.json"
     },
     "known_directories": [
