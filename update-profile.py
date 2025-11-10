@@ -348,7 +348,7 @@ class GitHubProfileUpdater:
 
     def detect_secondary_languages(self, project_path: Path) -> List[str]:
         """Détecte intelligemment les langages secondaires dans un projet"""
-        languages = []
+        languages: List[str] = []
 
         if not project_path.exists():
             return languages
@@ -386,7 +386,7 @@ class GitHubProfileUpdater:
             ".lua": "Lua",
         }
 
-        found_languages = {}  # Dict pour compter les occurrences
+        found_languages: Dict[str, float] = {}  # Dict pour compter les occurrences
 
         def count_language(lang: str):
             """Compte les occurrences d'un langage"""

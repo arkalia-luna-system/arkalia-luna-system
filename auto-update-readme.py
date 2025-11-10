@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Dict, List, Any, Tuple
 
 
-def load_projects_data(data_file: Path) -> Dict[str, Any]:
+def load_projects_data(data_file: Path) -> Dict[str, Any]:  # type: ignore[return-value]
     """Charge les données des projets"""
     with open(data_file, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -110,7 +110,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def find_section_markers(content: str) -> List[Tuple[int, str, str]]:
+def find_section_markers(content: str) -> List[Tuple[int, int, str]]:
     """Trouve les marqueurs de sections dans le README"""
     markers = []
 

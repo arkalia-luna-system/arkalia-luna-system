@@ -7,7 +7,6 @@
 ### Fichiers Trouvés
 1. **`auto-update-readme.py`** - Met à jour les sections marquées dans README.md
 2. **`update-profile.py`** - Découvre les projets GitHub et génère `projects-data.json`
-3. **`src/github_profile/core/auto_update.py`** - Version module du script auto-update
 
 ### Corrections Appliquées
 1. ✅ **Chemin corrigé** : `projects-data.json` cherché dans `config/` au lieu de la racine
