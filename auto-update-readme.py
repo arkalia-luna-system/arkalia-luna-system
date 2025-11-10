@@ -72,16 +72,35 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         elif "enterprise" in name_lower or "pro" in name_lower or "athalia" in name_lower:
             status = "🚀 Enterprise"
 
-        # Stack simplifié
+        # Stack intelligent basé sur description et nom
+        desc_lower = description.lower()
+        name_lower = name.lower()
         stack = language
-        if "docker" in description.lower() or "container" in description.lower():
-            stack = f"{language} + Docker"
-        elif "flutter" in description.lower():
+
+        # Détection intelligente du stack
+        if "flutter" in desc_lower or "flutter" in name_lower:
             stack = "Flutter"
-        elif "fastapi" in description.lower():
-            stack = "FastAPI"
-        elif "flask" in description.lower():
+        elif "fastapi" in desc_lower or "fastapi" in name_lower:
+            if "docker" in desc_lower:
+                stack = "FastAPI + Docker"
+            else:
+                stack = "FastAPI"
+        elif "flask" in desc_lower or "flask" in name_lower:
             stack = "Flask + IA"
+        elif "docker" in desc_lower or "container" in desc_lower or "docker" in name_lower:
+            stack = f"{language} + Docker"
+        elif "mujoco" in desc_lower or "mujoco" in name_lower:
+            stack = f"{language} + MuJoCo"
+        elif "pytorch" in desc_lower:
+            stack = f"{language} + PyTorch"
+        elif "design" in desc_lower or "branding" in name_lower:
+            stack = "Design"
+        elif "template" in name_lower or "base" in name_lower:
+            stack = "FastAPI"  # Templates sont généralement FastAPI
+        elif "devops" in desc_lower or "pipeline" in name_lower:
+            stack = "FastAPI"  # DevOps tools
+        elif "metrics" in name_lower or "collector" in name_lower:
+            stack = f"{language} + CLI"
 
         # Limite la description
         desc_short = description[:80] + "..." if len(description) > 80 else description

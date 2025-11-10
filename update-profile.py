@@ -276,48 +276,84 @@ class GitHubProfileUpdater:
         return None
 
     def extract_description_from_readme(self, readme_path: Path) -> str:
-        """Extrait la description depuis un README"""
+        """Extrait intelligemment la description depuis un README"""
         try:
             content = readme_path.read_text(encoding="utf-8", errors="ignore")
-            # Cherche le premier paragraphe après le titre principal
             lines = content.split("\n")
             description = ""
             found_title = False
+            in_code_block = False
 
-            for line in lines[:50]:  # Limite aux 50 premières lignes
-                line = line.strip()
-                if not line:
+            for i, line in enumerate(lines[:80]):  # Limite aux 80 premières lignes
+                line_stripped = line.strip()
+
+                # Gère les blocs de code
+                if line_stripped.startswith("```"):
+                    in_code_block = not in_code_block
                     continue
-                # Ignore les titres, badges, liens
-                if line.startswith("#") or line.startswith("[!") or line.startswith("http"):
-                    if line.startswith("#"):
+                if in_code_block:
+                    continue
+
+                # Ignore les lignes vides, badges, liens purs
+                if (
+                    not line_stripped
+                    or line_stripped.startswith("#")
+                    or line_stripped.startswith("[!")
+                    or (line_stripped.startswith("http") and " " not in line_stripped)
+                    or line_stripped.startswith("|")  # Tableaux
+                    or line_stripped.startswith("---")
+                    or line_stripped.startswith("```")
+                ):
+                    if line_stripped.startswith("#"):
                         found_title = True
                     continue
-                # Prend le premier paragraphe significatif après le titre
-                if found_title and len(line) > 20:
-                    description = line
-                    break
 
-            # Si pas trouvé, cherche dans les premières lignes
-            if not description:
-                for line in lines[:20]:
-                    line = line.strip()
-                    if len(line) > 30 and not line.startswith("#") and not line.startswith("["):
-                        description = line
+                # Cherche après le titre principal
+                if found_title and len(line_stripped) > 25:
+                    # Vérifie que ce n'est pas un titre de section
+                    if not line_stripped.startswith("##"):
+                        # Prend la première ligne significative
+                        description = line_stripped
                         break
 
-            return description[:200] if description else ""  # Limite à 200 caractères
+            # Si pas trouvé, cherche dans les premières lignes avec patterns
+            if not description:
+                for line in lines[:30]:
+                    line_stripped = line.strip()
+                    if (
+                        len(line_stripped) > 30
+                        and not line_stripped.startswith("#")
+                        and not line_stripped.startswith("[")
+                        and not line_stripped.startswith("|")
+                        and not line_stripped.startswith("```")
+                    ):
+                        # Vérifie que c'est une vraie description
+                        if any(char.isalpha() for char in line_stripped[:10]):
+                            description = line_stripped
+                            break
+
+            # Nettoie la description
+            if description:
+                # Enlève les emojis en début si trop nombreux
+                while description and description[0] in "🌙🤖🎨📱🧠🔧📊⚙️✅🚀📈":
+                    description = description[1:].strip()
+                # Limite à 200 caractères
+                description = description[:200].strip()
+                # Enlève les points de suspension multiples
+                description = description.replace("...", "…")
+
+            return description
         except Exception:
             return ""
 
     def detect_secondary_languages(self, project_path: Path) -> List[str]:
-        """Détecte les langages secondaires dans un projet"""
+        """Détecte intelligemment les langages secondaires dans un projet"""
         languages = []
 
         if not project_path.exists():
             return languages
 
-        # Extensions connues
+        # Extensions connues avec poids (plus fréquent = plus important)
         lang_extensions = {
             ".sh": "Shell",
             ".bash": "Shell",
@@ -337,38 +373,65 @@ class GitHubProfileUpdater:
             ".java": "Java",
             ".cpp": "C++",
             ".c": "C",
+            ".py": "Python",
+            ".dart": "Dart",
+            ".sql": "SQL",
+            ".r": "R",
+            ".m": "Objective-C",
+            ".swift": "Swift",
+            ".kt": "Kotlin",
+            ".scala": "Scala",
+            ".php": "PHP",
+            ".rb": "Ruby",
+            ".lua": "Lua",
         }
 
-        found_extensions = set()
+        found_languages = {}  # Dict pour compter les occurrences
+
+        def count_language(lang: str):
+            """Compte les occurrences d'un langage"""
+            found_languages[lang] = found_languages.get(lang, 0) + 1
 
         try:
-            # Cherche dans les fichiers racine et premiers niveaux
+            # Cherche dans les fichiers racine (priorité haute)
             for item in project_path.iterdir():
-                if item.is_file():
+                if item.is_file() and not item.name.startswith("."):
                     ext = item.suffix.lower()
                     if ext in lang_extensions:
-                        found_extensions.add(lang_extensions[ext])
-                    elif item.name.lower() in ["dockerfile", "makefile"]:
-                        if item.name.lower() == "dockerfile":
-                            found_extensions.add("Dockerfile")
-                        elif item.name.lower() == "makefile":
-                            found_extensions.add("Makefile")
+                        count_language(lang_extensions[ext])
+                    elif item.name.lower() in ["dockerfile", "docker-compose.yml", "makefile"]:
+                        if "docker" in item.name.lower():
+                            count_language("Dockerfile")
+                        elif "makefile" in item.name.lower():
+                            count_language("Makefile")
 
-            # Cherche aussi dans les sous-dossiers principaux (max 2 niveaux)
+            # Cherche dans les sous-dossiers principaux (max 2 niveaux, poids moindre)
             for item in project_path.iterdir():
                 if item.is_dir() and not item.name.startswith("."):
                     try:
                         for subitem in item.iterdir():
-                            if subitem.is_file():
+                            if subitem.is_file() and not subitem.name.startswith("."):
                                 ext = subitem.suffix.lower()
                                 if ext in lang_extensions:
-                                    found_extensions.add(lang_extensions[ext])
+                                    # Poids moindre pour les sous-dossiers
+                                    lang = lang_extensions[ext]
+                                    found_languages[lang] = found_languages.get(lang, 0) + 0.5
                     except (PermissionError, OSError):
                         continue
+
+            # Filtre : garde seulement les langages avec au moins 1 occurrence
+            # et exclut le langage principal (sera géré ailleurs)
+            filtered = [
+                lang
+                for lang, count in sorted(found_languages.items(), key=lambda x: x[1], reverse=True)
+                if count >= 1
+            ]
+
+            return sorted(filtered)
         except (PermissionError, OSError):
             pass
 
-        return sorted(list(found_extensions))
+        return []
 
     def analyze_project(self, repo_data: Dict[str, Any]) -> ProjectInfo:
         """Analyse un projet et trouve ses infos locales"""
@@ -452,7 +515,7 @@ class GitHubProfileUpdater:
     def export_project_list(self, output_file: Optional[Path] = None) -> Path:
         """Exporte la liste des projets en JSON"""
         if output_file is None:
-            output_file = self.profile_repo_path / "projects-data.json"
+            output_file = self.profile_repo_path / "config" / "projects-data.json"
 
         data = {
             "username": self.username,

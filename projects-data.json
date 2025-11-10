@@ -1,24 +1,24 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2025-11-10T18:53:17.479510",
+  "generated_at": "2025-11-10T18:52:23.222691",
   "stats": {
     "total_projects": 11,
     "local_projects": 11,
     "projects_with_readme": 11,
     "total_stars": 0,
     "languages": {
-      "Python": 11,
+      "Python": 10,
       "JSON": 9,
       "Markdown": 11,
       "Shell": 9,
+      "CSS": 5,
       "Dockerfile": 5,
-      "HTML": 7,
+      "HTML": 8,
+      "JavaScript": 5,
       "Makefile": 6,
-      "YAML": 8,
-      "CSS": 2,
-      "JavaScript": 1
+      "YAML": 8
     },
-    "last_updated": "2025-11-10T18:53:17.479518"
+    "last_updated": "2025-11-10T18:52:23.222701"
   },
   "projects": [
     {
@@ -84,8 +84,8 @@
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": "/Volumes/T7/devstation/ARKALIA-QUEST",
-      "readme_path": "/Volumes/T7/devstation/ARKALIA-QUEST/README.md",
+      "local_path": "/Volumes/T7/devstation/arkalia-quest",
+      "readme_path": "/Volumes/T7/devstation/arkalia-quest/README.md",
       "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
       "language": "Python",
       "stars": 0,
@@ -104,8 +104,8 @@
     {
       "name": "arkalia-luna-pro",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
-      "local_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO",
-      "readme_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO/README.md",
+      "local_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro",
+      "readme_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro/README.md",
       "description": "🌕 Orchestrateur IA Enterprise Python/Docker — 7 modules IA, monitoring complet 📈 ZeroIA Coordinator, Cognitive Reactor, CI/CD v2.8.0 🚀 671 tests, 59% couverture, Grafana/Prometheus ⚡ Production-ready",
       "language": "HTML",
       "stars": 0,
