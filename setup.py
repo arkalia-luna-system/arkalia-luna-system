@@ -31,12 +31,8 @@ setup(
             "mypy>=1.0",
         ],
     },
-    entry_points={
-        "console_scripts": [
-            "update-profile=update_profile:main",
-            "auto-update-readme=auto_update_readme:main",
-        ],
-    },
+    # Scripts sont standalone, pas de entry_points nécessaires
+    # Utiliser directement: python update-profile.py ou python auto-update-readme.py
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
