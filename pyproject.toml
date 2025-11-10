@@ -42,7 +42,8 @@ dev = [
 # python auto-update-readme.py
 
 [tool.setuptools]
-packages = ["github_profile"]
+# Scripts sont standalone, pas de packages
+packages = []
 
 [tool.black]
 line-length = 100

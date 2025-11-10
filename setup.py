@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Setup script for github-profile-arkalia"""
 
-from setuptools import setup, find_packages
+from setuptools import setup
 from pathlib import Path
 
 # Read README
