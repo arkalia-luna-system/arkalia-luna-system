@@ -1,6 +1,6 @@
 # 📊 Sections Générées Automatiquement
 
-*Généré le 2025-11-10 17:47:31*
+*Généré le 2025-11-10 17:53:07*
 
 ---
 
@@ -11,23 +11,22 @@
 - **📖 11 projets** avec README
 - **⭐ 0 stars** totales
 
-- **💻 Langages** : Shell, Python, HTML
+- **💻 Langages** : Python, HTML
 
-*Dernière mise à jour : 2025-11-10T17:47:31.599245*
+*Dernière mise à jour : 2025-11-10T17:53:07.346030*
 
 ### **💻 Répartition par Langage**
 
 | Langage | Projets |
 |---------|---------|
-| Python | 9 |
-| Shell | 1 |
+| Python | 10 |
 | HTML | 1 |
 
 ## 🚀 **Projets Phares**
 
 | | Projet | Description | Stack | Métriques | Status |
 |---|--------|-------------|-------|-----------|---------|
-| 📦 | **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Shell | 📁 Shell | ✅ Local |
+| 📦 | **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 📁 Python | ✅ Local |
 | 🤖 | **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Projet en développement | Python | 📁 Python | ✅ Local |
 | 🎨 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles... | Python | 📁 Python | ✅ Local |
 | 🧠 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CI... | Python | 📁 Python | ✅ Local |
@@ -68,7 +67,7 @@
 
 7. ✅ **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)**
    - 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture...
-   - 📁 Local: `/Volumes/T7/devstation/arkalia-quest`
+   - 📁 Local: `/Volumes/T7/devstation/ARKALIA-QUEST`
 
 8. ✅ **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)**
    - 📁 Local: `/Volumes/T7/arkalia-metrics-collector`

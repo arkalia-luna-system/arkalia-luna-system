@@ -1,17 +1,16 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2025-11-10T17:47:31.599231",
+  "generated_at": "2025-11-10T17:53:07.346020",
   "stats": {
     "total_projects": 11,
     "local_projects": 11,
     "projects_with_readme": 11,
     "total_stars": 0,
     "languages": {
-      "Shell": 1,
-      "Python": 9,
+      "Python": 10,
       "HTML": 1
     },
-    "last_updated": "2025-11-10T17:47:31.599245"
+    "last_updated": "2025-11-10T17:53:07.346030"
   },
   "projects": [
     {
@@ -20,7 +19,7 @@
       "local_path": "/Volumes/T7/github-profile-arkalia",
       "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
       "description": "Mon profil GitHub personnalisé",
-      "language": "Shell",
+      "language": "Python",
       "stars": 0,
       "is_public": true
     },
@@ -77,8 +76,8 @@
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": "/Volumes/T7/devstation/arkalia-quest",
-      "readme_path": "/Volumes/T7/devstation/arkalia-quest/README.md",
+      "local_path": "/Volumes/T7/devstation/ARKALIA-QUEST",
+      "readme_path": "/Volumes/T7/devstation/ARKALIA-QUEST/README.md",
       "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
       "language": "Python",
       "stars": 0,

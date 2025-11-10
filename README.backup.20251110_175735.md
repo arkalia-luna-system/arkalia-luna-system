@@ -1,12 +1,9 @@
 <div align="center">
+  
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="120" height="120" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" title="Arkalia Luna System - Écosystème IA & Robotique">
+  
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(0, 129, 129, 0.3);" title="Arkalia Luna System - Écosystème IA & Robotique">
-
-# 🌙 **Arkalia Luna System**
-
-**Autodidacte depuis février 2025 • 11 projets en production • IA • Robotique • Design • DevOps**
-
-**`"Apprendre vite, coder mieux, partager tout."`** 🚀
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" alt="BBIA Logo - Logo officiel BBIA" width="120" height="120" style="margin-left: 20px; vertical-align: middle; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" title="BBIA - Moteur cognitif robotique émotionnel">
 
 </div>
 
@@ -38,23 +35,23 @@
 
 ### **📊 Statistiques GitHub Dynamiques**
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=008181&icon_color=008181"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=008181"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=dark&hide_border=true&background=0D1117&ring=008181&fire=008181&currStreakLabel=008181)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=arkalia-luna-system&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF)
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=008181&line=008181&point=008181)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=58A6FF)
 
 </div>
 
-[![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-008181?style=for-the-badge)](https://github.com/arkalia-luna-system)
+[![Organization](https://img.shields.io/badge/Organization-Arkalia%20Luna%20System-blue?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Projects](https://img.shields.io/badge/Projects-11%20Active-brightgreen?style=for-the-badge)](https://github.com/arkalia-luna-system)
 [![Stars](https://img.shields.io/github/stars/arkalia-luna-system?style=social&label=Total%20Stars)](https://github.com/arkalia-luna-system)
 [![Followers](https://img.shields.io/github/followers/arkalia-luna-system?style=social)](https://github.com/arkalia-luna-system)
 
 ### **🏆 Trophées GitHub**
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=arkalia-luna-system&theme=dark&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=arkalia-luna-system&theme=tokyonight&no-frame=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 [![Code](https://img.shields.io/badge/Python%20Files-550%2B-orange?style=for-the-badge&logo=python&logoColor=white)](#-métriques-de-lécosystème)
 [![Tests](https://img.shields.io/badge/Tests-550%2B%20Automated-red?style=for-the-badge&logo=test&logoColor=white)](#-métriques-de-lécosystème)
@@ -63,8 +60,8 @@
 [![Contributions](https://img.shields.io/badge/Contributions-Active-brightgreen?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arkalia-luna-system)
 [![Open Source](https://img.shields.io/badge/Open%20Source-11%20Projects-success?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/arkalia-luna-system)
 
-[![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Flask%20%7C%20FastAPI%20%7C%20Docker-008181)](https://github.com/arkalia-luna-system)
-[![AI](https://img.shields.io/badge/AI-Cognitive%20Engines%20%7C%20Emotions%20%7C%20LUNA-008181)](https://github.com/arkalia-luna-system)
+[![Stack](https://img.shields.io/badge/Stack-Python%20%7C%20Flask%20%7C%20FastAPI%20%7C%20Docker-blue)](https://github.com/arkalia-luna-system)
+[![AI](https://img.shields.io/badge/AI-Cognitive%20Engines%20%7C%20Emotions%20%7C%20LUNA-purple)](https://github.com/arkalia-luna-system)
 [![Robotics](https://img.shields.io/badge/Robotics-Reachy%20Mini%20%7C%20Simulation-green)](https://github.com/arkalia-luna-system)
 [![DevOps](https://img.shields.io/badge/DevOps-CI%2FCD%20%7C%20Docker%20%7C%20Monitoring-yellow)](https://github.com/arkalia-luna-system)
 [![Design](https://img.shields.io/badge/Design-SVG%20%7C%20Branding%20%7C%20Assets-pink?style=for-the-badge)](https://github.com/arkalia-luna-system)
@@ -171,7 +168,7 @@
 
 <div align="center">
 
-[![BBIA Version](https://img.shields.io/badge/VERSION-1.3.2-008181?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
+[![BBIA Version](https://img.shields.io/badge/VERSION-1.3.2-0078D4?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&logo=license&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![SDK](https://img.shields.io/badge/SDK-100%25-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
