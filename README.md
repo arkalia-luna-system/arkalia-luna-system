@@ -194,7 +194,7 @@ flowchart TB
  end
 
  subgraph core["🎯 Projets Core"]
- BBIA["🤖 BBIA Reachy Sim<br/>Robot émotionnel<br/>12 états • IA Vision"]
+ BBIA["🤖 BBIA Reachy Sim<br/>Robot émotionnel<br/>12 émotions • IA Vision"]
  QUEST["🎮 Arkalia Quest<br/>Gaming éducatif<br/>Cybersécurité"]
  LOGO["🎨 Luna Logo<br/>Génération SVG<br/>0.03s • 196 logos"]
  BRANDING["🎨 BBIA Branding<br/>Identité visuelle<br/>Assets design"]
@@ -206,12 +206,12 @@ flowchart TB
  end
 
  subgraph mobile["📱 Mobile & Santé"]
- CIA["📱 CIA<br/>Assistant santé<br/>Flutter • AES-256"]
- ARIA["🧠 ARIA<br/>Tracking douleur<br/>RGPD • 13 connecteurs"]
+ CIA["📱 Arkalia CIA<br/>Mobile santé<br/>Flutter • AES-256"]
+ ARIA["🧠 Arkalia ARIA<br/>Tracking douleur<br/>RGPD • 13 connecteurs"]
  end
 
  subgraph utils["📊 Outils & Analytics"]
- METRICS["📊 Metrics Collector<br/>Auto • CLI<br/>550+ fichiers"]
+ METRICS["📊 Metrics Collector<br/>Analytics centralisées<br/>Python + CLI"]
  TEMPLATE["⚙️ Base Template<br/>Starter FastAPI<br/>CI/CD ready"]
  end
 
@@ -219,10 +219,13 @@ flowchart TB
  PYTHON --> QUEST
  PYTHON --> LOGO
  PYTHON --> BRANDING
+ PYTHON --> METRICS
+ PYTHON --> TEMPLATE
 
  APIS --> BBIA
  APIS --> LUNA
- APIS --> CIA
+ APIS --> ARIA
+ APIS --> TEMPLATE
 
  AI --> BBIA
  AI --> QUEST
@@ -233,6 +236,7 @@ flowchart TB
 
  TEMPLATE --> ATHALIA
  TEMPLATE --> LUNA
+ TEMPLATE --> ARIA
 
  ATHALIA --> LUNA
  CIA --> ARIA
@@ -244,6 +248,9 @@ flowchart TB
  style ARIA fill:#ed8936,stroke:#c05621,stroke-width:3px
  style METRICS fill:#38b2ac,stroke:#2c7a7b,stroke-width:3px
  style BRANDING fill:#ec4899,stroke:#be185d,stroke-width:3px
+ style CIA fill:#14b8a6,stroke:#0d9488,stroke-width:3px
+ style ATHALIA fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px
+ style TEMPLATE fill:#06b6d4,stroke:#0891b2,stroke-width:3px
 ```
 
 </div>
