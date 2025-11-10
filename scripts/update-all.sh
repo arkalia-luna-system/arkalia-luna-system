@@ -5,7 +5,9 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR"
+# Remonte d'un niveau pour être à la racine du projet
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$PROJECT_ROOT"
 
 # Couleurs
 GREEN='\033[0;32m'
@@ -19,13 +21,13 @@ echo ""
 
 # 1. Découvrir les projets
 echo -e "${BLUE}📡 Étape 1/3 : Découverte des projets...${NC}"
-./update.sh
+python3 -m github_profile.core.updater
 
 echo ""
 
 # 2. Générer les sections
 echo -e "${BLUE}📝 Étape 2/3 : Génération des sections README...${NC}"
-python3 generate-readme-sections.py
+python3 -m github_profile.generators.sections
 
 echo ""
 
@@ -37,7 +39,7 @@ import json
 from datetime import datetime
 
 try:
-    data = json.load(open('projects-data.json'))
+    data = json.load(open('config/projects-data.json'))
     stats = data['stats']
     
     print(f\"✅ Projets totaux:     {stats['total_projects']}\")
@@ -53,12 +55,12 @@ try:
         print(f\"   {i:2d}. {status} {name}\")
     
     print(f\"\n💡 Fichiers générés:\")
-    print(f\"   📄 projects-data.json\")
-    print(f\"   📄 README_SECTIONS.md\")
+    print(f\"   📄 config/projects-data.json\")
+    print(f\"   📄 docs/README_SECTIONS.md\")
     print(f\"\n🚀 Prochaines étapes:\")
-    print(f\"   1. Vérifiez README_SECTIONS.md\")
+    print(f\"   1. Vérifiez docs/README_SECTIONS.md\")
     print(f\"   2. Mettez à jour README.md avec les nouvelles sections\")
-    print(f\"   3. (Optionnel) Exécutez: python3 auto-update-readme.py --add-markers\")
+    print(f\"   3. (Optionnel) Exécutez: python3 -m github_profile.core.auto_update --add-markers\")
     
 except Exception as e:
     print(f\"⚠️  Erreur lors de l'affichage du résumé: {e}\")
@@ -68,5 +70,5 @@ echo ""
 echo -e "${GREEN}✅ Mise à jour terminée !${NC}"
 echo ""
 echo "💡 Pour mettre à jour automatiquement le README :"
-echo "   python3 auto-update-readme.py --add-markers"
+echo "   python3 -m github_profile.core.auto_update --add-markers"
 

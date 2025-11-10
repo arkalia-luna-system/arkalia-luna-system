@@ -5,7 +5,9 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR"
+# Remonte d'un niveau pour être à la racine du projet
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$PROJECT_ROOT"
 
 # Couleurs
 GREEN='\033[0;32m'
@@ -29,12 +31,12 @@ if ! python3 -c "import requests" 2>/dev/null; then
 fi
 
 # Exécute le script Python avec tous les arguments passés
-python3 update-profile.py "$@"
+python3 -m github_profile.core.updater "$@"
 
 # Génère automatiquement les sections README si succès
 if [ $? -eq 0 ]; then
     echo -e "\n${BLUE}📝 Génération des sections README...${NC}"
-    python3 generate-readme-sections.py 2>/dev/null
+    python3 -m github_profile.generators.sections 2>/dev/null
 fi
 
 echo -e "\n${GREEN}✅ Terminé !${NC}"

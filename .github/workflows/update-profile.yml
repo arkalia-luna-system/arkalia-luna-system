@@ -1,27 +1,61 @@
-name: Update Profile
+name: Update GitHub Profile
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Toutes les semaines
-  workflow_dispatch:  # Manuel
+    # Toutes les semaines le dimanche à minuit UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch: # Permet l'exécution manuelle
+  push:
+    branches:
+      - main
+    paths:
+      - "config/projects-data.json"
 
 jobs:
-  update:
+  update-profile:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          python-version: '3.11'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
       - name: Install dependencies
-        run: pip install requests
-      - name: Update profile
-        run: python scripts/update-profile.py
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set GitHub Token
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "GITHUB_TOKEN=${GITHUB_TOKEN}" >> $GITHUB_ENV
+
+      - name: Update profile data
+        run: |
+          python -m github_profile.core.updater
+
+      - name: Generate README sections
+        run: |
+          python -m github_profile.generators.sections
+
+      - name: Auto-update README
+        run: |
+          python -m github_profile.core.auto_update
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add projects-data.json
-          git commit -m "chore: update profile data" || exit 0
+          git add config/projects-data.json README.md docs/README_SECTIONS.md
+          git diff --staged --quiet || git commit -m "chore: auto-update profile data [skip ci]"
           git push

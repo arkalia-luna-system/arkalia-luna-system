@@ -1,0 +1,18 @@
+{
+    "username": "arkalia-luna-system",
+    "base_path": "/Volumes/T7",
+    "github_token_env": "GITHUB_TOKEN",
+    "output": {
+        "projects_data": "config/projects-data.json",
+        "readme_sections": "docs/README_SECTIONS.md"
+    },
+    "known_directories": [
+        "devstation",
+        "devstation/cursor",
+        "logo",
+        "Projects",
+        "Dev",
+        "Code",
+        "github-profile-arkalia"
+    ]
+}
