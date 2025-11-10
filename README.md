@@ -26,24 +26,6 @@
 
 <div align="center">
 
-### 📊 Statistiques GitHub
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arkalia-luna-system&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=14B8A6&icon_color=14B8A6&border_radius=12"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arkalia-luna-system&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0D1117&title_color=14B8A6&border_radius=12"/>
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=arkalia-luna-system&theme=dark&hide_border=true&bg_color=0D1117&color=14B8A6&line=14B8A6&point=14B8A6&area=true&area_color=14B8A620)
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="45" height="45" style="opacity: 0.6; margin: 0 8px; border-radius: 8px;" title="Snowy" />
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="45" height="45" style="opacity: 0.6; margin: 0 8px; border-radius: 8px;" title="Sunny" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
 **Stack Technique**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
@@ -65,7 +47,7 @@
 
 *Robot émotionnel open-source avec moteur cognitif et expression d'émotions*
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="160" height="160" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.35);" title="BBIA - Cognitive Engine Robotique">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="220" height="220" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.35);" title="BBIA - Cognitive Engine Robotique">
 
 [![Version](https://img.shields.io/badge/VERSION-1.3.2-14B8A6?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
 [![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
