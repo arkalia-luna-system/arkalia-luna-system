@@ -20,7 +20,7 @@ cd /Volumes/T7/github-profile-arkalia
 - ✅ Trouve leurs chemins locaux (Desktop, T7, etc.)
 - ✅ Détecte les README automatiquement
 - ✅ Génère `projects-data.json` avec toutes les données
-- ✅ Génère `README_SECTIONS.md` avec sections prêtes
+- ✅ Génère `config/projects-data.json` avec données des projets
 
 **Résultat :** 11/11 projets trouvés, 11/11 README détectés
 
@@ -33,7 +33,7 @@ cd /Volumes/T7/github-profile-arkalia
 cat projects-data.json | python3 -m json.tool | less
 
 # Voir les sections prêtes
-cat README_SECTIONS.md
+cat config/projects-data.json
 ```
 
 **Ce que vous pouvez faire :**
@@ -48,7 +48,7 @@ cat README_SECTIONS.md
 
 #### **Option A : Mise à jour Manuelle (Recommandée pour début)**
 
-1. Ouvrez `README_SECTIONS.md`
+1. Vérifiez `config/projects-data.json`
 2. Copiez les sections qui vous intéressent
 3. Collez dans votre `README.md` aux bons endroits
 
@@ -79,7 +79,7 @@ Ce script met à jour automatiquement les sections marquées dans votre README.
 - **🌍 11 projets actifs** (production + développement)
 ```
 
-**Après (depuis README_SECTIONS.md) :**
+**Après (depuis auto-update-readme.py) :**
 ```markdown
 - **🔢 11 projets** au total
 - **📁 11 projets** trouvés localement
@@ -91,7 +91,7 @@ Ce script met à jour automatiquement les sections marquées dans votre README.
 
 ### **2. Tableau des Projets** (Ligne ~212)
 
-**Remplacez le tableau existant par celui généré dans `README_SECTIONS.md`**
+**Le tableau est automatiquement mis à jour par `auto-update-readme.py`**
 
 Le tableau généré inclut :
 - ✅ Tous les projets avec leurs liens GitHub
@@ -152,7 +152,7 @@ print(f\"  ✅ {len(stats['languages'])} langages détectés\")
 "
 
 echo ""
-echo "✅ Terminé ! Vérifiez README_SECTIONS.md et mettez à jour README.md"
+echo "✅ Terminé ! Le README.md a été mis à jour automatiquement"
 ```
 
 **Utilisation :**
@@ -302,7 +302,7 @@ Créez `.git/hooks/pre-commit` :
 # Met à jour les données avant chaque commit
 cd /Volumes/T7/github-profile-arkalia
 ./update.sh
-git add projects-data.json README_SECTIONS.md
+git add config/projects-data.json README.md
 ```
 
 ---

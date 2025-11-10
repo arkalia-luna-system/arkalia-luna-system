@@ -4,7 +4,7 @@
     "github_token_env": "GITHUB_TOKEN",
     "output": {
         "projects_data": "config/projects-data.json",
-        "readme_sections": "docs/README_SECTIONS.md"
+        "projects_data": "config/projects-data.json"
     },
     "known_directories": [
         "devstation",
