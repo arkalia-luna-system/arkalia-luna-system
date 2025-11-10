@@ -1,6 +1,14 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="100" height="100" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" title="Arkalia Luna System" />
+
 # 🤝 Contributing to Arkalia Luna System
 
-Merci de ton intérêt pour contribuer à l'écosystème Arkalia Luna System ! 
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" alt="BBIA Logo" width="80" height="80" style="border-radius: 10px; opacity: 0.9; margin: 10px 0;" title="BBIA" />
+
+**Merci de ton intérêt pour contribuer à l'écosystème Arkalia Luna System !** <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="20" style="vertical-align: middle; margin: 0 5px; opacity: 0.7; border-radius: 4px;" />
+
+</div> 
 
 ## 🚀 **Quick Start**
 
@@ -59,4 +67,10 @@ Nous nous engageons à maintenir un environnement respectueux et inclusif. Voir 
 
 ---
 
-**Merci de contribuer à Arkalia Luna System ! 🌟**
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" width="35" style="vertical-align: middle; margin: 0 5px; opacity: 0.7;" /> **Merci de contribuer à Arkalia Luna System !** <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" width="35" style="vertical-align: middle; margin: 0 5px; opacity: 0.85; border-radius: 7px;" /> 🌟
+
+*Chaque contribution, même petite, fait avancer l'écosystème !*
+
+</div>
