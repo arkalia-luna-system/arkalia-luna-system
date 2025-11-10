@@ -100,6 +100,9 @@ class GitHubProfileUpdater:
 
     def _generate_name_variants(self, repo_name: str) -> List[str]:
         """Génère des variations du nom pour la recherche"""
+        if not repo_name:
+            return []
+        
         variants = [repo_name]
 
         # Variations avec underscores/tirets
@@ -113,7 +116,7 @@ class GitHubProfileUpdater:
         # Variations de casse
         variants.append(repo_name.lower())
         variants.append(repo_name.upper())
-        if repo_name[0].isupper():
+        if len(repo_name) > 0 and repo_name[0].isupper():
             variants.append(repo_name[0].lower() + repo_name[1:])
 
         # Variations spécifiques connues
