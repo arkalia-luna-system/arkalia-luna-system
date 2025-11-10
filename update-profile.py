@@ -102,7 +102,7 @@ class GitHubProfileUpdater:
         """Génère des variations du nom pour la recherche"""
         if not repo_name:
             return []
-        
+
         variants = [repo_name]
 
         # Variations avec underscores/tirets
@@ -346,7 +346,8 @@ class GitHubProfileUpdater:
                 description = description.replace("...", "…")
 
             return description
-        except Exception:
+        except Exception:  # noqa: BLE001
+            # Erreur lors de l'extraction de la description (fichier corrompu, encoding, etc.)
             return ""
 
     def detect_secondary_languages(self, project_path: Path) -> List[str]:
@@ -438,8 +439,11 @@ class GitHubProfileUpdater:
 
     def analyze_project(self, repo_data: Dict[str, Any]) -> ProjectInfo:
         """Analyse un projet et trouve ses infos locales"""
-        repo_name = repo_data["name"]
-        github_url = repo_data["html_url"]
+        repo_name = repo_data.get("name", "")
+        github_url = repo_data.get("html_url", "")
+
+        if not repo_name:
+            raise ValueError("Le repo_data doit contenir un champ 'name'")
 
         project = ProjectInfo(
             name=repo_name,

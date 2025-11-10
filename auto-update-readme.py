@@ -16,9 +16,14 @@ from typing import Dict, List, Any, Tuple
 
 def load_projects_data(data_file: Path) -> Dict[str, Any]:
     """Charge les données des projets"""
-    with open(data_file, "r", encoding="utf-8") as f:
-        data: Dict[str, Any] = json.load(f)
-        return data
+    try:
+        with open(data_file, "r", encoding="utf-8") as f:
+            data: Dict[str, Any] = json.load(f)
+            return data
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Fichier de données non trouvé : {data_file}")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Erreur de décodage JSON dans {data_file}: {e}")
 
 
 def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
@@ -35,7 +40,7 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
     lines = [
         "### 📈 Statistiques",
         "",
-        f"- **Projets** : {stats['total_projects']} en production",
+        f"- **Projets** : {stats.get('total_projects', 0)} en production",
         f"- **Langages** : {lang_str}",
         "",
         "<sub>*Dernière mise à jour : novembre 2025*</sub>",
