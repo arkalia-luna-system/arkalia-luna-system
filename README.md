@@ -296,9 +296,7 @@ flowchart TB
 <div align="center">
 
 **Email** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com)  
-**GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system)  
-**LinkedIn** : [Profil](https://linkedin.com/in/arkalia-luna)  
-**Portfolio** : [arkalia-luna.dev](https://arkalia-luna.dev)
+**GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system)
 
 </div>
 
@@ -320,9 +318,9 @@ flowchart TB
 ## 🎯 FAQ
 
 <details>
-<summary><b>Q: Pourquoi ouvrir tout le code ?</b></summary>
+<summary><b>Q: Comment démarrer avec un projet ?</b></summary>
 
-A: *Chaque bug corrigé peut aider quelqu'un. Le code ouvert favorise la collaboration et l'amélioration continue.*
+A: *Consultez la section [Projets Phares](#-projets-phares) ci-dessus. Chaque projet a sa documentation complète dans son repository GitHub avec guides de démarrage rapide.*
 </details>
 
 <details>
@@ -338,15 +336,15 @@ A: *Ouvrez une issue avec détails (screenshots si possible). Fix sous 48h si cr
 </details>
 
 <details>
-<summary><b>Q: Comment démarrer ?</b></summary>
+<summary><b>Q: Comment sont organisés les projets ?</b></summary>
 
-A: *Consultez la section [Projets Phares](#-projets-phares) ci-dessus pour découvrir les projets et leurs documentations.*
+A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture](#-architecture-écosystème) pour plus de détails.*
 </details>
 
 <details>
-<summary><b>Q: Quel est le projet phare ?</b></summary>
+<summary><b>Q: Quelles technologies sont utilisées ?</b></summary>
 
-A: *[BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim) — Robot émotionnel avec 12 émotions et IA Vision. C'est le projet le plus avancé de l'écosystème.*
+A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#-stack-technique) complète.*
 </details>
 
 ---
