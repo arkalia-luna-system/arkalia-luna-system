@@ -12,7 +12,7 @@ Automatiser complètement la mise à jour de votre profil GitHub pour qu'il refl
 
 ```bash
 cd /Volumes/T7/github-profile-arkalia
-./update.sh
+./scripts/update-all.sh
 ```
 
 **Ce que ça fait :**
@@ -169,7 +169,7 @@ chmod +x update-all.sh
 
 1. Créez le projet sur GitHub
 2. Clonez-le localement
-3. Exécutez `./update.sh`
+3. Exécutez `./scripts/update-all.sh`
 4. Le nouveau projet apparaît automatiquement dans `projects-data.json`
 5. Mettez à jour votre README avec les nouvelles données
 
@@ -180,7 +180,7 @@ chmod +x update-all.sh
 Si vous déplacez un projet (ex: de T7 vers Desktop) :
 
 1. Le script le trouve automatiquement grâce à la recherche intelligente
-2. Exécutez `./update.sh` pour mettre à jour les chemins
+2. Exécutez `./scripts/update-all.sh` pour mettre à jour les chemins
 3. Les données sont automatiquement synchronisées
 
 ---
@@ -266,7 +266,7 @@ Modifiez `update-profile.py` pour :
 ### **Données Obsolètes**
 
 1. Supprimez `projects-data.json`
-2. Ré-exécutez `./update.sh`
+2. Ré-exécutez `./scripts/update-all.sh`
 3. Vérifiez la date de génération dans le JSON
 
 ---
@@ -301,7 +301,7 @@ Créez `.git/hooks/pre-commit` :
 #!/bin/bash
 # Met à jour les données avant chaque commit
 cd /Volumes/T7/github-profile-arkalia
-./update.sh
+./scripts/update-all.sh
 git add config/projects-data.json README.md
 ```
 

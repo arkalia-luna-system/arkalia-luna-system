@@ -30,7 +30,7 @@
 
 ### **Méthode 2 : Script Automatique** 
 1. **Modifie** : `/Volumes/T7/github-profile-arkalia/README.md` (ce fichier local)
-2. **Lance** : `./sync-to-github.sh` (script que j'ai créé)
+2. **Lance** : `./scripts/update-all.sh` puis `git add . && git commit -m "update" && git push`
 3. **C'est tout !**
 
 ## 📁 **Ton dossier local :**
@@ -38,7 +38,7 @@
 /Volumes/T7/github-profile-arkalia/
 ├── README.md              # TON PROFIL (à modifier)
 ├── INSTRUCTIONS-SIMPLE.md  # Ce guide
-├── sync-to-github.sh      # Script automatique
+├── scripts/update-all.sh  # Script automatique
 └── CONTRIBUTING.md        # Fichier pour GitHub
 ```
 

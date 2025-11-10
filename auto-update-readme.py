@@ -245,7 +245,7 @@ def main():
 
     if not data_file.exists():
         print(f"❌ Fichier non trouvé : {data_file}")
-        print("💡 Exécutez d'abord : ./update.sh")
+        print("💡 Exécutez d'abord : ./scripts/update-all.sh")
         return 1
 
     if not readme_path.exists():

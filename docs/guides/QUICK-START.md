@@ -14,7 +14,7 @@
 
 ```bash
 # Option 1: Script shell (le plus simple)
-./update.sh
+./scripts/update-all.sh
 
 # Option 2: Python direct
 python3 update-profile.py
@@ -39,7 +39,7 @@ Un fichier `projects-data.json` avec :
 
 ```bash
 # 1. Mettre à jour la liste
-./update.sh
+./scripts/update-all.sh
 
 # 2. Vérifier les résultats
 cat projects-data.json
@@ -51,13 +51,13 @@ cat projects-data.json
 
 ```bash
 # Mode test (ne modifie rien)
-./update.sh --dry-run
+./scripts/update-all.sh --dry-run
 
 # Mode verbeux (voir tous les détails)
-./update.sh --verbose
+./scripts/update-all.sh --verbose
 
 # Chemin personnalisé
-./update.sh --base-path /autre/chemin
+./scripts/update-all.sh --base-path /autre/chemin
 ```
 
 ## 💡 Astuce Pro
@@ -65,7 +65,7 @@ cat projects-data.json
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_favicon_32x32.png" width="18" style="vertical-align: middle; margin: 0 5px; opacity: 0.7; border-radius: 4px;" /> Ajoutez dans votre `~/.zshrc` :
 
 ```bash
-alias update-profile='cd /Volumes/T7/github-profile-arkalia && ./update.sh'
+alias update-profile='cd /Volumes/T7/github-profile-arkalia && ./scripts/update-all.sh'
 ```
 
 Puis utilisez simplement :
@@ -79,7 +79,7 @@ update-profile
 
 - **"requests non installé"** → `pip3 install requests`
 - **"Aucun projet trouvé"** → Vérifiez que vos projets sont dans `/Volumes/T7` ou utilisez `--base-path`
-- **"Permission denied"** → `chmod +x update.sh`
+- **"Permission denied"** → `chmod +x scripts/update-all.sh`
 
 ---
 
