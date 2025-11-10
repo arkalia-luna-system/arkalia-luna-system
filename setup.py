@@ -52,4 +52,3 @@ setup(
     ],
     keywords="github profile automation readme arkalia",
 )
-

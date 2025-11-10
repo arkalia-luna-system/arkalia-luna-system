@@ -53,16 +53,16 @@ class ProfessionalTransformer:
         """Transforme les URLs GitHub Stats vers thème BBIA (couleurs officielles)"""
         # Remplace tokyonight par dark avec couleurs BBIA Blue (#008181)
         patterns = [
-            (r'theme=tokyonight', 'theme=dark'),
-            (r'theme=tokyo-night', 'theme=dark'),
-            (r'title_color=58A6FF', f'title_color={self.theme_config["title_color"]}'),
-            (r'icon_color=58A6FF', f'icon_color={self.theme_config["icon_color"]}'),
-            (r'ring=58A6FF', f'ring={self.theme_config["ring_color"]}'),
-            (r'fire=58A6FF', f'fire={self.theme_config["fire_color"]}'),
-            (r'currStreakLabel=58A6FF', f'currStreakLabel={self.theme_config["fire_color"]}'),
-            (r'color=58A6FF', f'color={self.theme_config["line_color"]}'),
-            (r'line=58A6FF', f'line={self.theme_config["line_color"]}'),
-            (r'point=58A6FF', f'point={self.theme_config["point_color"]}'),
+            (r"theme=tokyonight", "theme=dark"),
+            (r"theme=tokyo-night", "theme=dark"),
+            (r"title_color=58A6FF", f'title_color={self.theme_config["title_color"]}'),
+            (r"icon_color=58A6FF", f'icon_color={self.theme_config["icon_color"]}'),
+            (r"ring=58A6FF", f'ring={self.theme_config["ring_color"]}'),
+            (r"fire=58A6FF", f'fire={self.theme_config["fire_color"]}'),
+            (r"currStreakLabel=58A6FF", f'currStreakLabel={self.theme_config["fire_color"]}'),
+            (r"color=58A6FF", f'color={self.theme_config["line_color"]}'),
+            (r"line=58A6FF", f'line={self.theme_config["line_color"]}'),
+            (r"point=58A6FF", f'point={self.theme_config["point_color"]}'),
         ]
 
         for pattern, replacement in patterns:
@@ -74,14 +74,22 @@ class ProfessionalTransformer:
         """Transforme les badges avec les couleurs BBIA officielles"""
         # Remplace les badges avec les couleurs BBIA Blue (#008181)
         badge_replacements = [
-            (r'badge/Organization-Arkalia%20Luna%20System-blue', 
-             f'badge/Organization-Arkalia%20Luna%20System-{self.badge_colors["organization"]}'),
-            (r'badge/Stack-Python.*?-blue', 
-             f'badge/Stack-Python%20%7C%20Flask%20%7C%20FastAPI%20%7C%20Docker-{self.badge_colors["stack"]}'),
-            (r'badge/AI-Cognitive.*?-purple', 
-             f'badge/AI-Cognitive%20Engines%20%7C%20Emotions%20%7C%20LUNA-{self.badge_colors["dev"]}'),
-            (r'badge/VERSION-([^-]+)-0078D4',  # Badge BBIA Version existant
-             f'badge/VERSION-\\1-{self.badge_colors["version"]}'),
+            (
+                r"badge/Organization-Arkalia%20Luna%20System-blue",
+                f'badge/Organization-Arkalia%20Luna%20System-{self.badge_colors["organization"]}',
+            ),
+            (
+                r"badge/Stack-Python.*?-blue",
+                f'badge/Stack-Python%20%7C%20Flask%20%7C%20FastAPI%20%7C%20Docker-{self.badge_colors["stack"]}',
+            ),
+            (
+                r"badge/AI-Cognitive.*?-purple",
+                f'badge/AI-Cognitive%20Engines%20%7C%20Emotions%20%7C%20LUNA-{self.badge_colors["dev"]}',
+            ),
+            (
+                r"badge/VERSION-([^-]+)-0078D4",  # Badge BBIA Version existant
+                f'badge/VERSION-\\1-{self.badge_colors["version"]}',
+            ),
         ]
 
         for pattern, replacement in badge_replacements:
@@ -93,37 +101,37 @@ class ProfessionalTransformer:
         """Réduit les emojis inline excessifs"""
         # Garde les emojis dans les titres et premières colonnes
         # Supprime les emojis inline répétitifs dans le texte
-        
+
         # Pattern: emoji en fin de ligne après texte
         content = re.sub(
             r'<img src="https://raw\.githubusercontent\.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/[^"]+" width="(?:14|16|18|20)"[^>]*>\s*\n',
-            '\n',
-            content
+            "\n",
+            content,
         )
-        
+
         # Garde les emojis dans les tableaux (première colonne)
         # Garde les emojis dans les titres
-        
+
         return content
 
     def reorganize_sections(self, content: str) -> str:
         """Réorganise les sections pour structure professionnelle"""
         # L'ordre actuel est déjà bon, on va juste améliorer
-        
+
         # Supprime les sections redondantes si nécessaire
         # Améliore les séparateurs
-        
+
         return content
 
     def improve_hero_section(self, content: str) -> str:
         """Améliore la section hero (en-tête)"""
         # Simplifie l'en-tête
         # Centre mieux les éléments
-        
+
         # Remplace les 2 logos par un seul centré plus grand
         hero_pattern = r'<div align="center">\s*<img src="[^"]+"[^>]+width="120"[^>]+>.*?</div>'
-        
-        new_hero = '''<div align="center">
+
+        new_hero = """<div align="center">
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="140" height="140" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(0, 129, 129, 0.3);" title="Arkalia Luna System - Écosystème IA & Robotique">
 
@@ -133,12 +141,12 @@ class ProfessionalTransformer:
 
 **`"Apprendre vite, coder mieux, partager tout."`** 🚀
 
-</div>'''
-        
+</div>"""
+
         # Remplace si le pattern existe
         if re.search(hero_pattern, content, re.DOTALL):
             content = re.sub(hero_pattern, new_hero, content, flags=re.DOTALL)
-        
+
         return content
 
     def transform_readme(self, readme_path: Path, dry_run: bool = False) -> Tuple[str, Dict]:
@@ -256,7 +264,9 @@ def main():
         description="🌙 Transformateur de Profil GitHub avec Couleurs BBIA Branding"
     )
     parser.add_argument("--dry-run", action="store_true", help="Mode test (ne modifie rien)")
-    parser.add_argument("--backup", action="store_true", help="Crée une sauvegarde avant modification")
+    parser.add_argument(
+        "--backup", action="store_true", help="Crée une sauvegarde avant modification"
+    )
     parser.add_argument(
         "--readme",
         type=str,
@@ -282,7 +292,9 @@ def main():
 
     # Sauvegarde si demandé
     if args.backup and not args.dry_run:
-        backup_path = readme_path.with_suffix(f".backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
+        backup_path = readme_path.with_suffix(
+            f".backup.{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+        )
         shutil.copy2(readme_path, backup_path)
         print(f"💾 Sauvegarde créée : {backup_path}")
         print()
@@ -302,7 +314,7 @@ def main():
 
         # Crée la structure .github/
         print("📁 Création de la structure .github/...")
-        structure = transformer.create_github_structure(script_dir, dry_run=args.dry_run)
+        transformer.create_github_structure(script_dir, dry_run=args.dry_run)
         print()
 
         if args.dry_run:
@@ -328,4 +340,3 @@ if __name__ == "__main__":
     import sys
 
     sys.exit(main())
-

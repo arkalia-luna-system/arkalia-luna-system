@@ -76,7 +76,6 @@ def optimize_image_tags(content: str) -> Tuple[str, int]:
     small_img_pattern = r'(<img[^>]*width="(?:14|16|18|20|24|30)"[^>]*)\s*style="([^"]*)"([^>]*>)'
 
     def simplify_small_img(match):
-        full_tag = match.group(0)
         before_style = match.group(1)
         style_content = match.group(2)
         after_style = match.group(3)

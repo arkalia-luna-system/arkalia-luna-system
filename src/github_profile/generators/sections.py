@@ -211,7 +211,7 @@ def main():
 
     # Trouve la racine du projet
     script_dir = Path(__file__).parent.parent.parent
-    
+
     # Gère les chemins relatifs et absolus
     if args.data == "projects-data.json":
         data_file = script_dir / "config" / "projects-data.json"
@@ -219,7 +219,7 @@ def main():
         data_file = Path(args.data)
     else:
         data_file = script_dir / args.data
-    
+
     if args.output == "README_SECTIONS.md":
         output_file = script_dir / "docs" / "README_SECTIONS.md"
     elif Path(args.output).is_absolute():
