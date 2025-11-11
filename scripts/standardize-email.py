@@ -149,6 +149,11 @@ def main():
         default=".",
         help="Chemin du repository (défaut: répertoire courant)"
     )
+    parser.add_argument(
+        "--yes",
+        action="store_true",
+        help="Répondre automatiquement 'oui' à toutes les questions"
+    )
     
     args = parser.parse_args()
     
@@ -168,7 +173,7 @@ def main():
         print("")
     
     # Demander confirmation si pas dry-run
-    if not args.dry_run:
+    if not args.dry_run and not args.yes:
         print("⚠️  Ce script va :")
         print("   1. Remplacer toutes les adresses email dans les fichiers")
         print("   2. Configurer git user.email localement")

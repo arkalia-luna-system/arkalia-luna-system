@@ -119,11 +119,13 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 **Problème :** Email non uniformisé, impacte la cohérence professionnelle
 
 **Actions :**
-- [ ] Utiliser script `scripts/standardize-email.py` sur chaque projet
-- [ ] Remplacer toutes les adresses email par `arkalia.luna.system@gmail.com`
-- [ ] Vérifier README.md, CONTRIBUTING.md, LICENSE, setup.py, pyproject.toml
-- [ ] Configurer git user.email localement sur chaque repo
+- [x] Utiliser script `scripts/standardize-email.py` sur chaque projet
+- [x] Remplacer toutes les adresses email par `arkalia.luna.system@gmail.com`
+- [x] Vérifier README.md, CONTRIBUTING.md, LICENSE, setup.py, pyproject.toml
+- [x] Configurer git user.email localement sur chaque repo
 - [ ] (Optionnel) Modifier historique Git avec `git filter-branch` si nécessaire
+
+**✅ TERMINÉ :** 11/11 projets standardisés avec succès
 
 **Fichiers à vérifier :**
 - README.md
@@ -148,7 +150,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 **Note :** Pour modifier l'historique Git (anciens commits) :
 ```bash
 git filter-branch --env-filter '
-  OLD_EMAIL="ancien@email.com"
+  OLD_EMAIL="arkalia.luna.system@gmail.com"
   CORRECT_NAME="Athalia Siwek"
   CORRECT_EMAIL="arkalia.luna.system@gmail.com"
   if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
