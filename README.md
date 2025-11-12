@@ -136,7 +136,7 @@
 | **[Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG • 8 styles × 5 variantes | FastAPI + Docker | ✅ v2.0.0 |
 | **[Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif cybersécurité | Flask + IA | ✅ Production |
 | **[Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 | Flutter | 🚧 Beta |
-| **[Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Santé IA éthique • RGPD | FastAPI + Flutter | ✅ Production |
+| **[Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Tracking douleur • Bien-être mental • 13 connecteurs • RGPD | FastAPI + Flutter | ✅ Production |
 | **[Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter FastAPI • CI/CD | FastAPI | ✅ Template |
 | **[Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps • 62 cmd sécurisées | FastAPI | 🚀 Enterprise |
 | **[Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Analytics centralisées | Python + CLI | ✅ Production |
