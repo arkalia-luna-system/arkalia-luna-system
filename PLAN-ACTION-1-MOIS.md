@@ -76,21 +76,22 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 #### 3. **Améliorer Luna Pro (Statut Enterprise non justifié)** ⚡
 **Impact :** HIGH | **Temps :** 8-10h | **Projet :** arkalia-luna-pro
 
-**Problèmes identifiés (audit 2025-01-27) :**
-- ⚠️ Documentation existe (72 fichiers) mais manque d'éléments visuels
-- ✅ Statut "Enterprise" exagéré (6 limitations documentées : couverture 59%, mémoire, métriques basiques, non recommandé pour production critique)
-- ✅ Aucun screenshot dashboard (Grafana, Docker, Prometheus)
-- ⚠️ Badge coverage custom existe mais pas badge Codecov officiel
-- ⚠️ README complet (340 lignes) mais peut être amélioré avec visuels
-- ⚠️ Cas d'usage métier existent dans `reports/` mais pas dans doc principale
-- ⚠️ **6 containers actifs** (pas 7 - generative-ai est commenté), non documentés dans README/docs
+**Problèmes identifiés (audit V2 rigoureux 2025-01-27) :**
+- ⚠️ Documentation existe (72 fichiers .md) mais manque d'éléments visuels (1 seul PNG)
+- ✅ Statut "Enterprise" exagéré (126 occurrences, 6 limitations documentées : couverture 59%, mémoire, métriques basiques, non recommandé pour production critique)
+- ✅ Aucun screenshot dashboard (Grafana, Docker, Prometheus) - 0 screenshot trouvé
+- ⚠️ Badge coverage custom existe mais pas badge Codecov officiel (0 mention dans README)
+- ⚠️ README complet (339 lignes) mais peut être amélioré avec visuels
+- ⚠️ Cas d'usage métier existent dans `reports/` mais 0 mention dans README et docs/getting-started/
+- ✅ **ERREUR CRITIQUE** : Badge README dit "7 containers" mais **5 containers actifs seulement** (generative-ai commenté), non documentés dans README/docs
 
 **Actions prioritaires :**
 
 **🔴 CRITIQUE (Impact crédibilité) :**
+- [ ] **Corriger badge README "7 containers" → "5 containers actifs"** (5 min) - **ERREUR CRITIQUE DÉTECTÉE**
 - [ ] Corriger statut "Enterprise" → "Production-Ready" ou "Enterprise-Ready" (30 min)
 - [ ] Ajouter badge Codecov officiel dans README (15 min)
-- [ ] Corriger mention "7 containers" → "6 containers actifs" + documenter chaque container (1h)
+- [ ] Documenter les 5 containers actifs : créer section "Architecture des Containers" dans README (1h)
 
 **🟠 HAUTE PRIORITÉ (Impact présentation) :**
 - [ ] Ajouter screenshots dashboard Grafana (8 dashboards) + Docker orchestration (2h)
@@ -101,12 +102,13 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - [ ] Créer `docs/architecture/containers.md` avec diagramme d'interactions (1h)
 
 **Vérification :**
+- [ ] Badge "7 containers" corrigé → "5 containers actifs"
 - [ ] Statut corrigé et justifié
 - [ ] Badge Codecov officiel présent
-- [ ] 6 containers documentés dans README
-- [ ] Screenshots dashboard ajoutés
-- [ ] Cas d'usage métier dans doc principale
-- [ ] Diagramme architecture visuel dans README
+- [ ] 5 containers documentés dans README (arkalia-api, arkalia-assistantia, reflexia, arkalia-sandozia, cognitive)
+- [ ] Screenshots dashboard ajoutés (Grafana, Docker, Prometheus)
+- [ ] Cas d'usage métier dans doc principale (déplacés de reports/ vers docs/getting-started/)
+- [ ] Diagramme architecture visuel dans README (Mermaid)
 
 ---
 
