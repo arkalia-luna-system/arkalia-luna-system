@@ -286,24 +286,25 @@ pytest --collect-only -q
 
 ### 🔴 **PRIORITÉ CRITIQUE (Correction immédiate)**
 
-1. **Mettre à jour README.md de BBIA** (5 min)
-   - "1334 tests" → "1362 tests automatisés"
-   - Badge tests : mettre à jour si nécessaire
-   - Vérifier STATUT_PROJET.md pour cohérence
+1. ✅ **Mettre à jour README.md de BBIA** (5 min) — **TERMINÉ**
+   - "1334 tests" → "1362 tests automatisés" ✅
+   - Badge tests : mis à jour ✅
 
 ### 🔴 **PRIORITÉ HAUTE (Impact UX)**
 
-2. **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h)
-   - Vérifie prérequis
-   - Installe dépendances
-   - Lance checks
-   - Démarre dashboard
-   - Affiche instructions
+2. ✅ **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h) — **TERMINÉ**
+   - Script créé avec 0 erreurs, 0 warnings ✅
+   - Options : `--skip-install`, `--skip-dashboard`, `--help` ✅
+   - Documentation mise à jour (README + GUIDE_DEBUTANT) ✅
+   - Commits : `b8d533f1` + `c0444ca6` ✅
 
-3. **Ajouter panneau troubleshooting interactif** dans dashboard (3h)
-   - Détection automatique problèmes
-   - Solutions interactives
-   - Liens vers guides
+3. ✅ **Ajouter panneau troubleshooting interactif** dans dashboard (3h) — **TERMINÉ**
+   - Module `troubleshooting.py` créé ✅
+   - Détection automatique : Python, dépendances, caméra, audio, réseau, MuJoCo, ports ✅
+   - Endpoints API + panneau HTML interactif ✅
+   - 5 tests ajoutés ✅
+   - Documentation mise à jour ✅
+   - Commits : `fd91f6e3` + `58df89b9` ✅
 
 ### 🟠 **PRIORITÉ MOYENNE (Polish)**
 
@@ -322,11 +323,11 @@ pytest --collect-only -q
 - Sécurité (Bandit + pip-audit)
 - Onboarding (guide débutant complet)
 
-**BBIA n'est PAS encore "ultra user-friendly"** sur :
-- Script all-in-one (manquant)
-- Panneau troubleshooting interactif (manquant)
+**BBIA est maintenant "ultra user-friendly"** ✅ :
+- ✅ Script all-in-one créé (`reachy-mini-sim-starter.sh`)
+- ✅ Panneau troubleshooting interactif fonctionnel
 
-**Recommandation** : Les 2 points manquants sont faciles à ajouter (5h total) et transformeront BBIA en projet "ultra user-friendly" prêt pour contributions Reachy officiel.
+**Statut** : Les 2 points critiques ont été ajoutés (5h total) et BBIA est maintenant un projet "ultra user-friendly" prêt pour contributions Reachy officiel.
 
 ---
 
