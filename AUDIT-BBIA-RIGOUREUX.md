@@ -308,9 +308,9 @@ pytest --collect-only -q
 
 ### 🟠 **PRIORITÉ MOYENNE (Polish)**
 
-3. **Améliorer guides ReSpeaker** (si mentionnés)
-4. **Ajouter GIF/screenshots** dans README pour montrer le projet "en action"
-5. **Créer section "5 min pour tester"** avec commandes exactes
+3. ✅ **Améliorer guides ReSpeaker** — **TERMINÉ** (guide dédié `RESPEAKER_SETUP.md` créé avec scripts de test)
+4. ✅ **Ajouter GIF/screenshots** — **TERMINÉ** (robot_animation.gif référencé dans README)
+5. ✅ **Créer section "5 min pour tester"** — **TERMINÉ** (présent dans README + GUIDE_DEBUTANT)
 
 ---
 
