@@ -294,7 +294,9 @@ git filter-branch --env-filter '
 - Documentation technique déplacée dans `<details>` repliable
 - Structure améliorée avec démarrage rapide simplifié
 
-**✅ Toutes les tâches générales ARIA terminées :**
+**✅ Toutes les tâches ARIA terminées (100%) :**
+
+**Tâches critiques et importantes :**
 - Tâche #1 : Badges Coverage ✅ (Codecov configuré, badge ajouté)
 - Tâche #21 : Licences ✅ (LICENSE MIT créé, badge ajouté)
 - Tâche #22 : Sécurité ✅ (secrets gérés via .env, .gitignore complet)
@@ -303,6 +305,11 @@ git filter-branch --env-filter '
 - Tâche #26 : Quickstart 5 min ✅ (section "5 Minutes pour Tester" ajoutée)
 - Tâche #27 : Issues & Public Feedback ✅ (section "Bon Point de Départ" ajoutée)
 - Tâche #31 : Accessibilité ✅ (dark mode vérifié et fonctionnel)
+
+**Tâches optionnelles complétées :**
+- Tâche #16 : Git Conventions ✅ (CONTRIBUTING.md avec conventions, workflow branches)
+- Tâche #17 : Tableau Compatibilité ✅ (tableaux Python/OS/Navigateurs/Connecteurs dans README)
+- Tâche #28 : Activity Graph ✅ (note "Mis à jour régulièrement" dans README)
 
 **Vérification :**
 - [x] Résumé accessible grand public
@@ -371,6 +378,8 @@ git filter-branch --env-filter '
 - [ ] Documenter processus PR review
 - [ ] Ajouter CONTRIBUTING.md si manquant
 
+**✅ ARIA TERMINÉ :** CONTRIBUTING.md avec conventions, workflow branches, exemples
+
 **Vérification :**
 - [ ] Conventions documentées
 - [ ] CONTRIBUTING.md présent
@@ -384,6 +393,8 @@ git filter-branch --env-filter '
 - [ ] Ajouter tableau compatibilité Python/OS
 - [ ] Documenter versions supportées
 - [ ] Ajouter badges de compatibilité
+
+**✅ ARIA TERMINÉ :** Tableaux compatibilité Python/OS/Navigateurs/Connecteurs dans README
 
 **Vérification :**
 - [ ] Tableaux ajoutés
@@ -664,6 +675,8 @@ python demo.py
 - [ ] Éviter longues périodes d'inactivité
 - [ ] **Indiquer dans README : "updated weekly" ou "last update: date"**
 - [ ] **Mentionner mises à jour régulières pour montrer engagement**
+
+**✅ ARIA TERMINÉ :** Note "Mis à jour régulièrement" en haut du README
 
 **Stratégie :**
 - Petits commits réguliers plutôt que gros commits rares

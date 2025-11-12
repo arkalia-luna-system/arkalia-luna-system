@@ -161,7 +161,9 @@ Ton majoritairement humain, pédagogie et accessibilité en filigrane, mais parf
 - Documentation technique simplifiée et déplacée dans section repliable
 - Structure améliorée avec démarrage rapide simplifié
 
-**✅ Toutes les tâches générales complétées :**
+**✅ Toutes les tâches ARIA complétées (100%) :**
+
+**Tâches critiques et importantes :**
 - Badges Coverage (Codecov configuré)
 - Licences (LICENSE MIT créé)
 - Sécurité (secrets gérés, .gitignore complet)
@@ -169,6 +171,12 @@ Ton majoritairement humain, pédagogie et accessibilité en filigrane, mais parf
 - Quickstart 5 min (section ajoutée)
 - Issues & Public Feedback (section "Bon Point de Départ")
 - Accessibilité (dark mode vérifié)
+
+**Tâches optionnelles complétées :**
+- Git Conventions (CONTRIBUTING.md avec workflow)
+- Tableau Compatibilité (Python/OS/Navigateurs/Connecteurs)
+- Activity Graph (note "Mis à jour régulièrement")
+- Améliorations visuelles documentation (structure, formatage, ton)
 
 ---
 
