@@ -280,15 +280,24 @@ git filter-branch --env-filter '
 **Impact :** MEDIUM | **Temps :** 3h | **Projet :** Arkalia-aria
 
 **Actions :**
-- [ ] Ajouter résumé pédagogique (non-technique)
-- [ ] Documenter preuves d'usage réel (cas d'usage santé)
-- [ ] Ajouter témoignages ou exemples concrets
-- [ ] Simplifier documentation technique
+- [x] Ajouter résumé pédagogique (non-technique)
+- [x] Documenter preuves d'usage réel (cas d'usage santé)
+- [x] Ajouter témoignages ou exemples concrets
+- [x] Simplifier documentation technique
+
+**✅ TERMINÉ :** README réécrit avec résumé accessible, cas d'usage concrets, documentation technique simplifiée
+
+**Améliorations apportées :**
+- Section "Pourquoi ARIA ?" en langage simple
+- Impact réel documenté (douleur chronique, bien-être mental)
+- 3 cas d'usage concrets (migraines, consultation médicale, bien-être global)
+- Documentation technique déplacée dans `<details>` repliable
+- Structure améliorée avec démarrage rapide simplifié
 
 **Vérification :**
-- [ ] Résumé accessible grand public
-- [ ] Preuves d'usage documentées
-- [ ] Documentation équilibrée
+- [x] Résumé accessible grand public
+- [x] Preuves d'usage documentées
+- [x] Documentation équilibrée
 
 ---
 
@@ -837,7 +846,7 @@ python demo.py
 ### **Semaine 3 (Jours 15-21) : POLISH**
 - ✅ Dashboard Qualité (4h)
 - ✅ Luna Logo Docs (2h)
-- ✅ ARIA Résumé (3h)
+- ✅ ARIA Résumé (3h) ✅ **TERMINÉ**
 - ✅ CIA Roadmap (2h)
 - ✅ Base Template (2h)
 - ✅ Athalia DevOps (3h)
