@@ -14,7 +14,7 @@
 |------------|--------------|--------|
 | **Onboarding** | ✅ Guide débutant + scripts onboarding | **CONFIRMÉ** |
 | **Documentation** | ✅ 128 fichiers .md dans docs/ | **CONFIRMÉ** |
-| **Tests** | ✅ 1334 tests mentionnés, CI configuré | **CONFIRMÉ** |
+| **Tests** | ⚠️ 1334 mentionnés (obsolète), 1362 réels | **À CORRIGER** |
 | **Fallback caméra** | ✅ OpenCV fallback implémenté | **CONFIRMÉ** |
 | **Quickstart** | ✅ Section Quick Start dans README | **CONFIRMÉ** |
 | **Patterns sécurité** | ✅ Bandit + pip-audit en CI | **CONFIRMÉ** |
@@ -81,27 +81,29 @@ find docs -name "*.md" | wc -l
 
 ---
 
-### 3. ✅ **Tests**
+### 3. ⚠️ **Tests**
 
 **Affirmation** : "1334 tests automatisés"
 
 **Vérification** :
 ```bash
 # Tests mentionnés dans README
-✅ "🧪 1334 tests automatisés (unitaires, intégration, E2E)"
-✅ Badge tests dans README : [![Tests](https://img.shields.io/badge/tests-1334-brightgreen.svg)]
+⚠️ "🧪 1334 tests automatisés (unitaires, intégration, E2E)" — OBSOLÈTE
+⚠️ Badge tests dans README : [![Tests](https://img.shields.io/badge/tests-1334-brightgreen.svg)] — OBSOLÈTE
 
-# CI/CD
-✅ .github/workflows/ci.yml configuré
-✅ Tests automatisés en CI
-✅ Coverage mentionné (~64%)
+# Vérification réelle (Cursor dans BBIA)
+pytest --collect-only -q
+→ 1362/1418 tests collected (56 deselected) ✅
 
-# Structure tests
-find . -name "*.py" -path "*/tests/*" | wc -l
-→ 10347 fichiers (inclut venv, à vérifier)
+# Incohérence détectée
+- README.md mentionne : "1334 tests automatisés"
+- Réalité actuelle : 1362 tests collectés
+- STATUT_PROJET.md : "1362 tests sélectionnés"
 ```
 
-**Verdict** : ✅ **CONFIRMÉ** — Tests automatisés en place, CI configuré, coverage suivi.
+**Verdict** : ⚠️ **PARTIELLEMENT OBSOLÈTE** — Le README indique 1334, mais il y en a 1362. **Mettre à jour le README.**
+
+**Correction nécessaire** : Mettre à jour README.md : "1334" → "1362 tests"
 
 ---
 
@@ -260,15 +262,15 @@ find . -name "*.py" -path "*/tests/*" | wc -l
 
 ---
 
-## ✅ VERDICT FINAL
+## ✅ VERDICT FINAL (CORRIGÉ APRÈS VÉRIFICATION CURSOR)
 
-**Les affirmations sont GLOBALEMENT JUSTES** avec ces nuances :
+**Les affirmations sont GLOBALEMENT JUSTES** avec une correction importante :
 
-### ✅ **Confirmé (6/8 points)**
+### ✅ **Confirmé (5/8 points)**
 
 1. ✅ Onboarding — Guide débutant + scripts
 2. ✅ Documentation — 128 fichiers .md
-3. ✅ Tests — 1334 tests automatisés
+3. ⚠️ Tests — 1362 tests réels (README dit 1334, à corriger)
 4. ✅ Fallback caméra — 3 niveaux implémentés
 5. ✅ Quickstart — Section dans README
 6. ✅ Patterns sécurité — Bandit + pip-audit + validation
@@ -282,16 +284,23 @@ find . -name "*.py" -path "*/tests/*" | wc -l
 
 ## 🎯 RECOMMANDATIONS POUR ATTEINDRE "ULTRA USER-FRIENDLY"
 
+### 🔴 **PRIORITÉ CRITIQUE (Correction immédiate)**
+
+1. **Mettre à jour README.md de BBIA** (5 min)
+   - "1334 tests" → "1362 tests automatisés"
+   - Badge tests : mettre à jour si nécessaire
+   - Vérifier STATUT_PROJET.md pour cohérence
+
 ### 🔴 **PRIORITÉ HAUTE (Impact UX)**
 
-1. **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h)
+2. **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h)
    - Vérifie prérequis
    - Installe dépendances
    - Lance checks
    - Démarre dashboard
    - Affiche instructions
 
-2. **Ajouter panneau troubleshooting interactif** dans dashboard (3h)
+3. **Ajouter panneau troubleshooting interactif** dans dashboard (3h)
    - Détection automatique problèmes
    - Solutions interactives
    - Liens vers guides
@@ -308,7 +317,7 @@ find . -name "*.py" -path "*/tests/*" | wc -l
 
 **BBIA est VRAIMENT "un cran au-dessus du niveau communautaire moyen"** sur :
 - Documentation (128 fichiers)
-- Tests (1334 tests)
+- Tests (1362 tests réels, README à mettre à jour)
 - Fallback caméra (3 niveaux)
 - Sécurité (Bandit + pip-audit)
 - Onboarding (guide débutant complet)
@@ -321,7 +330,35 @@ find . -name "*.py" -path "*/tests/*" | wc -l
 
 ---
 
+---
+
+## 📝 CORRECTIONS APRÈS VÉRIFICATION CURSOR (BBIA)
+
+**Date correction** : 2025-01-27  
+**Source** : Vérification Cursor dans projet BBIA
+
+### Correction #1 : Nombre de tests
+
+**Audit initial** : "1334 tests automatisés"  
+**Vérification Cursor** : `pytest --collect-only -q` → **1362/1418 tests collectés**
+
+**Correction** : Le README de BBIA mentionne 1334, mais il y en a réellement 1362. **Mettre à jour README.md de BBIA.**
+
+### Vérifications supplémentaires Cursor
+
+- ✅ Documentation : 128 fichiers MD confirmés
+- ✅ Onboarding : Guide débutant + scripts confirmés
+- ✅ Fallback caméra : 3 niveaux confirmés dans code
+- ✅ Quickstart : Section README confirmée
+- ✅ Sécurité : Bandit + pip-audit en CI confirmés
+- ⚠️ Script all-in-one : Confirmé partiel (menu interactif, pas automatique)
+- ⚠️ Dashboard troubleshooting : Confirmé partiel (guides statiques, pas interactif)
+
+**Verdict final Cursor** : L'audit est globalement juste avec une nuance (tests 1334 → 1362).
+
+---
+
 **Rapport généré le** : 2025-01-27  
-**Version** : V1 (Rigoureuse avec vérifications précises)  
-**Vérifié par** : Audit systématique avec commandes précises et lecture code
+**Version** : V1.1 (Corrigée après vérification Cursor)  
+**Vérifié par** : Audit systématique + Vérification Cursor dans projet BBIA
 
