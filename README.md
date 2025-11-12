@@ -140,7 +140,7 @@
 | **[Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter FastAPI • CI/CD | FastAPI | ✅ Template |
 | **[Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps • 62 cmd sécurisées | FastAPI | 🚀 Enterprise |
 | **[Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Analytics centralisées | Python + CLI | ✅ Production |
-| **[Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Enterprise | Docker | 🏢 Enterprise |
+| **[Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Production-Ready • 5 containers • Monitoring | Docker | ✅ Production |
 
 <sub>**Note :** Tous les projets sont publics. Statuts : ✅ Production • 🚧 Beta • 🚀 Enterprise • ✅ Template</sub>
 
@@ -184,7 +184,7 @@ flowchart TB
 
  subgraph infra["🔧 Infrastructure"]
  ATHALIA["🔧 Athalia DevOps<br/>62 commandes<br/>Security"]
- LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>7 containers"]
+ LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>5 containers • Production-Ready"]
  end
 
  subgraph mobile["📱 Mobile & Santé"]
@@ -297,7 +297,7 @@ flowchart TB
 |:--------:|:------:|:-------|
 | **Couverture Tests** | ~64% | BBIA : 1334 tests, 95 modules |
 | **Temps Génération** | 0.03s | Luna Logo : génération SVG |
-| **Containers** | 7 | Luna Pro : orchestration complète |
+| **Containers** | 5 | Luna Pro : orchestration complète (5 actifs) |
 | **Connecteurs** | 13 | ARIA : intégrations santé |
 | **Commandes DevOps** | 62 | Athalia : pipeline sécurisé |
 | **Releases** | 12+ | Versions stables déployées |
