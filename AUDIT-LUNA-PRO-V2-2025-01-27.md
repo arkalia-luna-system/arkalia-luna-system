@@ -52,6 +52,13 @@
 - Dates uniformisées à "novembre 2025"
 - 16 scripts obsolètes supprimés
 
+**Phase 1-3 : Refactoring et optimisations (67% terminé) :**
+- Phase 1 : Corrections critiques ✅ **TERMINÉ** (doublons supprimés, configs consolidés, 12 imports migrés)
+- Phase 2 : Standardisation I/O ✅ **TERMINÉ** (fusion save_json/toml, 5 fichiers migrés, cache thread-safe)
+- Phase 3 : Unification logging ✅ **67% TERMINÉ** (47/70 fichiers migrés vers ark_logger, 23 restants)
+- Tests : 671 tests passent (59.25% couverture)
+- Qualité code : Mypy OK, Ruff OK, Black OK
+
 ---
 
 ## 📝 Corrections par Rapport au Premier Audit

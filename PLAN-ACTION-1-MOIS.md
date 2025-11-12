@@ -98,6 +98,11 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - [x] Documenter cas d'usage métier : déplacer de `reports/` vers `docs/getting-started/` + exemples concrets ✅ **TERMINÉ**
 - [x] Améliorer vue d'ensemble README : diagramme architecture visuel (Mermaid) + section "Cas d'usage" + section "Architecture Containers" ✅ **TERMINÉ**
 
+**🟡 MOYENNE PRIORITÉ (Amélioration continue) :**
+- [x] Phase 1 : Corrections critiques ✅ **TERMINÉ** (doublons supprimés, configs consolidés, 12 imports migrés)
+- [x] Phase 2 : Standardisation I/O ✅ **TERMINÉ** (fusion save_json/toml, 5 fichiers migrés, cache thread-safe)
+- [x] Phase 3 : Unification logging ✅ **67% TERMINÉ** (47/70 fichiers migrés vers ark_logger, 23 restants)
+
 **🟡 MOYENNE PRIORITÉ :**
 - [x] Créer `docs/architecture/containers.md` avec diagramme d'interactions ✅ **TERMINÉ**
 
@@ -114,6 +119,13 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - Toutes erreurs linting/types corrigées
 - Dates uniformisées à "novembre 2025"
 - 16 scripts obsolètes supprimés
+
+**Phase 1-3 : Refactoring et optimisations (67% terminé) :**
+- Phase 1 : Corrections critiques ✅ **TERMINÉ** (doublons supprimés, configs consolidés, 12 imports migrés)
+- Phase 2 : Standardisation I/O ✅ **TERMINÉ** (fusion save_json/toml, 5 fichiers migrés, cache thread-safe)
+- Phase 3 : Unification logging ✅ **67% TERMINÉ** (47/70 fichiers migrés vers ark_logger, 23 restants)
+- Tests : 671 tests passent (59.25% couverture)
+- Qualité code : Mypy OK, Ruff OK, Black OK
 
 **Vérification :**
 - [x] Badge "7 containers" corrigé → "5 containers actifs"
