@@ -110,7 +110,7 @@
 
 ### **Semaine 3 : POLISH** (~16h)
 - Dashboard qualité : 4h
-- Docs simplifiées : 9h
+- Docs simplifiées : 9h (✅ ARIA terminé)
 - Autres améliorations : 3h
 
 ### **Semaine 4 : FINITIONS** (~24h)
