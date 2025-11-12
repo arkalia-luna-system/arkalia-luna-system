@@ -74,26 +74,39 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 ---
 
 #### 3. **Améliorer Luna Pro (Statut Enterprise non justifié)** ⚡
-**Impact :** HIGH | **Temps :** 4-5h | **Projet :** arkalia-luna-pro
+**Impact :** HIGH | **Temps :** 8-10h | **Projet :** arkalia-luna-pro
 
-**Problèmes :**
-- Documentation manquante
-- Statut "Enterprise" sans preuves
-- Pas de screenshots/dashboard
-- Badge coverage manquant
+**Problèmes identifiés (audit 2025-01-27) :**
+- ⚠️ Documentation existe (72 fichiers) mais manque d'éléments visuels
+- ✅ Statut "Enterprise" exagéré (6 limitations documentées : couverture 59%, mémoire, métriques basiques, non recommandé pour production critique)
+- ✅ Aucun screenshot dashboard (Grafana, Docker, Prometheus)
+- ⚠️ Badge coverage custom existe mais pas badge Codecov officiel
+- ⚠️ README complet (340 lignes) mais peut être amélioré avec visuels
+- ⚠️ Cas d'usage métier existent dans `reports/` mais pas dans doc principale
+- ⚠️ **6 containers actifs** (pas 7 - generative-ai est commenté), non documentés dans README/docs
 
-**Actions :**
-- [ ] Compléter README avec vue d'ensemble claire
-- [ ] Ajouter screenshots du dashboard orchestration
-- [ ] Documenter l'usage concret (cas d'usage métier)
-- [ ] Ajouter badge coverage Codecov
-- [ ] Justifier le statut Enterprise ou le changer
-- [ ] Documenter les 7 containers et leur rôle
+**Actions prioritaires :**
+
+**🔴 CRITIQUE (Impact crédibilité) :**
+- [ ] Corriger statut "Enterprise" → "Production-Ready" ou "Enterprise-Ready" (30 min)
+- [ ] Ajouter badge Codecov officiel dans README (15 min)
+- [ ] Corriger mention "7 containers" → "6 containers actifs" + documenter chaque container (1h)
+
+**🟠 HAUTE PRIORITÉ (Impact présentation) :**
+- [ ] Ajouter screenshots dashboard Grafana (8 dashboards) + Docker orchestration (2h)
+- [ ] Documenter cas d'usage métier : déplacer de `reports/` vers `docs/getting-started/` + exemples concrets (2-3h)
+- [ ] Améliorer vue d'ensemble README : diagramme architecture visuel (Mermaid) + section "Cas d'usage" + section "Architecture Containers" (2h)
+
+**🟡 MOYENNE PRIORITÉ :**
+- [ ] Créer `docs/architecture/containers.md` avec diagramme d'interactions (1h)
 
 **Vérification :**
-- [ ] README complet et professionnel
-- [ ] Screenshots ajoutés
-- [ ] Statut justifié ou corrigé
+- [ ] Statut corrigé et justifié
+- [ ] Badge Codecov officiel présent
+- [ ] 6 containers documentés dans README
+- [ ] Screenshots dashboard ajoutés
+- [ ] Cas d'usage métier dans doc principale
+- [ ] Diagramme architecture visuel dans README
 
 ---
 
