@@ -311,6 +311,12 @@ git filter-branch --env-filter '
 - Tâche #17 : Tableau Compatibilité ✅ (tableaux Python/OS/Navigateurs/Connecteurs dans README)
 - Tâche #28 : Activity Graph ✅ (note "Mis à jour régulièrement" dans README)
 
+**Bonus - Nettoyage documentation :**
+- 56 fichiers macOS cachés supprimés
+- 12 fichiers obsolètes/redondants supprimés
+- Consolidation PROJECT_STATUS.md + PROJECT_SUMMARY.md
+- Documentation organisée et cohérente (23 fichiers MD utiles)
+
 **Vérification :**
 - [x] Résumé accessible grand public
 - [x] Preuves d'usage documentées

@@ -177,6 +177,7 @@ Ton majoritairement humain, pédagogie et accessibilité en filigrane, mais parf
 - Tableau Compatibilité (Python/OS/Navigateurs/Connecteurs)
 - Activity Graph (note "Mis à jour régulièrement")
 - Améliorations visuelles documentation (structure, formatage, ton)
+- Nettoyage documentation (68 fichiers supprimés, consolidation, organisation)
 
 ---
 
