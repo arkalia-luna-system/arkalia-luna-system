@@ -28,7 +28,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - Quest (179 tests)
 - Luna Pro (671 tests, 59% coverage)
 - CIA (61 tests, 66% coverage)
-- ARIA
+- ARIA ✅ **TERMINÉ** (Codecov configuré, badge ajouté)
 - Metrics Collector
 - Base Template
 
@@ -294,10 +294,21 @@ git filter-branch --env-filter '
 - Documentation technique déplacée dans `<details>` repliable
 - Structure améliorée avec démarrage rapide simplifié
 
+**✅ Toutes les tâches générales ARIA terminées :**
+- Tâche #1 : Badges Coverage ✅ (Codecov configuré, badge ajouté)
+- Tâche #21 : Licences ✅ (LICENSE MIT créé, badge ajouté)
+- Tâche #22 : Sécurité ✅ (secrets gérés via .env, .gitignore complet)
+- Tâche #24 : .gitignore ✅ (vérifié et complet)
+- Tâche #25 : Topics/Tags ✅ (topics ajoutés, badges visuels)
+- Tâche #26 : Quickstart 5 min ✅ (section "5 Minutes pour Tester" ajoutée)
+- Tâche #27 : Issues & Public Feedback ✅ (section "Bon Point de Départ" ajoutée)
+- Tâche #31 : Accessibilité ✅ (dark mode vérifié et fonctionnel)
+
 **Vérification :**
 - [x] Résumé accessible grand public
 - [x] Preuves d'usage documentées
 - [x] Documentation équilibrée
+- [x] Toutes tâches générales complétées
 
 ---
 
@@ -454,7 +465,7 @@ git filter-branch --env-filter '
 - Luna Logo
 - Quest
 - CIA
-- ARIA
+- ARIA ✅ **TERMINÉ** (LICENSE MIT créé, badge ajouté)
 - Base Template
 - Athalia DevOps
 - Metrics Collector
@@ -560,7 +571,7 @@ git filter-branch --env-filter '
 - Luna Logo : `design`, `svg`, `fastapi`, `docker`, `generator`
 - Quest : `game`, `education`, `cybersecurity`, `flask`, `ai`
 - CIA : `mobile`, `flutter`, `health`, `aes-256`, `offline`
-- ARIA : `health`, `ai`, `rgpd`, `fastapi`, `data-tracking`
+- ARIA : `health`, `ai`, `rgpd`, `fastapi`, `data-tracking` ✅ **TERMINÉ** (topics ajoutés, badges visuels)
 - etc.
 
 **Vérification :**

@@ -161,6 +161,15 @@ Ton majoritairement humain, pédagogie et accessibilité en filigrane, mais parf
 - Documentation technique simplifiée et déplacée dans section repliable
 - Structure améliorée avec démarrage rapide simplifié
 
+**✅ Toutes les tâches générales complétées :**
+- Badges Coverage (Codecov configuré)
+- Licences (LICENSE MIT créé)
+- Sécurité (secrets gérés, .gitignore complet)
+- Topics/Tags (ajoutés avec badges visuels)
+- Quickstart 5 min (section ajoutée)
+- Issues & Public Feedback (section "Bon Point de Départ")
+- Accessibilité (dark mode vérifié)
+
 ---
 
 ### **7. Base Template**  
