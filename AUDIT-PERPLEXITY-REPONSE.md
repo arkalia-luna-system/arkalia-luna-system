@@ -1781,6 +1781,106 @@
 
 ---
 
+## 9. **POINTS STRATÉGIQUES SUPPLÉMENTAIRES**
+
+### **1. Métriques automatisées de suivi**
+
+- Script Python pour vérifier automatiquement la cohérence des métriques entre projets
+- Automatisation de la génération du tableau récap (scraping GitHub API)
+- Bot qui met à jour les badges/dates automatiquement
+
+### **2. Priorisation business/impact**
+
+- Quel projet montrer en premier aux recruteurs ? (reorder sur profil)
+- Certains projets sont-ils plus "vendeurs" que d'autres pour le profil cible ?
+- Archive "Nours Interface" pourrait être déplacé tout en bas ou dans section séparée
+
+### **3. Social proof manquant**
+
+- Stars GitHub à booster (demander à peers de star les repos clés)
+- Contributors (inviter quelques personnes à contribuer sur projets ouverts)
+- Forks/usage externe (documenter si les outils sont utilisés ailleurs)
+- Testimonials ou user feedback (même informel)
+
+### **4. Portfolio visuel externe**
+
+- Site vitrine pour présenter visuellement tous les projets (GitHub Pages, Notion public)
+- Video démo courte (30s-1min) pour chaque projet majeur
+- Case studies : "Comment j'ai résolu X problème avec Y projet"
+
+### **5. Networking & discoverabilité**
+
+- Participer à des discussions GitHub (issues/PR sur projets similaires)
+- Blog posts techniques (dev.to, Medium) qui lient vers les repos
+- Présence Twitter/LinkedIn avec partage des projets
+
+### **6. Sécurité & conformité**
+
+- Dependabot activé partout pour auto-update des dépendances
+- CodeQL analysis (GitHub Security) sur tous les repos publics
+- Badge "Security verified" visible
+
+### **7. Performance metrics publiques**
+
+- Lighthouse scores pour les apps web
+- Benchmarks de load/stress test documentés
+- Comparaisons avec alternatives (ex: "20% plus rapide que X")
+
+### **8. Roadmap publique**
+
+- Issues GitHub avec labels "enhancement", "help wanted"
+- Projects board public montrant le backlog/progression
+- Changelog avec "What's next" section
+
+### **9. Aspect business/monétisation** (si pertinent)
+
+- Sponsorship GitHub activé
+- Licence claire pour usage commercial
+- Pricing/plans si applicable (même fictif pour démo)
+
+### **10. Localisation**
+
+- README en anglais ET français (toggle ou fichiers séparés)
+- Cible internationale vs francophone à clarifier
+
+---
+
+## 10. **QUICK WINS OUBLIÉS**
+
+- **GitHub profile README** : Ajouter section "Featured projects" avec les 3 meilleurs
+- **Pinned repos** : Organiser les 6 repos épinglés par ordre d'impact
+- **GitHub Actions badge** : Ajouter "workflow status" sur tous les projets actifs
+- **Commit signing** : GPG verified commits (badge vert) pour crédibilité
+- **GitHub Sponsors** : Activer même sans attendre de revenus
+
+---
+
+## 11. **RISQUES NON ABORDÉS**
+
+- Que faire si un recruteur teste le code et trouve un bug ?
+- Plan B si un projet devient obsolète rapidement
+- Gestion de la dette technique (certains projets ont-ils besoin de refonte ?)
+
+---
+
+## 12. **SUGGESTION DE PRIORISATION ALTERNATIVE**
+
+Au lieu de suivre l'ordre "critique → haute → moyenne", prioriser par :
+
+1. **Impact recrutement** : Ce qui impressionne le plus les recruteurs en premier
+2. **Quick wins** : Ce qui prend <30min mais donne un effet visuel maximal
+3. **Différenciateurs** : Ce qui distingue vraiment de la plupart des profils
+
+**Exemple d'ordre alternatif :**
+
+1. Pinned repos + Featured section (15 min, impact visuel élevé)
+2. Screenshots/GIFs sur 3 projets principaux (1h, démo immédiate)
+3. Table récap statuts (30 min, professionnalisme)
+4. About SEO (1h, découvrabilité)
+5. Sommaires (2h, UX)
+
+---
+
 ## **NOTE DE SUIVI**
 
 **Date de début audit :** 2025-01-27  
