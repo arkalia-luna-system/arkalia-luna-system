@@ -1785,15 +1785,43 @@
 
 ### **1. Métriques automatisées de suivi**
 
+**Projet existant :** `arkalia-metrics-collector` (8.3/10) — Collecteur de métriques universel
+
+**Fonctionnalités actuelles :**
+- Collecteur de métriques universel pour projets Python
+- Export CSV/JSON
+- Monitoring
+- Tests et CI/CD (coverage ~68%)
+
+**Amélioration suggérée :**
+- Étendre `arkalia-metrics-collector` pour générer automatiquement le tableau récap des projets
+- Scraper GitHub API pour métriques (stars, forks, last update, coverage)
+- Générer badges automatiques
 - Script Python pour vérifier automatiquement la cohérence des métriques entre projets
-- Automatisation de la génération du tableau récap (scraping GitHub API)
 - Bot qui met à jour les badges/dates automatiquement
 
 ### **2. Priorisation business/impact**
 
-- Quel projet montrer en premier aux recruteurs ? (reorder sur profil)
-- Certains projets sont-ils plus "vendeurs" que d'autres pour le profil cible ?
-- Archive "Nours Interface" pourrait être déplacé tout en bas ou dans section séparée
+**Analyse complète :** Voir `ANALYSE-3-PROJETS-FEATURED.md`
+
+**Top 3 Projets Featured (Recommandation) :**
+
+1. **🌕 Arkalia Luna Pro** (8.7/10)
+   - Impact technique maximum, architecture enterprise, preuves de production
+   - 671 tests, 59% coverage, 5 containers, monitoring complet
+
+2. **🤖 BBIA Reachy Sim** (8.5/10)
+   - Différenciation maximale (robot émotionnel), qualité technique élevée
+   - 1362 tests, 68.86% coverage, IA Vision, 12 émotions
+
+3. **🎨 BBIA Branding** (9.0/10)
+   - Note la plus élevée, qualité visuelle exceptionnelle (10/10)
+   - Identité visuelle complète, assets design professionnels
+
+**Actions :**
+- Créer section "Featured Projects" dans README profil
+- Réorganiser pinned repos (6 repos) par ordre d'impact
+- Archive "Nours Interface" déplacé tout en bas ou dans section séparée
 
 ### **3. Social proof manquant**
 
