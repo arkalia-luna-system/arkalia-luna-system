@@ -1,22 +1,52 @@
-# 🔍 PROMPT AUDIT COMPLET - PROFIL GITHUB ARKALIA LUNA SYSTEM
+# 🔍 PROMPT AUDIT ULTRA-RIGOUREUX - PROFIL GITHUB ARKALIA LUNA SYSTEM
 
+**Version : 2.0 - Audit Perfectionniste**  
 **À copier-coller dans Perplexity Assistant**
 
 ---
 
 ## 📋 INSTRUCTIONS POUR L'AUDIT
 
-Tu es un expert en audit de profils GitHub professionnels. Je te demande de faire un audit **ultra-minutieux** de mon profil GitHub et de tous mes projets. Sois critique, constructif et exhaustif.
+Tu es un **expert senior en audit de profils GitHub professionnels** avec 10+ ans d'expérience. Tu as audité des centaines de profils de développeurs senior, CTO, et contributeurs open-source de niveau industriel.
+
+Je te demande de faire un audit **ULTRA-RIGOUREUX, PERFECTIONNISTE ET EXHAUSTIF** de mon profil GitHub et de tous mes projets. 
+
+**TON D'ÉVALUATION :**
+- Sois **EXTRAORDINAIREMENT CRITIQUE** : Un profil "9/10" pour toi doit être au niveau des meilleurs profils GitHub que tu as vus
+- Sois **MINUTIEUX AU POINT** : Vérifie chaque caractère, chaque espace, chaque lien, chaque métrique
+- Sois **EXIGEANT** : Compare aux standards des profils de développeurs senior/CTO des grandes entreprises tech
+- Sois **CONSTRUCTIF** : Pour chaque problème, propose une solution concrète et actionnable
+- Sois **EXHAUSTIF** : Aucun détail ne doit t'échapper, même les plus subtils
+- Sois **OBJECTIF** : Distingue ce qui est vraiment "industry leader" de ce qui est juste "bon"
 
 ### 🎯 OBJECTIF
 Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes projets pour identifier :
+
+**NIVEAU 1 - BASIQUE (à éviter) :**
+- ❌ Ce qui fait **amateur** ou manque de crédibilité
+- ❌ Ce qui fait **prétentieux** ou exagéré
+- ❌ Les **erreurs** et incohérences flagrantes
+
+**NIVEAU 2 - PROFESSIONNEL (minimum requis) :**
 - ✅ Ce qui est **professionnel** et bien fait
-- ⚠️ Ce qui fait **amateur** ou manque de crédibilité
-- 🚫 Ce qui fait **prétentieux** ou exagéré
-- 📈 Ce qui peut être **amélioré** ou optimisé
-- 🔄 Les **incohérences** entre projets et profil
-- 📝 Les **descriptions** à améliorer
-- 🎨 Les aspects **visuels** et de présentation
+- ✅ Ce qui respecte les **standards de l'industrie**
+- ✅ Les **bonnes pratiques** appliquées
+
+**NIVEAU 3 - PERFECTION (objectif) :**
+- ⭐ Ce qui est **exceptionnel** et se démarque
+- ⭐ Les **détails de perfection** qui font la différence
+- ⭐ Les **optimisations subtiles** qui élèvent le niveau
+- ⭐ La **cohérence absolue** dans tous les aspects
+- ⭐ La **crédibilité maximale** sans exagération
+
+**VÉRIFICATIONS OBLIGATOIRES :**
+- 🔍 **Chaque métrique** doit être vérifiée et sourcée
+- 🔍 **Chaque lien** doit être testé et fonctionnel
+- 🔍 **Chaque assertion** doit être justifiée
+- 🔍 **Chaque date** doit être à jour
+- 🔍 **Chaque badge** doit être actif et précis
+- 🔍 **Chaque description** doit être concise et impactante
+- 🔍 **Chaque projet** doit être analysé en profondeur
 
 ---
 
@@ -25,45 +55,82 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
 **URL du profil :** https://github.com/arkalia-luna-system  
 **Repository profil :** https://github.com/arkalia-luna-system/arkalia-luna-system
 
-### Points à vérifier sur le profil principal :
+### Points à vérifier sur le profil principal (VÉRIFICATION ULTRA-RIGOUREUSE) :
 
-1. **Structure & Organisation**
-   - La hiérarchie de l'information est-elle claire ?
-   - Les sections sont-elles logiquement organisées ?
-   - Y a-t-il des redondances inutiles ?
-   - Le flow de lecture est-il naturel ?
+1. **Structure & Organisation** (Niveau perfectionniste)
+   - La hiérarchie de l'information est-elle **parfaitement** claire ?
+   - Les sections sont-elles **logiquement** organisées selon les standards UX ?
+   - Y a-t-il des redondances, même subtiles ?
+   - Le flow de lecture est-il **optimal** (F-pattern, Z-pattern) ?
+   - La longueur de chaque section est-elle **optimale** (ni trop court, ni trop long) ?
+   - Les sauts de ligne et espacements sont-ils **cohérents** ?
+   - Les titres suivent-ils une **hiérarchie stricte** (H1 → H2 → H3) ?
+   - Y a-t-il des sections **manquantes** (Contributing, License, Security) ?
 
-2. **Contenu & Messaging**
-   - Le message principal est-il clair et impactant ?
-   - Les descriptions sont-elles précises ou vagues ?
-   - Y a-t-il des affirmations non vérifiables ?
-   - Les métriques sont-elles crédibles et justifiées ?
-   - Les emojis sont-ils utilisés avec parcimonie et pertinence ?
+2. **Contenu & Messaging** (Niveau perfectionniste)
+   - Le message principal est-il **immédiatement** clair (première phrase) ?
+   - Les descriptions sont-elles **précises** ou contiennent-elles des mots vides ("powerful", "amazing") ?
+   - **Chaque** affirmation est-elle vérifiable et sourcée ?
+   - Les métriques sont-elles **exactes** (pas de "~", "environ", "plus de") ?
+   - Les emojis sont-ils utilisés avec **parcimonie absolue** (max 1-2 par section) ?
+   - Le langage est-il **concise** (pas de phrases inutiles) ?
+   - Y a-t-il des **typos** ou erreurs de français/anglais ?
+   - Les acronymes sont-ils **définis** à la première occurrence ?
+   - Le ton est-il **cohérent** dans tout le document ?
 
-3. **Visuel & Design**
-   - La palette de couleurs est-elle cohérente ?
-   - Les images/logos sont-ils bien dimensionnés et de qualité ?
-   - Les badges sont-ils pertinents et à jour ?
-   - Le diagramme Mermaid est-il clair et utile ?
-   - L'espacement et la typographie sont-ils harmonieux ?
+3. **Visuel & Design** (Niveau perfectionniste)
+   - La palette de couleurs est-elle **strictement** cohérente (codes hex identiques) ?
+   - Les images/logos sont-ils **parfaitement** dimensionnés (pas de déformation) ?
+   - Les badges sont-ils **tous** pertinents, actifs et à jour (vérifier chaque badge) ?
+   - Le diagramme Mermaid est-il **parfaitement** lisible et sans erreurs de rendu ?
+   - L'espacement est-il **harmonieux** (pas de lignes vides inutiles) ?
+   - Les tableaux sont-ils **alignés** et bien formatés ?
+   - Les listes sont-elles **cohérentes** (même style de puces) ?
+   - Y a-t-il des **artefacts visuels** (caractères bizarres, encodage incorrect) ?
 
-4. **Cohérence**
-   - Les informations correspondent-elles entre les sections ?
-   - Les liens vers les projets sont-ils tous valides ?
-   - Les statuts des projets sont-ils cohérents ?
-   - Les technologies mentionnées correspondent-elles aux projets réels ?
+4. **Cohérence** (Vérification absolue)
+   - **Chaque** information est-elle cohérente entre toutes les sections ?
+   - **Tous** les liens vers les projets sont-ils valides (tester chaque lien) ?
+   - Les statuts des projets sont-ils **strictement** cohérents partout ?
+   - Les technologies mentionnées correspondent-elles **exactement** aux projets réels ?
+   - Les dates sont-elles **cohérentes** (pas de contradictions) ?
+   - Les noms de projets sont-ils **identiques** partout (casse, tirets, underscores) ?
+   - Les URLs sont-elles **correctes** (pas de 404, pas de redirects) ?
 
-5. **Crédibilité**
-   - Les métriques sont-elles vérifiables ?
-   - Y a-t-il des exagérations ("550+ modules", "64% coverage") ?
-   - Les projets "Production" sont-ils vraiment en production ?
-   - Les dates sont-elles à jour ?
+5. **Crédibilité** (Vérification rigoureuse)
+   - **Chaque** métrique est-elle vérifiable (lien vers source) ?
+   - Y a-t-il des exagérations même subtiles ("550+ modules" → compter réellement) ?
+   - Les projets "Production" sont-ils **vraiment** en production (preuves) ?
+   - Les dates sont-elles **à jour** (dernière mise à jour récente) ?
+   - Les badges coverage correspondent-ils **exactement** aux valeurs réelles ?
+   - Les nombres de tests sont-ils **exacts** (vérifier avec `pytest --collect-only`) ?
+   - Les pourcentages sont-ils **arrondis** de manière cohérente ?
+   - Y a-t-il des **promesses non tenues** (features mentionnées mais absentes) ?
 
-6. **Ton & Style**
-   - Le ton est-il professionnel sans être prétentieux ?
-   - Y a-t-il trop d'emojis qui nuisent à la crédibilité ?
-   - Les descriptions sont-elles concises ou verbeuses ?
-   - Le langage est-il accessible ou trop technique ?
+6. **Ton & Style** (Niveau perfectionniste)
+   - Le ton est-il **professionnel** sans être prétentieux ni trop modeste ?
+   - Y a-t-il **trop** d'emojis (compter : max 5-10 pour tout le README) ?
+   - Les descriptions sont-elles **concises** (pas de phrases de 3 lignes) ?
+   - Le langage est-il **accessible** sans être simpliste ?
+   - Y a-t-il des **anglicismes** inutiles (utiliser français quand approprié) ?
+   - Les phrases sont-elles **actives** (pas de passif inutile) ?
+   - Le vocabulaire est-il **précis** (pas de mots vagues) ?
+
+7. **SEO & Discoverability** (Nouveau - Niveau perfectionniste)
+   - Les **topics GitHub** sont-ils présents et pertinents ?
+   - La **description GitHub** (About) est-elle optimisée (160 caractères) ?
+   - Les **mots-clés** sont-ils présents dans le README (pour recherche GitHub) ?
+   - Le **nom du repo** est-il descriptif et cohérent ?
+   - Y a-t-il un **site web** ou **documentation** liée ?
+   - Les **social previews** (Open Graph) sont-ils configurés ?
+
+8. **Maintenance & Activité** (Nouveau - Niveau perfectionniste)
+   - La **dernière mise à jour** est-elle récente (< 3 mois) ?
+   - Y a-t-il des **commits récents** (activité visible) ?
+   - Les **issues** sont-elles traitées (pas de issues ouvertes depuis 6 mois) ?
+   - Les **PRs** sont-elles mergées ou fermées proprement ?
+   - Les **dépendances** sont-elles à jour (pas de vulnérabilités) ?
+   - Les **workflows CI/CD** sont-ils tous verts (pas de failures) ?
 
 ---
 
@@ -117,51 +184,97 @@ Pour **CHAQUE projet**, analyse :
 
 ---
 
-## 📋 CHECKLIST PAR PROJET
+## 📋 CHECKLIST ULTRA-RIGOUREUSE PAR PROJET
 
-Pour chaque projet, vérifie :
+Pour **CHAQUE projet**, vérifie **TOUS** ces points avec une rigueur absolue :
 
-### ✅ **Structure & Organisation**
-- [ ] README complet et bien structuré ?
-- [ ] Sections claires (Installation, Usage, Contributing) ?
-- [ ] Documentation à jour ?
-- [ ] Fichiers de configuration présents (LICENSE, .gitignore, etc.) ?
+### ✅ **Structure & Organisation** (Vérification exhaustive)
+- [ ] README **complet** (min 200 lignes pour projet significatif) ?
+- [ ] Sections **obligatoires** présentes : Installation, Usage, Contributing, License, Security ?
+- [ ] Sections **logiquement** ordonnées (Quick Start en premier) ?
+- [ ] Documentation **à jour** (dernière modif < 6 mois) ?
+- [ ] Fichiers de configuration **tous** présents : LICENSE, .gitignore, .github/, pyproject.toml/package.json ?
+- [ ] Structure de dossiers **professionnelle** (src/, tests/, docs/, scripts/) ?
+- [ ] Pas de fichiers **temporaires** ou **debug** (test.py, temp.md, etc.) ?
+- [ ] Pas de fichiers **macOS cachés** (._*) dans le repo ?
 
-### ✅ **Qualité du Code**
-- [ ] Code propre et lisible ?
-- [ ] Commentaires pertinents ?
-- [ ] Structure de dossiers logique ?
-- [ ] Pas de fichiers inutiles ou temporaires ?
+### ✅ **Qualité du Code** (Analyse approfondie)
+- [ ] Code **propre** (linter configuré : Black, Ruff, ESLint) ?
+- [ ] **Type hints** présents (Python) ou **TypeScript** strict ?
+- [ ] Commentaires **pertinents** (pas de commentaires évidents) ?
+- [ ] **Docstrings** présents pour fonctions/classes publiques ?
+- [ ] Structure de dossiers **logique** (pas de fichiers à la racine) ?
+- [ ] **Imports** organisés (pas de wildcard imports) ?
+- [ ] **Noms de variables** descriptifs (pas de `x`, `data`, `temp`) ?
+- [ ] **Complexité cyclomatique** raisonnable (pas de fonctions de 200 lignes) ?
+- [ ] **DRY** respecté (pas de code dupliqué) ?
+- [ ] **SOLID** principles appliqués (si applicable) ?
 
-### ✅ **Tests & CI/CD**
-- [ ] Tests présents et fonctionnels ?
-- [ ] Couverture de tests réaliste ?
-- [ ] CI/CD configuré (GitHub Actions) ?
-- [ ] Badges de statut à jour ?
+### ✅ **Tests & CI/CD** (Vérification rigoureuse)
+- [ ] Tests **présents** (ratio code/test > 1:1 pour projets critiques) ?
+- [ ] Tests **fonctionnels** (pas de tests qui passent toujours) ?
+- [ ] Couverture de tests **réaliste** (vérifier avec Codecov) ?
+- [ ] Tests **diversifiés** (unit, integration, E2E si applicable) ?
+- [ ] CI/CD **configuré** (GitHub Actions, pas juste un workflow vide) ?
+- [ ] CI/CD **fonctionnel** (tous les workflows passent) ?
+- [ ] Badges de statut **à jour** (vérifier que les badges pointent vers les bons workflows) ?
+- [ ] **Codecov** configuré (pas juste un badge custom) ?
+- [ ] Tests **rapides** (pas de tests qui prennent 10+ minutes) ?
 
-### ✅ **Documentation**
-- [ ] README informatif et clair ?
-- [ ] Exemples d'utilisation ?
-- [ ] Guide d'installation ?
-- [ ] Documentation API si applicable ?
+### ✅ **Documentation** (Niveau perfectionniste)
+- [ ] README **informatif** (explique QUOI, POURQUOI, COMMENT) ?
+- [ ] **Exemples** d'utilisation **concrets** (pas juste "voir docs/") ?
+- [ ] Guide d'installation **détaillé** (prérequis, étapes, troubleshooting) ?
+- [ ] Documentation API **complète** (si applicable : OpenAPI, Sphinx, JSDoc) ?
+- [ ] **Screenshots** ou **GIFs** pour projets avec UI ?
+- [ ] **Architecture** documentée (diagrammes, schémas) ?
+- [ ] **Changelog** ou **Release notes** présents ?
+- [ ] **Contributing guide** détaillé (pas juste "PRs welcome") ?
+- [ ] **Security policy** présente (SECURITY.md) ?
 
-### ✅ **Description & Messaging**
-- [ ] Description GitHub concise et précise ?
-- [ ] README aligné avec la description ?
-- [ ] Pas d'exagérations ou de fausses promesses ?
-- [ ] Technologies mentionnées correspondent au code ?
+### ✅ **Description & Messaging** (Vérification absolue)
+- [ ] Description GitHub **concise** (50-160 caractères, optimisée SEO) ?
+- [ ] Description GitHub **précise** (pas de mots vides) ?
+- [ ] README **aligné** avec la description GitHub (pas de contradictions) ?
+- [ ] **Pas d'exagérations** ("revolutionary", "best", "ultimate") ?
+- [ ] **Pas de fausses promesses** (features mentionnées mais absentes) ?
+- [ ] Technologies mentionnées **correspondent** au code réel (vérifier requirements.txt) ?
+- [ ] **Statut** justifié (Production = vraiment en prod, pas juste "ready") ?
+- [ ] **Dates** cohérentes (pas de "2024" en 2025) ?
 
-### ✅ **Visuel**
-- [ ] Logo/image de projet si présent ?
-- [ ] Badges pertinents et à jour ?
-- [ ] Screenshots/diagrammes si utile ?
-- [ ] Design cohérent avec le profil principal ?
+### ✅ **Visuel** (Niveau perfectionniste)
+- [ ] Logo/image de projet **présent** et **qualité** (pas de pixelisation) ?
+- [ ] Badges **pertinents** (pas de badges inutiles) ?
+- [ ] Badges **tous actifs** (tester chaque badge, pas de 404) ?
+- [ ] Screenshots/diagrammes **utiles** (pas juste décoratifs) ?
+- [ ] Design **cohérent** avec le profil principal (même style) ?
+- [ ] **Couleurs** cohérentes (même palette que profil) ?
+- [ ] **Typographie** cohérente (même style de titres) ?
+- [ ] **Espacement** harmonieux (pas de sections collées) ?
 
-### ✅ **Statut & Crédibilité**
-- [ ] Statut (Production/Beta/Template) justifié ?
-- [ ] Dernière mise à jour récente ?
-- [ ] Issues/PRs actifs ou projet mort ?
-- [ ] Métriques mentionnées vérifiables ?
+### ✅ **Statut & Crédibilité** (Vérification rigoureuse)
+- [ ] Statut **justifié** (Production = preuves, Beta = clairement indiqué) ?
+- [ ] Dernière mise à jour **récente** (< 3 mois pour projets actifs) ?
+- [ ] Issues/PRs **actifs** ou projet **clairement archivé** ?
+- [ ] Métriques mentionnées **vérifiables** (liens vers sources) ?
+- [ ] **Dépendances** à jour (pas de vulnérabilités connues) ?
+- [ ] **License** claire et appropriée (MIT, Apache, etc.) ?
+- [ ] **Security** policy présente (pour projets publics) ?
+- [ ] **Changelog** à jour (si versioning sémantique) ?
+
+### ✅ **Performance & Qualité** (Nouveau - Niveau perfectionniste)
+- [ ] **Temps de build** raisonnable (< 10 min) ?
+- [ ] **Taille du repo** raisonnable (pas de fichiers binaires inutiles) ?
+- [ ] **Dépendances** optimisées (pas de dépendances lourdes inutiles) ?
+- [ ] **Bundle size** optimisé (pour projets JS/TS) ?
+- [ ] **Lighthouse score** > 90 (pour projets web) ?
+
+### ✅ **Accessibilité & Standards** (Nouveau - Niveau perfectionniste)
+- [ ] **README** accessible (pas de texte en images) ?
+- [ ] **Liens** avec texte descriptif (pas de "cliquez ici") ?
+- [ ] **Tableaux** accessibles (headers définis) ?
+- [ ] **Code blocks** avec syntax highlighting ?
+- [ ] **Alt text** pour images (si applicable) ?
 
 ---
 
@@ -193,82 +306,166 @@ Vérifie les incohérences entre :
 
 ---
 
-## 🎯 POINTS SPÉCIFIQUES À IDENTIFIER
+## 🎯 POINTS SPÉCIFIQUES À IDENTIFIER (NIVEAU PERFECTIONNISTE)
 
-### 🚫 **Ce qui fait AMATEUR**
-- Descriptions vagues ou génériques
-- README incomplets ou mal formatés
-- Absence de tests ou CI/CD
-- Code non commenté ou mal organisé
-- Métriques non vérifiables
-- Badges cassés ou obsolètes
-- Projets morts présentés comme actifs
-- Typos et erreurs de français
+### 🚫 **Ce qui fait AMATEUR** (Identifier même les détails subtils)
+- Descriptions vagues ou génériques ("powerful tool", "amazing project")
+- README incomplets ou mal formatés (sections manquantes, typos)
+- Absence de tests ou CI/CD (ou tests qui ne testent rien)
+- Code non commenté ou mal organisé (fichiers à la racine, pas de structure)
+- Métriques non vérifiables (pas de liens vers sources)
+- Badges cassés ou obsolètes (404, valeurs incorrectes)
+- Projets morts présentés comme actifs (dernière modif > 1 an)
+- Typos et erreurs de français/anglais (même subtiles)
+- Fichiers temporaires ou debug dans le repo
+- Commits avec messages vides ou "fix", "update"
+- Pas de .gitignore ou .gitignore incomplet
+- Pas de LICENSE ou LICENSE inappropriée
+- Dependencies avec vulnérabilités connues
+- Code dupliqué ou non DRY
+- Noms de variables non descriptifs
 
-### ⚠️ **Ce qui fait PRÉTENTIEUX**
-- Métriques exagérées ou non justifiées
-- Trop d'emojis qui nuisent à la crédibilité
-- Langage trop technique ou jargonneux
-- Affirmations non vérifiables ("Production-ready", "Enterprise")
+### ⚠️ **Ce qui fait PRÉTENTIEUX** (Identifier même les nuances)
+- Métriques exagérées ou non justifiées ("550+ modules" sans source)
+- Trop d'emojis qui nuisent à la crédibilité (> 10 dans README)
+- Langage trop technique ou jargonneux (acronymes non définis)
+- Affirmations non vérifiables ("Production-ready", "Enterprise" sans preuves)
 - Projets présentés comme plus importants qu'ils ne le sont
-- Descriptions trop longues ou verbeuses
-- Utilisation excessive de badges
+- Descriptions trop longues ou verbeuses (phrases de 3+ lignes)
+- Utilisation excessive de badges (badges inutiles ou redondants)
+- Superlatifs excessifs ("best", "ultimate", "revolutionary")
+- Promesses non tenues (features mentionnées mais absentes)
+- Statuts exagérés ("Production" pour projet en développement)
+- Dates incohérentes ou obsolètes
 
-### ✅ **Ce qui fait PROFESSIONNEL**
-- Documentation complète et à jour
-- Code propre avec tests
-- CI/CD configuré
-- Descriptions précises et concises
-- Métriques vérifiables
-- Structure claire et organisée
-- Design cohérent
-- Projets réellement fonctionnels
+### ✅ **Ce qui fait PROFESSIONNEL** (Standards de l'industrie)
+- Documentation complète et à jour (README, API docs, Contributing)
+- Code propre avec tests (coverage > 60%, tests diversifiés)
+- CI/CD configuré et fonctionnel (tous les workflows passent)
+- Descriptions précises et concises (pas de mots vides)
+- Métriques vérifiables (liens vers Codecov, CI, etc.)
+- Structure claire et organisée (src/, tests/, docs/)
+- Design cohérent (même style, couleurs, typographie)
+- Projets réellement fonctionnels (démo, screenshots, exemples)
+- Type hints / TypeScript strict
+- Linting configuré et respecté
+- Security policy présente
+- Changelog ou release notes
+- License claire et appropriée
+
+### ⭐ **Ce qui fait EXCEPTIONNEL** (Niveau industry leader)
+- Documentation **exceptionnelle** (guides détaillés, exemples multiples, vidéos)
+- Code **exemplaire** (patterns avancés, architecture solide, performance optimisée)
+- Tests **complets** (coverage > 80%, tests E2E, mocks sophistiqués)
+- CI/CD **robuste** (multi-environnements, rollback, monitoring)
+- Descriptions **impactantes** (première phrase accrocheuse, value proposition claire)
+- Métriques **objectivées** (scripts automatisés, dashboards, rapports)
+- Structure **parfaite** (séparation claire, modularité, scalabilité)
+- Design **soigné** (diagrammes Mermaid, screenshots qualité, animations)
+- Projets **production-grade** (monitoring, logging, error handling)
+- **Innovation** visible (patterns uniques, solutions créatives)
+- **Communauté** active (contributors, stars, forks)
+- **Performance** optimisée (benchmarks, optimisations documentées)
 
 ---
 
-## 📊 FORMAT DE RÉPONSE ATTENDU
+## 📊 FORMAT DE RÉPONSE ATTENDU (ULTRA-DÉTAILLÉ)
 
-Organise ta réponse en sections claires :
+Organise ta réponse en sections **extrêmement détaillées** :
 
-### 1. **RÉSUMÉ EXÉCUTIF**
-- Note globale sur 10
-- Points forts principaux (3-5)
-- Points faibles principaux (3-5)
-- Verdict : Profil professionnel / Amateur / Prétentieux / Mixte
+### 1. **RÉSUMÉ EXÉCUTIF** (Niveau perfectionniste)
+- **Note globale sur 10** (avec justification détaillée)
+- **Note par catégorie** (Structure, Code, Docs, Cohérence, Crédibilité, Design, Messaging, Professionnalisme)
+- **Points forts principaux** (5-7 avec exemples concrets)
+- **Points faibles principaux** (5-7 avec exemples concrets)
+- **Points d'excellence** (ce qui est vraiment exceptionnel)
+- **Verdict détaillé** : 
+  - Niveau actuel : Amateur / Professionnel / Senior / Industry Leader
+  - Niveau visé : [objectif]
+  - Gap à combler : [liste précise]
 
-### 2. **AUDIT PROFIL PRINCIPAL**
-- Structure & Organisation : ✅/⚠️/❌ + commentaires
-- Contenu & Messaging : ✅/⚠️/❌ + commentaires
-- Visuel & Design : ✅/⚠️/❌ + commentaires
-- Cohérence : ✅/⚠️/❌ + commentaires
-- Crédibilité : ✅/⚠️/❌ + commentaires
-- Ton & Style : ✅/⚠️/❌ + commentaires
+### 2. **AUDIT PROFIL PRINCIPAL** (Analyse exhaustive)
+Pour **CHAQUE** point, fournis :
+- **Note sur 10** (justifiée)
+- **Statut** : ✅ Excellent / ⚠️ À améliorer / ❌ Critique
+- **Commentaires détaillés** (minimum 3-5 lignes)
+- **Exemples concrets** (citations exactes avec numéros de lignes)
+- **Comparaison** avec standards de l'industrie
+- **Recommandations** actionnables (pas juste "améliorer")
 
-### 3. **AUDIT PAR PROJET** (pour chaque projet)
-- **Nom du projet**
-  - Structure : ✅/⚠️/❌
-  - Qualité : ✅/⚠️/❌
-  - Documentation : ✅/⚠️/❌
-  - Description : ✅/⚠️/❌
-  - Statut : Justifié / Non justifié
-  - Points forts : [liste]
-  - Points faibles : [liste]
-  - Améliorations suggérées : [liste]
+**Sections à analyser :**
+- Structure & Organisation
+- Contenu & Messaging
+- Visuel & Design
+- Cohérence
+- Crédibilité
+- Ton & Style
+- SEO & Discoverability
+- Maintenance & Activité
 
-### 4. **COHÉRENCE GLOBALE**
-- Incohérences détectées : [liste détaillée]
-- Métriques à vérifier : [liste]
-- Technologies manquantes/incorrectes : [liste]
+### 3. **AUDIT PAR PROJET** (Pour CHAQUE projet, analyse exhaustive)
+Pour **CHAQUE** projet, fournis :
 
-### 5. **RECOMMANDATIONS PRIORITAIRES**
-- Top 10 actions à faire en priorité
-- Classées par impact (High/Medium/Low)
-- Avec explications concrètes
+**En-tête :**
+- **Nom du projet** : [nom exact]
+- **URL** : [lien]
+- **Note globale** : X/10 (justifiée)
 
-### 6. **EXEMPLES CONCRETS**
-- Citations exactes de ce qui est bien
-- Citations exactes de ce qui est à améliorer
-- Suggestions de reformulation
+**Analyse détaillée :**
+- **Structure** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Qualité Code** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Tests & CI/CD** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Documentation** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Description** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Visuel** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Statut** : Justifié / Non justifié (avec preuves)
+- **Performance** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+- **Accessibilité** : ✅/⚠️/❌ + note/10 + commentaires détaillés
+
+**Détails :**
+- **Points forts** : [liste détaillée avec exemples]
+- **Points faibles** : [liste détaillée avec exemples et impact]
+- **Points critiques** : [liste des problèmes bloquants]
+- **Améliorations suggérées** : [liste actionnable avec priorités]
+- **Comparaison** : [niveau vs standards de l'industrie]
+
+### 4. **COHÉRENCE GLOBALE** (Vérification exhaustive)
+- **Incohérences détectées** : [liste détaillée avec localisation exacte]
+  - Pour chaque incohérence : fichier, ligne, contradiction
+- **Métriques à vérifier** : [liste avec méthode de vérification]
+  - Pour chaque métrique : valeur actuelle, valeur réelle, écart
+- **Technologies manquantes/incorrectes** : [liste avec preuves]
+- **Liens cassés** : [liste avec URLs et statut HTTP]
+- **Dates incohérentes** : [liste avec localisation]
+- **Statuts contradictoires** : [liste avec localisation]
+
+### 5. **RECOMMANDATIONS PRIORITAIRES** (Actionnable et détaillée)
+- **Top 15 actions** à faire en priorité (pas juste 10)
+- **Classées par impact** : 🔴 Critique / 🟠 Haute / 🟡 Moyenne / 🟢 Basse
+- **Classées par effort** : Temps estimé pour chaque action
+- **Avec explications concrètes** : Pourquoi cette action, quel impact, comment faire
+- **Avec exemples** : Avant/Après pour les plus importantes
+- **Avec ordre d'exécution** : Quoi faire en premier, deuxième, etc.
+
+### 6. **EXEMPLES CONCRETS** (Citations exactes)
+- **Citations exactes** de ce qui est bien (avec contexte)
+- **Citations exactes** de ce qui est à améliorer (avec contexte)
+- **Suggestions de reformulation** (Avant → Après)
+- **Comparaisons** : Exemples de profils similaires bien faits
+- **Benchmarks** : Comparaison avec standards de l'industrie
+
+### 7. **MÉTRIQUES DÉTAILLÉES** (Nouveau - Niveau perfectionniste)
+- **Comptage exact** : Modules, tests, coverage, fichiers, lignes
+- **Vérification** : Chaque métrique avec source et méthode
+- **Écarts** : Différences entre affirmations et réalité
+- **Recommandations** : Comment objectiver chaque métrique
+
+### 8. **ROADMAP D'AMÉLIORATION** (Nouveau - Niveau perfectionniste)
+- **Phase 1** (Semaine 1) : Actions critiques
+- **Phase 2** (Semaine 2) : Actions importantes
+- **Phase 3** (Semaine 3-4) : Actions d'amélioration
+- **Phase 4** (Mois 2+) : Optimisations et perfectionnisme
+- **Timeline** : Estimation réaliste pour chaque phase
 
 ---
 
@@ -293,14 +490,55 @@ Organise ta réponse en sections claires :
 
 ---
 
-## ⚡ INSTRUCTIONS FINALES
+## ⚡ INSTRUCTIONS FINALES (RIGUEUR ABSOLUE)
 
-1. **Sois MINUTIEUX** : Vérifie chaque détail, chaque lien, chaque métrique
-2. **Sois CRITIQUE** : Ne sois pas gentil, identifie tous les problèmes
-3. **Sois CONSTRUCTIF** : Pour chaque problème, propose une solution
-4. **Sois EXHAUSTIF** : N'oublie aucun projet, aucune section
-5. **Sois PRÉCIS** : Cite des exemples concrets, des lignes de code, des URLs
-6. **Sois OBJECTIF** : Distingue ce qui est vraiment professionnel de ce qui ne l'est pas
+1. **Sois ULTRA-MINUTIEUX** : 
+   - Vérifie **chaque** détail, **chaque** lien, **chaque** métrique
+   - Vérifie **chaque** caractère, **chaque** espace, **chaque** ponctuation
+   - Vérifie **chaque** badge, **chaque** image, **chaque** diagramme
+   - Vérifie **chaque** date, **chaque** version, **chaque** statut
+
+2. **Sois EXTRAORDINAIREMENT CRITIQUE** : 
+   - Ne sois **PAS gentil**, identifie **TOUS** les problèmes, même subtils
+   - Compare aux **meilleurs** profils GitHub que tu connais
+   - Un profil "9/10" doit être au niveau des **industry leaders**
+   - Identifie même les **nuances** qui font la différence
+
+3. **Sois HYPER-CONSTRUCTIF** : 
+   - Pour **chaque** problème, propose une solution **concrète et actionnable**
+   - Fournis des **exemples** Avant/Après
+   - Donne des **liens** vers ressources ou exemples
+   - Estime le **temps** nécessaire pour chaque correction
+
+4. **Sois ABSOLUMENT EXHAUSTIF** : 
+   - N'oublie **aucun** projet, **aucune** section, **aucun** détail
+   - Analyse **chaque** fichier README, **chaque** badge, **chaque** lien
+   - Vérifie **chaque** métrique, **chaque** assertion, **chaque** date
+   - Teste **chaque** lien, **chaque** badge, **chaque** workflow
+
+5. **Sois EXTRAORDINAIREMENT PRÉCIS** : 
+   - Cite des exemples **concrets** avec numéros de lignes
+   - Fournis des **URLs exactes** et vérifie qu'elles fonctionnent
+   - Donne des **citations exactes** (copier-coller)
+   - Fournis des **commandes** pour vérifier les métriques
+
+6. **Sois RIGOUREUSEMENT OBJECTIF** : 
+   - Distingue ce qui est **vraiment** professionnel de ce qui ne l'est pas
+   - Compare aux **standards** de l'industrie (Google, Microsoft, etc.)
+   - Évalue le **niveau réel** (pas optimiste, pas pessimiste)
+   - Identifie le **gap** entre niveau actuel et niveau visé
+
+7. **Sois PERFECTIONNISTE** : 
+   - Identifie même les **détails** qui pourraient être améliorés
+   - Propose des **optimisations subtiles** qui font la différence
+   - Compare aux **meilleures pratiques** de l'industrie
+   - Vis le niveau **"industry leader"**, pas juste "bon"
+
+8. **Sois ACTIONNABLE** : 
+   - Chaque recommandation doit être **concrète** et **réalisable**
+   - Fournis des **étapes précises** pour chaque amélioration
+   - Estime le **temps** et la **priorité** de chaque action
+   - Donne des **exemples** de ce qui est bien fait ailleurs
 
 ---
 
