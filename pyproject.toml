@@ -48,18 +48,8 @@ packages = []
 [tool.black]
 line-length = 100
 target-version = ['py311']
-exclude = '''
-/(
-    \.git
-  | \.venv
-  | venv
-  | __pycache__
-  | \.pytest_cache
-  | \.mypy_cache
-  | build
-  | dist
-  | \._.*
-)/
+extend-exclude = '''
+^\._.*\.py$
 '''
 
 [tool.ruff]

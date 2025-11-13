@@ -24,6 +24,10 @@ jobs:
           pip install -r requirements.txt
           pip install black ruff mypy
 
+      - name: Clean macOS hidden files
+        run: |
+          find . -name "._*.py" -type f -delete || true
+
       - name: Run Black
         run: black --check .
 
