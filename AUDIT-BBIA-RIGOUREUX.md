@@ -30,6 +30,7 @@
 **Affirmation** : "onboarding, doc, tests, fallback caméra, quickstart"
 
 **Vérification** :
+
 ```bash
 # Guide débutant
 ✅ docs/guides/GUIDE_DEBUTANT.md existe (232 lignes)
@@ -60,6 +61,7 @@
 **Affirmation** : "doc exhaustive"
 
 **Vérification** :
+
 ```bash
 # Comptage fichiers documentation
 find docs -name "*.md" | wc -l
@@ -86,6 +88,7 @@ find docs -name "*.md" | wc -l
 **Affirmation** : "1362 tests automatisés" (corrigé depuis audit initial)
 
 **Vérification** :
+
 ```bash
 # Tests mentionnés dans README
 ✅ "🧪 1362 tests automatisés (unitaires, intégration, E2E)" — CORRIGÉ
@@ -112,6 +115,7 @@ pytest --collect-only -q
 **Affirmation** : "fallback caméra"
 
 **Vérification** :
+
 ```python
 # src/bbia_sim/bbia_vision.py (lignes 180-237)
 ✅ Priorité 1 : robot.media.camera (SDK Reachy)
@@ -139,6 +143,7 @@ pytest --collect-only -q
 **Affirmation** : "quickstart"
 
 **Vérification** :
+
 ```bash
 # README.md
 ✅ Section "🚀 Quick Start" (ligne 49)
@@ -163,6 +168,7 @@ pytest --collect-only -q
 **Affirmation** : "patterns sécurité"
 
 **Vérification** :
+
 ```bash
 # CI/CD
 ✅ Bandit en CI (vérifié dans docs/reference/project-status.md)
@@ -189,6 +195,7 @@ pytest --collect-only -q
 **Affirmation** : "script all-in-one onboarding"
 
 **Vérification** :
+
 ```bash
 # Scripts existants
 ✅ scripts/quick_start.sh existe
@@ -204,6 +211,7 @@ pytest --collect-only -q
 **Verdict** : ⚠️ **PARTIELLEMENT VRAI** — Scripts existent mais pas de script "all-in-one" unique qui fait tout automatiquement.
 
 **Recommandation** : Créer un script `reachy-mini-sim-starter.sh` qui :
+
 1. Vérifie prérequis (Python, pip, etc.)
 2. Installe dépendances
 3. Lance checks (network, hardware, etc.)
@@ -217,6 +225,7 @@ pytest --collect-only -q
 **Affirmation** : "panneaux interactifs, scripts tout-en-un, guides troubleshooting dédiés"
 
 **Vérification** :
+
 ```bash
 # Dashboard
 ✅ scripts/bbia_dashboard_server.py existe
@@ -236,6 +245,7 @@ pytest --collect-only -q
 **Verdict** : ⚠️ **PARTIELLEMENT VRAI** — Dashboard existe, guides troubleshooting existent, mais pas de panneau interactif "live" dans le dashboard.
 
 **Recommandation** : Ajouter un panneau "Troubleshooting" dans le dashboard avec :
+
 - Détection automatique de problèmes (webcam, réseau, SDK, etc.)
 - Solutions interactives (boutons "Fix", "Test", etc.)
 - Liens vers guides détaillés
@@ -277,8 +287,8 @@ pytest --collect-only -q
 
 ### ⚠️ **Partiellement vrai (2/8 points)**
 
-7. ⚠️ Scripts all-in-one — Scripts existent mais pas de script unique "tout-en-un"
-8. ⚠️ Dashboard UX — Dashboard existe mais pas de panneau troubleshooting interactif
+1. ⚠️ Scripts all-in-one — Scripts existent mais pas de script unique "tout-en-un"
+2. ⚠️ Dashboard UX — Dashboard existe mais pas de panneau troubleshooting interactif
 
 ---
 
@@ -292,13 +302,13 @@ pytest --collect-only -q
 
 ### 🔴 **PRIORITÉ HAUTE (Impact UX)**
 
-2. ✅ **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h) — **TERMINÉ**
+1. ✅ **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h) — **TERMINÉ**
    - Script créé avec 0 erreurs, 0 warnings ✅
    - Options : `--skip-install`, `--skip-dashboard`, `--help` ✅
    - Documentation mise à jour (README + GUIDE_DEBUTANT) ✅
    - Commits : `b8d533f1` + `c0444ca6` ✅
 
-3. ✅ **Ajouter panneau troubleshooting interactif** dans dashboard (3h) — **TERMINÉ**
+2. ✅ **Ajouter panneau troubleshooting interactif** dans dashboard (3h) — **TERMINÉ**
    - Module `troubleshooting.py` créé ✅
    - Détection automatique : Python, dépendances, caméra, audio, réseau, MuJoCo, ports ✅
    - Endpoints API + panneau HTML interactif ✅
@@ -308,16 +318,17 @@ pytest --collect-only -q
 
 ### 🟠 **PRIORITÉ MOYENNE (Polish)**
 
-3. ✅ **Améliorer guides ReSpeaker** — **TERMINÉ** (guide dédié `RESPEAKER_SETUP.md` créé avec scripts de test)
-4. ✅ **Ajouter GIF/screenshots** — **TERMINÉ** (robot_animation.gif référencé dans README)
-5. ✅ **Créer section "5 min pour tester"** — **TERMINÉ** (présent dans README + GUIDE_DEBUTANT)
-6. ✅ **Topics GitHub** — **TERMINÉ** (7 topics ajoutés : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
+1. ✅ **Améliorer guides ReSpeaker** — **TERMINÉ** (guide dédié `RESPEAKER_SETUP.md` créé avec scripts de test)
+2. ✅ **Ajouter GIF/screenshots** — **TERMINÉ** (robot_animation.gif référencé dans README)
+3. ✅ **Créer section "5 min pour tester"** — **TERMINÉ** (présent dans README + GUIDE_DEBUTANT)
+4. ✅ **Topics GitHub** — **TERMINÉ** (7 topics ajoutés : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
 
 ---
 
 ## 📝 CONCLUSION
 
 **BBIA est VRAIMENT "un cran au-dessus du niveau communautaire moyen"** sur :
+
 - Documentation (128 fichiers)
 - Tests (1362 tests réels, README mis à jour ✅)
 - Fallback caméra (3 niveaux)
@@ -325,6 +336,7 @@ pytest --collect-only -q
 - Onboarding (guide débutant complet)
 
 **BBIA est maintenant "ultra user-friendly"** ✅ :
+
 - ✅ Script all-in-one créé (`reachy-mini-sim-starter.sh`)
 - ✅ Panneau troubleshooting interactif fonctionnel
 
@@ -363,4 +375,3 @@ pytest --collect-only -q
 **Rapport généré le** : 2025-01-27  
 **Version** : V1.1 (Corrigée après vérification Cursor)  
 **Vérifié par** : Audit systématique + Vérification Cursor dans projet BBIA
-
