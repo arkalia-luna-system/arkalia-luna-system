@@ -95,15 +95,15 @@ find docs -name "*.md" | wc -l
 pytest --collect-only -q
 → 1362/1418 tests collected (56 deselected) ✅
 
-# Incohérence détectée
-- README.md mentionne : "1334 tests automatisés"
-- Réalité actuelle : 1362 tests collectés
-- STATUT_PROJET.md : "1362 tests sélectionnés"
+# Vérification actuelle
+- README.md mentionne : "1362 tests automatisés" ✅ **CORRIGÉ**
+- Réalité actuelle : 1362 tests collectés ✅
+- STATUT_PROJET.md : "1362 tests sélectionnés" ✅
 ```
 
-**Verdict** : ⚠️ **PARTIELLEMENT OBSOLÈTE** — Le README indique 1334, mais il y en a 1362. **Mettre à jour le README.**
+**Verdict** : ✅ **CORRIGÉ** — Le README indique maintenant 1362 tests, cohérent avec la réalité.
 
-**Correction nécessaire** : Mettre à jour README.md : "1334" → "1362 tests"
+**Statut** : ✅ **CORRIGÉ** - README.md mis à jour : "1362 tests"
 
 ---
 
