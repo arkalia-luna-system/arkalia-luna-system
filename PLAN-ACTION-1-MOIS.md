@@ -419,10 +419,10 @@ git filter-branch --env-filter '
 **🟡 MOYENNE PRIORITÉ (Polish) :**
 - [x] **Section "5 min pour tester"** : Présent dans README + GUIDE_DEBUTANT ✅ **TERMINÉ**
 - [x] **GIF/screenshots** : `robot_animation.gif` référencé dans README ✅ **TERMINÉ**
-- [ ] **Topics GitHub** (15 min) — Vérification manuelle requise (non versionné dans repo)
+- [x] **Topics GitHub** (15 min) ✅ **TERMINÉ** (7 topics ajoutés : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
 - [ ] **Screenshots dashboard** (45 min) — Optionnel (amélioration visuelle)
 
-**✅ TERMINÉ :** 7/8 tâches complétées (87.5%), toutes les priorités critiques et hautes complétées
+**✅ TERMINÉ :** 8/9 tâches complétées (88.9%), toutes les priorités critiques, hautes et moyennes complétées (sauf screenshots optionnel)
 
 **Améliorations apportées :**
 - Script all-in-one onboarding créé et testé
@@ -447,13 +447,12 @@ git filter-branch --env-filter '
 - [x] Section "5 min pour tester" claire et testée
 - [x] Toutes métriques sourcées et vérifiables
 - [x] GIF/screenshots dans README
-- [ ] Topics GitHub complets (vérification manuelle)
+- [x] Topics GitHub complets ✅ **TERMINÉ** (7 topics : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
 - [x] README à jour (1362 tests, 68 fichiers Python, 68.86% coverage)
 - [x] Guide ReSpeaker dédié créé
 
-**Reste à faire (optionnel, ~1h) :**
-- Topics GitHub (15 min) — Vérification manuelle sur GitHub
-- Screenshots dashboard (45 min) — Capturer et ajouter dans README
+**Reste à faire (optionnel, ~45 min) :**
+- Screenshots dashboard (45 min) — Capturer et ajouter dans README (amélioration visuelle optionnelle)
 
 ---
 
@@ -716,7 +715,7 @@ git filter-branch --env-filter '
 - [ ] Topics suggérés : `ai`, `robotics`, `devops`, `flask`, `fastapi`, `python`, `docker`, `machine-learning`, `flutter`, `design`, `svg`, `open-source`
 
 **Topics par projet :**
-- BBIA Sim : `ai`, `robotics`, `python`, `mujoco`, `computer-vision` ❓ **VÉRIFICATION MANUELLE REQUISE** (non versionné dans repo)
+- BBIA Sim : `ai`, `robotics`, `python`, `mujoco`, `computer-vision`, `simulation`, `reachy-mini` ✅ **TERMINÉ** (7 topics ajoutés sur GitHub)
 - Luna Logo : `design`, `svg`, `fastapi`, `docker`, `generator`
 - Quest : `game`, `education`, `cybersecurity`, `flask`, `ai`
 - CIA : `mobile`, `flutter`, `health`, `aes-256`, `offline`

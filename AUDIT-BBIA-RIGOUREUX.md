@@ -311,6 +311,7 @@ pytest --collect-only -q
 3. ✅ **Améliorer guides ReSpeaker** — **TERMINÉ** (guide dédié `RESPEAKER_SETUP.md` créé avec scripts de test)
 4. ✅ **Ajouter GIF/screenshots** — **TERMINÉ** (robot_animation.gif référencé dans README)
 5. ✅ **Créer section "5 min pour tester"** — **TERMINÉ** (présent dans README + GUIDE_DEBUTANT)
+6. ✅ **Topics GitHub** — **TERMINÉ** (7 topics ajoutés : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
 
 ---
 
