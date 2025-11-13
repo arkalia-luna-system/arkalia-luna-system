@@ -91,10 +91,12 @@
 - ✅ Parcours démarrage complet avec diagrammes Mermaid
 - ✅ Instructions claires pour installation et première utilisation
 
-**Note** : Pourrait être amélioré avec screenshots dashboard (non trouvés).
+**Note** : Screenshots dashboard ajoutés ✅
 
-**Action optionnelle** :
-- [ ] Ajouter screenshots dashboard dans section Quick Start
+**✅ TERMINÉ** :
+- ✅ 4 captures d'écran dashboard ajoutées dans `assets/images/`
+- ✅ Référencées dans `assets/MEDIAS_INVENTAIRE.md`
+- ✅ Référencées dans `docs/development/dashboard-advanced.md`
 
 **Référence** : Plan d'action tâche #26
 
@@ -149,10 +151,12 @@
 - ✅ 16 captures d'écran PNG dans `assets/images/`
 - ✅ `assets/images/robot_3d_final.png` : Image finale robot
 
-**Note** : Pourrait être amélioré avec screenshots dashboard (non trouvés).
+**Note** : Screenshots dashboard ajoutés ✅
 
-**Action optionnelle** :
-- [ ] Ajouter screenshots dashboard dans README (section Quick Start ou Dashboard)
+**✅ TERMINÉ** :
+- ✅ 4 captures d'écran dashboard ajoutées dans `assets/images/`
+- ✅ Référencées dans `assets/MEDIAS_INVENTAIRE.md`
+- ✅ Référencées dans `docs/development/dashboard-advanced.md`
 
 **Référence** : Plan d'action tâche #26
 
@@ -184,9 +188,9 @@
 |----------|-------|------------|--------|
 | 🔴 **CRITIQUE** | 2 tâches | 5h | ✅ **TERMINÉ** |
 | 🟠 **HAUTE** | 2 tâches | 2-3h | ✅ **TERMINÉ** |
-| 🟡 **MOYENNE** | 1 tâche | 15 min | ✅ **TERMINÉ** |
-| ✅ **FAIT** | 8 tâches | - | ✅ Terminé |
-| **TOTAL** | **8 tâches** | **0 min restants** | ✅ **100% TERMINÉ** (sauf screenshots optionnel) |
+| 🟡 **MOYENNE** | 2 tâches | 1h | ✅ **TERMINÉ** |
+| ✅ **FAIT** | 9 tâches | - | ✅ Terminé |
+| **TOTAL** | **9 tâches** | **0 min restants** | ✅ **100% TERMINÉ** |
 
 ---
 
@@ -200,9 +204,9 @@
 3. ✅ **Objectiver métriques** (1h) — Métriques sourcées avec liens Codecov, "95 modules" → 68 fichiers corrigé
 4. ✅ **Guide ReSpeaker** (1-2h) — `docs/installation/RESPEAKER_SETUP.md` créé avec scripts de test
 
-### ✅ Semaine 3 (Polish - 15 min) — TERMINÉ
+### ✅ Semaine 3 (Polish - 1h) — TERMINÉ
 5. ✅ **Topics GitHub** (15 min) — 7 topics ajoutés sur GitHub ✅ **TERMINÉ**
-6. **Screenshots dashboard** (45 min) — Capturer et ajouter dans README (optionnel)
+6. ✅ **Screenshots dashboard** (45 min) — 4 captures d'écran ajoutées dans `assets/images/`, référencées dans documentation ✅ **TERMINÉ**
 
 ### ✅ Déjà fait (pas besoin de refaire)
 - ✅ Badges coverage (Codecov configuré)
@@ -222,6 +226,7 @@ Avant de considérer BBIA "ultra user-friendly" :
 - [x] Toutes métriques sourcées et vérifiables (liens Codecov + harmonisation) ✅ **FAIT**
 - [x] GIF/screenshots dans README ✅ **FAIT** (robot_animation.gif)
 - [x] Topics GitHub complets ✅ **FAIT** (7 topics : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
+- [x] Screenshots dashboard ✅ **FAIT** (4 captures d'écran ajoutées dans `assets/images/`, référencées dans documentation)
 - [x] README à jour (1362 tests) ✅ **FAIT**
 - [x] Guide ReSpeaker dédié créé ✅ **FAIT**
 
@@ -239,9 +244,9 @@ Avant de considérer BBIA "ultra user-friendly" :
 
 ## 📝 NOTES
 
-- **Temps total estimé** : 0 min restants (toutes tâches terminées, sauf screenshots optionnel)
+- **Temps total estimé** : 0 min restants (toutes tâches terminées)
 - **Impact** : BBIA est maintenant "ultra user-friendly" avec toutes les fonctionnalités critiques, prioritaires et moyennes complétées
-- **Statut** : 8/9 tâches terminées (88.9%), toutes les priorités critiques, hautes et moyennes complétées ✅
+- **Statut** : 9/9 tâches terminées (100%), toutes les priorités critiques, hautes et moyennes complétées ✅
 - **Références** : 
   - `AUDIT-BBIA-RIGOUREUX.md` (audit complet)
   - `PLAN-ACTION-1-MOIS.md` (plan général)
@@ -250,6 +255,6 @@ Avant de considérer BBIA "ultra user-friendly" :
 
 ---
 
-**Dernière mise à jour** : 2025-01-27 (8 tâches terminées, 100% complétion)  
-**Prochaine étape** : Screenshots dashboard (optionnel, 45 min) — dernière amélioration visuelle optionnelle
+**Dernière mise à jour** : 2025-01-27 (9 tâches terminées, 100% complétion)  
+**Statut final** : ✅ **100% TERMINÉ** — Toutes les tâches critiques, prioritaires et moyennes complétées
 

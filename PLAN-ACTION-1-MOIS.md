@@ -470,9 +470,9 @@ git filter-branch --env-filter '
 - [x] **Section "5 min pour tester"** : Présent dans README + GUIDE_DEBUTANT ✅ **TERMINÉ**
 - [x] **GIF/screenshots** : `robot_animation.gif` référencé dans README ✅ **TERMINÉ**
 - [x] **Topics GitHub** (15 min) ✅ **TERMINÉ** (7 topics ajoutés : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
-- [ ] **Screenshots dashboard** (45 min) — Optionnel (amélioration visuelle)
+- [x] **Screenshots dashboard** (45 min) ✅ **TERMINÉ** (4 captures d'écran ajoutées dans `assets/images/`, référencées dans documentation)
 
-**✅ TERMINÉ :** 8/9 tâches complétées (88.9%), toutes les priorités critiques, hautes et moyennes complétées (sauf screenshots optionnel)
+**✅ TERMINÉ :** 9/9 tâches complétées (100%), toutes les priorités critiques, hautes et moyennes complétées
 
 **Améliorations apportées :**
 - Script all-in-one onboarding créé et testé
@@ -498,11 +498,11 @@ git filter-branch --env-filter '
 - [x] Toutes métriques sourcées et vérifiables
 - [x] GIF/screenshots dans README
 - [x] Topics GitHub complets ✅ **TERMINÉ** (7 topics : ai, robotics, python, computer-vision, simulation, mujoco, reachy-mini)
+- [x] Screenshots dashboard ✅ **TERMINÉ** (4 captures d'écran ajoutées dans `assets/images/`, référencées dans documentation)
 - [x] README à jour (1362 tests, 68 fichiers Python, 68.86% coverage)
 - [x] Guide ReSpeaker dédié créé
 
-**Reste à faire (optionnel, ~45 min) :**
-- Screenshots dashboard (45 min) — Capturer et ajouter dans README (amélioration visuelle optionnelle)
+**✅ TERMINÉ :** Toutes les tâches complétées (100%)
 
 ---
 
