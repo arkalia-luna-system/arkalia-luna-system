@@ -1213,20 +1213,6 @@
 
 *(Audit des autres projets à suivre dans les prochains messages de Perplexity)*
 
-### **9. Arkalia Metrics Collector**
-
-- Structure : ✅
-- Qualité : ✅
-- Documentation : ✅
-- Description : ✅
-- Statut : Justifié (**Production**)
-
-**Points forts :** Outil stats avancé, CLI, formats multiples, dashboard responsive.
-
-**Points faibles :** Limité à Python, pas (encore) d'API REST live, doc technique >
-
-**Améliorations suggérées :** Étendre à d'autres stacks/langages ; centraliser résultats coverage des autres projets.
-
 ---
 
 ### **10. Arkalia Luna Pro**  
