@@ -69,7 +69,7 @@
 | 🗣️ **IA Vocale** | Whisper STT/TTS |
 | 🎯 **Pose Detection** | MediaPipe 33 points |
 | 🚀 **Backend unifié** | Sim/Robot |
-| ✅ **Production-ready** | 95 modules, 1334 tests, ~64% coverage |
+| ✅ **Production-ready** | 68 fichiers Python, 1362 tests, 68.86% coverage |
 
 **[Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** • [Documentation](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) • [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
 

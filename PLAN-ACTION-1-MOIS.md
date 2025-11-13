@@ -23,7 +23,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - [ ] Documenter la source de chaque métrique coverage
 
 **Projets concernés :**
-- BBIA Sim (1334 tests, ~64% coverage)
+- BBIA Sim (1362 tests, 68.86% coverage) ✅ **TERMINÉ** (Codecov configuré, badge ajouté, métriques objectivées)
 - Luna Logo (151 tests, 78% coverage)
 - Quest (179 tests)
 - Luna Pro (671 tests, 59% coverage)
@@ -378,7 +378,86 @@ git filter-branch --env-filter '
 
 ---
 
-#### 13. **Améliorer CIA (Roadmap + Clarification)**
+#### 13. **Améliorer BBIA Sim (Ultra User-Friendly)** ⚡
+**Impact :** HIGH | **Temps :** 5h | **Projet :** bbia-sim
+
+**Problèmes identifiés (audit rigoureux 2025-01-27) :**
+- ⚠️ README mentionnait "1334 tests" mais réellement **1362 tests** (corrigé)
+- ⚠️ "95 modules" mentionné mais réellement **68 fichiers Python** (corrigé)
+- ⚠️ Coverage incohérent : badge "~50%" vs README "~64%" (harmonisé à **68.86%**)
+- ⚠️ Scripts onboarding existent mais pas de script unique "all-in-one"
+- ⚠️ Dashboard existe mais pas de panneau troubleshooting interactif
+
+**Actions prioritaires :**
+
+**🔴 CRITIQUE (Impact UX) :**
+- [x] **Corriger README** : 1334 → 1362 tests ✅ **TERMINÉ**
+- [x] **Créer script all-in-one** `reachy-mini-sim-starter.sh` (2h) ✅ **TERMINÉ**
+  - Script créé avec 0 erreurs, 0 warnings shellcheck
+  - Options : `--skip-install`, `--skip-dashboard`, `--help`
+  - Documentation mise à jour (README + GUIDE_DEBUTANT)
+  - Commits : `b8d533f1` + `c0444ca6`
+- [x] **Ajouter panneau troubleshooting interactif** dans dashboard (3h) ✅ **TERMINÉ**
+  - Module `troubleshooting.py` créé
+  - Détection automatique : Python, dépendances, caméra, audio, réseau, MuJoCo, ports
+  - Endpoints API + panneau HTML interactif
+  - 5 tests ajoutés
+  - Documentation mise à jour
+  - Commits : `fd91f6e3` + `58df89b9`
+
+**🟠 HAUTE PRIORITÉ (Impact professionnalisme) :**
+- [x] **Objectiver métriques** : Métriques sourcées avec liens Codecov ✅ **TERMINÉ**
+  - "95 modules" → 68 fichiers Python corrigé
+  - Coverage harmonisé : 68.86% (global) avec liens Codecov
+  - Toutes métriques sourcées avec liens vérifiables
+  - Commits : `f30727f1` + `94282634`
+- [x] **Guide ReSpeaker dédié** : `docs/installation/RESPEAKER_SETUP.md` créé ✅ **TERMINÉ**
+  - Guide complet avec scripts de test
+  - Détection automatique, configuration canaux, matrices compatibilité
+  - Commits : `f30727f1` + `94282634`
+
+**🟡 MOYENNE PRIORITÉ (Polish) :**
+- [x] **Section "5 min pour tester"** : Présent dans README + GUIDE_DEBUTANT ✅ **TERMINÉ**
+- [x] **GIF/screenshots** : `robot_animation.gif` référencé dans README ✅ **TERMINÉ**
+- [ ] **Topics GitHub** (15 min) — Vérification manuelle requise (non versionné dans repo)
+- [ ] **Screenshots dashboard** (45 min) — Optionnel (amélioration visuelle)
+
+**✅ TERMINÉ :** 7/8 tâches complétées (87.5%), toutes les priorités critiques et hautes complétées
+
+**Améliorations apportées :**
+- Script all-in-one onboarding créé et testé
+- Panneau troubleshooting interactif fonctionnel
+- Badge Codecov visible et fonctionnel
+- Métriques objectivées et sourcées (68 fichiers Python, 1362 tests, 68.86% coverage)
+- Guide ReSpeaker dédié créé
+- Documentation : 128 fichiers MD à jour
+- Code propre : Aucune erreur linting, aucun warning
+
+**Statut actuel :**
+- Tests : 1362 tests automatisés (lien CI GitHub Actions)
+- Coverage : 68.86% (global) / ~50% (core) — harmonisé avec liens Codecov
+- Fichiers Python : 68 fichiers (corrigé de "95 modules")
+- Documentation : 128 fichiers `.md` dans `docs/`
+- GIF/Screenshots : 1 GIF + 16 PNG dans `assets/images/`
+
+**Vérification :**
+- [x] Script all-in-one créé et testé
+- [x] Panneau troubleshooting interactif fonctionnel
+- [x] Badge Codecov visible et fonctionnel
+- [x] Section "5 min pour tester" claire et testée
+- [x] Toutes métriques sourcées et vérifiables
+- [x] GIF/screenshots dans README
+- [ ] Topics GitHub complets (vérification manuelle)
+- [x] README à jour (1362 tests, 68 fichiers Python, 68.86% coverage)
+- [x] Guide ReSpeaker dédié créé
+
+**Reste à faire (optionnel, ~1h) :**
+- Topics GitHub (15 min) — Vérification manuelle sur GitHub
+- Screenshots dashboard (45 min) — Capturer et ajouter dans README
+
+---
+
+#### 14. **Améliorer CIA (Roadmap + Clarification)**
 **Impact :** MEDIUM | **Temps :** 2h | **Projet :** arkalia-cia
 
 **Actions :**
@@ -637,7 +716,7 @@ git filter-branch --env-filter '
 - [ ] Topics suggérés : `ai`, `robotics`, `devops`, `flask`, `fastapi`, `python`, `docker`, `machine-learning`, `flutter`, `design`, `svg`, `open-source`
 
 **Topics par projet :**
-- BBIA Sim : `ai`, `robotics`, `python`, `mujoco`, `computer-vision`
+- BBIA Sim : `ai`, `robotics`, `python`, `mujoco`, `computer-vision` ❓ **VÉRIFICATION MANUELLE REQUISE** (non versionné dans repo)
 - Luna Logo : `design`, `svg`, `fastapi`, `docker`, `generator`
 - Quest : `game`, `education`, `cybersecurity`, `flask`, `ai`
 - CIA : `mobile`, `flutter`, `health`, `aes-256`, `offline`
@@ -656,7 +735,7 @@ git filter-branch --env-filter '
 **Actions :**
 - [ ] Garder 1-2 fichiers exemples par projet
 - [ ] Scripts de test faciles à lancer (quickstart, demo, notebook)
-- [ ] **Ajouter section "5 min pour tester" pour projets BIG (BBIA, Luna Logo, Quest)**
+- [x] **Ajouter section "5 min pour tester" pour projets BIG (BBIA ✅, Luna Logo, Quest)**
 - [ ] **Commandes instantanées à lancer immédiatement**
 - [ ] Ajouter GIF/screenshots "en action" si possible
 - [ ] Documentation "Quick Start" claire
@@ -685,7 +764,7 @@ python demo.py
 
 **Vérification :**
 - [ ] Exemples présents sur projets principaux
-- [ ] **Quickstart "5 min" présent sur BIG projects**
+- [x] **Quickstart "5 min" présent sur BIG projects** (BBIA ✅)
 - [ ] **Commandes instantanées fonctionnelles**
 - [ ] Quick start fonctionne
 - [ ] Visuals (GIF/screenshots) présents
