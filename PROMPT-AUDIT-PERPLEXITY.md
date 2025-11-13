@@ -369,9 +369,11 @@ Vérifie les incohérences entre :
 
 ---
 
-## 📊 FORMAT DE RÉPONSE ATTENDU (ULTRA-DÉTAILLÉ)
+## 📊 FORMAT DE RÉPONSE ATTENDU (UNE SEULE RÉPONSE COMPLÈTE)
 
-Organise ta réponse en sections **extrêmement détaillées** :
+**⚠️ IMPORTANT : FOURNIS TOUT EN UNE SEULE RÉPONSE. Ne divise pas en plusieurs messages.**
+
+Organise ta réponse en sections **extrêmement détaillées** dans un seul message complet :
 
 ### 1. **RÉSUMÉ EXÉCUTIF** (Niveau perfectionniste)
 - **Note globale sur 10** (avec justification détaillée)
@@ -492,53 +494,79 @@ Pour **CHAQUE** projet, fournis :
 
 ## ⚡ INSTRUCTIONS FINALES (RIGUEUR ABSOLUE)
 
+**🎯 RÈGLE PRINCIPALE : FOURNIS TOUT EN UNE SEULE RÉPONSE COMPLÈTE**
+
 1. **Sois ULTRA-MINUTIEUX** : 
    - Vérifie **chaque** détail, **chaque** lien, **chaque** métrique
    - Vérifie **chaque** caractère, **chaque** espace, **chaque** ponctuation
    - Vérifie **chaque** badge, **chaque** image, **chaque** diagramme
    - Vérifie **chaque** date, **chaque** version, **chaque** statut
+   - Vérifie **chaque** espacement, **chaque** saut de ligne, **chaque** alignement
+   - Vérifie **chaque** coquille, **chaque** faute de frappe, **chaque** typo
+   - Vérifie **chaque** encodage, **chaque** caractère spécial, **chaque** emoji
+   - Vérifie **chaque** formatage, **chaque** indentation, **chaque** tabulation
 
 2. **Sois EXTRAORDINAIREMENT CRITIQUE** : 
    - Ne sois **PAS gentil**, identifie **TOUS** les problèmes, même subtils
    - Compare aux **meilleurs** profils GitHub que tu connais
    - Un profil "9/10" doit être au niveau des **industry leaders**
    - Identifie même les **nuances** qui font la différence
+   - Identifie les **micro-détails** qui trahissent un manque de soin
+   - Identifie les **incohérences subtiles** (majuscules/minuscules, tirets/underscores)
+   - Identifie les **déséquilibres visuels** (espacements inégaux, alignements)
 
 3. **Sois HYPER-CONSTRUCTIF** : 
    - Pour **chaque** problème, propose une solution **concrète et actionnable**
    - Fournis des **exemples** Avant/Après
    - Donne des **liens** vers ressources ou exemples
    - Estime le **temps** nécessaire pour chaque correction
+   - Propose des **alternatives** quand plusieurs solutions existent
 
 4. **Sois ABSOLUMENT EXHAUSTIF** : 
    - N'oublie **aucun** projet, **aucune** section, **aucun** détail
    - Analyse **chaque** fichier README, **chaque** badge, **chaque** lien
    - Vérifie **chaque** métrique, **chaque** assertion, **chaque** date
    - Teste **chaque** lien, **chaque** badge, **chaque** workflow
+   - Vérifie **chaque** projet des 11 projets (pas juste les principaux)
+   - Vérifie **chaque** section du README principal (pas juste les grandes sections)
+   - Vérifie **chaque** tableau, **chaque** liste, **chaque** diagramme
 
 5. **Sois EXTRAORDINAIREMENT PRÉCIS** : 
    - Cite des exemples **concrets** avec numéros de lignes
    - Fournis des **URLs exactes** et vérifie qu'elles fonctionnent
    - Donne des **citations exactes** (copier-coller)
    - Fournis des **commandes** pour vérifier les métriques
+   - Indique **exactement** où se trouve chaque problème (fichier, ligne, colonne)
+   - Compte **exactement** les occurrences (pas de "environ", "plusieurs")
 
 6. **Sois RIGOUREUSEMENT OBJECTIF** : 
    - Distingue ce qui est **vraiment** professionnel de ce qui ne l'est pas
    - Compare aux **standards** de l'industrie (Google, Microsoft, etc.)
    - Évalue le **niveau réel** (pas optimiste, pas pessimiste)
    - Identifie le **gap** entre niveau actuel et niveau visé
+   - Utilise des **critères mesurables** (pas d'impressions subjectives)
 
 7. **Sois PERFECTIONNISTE** : 
    - Identifie même les **détails** qui pourraient être améliorés
    - Propose des **optimisations subtiles** qui font la différence
    - Compare aux **meilleures pratiques** de l'industrie
    - Vis le niveau **"industry leader"**, pas juste "bon"
+   - Identifie les **micro-optimisations** (espacements, alignements, cohérence)
 
 8. **Sois ACTIONNABLE** : 
    - Chaque recommandation doit être **concrète** et **réalisable**
    - Fournis des **étapes précises** pour chaque amélioration
    - Estime le **temps** et la **priorité** de chaque action
    - Donne des **exemples** de ce qui est bien fait ailleurs
+   - Fournis des **templates** ou **snippets** quand applicable
+
+9. **Sois COMPLET EN UNE SEULE RÉPONSE** :
+   - **TOUS** les 11 projets doivent être analysés dans cette réponse
+   - **TOUTES** les sections du format de réponse doivent être présentes
+   - **TOUTES** les vérifications doivent être faites avant de répondre
+   - Ne dis **PAS** "je continuerai dans un prochain message"
+   - Ne dis **PAS** "voici la première partie"
+   - Fournis **TOUT** en une seule réponse complète et exhaustive
 
 ---
 
@@ -552,5 +580,51 @@ Pour **CHAQUE** projet, fournis :
 
 ---
 
-**Commence l'audit maintenant. Sois exhaustif, critique et constructif. Bon travail !** 🔍
+## 🔬 VÉRIFICATIONS MICRO-DÉTAILS (NIVEAU PERFECTIONNISTE)
+
+Avant de répondre, vérifie **TOUS** ces micro-détails pour **CHAQUE** projet :
+
+### Vérifications caractère par caractère :
+- [ ] **Espaces** : Pas d'espaces doubles, pas d'espaces en fin de ligne, espacements cohérents
+- [ ] **Ponctuation** : Points finaux cohérents, virgules correctes, pas de ponctuation double
+- [ ] **Majuscules** : Cohérence dans les titres, noms propres corrects, acronymes cohérents
+- [ ] **Tirets/Underscores** : Cohérence dans les noms (kebab-case vs snake_case vs camelCase)
+- [ ] **Guillemets** : Cohérence entre guillemets simples/doubles/backticks
+- [ ] **Encodage** : Pas de caractères bizarres, emojis correctement encodés
+
+### Vérifications formatage :
+- [ ] **Alignement** : Tableaux alignés, listes indentées de manière cohérente
+- [ ] **Sauts de ligne** : Pas de lignes vides inutiles, sauts cohérents entre sections
+- [ ] **Indentation** : Code blocks indentés correctement, listes hiérarchisées correctement
+- [ ] **Largeur** : Lignes pas trop longues (max 80-100 caractères pour lisibilité)
+
+### Vérifications liens et badges :
+- [ ] **Chaque badge** : URL fonctionne, image charge, valeur à jour
+- [ ] **Chaque lien** : Pas de 404, pas de redirects, lien vers la bonne page
+- [ ] **Chaque image** : Charge correctement, pas de pixelisation, alt text présent
+- [ ] **Chaque diagramme** : Mermaid rendu correctement, pas d'erreurs de syntaxe
+
+### Vérifications métriques :
+- [ ] **Chaque nombre** : Vérifié avec commande exacte (pytest --collect-only, find, wc -l, etc.)
+- [ ] **Chaque pourcentage** : Arrondi de manière cohérente, correspond au badge
+- [ ] **Chaque date** : Cohérente avec la réalité, format uniforme
+- [ ] **Chaque version** : Correspond à la release GitHub, pas de version fantôme
+
+### Vérifications cohérence :
+- [ ] **Noms de projets** : Identiques partout (README, About, badges, liens)
+- [ ] **Statuts** : Cohérents entre README, About, badges, tableaux
+- [ ] **Technologies** : Mentionnées seulement si réellement utilisées (vérifier requirements.txt)
+- [ ] **Descriptions** : Alignées entre README et About (pas de contradictions)
+
+### Vérifications subtilités :
+- [ ] **Ton** : Pas de mots prétentieux, pas de superlatifs excessifs, pas de langage vague
+- [ ] **Emojis** : Utilisés avec parcimonie (max 5-10 pour README complet), cohérents
+- [ ] **Sections** : Toutes présentes, dans le bon ordre, pas de sections vides
+- [ ] **Exemples** : Concrets, testables, pas de placeholders ("TODO", "exemple")
+
+---
+
+**🚨 RAPPEL FINAL : FOURNIS TOUT EN UNE SEULE RÉPONSE COMPLÈTE**
+
+**Commence l'audit maintenant. Sois exhaustif, critique, constructif et fournis TOUT en une seule réponse. Bon travail !** 🔍
 
