@@ -41,6 +41,68 @@
 
 <div align="center">
 
+## 🔥 Featured Projects
+
+**Les 3 projets qui démontrent le mieux mes compétences techniques et ma capacité à livrer en production**
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Luna Pro"/>
+<br/><br/>
+<strong>🌕 Arkalia Luna Pro</strong>
+<br/>
+<sub>Orchestration IA Production-Ready</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">5 containers • 671 tests • 59% coverage</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">Monitoring • Grafana • Prometheus</sub>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/arkalia-luna-system/bbia-sim">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="BBIA Sim"/>
+<br/><br/>
+<strong>🤖 BBIA Reachy Sim</strong>
+<br/>
+<sub>Robot émotionnel • IA Vision</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">12 émotions • 1362 tests • 68.86% coverage</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">MuJoCo • YOLO • MediaPipe</sub>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/arkalia-luna-system/bbia_branding">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="BBIA Branding"/>
+<br/><br/>
+<strong>🎨 BBIA Branding</strong>
+<br/>
+<sub>Identité visuelle complète</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">Palette hex • Typographie • Assets</sub>
+<br/>
+<sub style="font-size: 0.85em; color: #666;">Design system professionnel</sub>
+</a>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
 ## 🤖 Projet Principal : BBIA Reachy Sim
 
 **Cognitive Engine • 12 émotions • IA lightweight**
@@ -89,35 +151,44 @@
 
 <div align="center">
 
-### 🌟 Projets Principaux
+### 🌟 Autres Projets Principaux
 
 <table>
 <tr>
-<td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/bbia-sim">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3); transition: transform 0.2s;" alt="BBIA Sim"/>
-<br/><br/>
-<strong>BBIA Sim</strong>
-<br/>
-<sub>Robot émotionnel</sub>
-</a>
-</td>
-<td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/bbia_branding">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="BBIA Branding"/>
-<br/><br/>
-<strong>BBIA Branding</strong>
-<br/>
-<sub>Identité visuelle</sub>
-</a>
-</td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <a href="https://github.com/arkalia-luna-system/arkalia-luna-logo">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="100" height="100" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Luna Logo"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Luna Logo"/>
 <br/><br/>
 <strong>Luna Logo</strong>
 <br/>
 <sub>Générateur SVG</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/arkalia-luna-system/arkalia-quest">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Quest"/>
+<br/><br/>
+<strong>Arkalia Quest</strong>
+<br/>
+<sub>Gaming éducatif</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/arkalia-luna-system/arkalia-aria">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="ARIA"/>
+<br/><br/>
+<strong>Arkalia ARIA</strong>
+<br/>
+<sub>Santé IA • RGPD</sub>
+</a>
+</td>
+<td align="center" width="25%">
+<a href="https://github.com/arkalia-luna-system/ia-pipeline">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="IA Pipeline"/>
+<br/><br/>
+<strong>IA Pipeline</strong>
+<br/>
+<sub>DevOps • 62 cmd</sub>
 </a>
 </td>
 </tr>
