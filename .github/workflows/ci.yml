@@ -24,14 +24,14 @@ jobs:
           pip install -r requirements.txt
           pip install black ruff mypy
 
-            - name: Run Black
-              run: black --check .
+      - name: Run Black
+        run: black --check .
 
-            - name: Run Ruff
-              run: ruff check .
+      - name: Run Ruff
+        run: ruff check .
 
-            - name: Run MyPy
-              run: mypy . || true
+      - name: Run MyPy
+        run: mypy . || true
 
   test:
     runs-on: ubuntu-latest
