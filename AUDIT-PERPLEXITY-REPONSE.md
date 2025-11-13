@@ -1490,29 +1490,106 @@
 
 ## 5. **RECOMMANDATIONS PRIORITAIRES**
 
-*(Top 15 actions classées par impact et effort - à suivre après audit complet)*
+### 🔴 Critique (impact maximal)
 
-**Actions critiques (à faire en priorité) :**
-- Cohérence parfaite et synchronisation info+UX/SEO sur les 11 dépôts
-- Diminution de la friction éditoriale (README scannable, sommaire, collapsibles, tous liens métriques/badges vérifiables à 1 clic)
-- Plus d'exemples de benchmark, scénarios réels et dashboards preview pour chaque projet
-- Unified security disclosures pour archiver/distinguer code legacy vs central
+1. **Ajouter un sommaire Markdown cliquable en tête de chaque README (profil + projets principaux)**
+   - Impact : Scannabilité, UX/CTO, reviews rapides
+   - Effort : 30 min/projet
+   - Comment faire : Utiliser `[TOC]` auto ou "markdown-toc", placer entre intro et first section
 
-**Actions importantes :**
-- Afficher badges coverage (Codecov) sur chaque README
-- Ajouter un inventaire généré auto des SVG/assets/metrics
-- Centraliser un tableau cross-projets : prod/beta/template/archivé
-- Adapter le ton du README (moins d'emojis, plus de sobriété)
-- Ajouter hooks CI pour publier stats coverage/quality sur un dashboard unique
+2. **Rendre badge "test coverage/réalité" cliquable/sourcé sur chaque métrique et claim visible**
+   - Impact : Traçabilité, crédibilité
+   - Effort : 20 min/projet
+   - Comment faire : Badge Codecov/Codecov.io en direct du repo CI/CD + lien rapport tests
 
-**Actions d'amélioration :**
-- Ajouter une section : git conventions, branche, PR review sur chaque projet
-- Rendre le diagramme mermaid cross-projets plus lisible et accessible
-- Mettre à jour plus fréquemment les "Archived/Outdated" templates
-- Plus d'exemples d'usage métier sur Luna Pro, Metrics, CIA et ARIA
-- Ajouter une table de compatibilité version / stacks dans chaque README
+3. **Centraliser statut (prod/bêta/archive), dernière update, coverage et nombre de tests dans tableau récap sur README principal**
+   - Impact : Cohérence globale, vue rapide pour lead/PM/recruteur
+   - Effort : 45 min
+   - Comment : Table markdown, "projet | statut | tests | coverage | last update | prod tag"
 
-*(Détails avec priorités, temps estimé et ordre d'exécution à suivre)*
+4. **Refactorer tous les About pour avoir <160 caractères ultra-SEO avec 3-4 mots clés stratégiques**
+   - Impact : Découvrabilité, SEO GitHub, recrutement
+   - Effort : 15 min/projet
+   - Comment : Synthétiser les descriptions, intégrer "AI, Python, DevOps, Education…"
+
+5. **Uniformiser docstrings (Google style) sur tous modules publics (Python + Flutter)**
+   - Impact : Revue code, onboarding, qualité dev
+   - Effort : 1h/projet critique
+   - Comment : Refactor docstrings, rendre explicite input/output
+
+### 🟠 Haute priorité
+
+6. **Ajouter badge "last release/prod" et "archived" sur les projets legacy**
+   - Impact : Clarté, crédibilité, onboarding
+   - Effort : 10 min/projet
+   - Comment : Badges Shields.io reliés dernière release/tag, status "archived/legacy" visible
+
+7. **Intégrer screenshots/GIF onboarding et résultats "in prod" dans README/Profil (mobile/dark mode compris)**
+   - Impact : UX, crédibilité utilisateur/contributeurs
+   - Effort : 30 min/projet
+   - Comment : Exemples, `alt`, images compressées, scénarios d'usage réel
+
+8. **Benchmark performances et documenter "build/test time + RAM/CPU usage + scaling scenario"**
+   - Impact : Recruteurs/DSI, scaling multi-environnement
+   - Effort : 1h/projet (projets majeurs)
+   - Comment : Script shell/python, doc "benchmarks" en README
+
+9. **Ajouter section "FAQ/troubleshooting" sur installation/usage/edge cases**
+   - Impact : Onboarding devs utilisateurs
+   - Effort : 25 min/projet
+   - Comment : FAQ en README et docs/, erreurs typiques/solutions
+
+10. **Mini-guide "contribution onboarding" plus haut dans chaque README (process, PR, style)**
+    - Impact : Ouverture, onboarding contribution OSS
+    - Effort : 15 min/projet
+    - Comment : Placé avant "usage", links à CONTRIBUTING.md
+
+### 🟡 Moyenne priorité
+
+11. **Axe SEO supplémentaire : "topics/tags" à compléter (health, devops, orchestration, education)**
+    - Impact : Découvrabilité long terme
+    - Effort : 15 min
+    - Comment : Modifier "topics" repo + keywords dans About/README
+
+12. **Feature/test matrix visuelle pour projets multi-modules**
+    - Impact : Clarté, onboarding DSI/dev
+    - Effort : 45 min
+    - Comment : Table markdown, modules/features/tests/status
+
+13. **Ajouter guide accessibilité et onboarding seniors/mobilité sur les apps santé/mobile**
+    - Impact : UX/handicap, standard healthcare
+    - Effort : 1h (projets concernés)
+    - Comment : Section README, lien documentation externe si possible
+
+### 🟢 Basse priorité
+
+14. **Centraliser les benchmarks, dashboard/demos sur README principal**
+    - Impact : Portefeuille, usage lead
+    - Effort : 35 min
+    - Comment : Table/résumé, screenshots des dashboards/démos
+
+15. **Ajouter preview Open Graph/social sur chaque repo (+ profil organisation)**
+    - Impact : Communication, image professionnelle
+    - Effort : 10 min/repo
+    - Comment : Upload image preview sur GitHub settings
+
+### **Ordre d'exécution recommandé**
+
+1. Sommaire Markdown
+2. Badges coverage/metrics cliquables
+3. Table récap statut/metrics
+4. About SEO/prod refactor
+5. Docstring Google
+6. Badges release/archived
+7. Screenshots onboarding/dark mode
+8. Benchmarks perf
+9. FAQ troubleshooting
+10. Guide contribution
+11. Topics SEO/tags
+12. Feature/test matrix
+13. Guide accessibilité seniors/mobilité
+14. Centralisation dashboard/demos
+15. Preview OG/social
 
 ---
 
