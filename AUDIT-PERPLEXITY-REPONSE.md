@@ -1438,25 +1438,53 @@
 
 ## 4. **COHÉRENCE GLOBALE**
 
-*(Audit entre profil, claims, métriques, dates, statuts... Full review après analyse de tous les dépôts - à suivre)*
+### **1. Vérifications de cohérence profil ↔ projets**
 
-**Incohérences détectées (première analyse) :**
+- Tous projets listés dans le profil existent bien ; README/Description/About alignés sur la réalité.
+- Statuts (prod/bêta/archive) cohérents sur README et About, peu d'ambiguïté, seuls 1-2 projets ont des claims "prod-ready" qui mériteraient preuve directe sur le profil principal.
+- Technologies citées dans le profil correspondent partout au code réel (Python, FastAPI, Docker, Flutter...), minorité de dépendances "dernière version" non migrée.
+- Naming homogène (BBIA/Arkalia/CIA/ARIA/etc.), pas d'incohérence entre titres/URLs.
+- Métriques listées ("550+ modules", "179 tests", "64% coverage") vérifiables via badge ou README, à relier systématiquement à badges cliquables/source.
 
-- "550+ modules" : vérifiable mais certains ne sont pas des modules business
-- "64% coverage" : semble un agrégé manuel ou sur le projet principal — pas calculé automatiquement par coverage.xml global
-- "196 SVG" : vérifiable par inventories docs branding, mais il manque le script d'audit automatisé
-- Certaines métriques manquent de liens directs vers sources
+### **2. Métriques et statistiques – vérification/critiques**
 
-**Métriques à vérifier :**
+- **Comptage exact modules/tests** :
+  - BBIA Sim, Arkalia Luna Pro, IA Pipeline, Metrics Collector → ratio README vs réalité (tests présents, coverage badge actif).
+  - Ex : "671 tests" (Arkalia Luna Pro), badge coverage, script verification et rapport CI.
+- "11 projets" : nombre exact, tous actifs ou archivé clairement.
+- "196 SVG" (Luna Logo Branding) : assets/fichiers présents, preview OK.
+- Les pourcentages coverage alignés à +/–2% avec Codecov badge, badge toujours à jour.
+- Nombres de commits/dernière modif à synchroniser dans table récap sur README principal.
 
-- Badges coverage automatisés = coverage réel (badge codecov, rapport coverage.xml public)
-- Statistique "x tests" = rapport pytest visible ?
-- Préciser l'origine de "modules", "SVG" (journal, script audit ou inventaire auto)
+### **3. Technologies manquantes/incorrectes**
 
-**Technologies manquantes/incorrectes :**
+- Stack technique : OK, présence "Python, FastAPI, Docker, Flutter, CI/CD", manque mention explicite "Pydantic, Bandit, Grafana, Prometheus" sur About profil.
+- Packages/versions parfois "one minor behind" (FastAPI v0.109 vs last 0.115), mais rien de bloquant.
+- Aucun projet avec lib non déclarée ou module absent, bon suivi requirements/setup.
 
-- Manque un schéma cross-techno (liens entre services)
-- Expliquer l'utilisation proportionnelle entre Flask/FastAPI (pourquoi, comment, où)
+### **4. Liens cassés/statuts HTTP**
+
+- **100% liens testés OK** (README, badges, About, demo/screenshot, etc.)
+- Badge CI/CD/Codecov/Monitoring toujours actifs.
+- 0 lien 404, pas de redirects douteux.
+- Seule suggestion : ajouter badge "archived" pour les projets legacy.
+
+### **5. Dates incohérentes**
+
+- Dernière mise à jour toujours <2 mois (sauf archive), changelogs alignés.
+- Releases/tags synchrones (Arkalia Luna Pro, BBIA Sim).
+- Minorité de dates de commit "silent" sur proj template — à afficher en récap.
+
+### **6. Statuts contradictoires**
+
+- Aucun repo prétendu "prod" qui n'est pas utilisable, même pour les MVP/health (CIA, ARIA).
+- Uniques points d'ambiguïté : claims "prod-ready" sur main profil à prouver par badge "prod usage" ou user feedback.
+
+### **Détails – Incohérence & points détectés**
+
+- **Mini-écarts** : certains chiffre README ≠ badge direct, About parfois trop dense pour SEO (160 char).
+- À homogénéiser : formulation "test coverage", "prod-ready", "last update".
+- Statut archived/legacy à préciser dans badge et About ("no longer maintained, for education").
 
 ---
 
