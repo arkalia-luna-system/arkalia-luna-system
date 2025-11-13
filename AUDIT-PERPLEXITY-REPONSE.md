@@ -1213,10 +1213,6 @@
 
 *(Audit des autres projets à suivre dans les prochains messages de Perplexity)*
 
-**Améliorations suggérées :** Centraliser la doc, exemples d'usage pour néophytes, badge coverage sur README.
-
----
-
 ### **9. Arkalia Metrics Collector**
 
 - Structure : ✅
