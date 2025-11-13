@@ -52,23 +52,46 @@
 - Dates uniformisées à "novembre 2025"
 - 16 scripts obsolètes supprimés
 
-**Phase 1-4 : Refactoring et optimisations (100% terminé) :**
+**Phase 1-6 : Refactoring et optimisations (100% terminé) :**
 - Phase 1 : Corrections critiques ✅ **TERMINÉ** (doublons supprimés, configs consolidés, 12 imports migrés)
 - Phase 2 : Standardisation I/O ✅ **TERMINÉ** (fusion save_json/toml, 5 fichiers migrés, cache thread-safe)
 - Phase 3 : Unification logging ✅ **100% TERMINÉ** (70 fichiers migrés vers ark_logger)
 - Phase 4 : Optimisations architecturales ✅ **TERMINÉ** (HelloriaStateManager fusionné, CrossModuleValidator migré)
+- Phase 5 : Corrections linting et structure ✅ **TERMINÉ** (~80 fichiers corrigés, 0 erreur linting, 6 Dockerfiles corrigés, scripts CI/CD robustes, erreurs factory corrigées, 2 doublons supprimés, 13 fichiers migrés vers ark_logger)
+- Phase 6 : Refactoring fichiers longs ✅ **TERMINÉ** (storage.py divisé en 3 fichiers, sandozia_core.py divisé en 4 fichiers)
 - Tests : 671 tests passent (59.25% couverture)
 - Qualité code : Mypy OK, Ruff OK, Black OK
 - CI/CD : 100% verte
 
-**Résultats refactoring :**
+**Résultats refactoring (Phases 1-6) :**
+- ~150 fichiers modifiés
+- 9 nouveaux fichiers créés (sous-modules + docs)
+- 3 fichiers supprimés (doublons)
 - -3 modules redondants supprimés
 - -3 fonctions dupliquées supprimées
 - -1 classe redondante supprimée (HelloriaStateManager)
+- -2 fichiers dupliqués supprimés (taskia/core_refactored.py, reflexia/main_loop.py)
 - -1 fichier dupliqué supprimé (766 lignes)
 - +1 système I/O unifié et robuste
 - +1 système de logging unifié (100%)
+- +7 sous-modules créés (refactoring fichiers longs)
 - Architecture optimisée et SOLID
+- 0 régression introduite
+
+**Détails Phase 5 :**
+- ~80 fichiers corrigés (type hinting, logging, imports)
+- 6 Dockerfiles corrigés (suppression référence obsolète `utils_enhanced`)
+- Scripts CI/CD robustes (rollback ZeroIA, workflows corrigés, fichiers macOS exclus)
+- Erreurs factory corrigées (ConfigManager, ModuleFactory, ServiceFactory)
+- 2 doublons supprimés (taskia/core_refactored.py, reflexia/main_loop.py)
+- 3 loaders config migrés vers ConfigManager
+- 13 fichiers migrés vers ark_logger (100%)
+- 1 script nettoyage créé (cleanup_confidence_memory.py)
+- 1 documentation créée (SCRIPTS_DIAGNOSTIC.md)
+
+**Détails Phase 6 :**
+- storage.py (445 lignes) → divisé en 3 fichiers
+- sandozia_core.py (655 lignes) → divisé en 4 fichiers
 
 ---
 
