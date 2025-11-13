@@ -1628,7 +1628,156 @@
 
 ## 8. **ROADMAP D'AMÉLIORATION**
 
-*(Phase 1 (Semaine 1) : Actions critiques. Phase 2 (Semaine 2) : Actions importantes. Phase 3 (Semaine 3-4) : Actions d'amélioration. Phase 4 (Mois 2+) : Optimisations. Timeline : Estimation réaliste pour chaque phase - à suivre)*
+### **PHASE 1 — SEMAINE 1 (Actions critiques 🔴)**
+
+**Objectif : Crédibilité maximale + scannabilité immédiate**  
+**Temps estimé : 8-10h réparties sur 7 jours**
+
+#### **Jour 1-2 (3h) : Sommaires + Table récap**
+
+- [ ] Ajouter table of contents cliquable en haut de chaque README principal (profil + 6 projets majeurs)
+  - Outils : `markdown-toc` (npm) ou manuel
+  - Projets : Profil principal, Luna Pro, BBIA Sim, Arkalia Quest, IA Pipeline, ARIA, CIA
+- [ ] Créer tableau récap central sur README profil principal
+  - Colonnes : Projet | Statut | Tests | Coverage | Dernière maj | Version
+
+#### **Jour 3-4 (3h) : Badges coverage + métriques cliquables**
+
+- [ ] Vérifier et rendre cliquables tous les badges Codecov/CI
+- [ ] Ajouter badge "last release" sur tous projets avec tags
+- [ ] Badge "archived" sur Nours Interface
+
+#### **Jour 5-6 (2h) : About SEO refactor**
+
+- [ ] Réécrire les 11 About <160 caractères
+- [ ] Intégrer mots-clés stratégiques (AI, Python, DevOps, Health, Education...)
+- [ ] Vérifier preview social/OG
+
+#### **Jour 7 (2h) : Docstrings prioritaires**
+
+- [ ] Uniformiser docstrings Google style sur modules publics critiques (Luna Pro, BBIA Sim, IA Pipeline)
+
+**Livrables Semaine 1 :**
+- ✅ Tous README scannables en <30 secondes
+- ✅ Toutes métriques traçables en 1 clic
+- ✅ About optimisés SEO
+- ✅ Cohérence visuelle renforcée
+
+---
+
+### **PHASE 2 — SEMAINE 2 (Actions importantes 🟠)**
+
+**Objectif : Preuves de production + onboarding fluide**  
+**Temps estimé : 6-8h**
+
+#### **Jour 8-9 (2h) : Screenshots + GIFs**
+
+- [ ] Ajouter screenshots onboarding (mode clair + sombre) sur 5 projets avec UI
+  - CIA, Quest, Luna Logo, BBIA Sim, Nours Interface
+- [ ] Compresser images (TinyPNG)
+- [ ] Ajouter alt text systématiquement
+
+#### **Jour 10-11 (3h) : FAQ / Troubleshooting**
+
+- [ ] Section FAQ sur 6 projets principaux
+  - Erreurs d'install courantes
+  - Edge cases
+  - Solutions rapides
+
+#### **Jour 12-13 (2h) : Guide contribution**
+
+- [ ] Remonter "Contributing" plus haut dans README
+- [ ] Clarifier process PR/code style
+- [ ] Lien vers CONTRIBUTING.md visible
+
+#### **Jour 14 (1h) : Topics SEO**
+
+- [ ] Ajouter topics GitHub pertinents (health, devops, orchestration, education, ai, robotics...)
+- [ ] Vérifier cohérence avec About/README
+
+**Livrables Semaine 2 :**
+- ✅ Onboarding visuel complet
+- ✅ Troubleshooting documenté
+- ✅ Contribution facilitée
+- ✅ Découvrabilité SEO améliorée
+
+---
+
+### **PHASE 3 — SEMAINE 3-4 (Actions amélioration 🟡)**
+
+**Objectif : Performance + accessibilité + feature matrix**  
+**Temps estimé : 8-10h**
+
+#### **Semaine 3, Jour 15-18 (4h) : Benchmarks performance**
+
+- [ ] Documenter build/test time sur 5 projets majeurs
+- [ ] RAM/CPU usage, scaling scenarios
+- [ ] Script automatisé de bench si possible
+
+#### **Semaine 3, Jour 19-21 (3h) : Feature/test matrix**
+
+- [ ] Créer table visuelle modules/features/tests pour Luna Pro, IA Pipeline
+- [ ] Markdown ou Mermaid diagram
+
+#### **Semaine 4, Jour 22-25 (3h) : Accessibilité**
+
+- [ ] Guide accessibilité seniors/mobilité sur CIA, ARIA, Quest
+- [ ] Documentation handicap visuel
+- [ ] Alt text, ARIA labels si applicable
+
+**Livrables Semaine 3-4 :**
+- ✅ Performance documentée
+- ✅ Feature matrix claire
+- ✅ Accessibilité renforcée
+
+---
+
+### **PHASE 4 — MOIS 2+ (Optimisations 🟢)**
+
+**Objectif : Niveau élevé**  
+**Temps estimé : 5-8h réparties**
+
+#### **Actions continues :**
+
+- [ ] Centraliser dashboards/demos sur README principal
+- [ ] Preview Open Graph sur tous repos
+- [ ] Monitoring badges live (Grafana/Prometheus)
+- [ ] User feedback/testimonials sur projets prod
+- [ ] Contribution externe (stars, forks, PR externes)
+- [ ] Certification/audit externe (si applicable secteur santé)
+
+**Livrables Phase 4 :**
+- ✅ Profil GitHub de niveau élevé
+- ✅ Crédibilité maximale recrutement/partenariat
+- ✅ Communauté active
+
+---
+
+### **ESTIMATION TEMPS TOTAL**
+
+- Phase 1 : 8-10h (semaine 1)
+- Phase 2 : 6-8h (semaine 2)
+- Phase 3 : 8-10h (semaines 3-4)
+- Phase 4 : 5-8h (mois 2+)
+- **TOTAL : 27-36h réparties sur 1-2 mois**
+
+---
+
+### **MÉTRIQUES DE SUCCÈS**
+
+**Avant amélioration (état actuel) :**
+- Note globale : 8.2/10
+- Niveau : Senior avec points forts
+- Scannabilité : 6/10
+- SEO/Découvrabilité : 7/10
+- Crédibilité proof : 8/10
+
+**Après amélioration (objectif) :**
+- Note globale : 9.5+/10
+- Niveau : Niveau élevé
+- Scannabilité : 10/10 (sommaire, table récap)
+- SEO/Découvrabilité : 9.5/10 (About optimisé, topics)
+- Crédibilité proof : 10/10 (badges, benchmarks, user feedback)
 
 ---
 
@@ -1636,11 +1785,20 @@
 
 **Date de début audit :** 2025-01-27  
 **Version prompt utilisé :** 2.0 - Audit Perfectionniste  
-**Statut :** En cours - Première partie reçue (Résumé exécutif)  
-**Suite attendue :** Analyse détaillée profil principal, puis audit par projet
+**Statut :** ✅ **COMPLET** - Toutes les sections ont été reçues et intégrées
+
+**Sections complétées :**
+1. ✅ Résumé exécutif avec notes détaillées
+2. ✅ Audit profil principal (8 dimensions)
+3. ✅ Audit exhaustif des 11 projets
+4. ✅ Cohérence globale vérifiée
+5. ✅ Top 15 recommandations prioritaires
+6. ✅ Exemples avant/après
+7. ✅ Roadmap timeline 4 phases
 
 **Prochaines étapes :**
-- Attendre la suite de l'audit détaillé de Perplexity
+- Implémenter la Phase 1 (Semaine 1) : Actions critiques
+- Suivre la roadmap d'amélioration semaine par semaine
 - Analyser chaque section au fur et à mesure
 - Prioriser les actions selon les recommandations
 
