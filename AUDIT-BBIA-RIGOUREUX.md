@@ -83,12 +83,12 @@ find docs -name "*.md" | wc -l
 
 ### 3. ⚠️ **Tests**
 
-**Affirmation** : "1334 tests automatisés"
+**Affirmation** : "1362 tests automatisés" (corrigé depuis audit initial)
 
 **Vérification** :
 ```bash
 # Tests mentionnés dans README
-⚠️ "🧪 1334 tests automatisés (unitaires, intégration, E2E)" — OBSOLÈTE
+✅ "🧪 1362 tests automatisés (unitaires, intégration, E2E)" — CORRIGÉ
 ⚠️ Badge tests dans README : [![Tests](https://img.shields.io/badge/tests-1334-brightgreen.svg)] — OBSOLÈTE
 
 # Vérification réelle (Cursor dans BBIA)
@@ -247,7 +247,7 @@ pytest --collect-only -q
 ### ✅ **Ce qui est VRAIMENT au-dessus du niveau moyen**
 
 1. **Documentation** : 128 fichiers .md vs. ~10-20 fichiers typiques
-2. **Tests** : 1334 tests vs. ~100-300 tests typiques
+2. **Tests** : 1362 tests vs. ~100-300 tests typiques
 3. **Fallback caméra** : 3 niveaux (SDK → OpenCV → Simulation) vs. souvent 1 seul niveau
 4. **CI/CD** : Bandit + pip-audit + Black + Ruff + MyPy vs. souvent juste pytest
 5. **Guide débutant** : Guide complet avec diagrammes vs. souvent juste README basique
@@ -270,7 +270,7 @@ pytest --collect-only -q
 
 1. ✅ Onboarding — Guide débutant + scripts
 2. ✅ Documentation — 128 fichiers .md
-3. ⚠️ Tests — 1362 tests réels (README dit 1334, à corriger)
+3. ✅ Tests — 1362 tests réels (README corrigé)
 4. ✅ Fallback caméra — 3 niveaux implémentés
 5. ✅ Quickstart — Section dans README
 6. ✅ Patterns sécurité — Bandit + pip-audit + validation
@@ -287,7 +287,7 @@ pytest --collect-only -q
 ### 🔴 **PRIORITÉ CRITIQUE (Correction immédiate)**
 
 1. ✅ **Mettre à jour README.md de BBIA** (5 min) — **TERMINÉ**
-   - "1334 tests" → "1362 tests automatisés" ✅
+   - "1362 tests automatisés" ✅ **CORRIGÉ**
    - Badge tests : mis à jour ✅
 
 ### 🔴 **PRIORITÉ HAUTE (Impact UX)**
@@ -319,7 +319,7 @@ pytest --collect-only -q
 
 **BBIA est VRAIMENT "un cran au-dessus du niveau communautaire moyen"** sur :
 - Documentation (128 fichiers)
-- Tests (1362 tests réels, README à mettre à jour)
+- Tests (1362 tests réels, README mis à jour ✅)
 - Fallback caméra (3 niveaux)
 - Sécurité (Bandit + pip-audit)
 - Onboarding (guide débutant complet)
@@ -341,7 +341,7 @@ pytest --collect-only -q
 
 ### Correction #1 : Nombre de tests
 
-**Audit initial** : "1334 tests automatisés"  
+**Audit initial** : "1334 tests automatisés" → **Corrigé** : "1362 tests automatisés"  
 **Vérification Cursor** : `pytest --collect-only -q` → **1362/1418 tests collectés**
 
 **Correction** : Le README de BBIA mentionne 1334, mais il y en a réellement 1362. **Mettre à jour README.md de BBIA.**

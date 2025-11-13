@@ -2,7 +2,7 @@
 
 ## 🎯 SITUATION ACTUELLE
 
-**Note actuelle :** 8.5/10  
+**Note actuelle :** 8.3/10 (Audit 2025-11-13)  
 **Objectif :** 9.5/10 (Industry Leader)  
 **Deadline :** 1 mois (avant Reachy Mini + lancement public)
 

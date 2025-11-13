@@ -176,7 +176,7 @@ Pour **CHAQUE projet**, analyse :
 
 ### 10. **Arkalia Luna Pro**
 - URL : https://github.com/arkalia-luna-system/arkalia-luna-pro
-- Vérifier : README, 7 containers, 671 tests, 59% coverage, statut Enterprise
+- Vérifier : README, 5 containers actifs, 671 tests, 59% coverage, statut Production-Ready
 
 ### 11. **Nours Interface**
 - URL : https://github.com/arkalia-luna-system/nours_interface

@@ -367,7 +367,7 @@ flowchart TB
 
 | Métrique | Valeur | Détails |
 |:--------:|:------:|:-------|
-| **Couverture Tests** | ~64% | BBIA : 1334 tests, 95 modules |
+| **Couverture Tests** | ~64% | BBIA : 1362 tests, 68 fichiers Python |
 | **Temps Génération** | 0.03s | Luna Logo : génération SVG |
 | **Containers** | 5 | Luna Pro : orchestration complète (5 actifs) |
 | **Connecteurs** | 13 | ARIA : intégrations santé |

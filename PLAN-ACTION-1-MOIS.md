@@ -2,7 +2,7 @@
 ## Objectif : Portfolio "Industry Leader" en 1 mois
 
 **Deadline :** 1 mois (avant réception Reachy Mini + lancement public)  
-**Note actuelle :** 8.5/10  
+**Note actuelle :** 8.3/10 (Audit 2025-11-13)  
 **Objectif :** 9.5/10
 
 ---
