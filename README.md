@@ -317,7 +317,7 @@ flowchart TB
 ### 📈 Statistiques
 
 - **Projets** : 11 en production
-- **Langages** : Python (9), Shell (1), HTML (1)
+- **Langages** : Python (11), JSON (1), Markdown (1), Shell (1)
 
 <sub>*Dernière mise à jour : novembre 2025*</sub>
 <!-- AUTO-UPDATE:languages -->
