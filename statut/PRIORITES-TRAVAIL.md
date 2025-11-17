@@ -13,6 +13,10 @@
 
 **Pourquoi** : C'est la base pour automatiser toutes les métriques du profil principal.
 
+**Architecture** :
+- **`arkalia-metrics-collector`** : Calcule les métriques et génère `aggregated_metrics.json`
+- **`github-profile-arkalia`** : Lit `aggregated_metrics.json` et met à jour les MD automatiquement
+
 **Actions concrètes** :
 1. ✅ **Étendre le collecteur pour GitHub API** (2-3h) — **TERMINÉ**
    - ✅ Scraper GitHub API pour métriques (stars, forks, last update)
@@ -83,7 +87,7 @@
 - ❌ Quest (179 tests) - **À FAIRE**
 - ❌ Luna Pro (671 tests, 59% coverage) - **À FAIRE**
 - ❌ CIA (61 tests, 66% coverage) - **À FAIRE**
-- ❌ Metrics Collector - **À FAIRE**
+- ✅ Metrics Collector - **TERMINÉ** (Codecov configuré + SEO optimisé)
 - ❌ Base Template - **À FAIRE**
 
 **Actions par projet** (20-30 min/projet) :
@@ -169,8 +173,9 @@
    - Remplacer métriques statiques par sourcées
    - Améliorer About GitHub SEO
 
-3. **Codecov (6 projets)** (2-3h)
-   - Luna Logo, Quest, Luna Pro, CIA, Metrics Collector, Base Template
+3. **Codecov (5 projets restants)** (2-2.5h)
+   - Luna Logo, Quest, Luna Pro, CIA, Base Template
+   - ✅ Metrics Collector déjà fait
 
 **Total Semaine 1** : 8-12h
 
@@ -207,7 +212,27 @@
 3. **Mettre à jour métriques README principal** (1h)
 4. **Configurer Codecov** (2-3h) — 6 projets restants
 
-**Total restant pour atteindre 9.5/10** : 4-5h
+**Total restant pour atteindre 9.5/10** : 4-4.5h
+
+---
+
+## ✅ **NOUVEAU : Metrics Collector - Codecov & SEO terminés**
+
+**Date** : 14 novembre 2025
+
+### **Codecov configuré** ✅
+- Fichier `.codecov.yml` créé avec seuil 80%
+- Documentation : `docs/CODECOV_SETUP.md`
+- Branches suivies : `main` et `develop`
+
+### **SEO optimisé** ✅
+- README optimisé avec mots-clés
+- `pyproject.toml` optimisé (description, keywords, classifiers)
+- Guide SEO : `docs/SEO_GUIDE.md`
+
+### **À faire manuellement sur GitHub** :
+1. Settings > General > About → Description courte
+2. Topics → `python`, `metrics`, `code-analysis`, `test-coverage`, `codecov`, `ci-cd`, etc.
 
 ---
 

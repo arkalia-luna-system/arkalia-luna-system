@@ -198,6 +198,10 @@
 
 **Projet existant :** `arkalia-metrics-collector` (8.3/10)
 
+**Architecture** :
+- **`arkalia-metrics-collector`** : Calcule les métriques et génère `aggregated_metrics.json`
+- **`github-profile-arkalia`** : Lit `aggregated_metrics.json` et met à jour les MD automatiquement
+
 **Fonctionnalités actuelles :**
 - Collecteur de métriques universel
 - Export CSV/JSON

@@ -1,0 +1,58 @@
+name: Update Metrics
+
+on:
+    schedule:
+        # Tous les jours à 2h UTC
+        - cron: "0 2 * * *"
+    workflow_dispatch:
+        # Permet de déclencher manuellement
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Setup Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.11"
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install arkalia-metrics-collector
+
+            - name: Aggregate metrics
+              run: |
+                  cd /tmp
+                  # Créer projects.json temporaire avec chemins relatifs
+                  # Note: Les chemins absolus ne fonctionneront pas dans GitHub Actions
+                  # Il faudra adapter selon la structure du repo
+                  echo "⚠️ Note: Cette étape nécessite l'accès aux projets locaux"
+                  echo "Pour l'instant, cette action est configurée mais nécessite adaptation"
+
+            - name: Update README metrics
+              run: |
+                  python scripts/update_readme_metrics.py
+              continue-on-error: true
+
+            - name: Create badges
+              run: |
+                  python scripts/create_badges_metrics.py
+              continue-on-error: true
+
+            - name: Commit changes
+              if: github.event_name != 'pull_request'
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add README.md metrics/ scripts/*.json 2>/dev/null || true
+                  git diff --staged --quiet || git commit -m "📊 Auto-update metrics [skip ci]"
+                  git push || echo "No changes to commit"

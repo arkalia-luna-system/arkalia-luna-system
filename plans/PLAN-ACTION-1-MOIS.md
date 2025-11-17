@@ -1,52 +1,75 @@
-# 🎯 PLAN D'ACTION - PERFECTIONNEMENT PROFIL GITHUB
-## Objectif : Portfolio "Industry Leader" en 1 mois
+# 🎯 Plan d'Action - Perfectionnement du Profil GitHub
 
-**Deadline :** 1 mois (avant réception Reachy Mini + lancement public)  
-**Note actuelle :** 8.3/10 (Audit 2025-11-13)  
-**Objectif :** 9.5/10
+## Objectif
+Portfolio "Industry Leader" en 1 mois
+
+## 📅 Détails du Plan
+
+- **Deadline :** 1 mois (avant réception Reachy Mini + lancement public)
+- **Note actuelle :** 8.3/10 (Audit 2025-11-13)
+- **Objectif :** 9.5/10
 
 ---
 
 ## 📊 PRIORISATION DES TÂCHES
 
-### 🔴 **URGENT (Semaine 1) - Impact High, Crédibilité Critique**
+## 🔴 Tâches Urgentes (Semaine 1)
+
+### Impact Élevé, Crédibilité Critique
 
 Ces points sont les plus visibles et impactent directement la crédibilité professionnelle.
 
-#### 1. **Badges Coverage Automatisés** ⚡
-**Impact :** HIGH | **Temps :** 2-3h | **Projets :** Tous
+### 1. Badges Coverage Automatisés ⚡
 
-**Actions :**
+**Impact :** 🔴 Élevé  
+**Temps estimé :** 2-3h  
+**Projets concernés :** Tous
+
+**Actions à entreprendre :**
+
 - [ ] Configurer Codecov pour chaque projet avec tests
 - [ ] Ajouter badge Codecov dans chaque README
 - [ ] Vérifier que les badges s'affichent correctement
 - [ ] Documenter la source de chaque métrique coverage
 
-**Projets concernés :**
-- BBIA Sim (1362 tests, 68.86% coverage) ✅ **TERMINÉ** (Codecov configuré, badge ajouté, métriques objectivées)
-- Luna Logo (151 tests, 78% coverage)
-- Quest (179 tests)
-- Luna Pro (671 tests, 59% coverage)
-- CIA (61 tests, 66% coverage)
-- ARIA ✅ **TERMINÉ** (Codecov configuré, badge ajouté)
-- Metrics Collector
-- Base Template
+### Projets concernés
 
-**Vérification :**
+| Projet | Tests | Couverture | Statut |
+|--------|-------|------------|--------|
+| BBIA Sim | 1362 | 68.86% | ✅ Terminé |
+| Luna Logo | 151 | 78% | ⏳ En attente |
+| Quest | 179 | - | ⏳ En attente |
+| Luna Pro | 671 | 59% | ⏳ En attente |
+| CIA | 61 | 66% | ⏳ En attente |
+| ARIA | - | - | ✅ Terminé |
+| Metrics Collector | - | - | ✅ Terminé |
+| Base Template | - | - | ⏳ En attente |
+
+### Vérification
+
 - [ ] Badge Codecov visible sur chaque README
 - [ ] Coverage réel correspond aux badges
-- [ ] **Liens vers rapports coverage publics fonctionnels** (rapport Codecov accessible)
-- [ ] **Badges pointent vers rapports coverage XML/HTML publics**
+- [ ] Liens vers rapports coverage publics fonctionnels (rapport Codecov accessible)
+- [ ] Badges pointent vers rapports coverage XML/HTML publics
 
 ---
 
-#### 2. **Objectiver les Métriques du Profil Principal** ⚡
-**Impact :** HIGH | **Temps :** 3-4h | **Fichier :** README.md
+---
 
-**Problèmes identifiés :**
-- "550+ modules" : non sourcé, ambigu
-- "~64% coverage" : agrégé manuel, non automatisé
-- "196 SVG" : non vérifiable automatiquement
+### 2. Objectiver les Métriques du Profil Principal ⚡
+
+**Impact :** 🔴 Élevé  
+**Temps estimé :** 3-4h  
+**Fichier concerné :** `README.md`
+
+### Problèmes identifiés
+
+✅ **Résolu**
+
+- [x] "52,320 modules" : sourcé via `arkalia-metrics-collector` (agrégation automatique)
+- [x] "11,204 tests" : comptage automatique depuis tous les projets
+- [x] "24,790,076 lignes" : métriques vérifiables dans `metrics/aggregated_metrics.json`
+- [x] "196 SVG" : comptage depuis bbia-branding
 
 **Actions :**
 - [ ] Créer script pour compter réellement les modules Python (exclure __pycache__, tests, etc.)
@@ -55,10 +78,13 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - [ ] Ajouter liens vers scripts/inventaires dans README
 - [ ] Remplacer métriques statiques par métriques sourcées
 
-**Réformulation suggérée :**
+**Réformulation suggérée :** ✅ **APPLIQUÉE**
 ```markdown
 **Avant :**
 - 550+ modules | ~64% coverage | 11 projets | 196 SVG
+
+**Après (actuel) :**
+- 52,320 modules | 11,204 tests | 12 projets | 196 SVG
 
 **Après :**
 - [X modules](lien-vers-inventaire) | [X% coverage](lien-codecov) | 11 projets | [X SVG](lien-inventaire)

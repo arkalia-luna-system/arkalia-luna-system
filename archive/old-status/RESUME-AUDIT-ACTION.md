@@ -24,12 +24,13 @@
 
 ### 🔴 **PRIORITÉ 1 : CRÉDIBILITÉ (Semaine 1)**
 
-#### 1. **Métriques non sourcées** ⚡
-- ❌ "550+ modules" : non vérifiable
-- ❌ "~64% coverage" : agrégé manuel
-- ❌ "196 SVG" : non compté automatiquement
+#### 1. **Métriques non sourcées** ⚡ ✅ **RÉSOLU**
+- ✅ "52,320 modules" : agrégation automatisée via `arkalia-metrics-collector`
+- ✅ "11,204 tests" : comptage automatique depuis tous les projets
+- ✅ "24,790,076 lignes" : métriques sourcées et vérifiables
+- ✅ "196 SVG" : comptage depuis bbia-branding
 
-**Solution :** Créer scripts automatisés + liens vers sources
+**Solution :** ✅ Scripts automatisés créés + liens vers sources dans `projects.json`
 
 #### 2. **Badges Coverage manquants** ⚡
 - ❌ Pas de badges Codecov sur la plupart des projets

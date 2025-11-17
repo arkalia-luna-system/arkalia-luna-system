@@ -105,7 +105,8 @@
 ## 🚀 Prochaines Étapes (Optionnel)
 
 ### **Phase Automatisation (Weekend, 3-4h)**
-- [ ] Étendre `arkalia-metrics-collector` avec GitHub API
+- [ ] Étendre `arkalia-metrics-collector` avec GitHub API (dans le service de calcul)
+- [x] Scripts Python dans `github-profile-arkalia` pour lire et mettre à jour les MD ✅
 - [ ] Script génération automatique tableau récap
 - [ ] Scheduled workflow hebdomadaire
 
