@@ -86,7 +86,7 @@
 - ❌ Luna Logo (151 tests, 78% coverage) - **À FAIRE**
 - ❌ Quest (179 tests) - **À FAIRE**
 - ❌ Luna Pro (671 tests, 59% coverage) - **À FAIRE**
-- ❌ CIA (61 tests, 66% coverage) - **À FAIRE**
+- ✅ **CIA** - **TERMINÉ** (Codecov configuré Python + Flutter, 61 tests, 66% coverage fichiers testés, 10.69% global)
 - ✅ Metrics Collector - **TERMINÉ** (Codecov configuré + SEO optimisé)
 - ❌ Base Template - **À FAIRE**
 
@@ -173,9 +173,10 @@
    - Remplacer métriques statiques par sourcées
    - Améliorer About GitHub SEO
 
-3. **Codecov (5 projets restants)** (2-2.5h)
-   - Luna Logo, Quest, Luna Pro, CIA, Base Template
+3. **Codecov (4 projets restants)** (1.5-2h)
+   - Luna Logo, Quest, Luna Pro, Base Template
    - ✅ Metrics Collector déjà fait
+   - ✅ CIA déjà fait (Python + Flutter)
 
 **Total Semaine 1** : 8-12h
 
@@ -210,7 +211,7 @@
 1. **Tester les fonctionnalités** (30 min) — Voir `PROCHAINES-ETAPES-METRICS.md`
 2. **Générer tableau récap pour README** (1h)
 3. **Mettre à jour métriques README principal** (1h)
-4. **Configurer Codecov** (2-3h) — 6 projets restants
+4. **Configurer Codecov** (1.5-2h) — 4 projets restants (CIA terminé ✅)
 
 **Total restant pour atteindre 9.5/10** : 4-4.5h
 

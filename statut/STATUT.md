@@ -36,7 +36,7 @@
 | **bbia-reachy-sim** | 21,284 | 11,683,557 | 5,609 | 68.86% | ✅ Production |
 | **arkalia-luna-logo** | 17,671 | 6,946,020 | 2,230 | 78% | ✅ Production |
 | **arkalia-aria** | 6,082 | 3,764,289 | 2,218 | N/A | ✅ Production |
-| **arkalia-cia** | 3,419 | 1,251,969 | 230 | 66% | 🚧 Beta |
+| **arkalia-cia** | 3,419 | 1,251,969 | 61 | 66% (10.69% global) | 🚧 Beta |
 | **base-template** | 3,303 | 928,195 | 429 | N/A | ✅ Template |
 | **arkalia-luna-pro** | 208 | 46,471 | 95 | 59% | ✅ Production |
 | **athalia-dev-setup** | 168 | 86,370 | 196 | N/A | 🚀 Enterprise |
@@ -71,15 +71,15 @@
 
 ## 🚨 PROBLÈMES CRITIQUES
 
-### 1. **Configuration Codecov manquante** (5 projets)
+### 1. **Configuration Codecov manquante** (4 projets restants)
    - ❌ Luna Logo (151 tests, 78% coverage)
    - ❌ Quest (179 tests)
    - ❌ Luna Pro (671 tests, 59% coverage)
-   - ❌ CIA (61 tests, 66% coverage)
    - ❌ Base Template
+   - ✅ **CIA** : Codecov configuré ✅ (66% sur fichiers testés, 10.69% global, 61 tests)
    - **Impact :** Crédibilité technique
    - **Priorité :** 🔴 Haute
-   - **Temps estimé :** 2-2.5h
+   - **Temps estimé :** 1.5-2h (4 projets restants)
 
 ### 2. **Métriques non sourcées** ✅ **RÉSOLU**
    - ✅ "52,336 modules" : agrégation automatisée via `arkalia-metrics-collector`
@@ -112,7 +112,8 @@
    - Guides d'intégration mis à jour
 
 ### 3. **Configuration Codecov**
-   - 5 projets restants à configurer
+   - ✅ **CIA** : Configuré et fonctionnel (Python + Flutter)
+   - 4 projets restants à configurer (Luna Logo, Quest, Luna Pro, Base Template)
    - Badges coverage visibles publiquement
 
 ---
