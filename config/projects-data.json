@@ -1,18 +1,19 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2025-11-16T02:35:03.889429",
+  "generated_at": "2025-11-23T02:40:41.302589",
   "stats": {
     "total_projects": 11,
     "local_projects": 1,
     "projects_with_readme": 1,
     "total_stars": 0,
     "languages": {
-      "Python": 11,
+      "Python": 10,
+      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
       "Shell": 1
     },
-    "last_updated": "2025-11-16T02:35:03.889443"
+    "last_updated": "2025-11-23T02:40:41.302598"
   },
   "projects": [
     {
@@ -26,12 +27,12 @@
       "is_public": true
     },
     {
-      "name": "arkalia-metrics-collector",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
       "local_path": null,
       "readme_path": null,
-      "description": null,
-      "language": "Python",
+      "description": "📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100% offline, seniors-friendly, rappels intelligents 🔔 Tests: 61, couverture: 66%, CI/CD complet ⚡ Production-ready MVP",
+      "language": "Dart",
       "stars": 0,
       "is_public": true
     },
@@ -41,6 +42,16 @@
       "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
       "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
       "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "arkalia-metrics-collector",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
+      "local_path": null,
+      "readme_path": null,
+      "description": null,
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -81,16 +92,6 @@
       "local_path": null,
       "readme_path": null,
       "description": null,
-      "language": "Python",
-      "stars": 0,
-      "is_public": true
-    },
-    {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
-      "local_path": null,
-      "readme_path": null,
-      "description": "📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100% offline, seniors-friendly, rappels intelligents 🔔 Tests: 61, couverture: 66%, CI/CD complet ⚡ Production-ready MVP",
       "language": "Python",
       "stars": 0,
       "is_public": true
