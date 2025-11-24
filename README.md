@@ -56,6 +56,7 @@
   - [🚀 Projets Phares](#-projets-phares)
     - [🌟 Autres Projets Principaux](#-autres-projets-principaux)
     - [📋 Tous les Projets](#-tous-les-projets)
+  - [| **base\_template** | ⚙️ Starter kit FastAPI production-ready — Template OSS solide • CI/CD complet • Tests automatisés... | FastAPI + Docker | 🔧 Tooling | ✅ Template |](#-base_template--️-starter-kit-fastapi-production-ready--template-oss-solide--cicd-complet--tests-automatisés--fastapi--docker---tooling---template-)
   - [🛠️ Stack Technique](#️-stack-technique)
   - [🗺️ Architecture Écosystème](#️-architecture-écosystème)
   - [📊 Métriques de l'Écosystème](#-métriques-de-lécosystème)
@@ -313,8 +314,8 @@ Chaque projet résout un problème réel avec une architecture propre, des tests
 
 ## 🗺️ Architecture Écosystème
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" alt="Snowy emotion" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" alt="Sunny emotion" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
 
 ```mermaid
 flowchart TB
@@ -492,13 +493,13 @@ A: *Ouvrez une issue avec détails (screenshots si possible). Fix sous 48h si cr
 <details>
 <summary><b>Q: Comment sont organisés les projets ?</b></summary>
 
-A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture](#-architecture-écosystème) pour plus de détails.*
+A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture Écosystème](#️-architecture-écosystème) pour plus de détails.*
 </details>
 
 <details>
 <summary><b>Q: Quelles technologies sont utilisées ?</b></summary>
 
-A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#-stack-technique) complète.*
+A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#️-stack-technique) complète.*
 </details>
 
 ---
@@ -509,8 +510,8 @@ A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/Y
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" alt="Snowy emotion" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" alt="Sunny emotion" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
 
 <br/>
 
