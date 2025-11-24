@@ -28,16 +28,18 @@ def create_badges_metrics():
         if path.exists():
             metrics_path = path
             break
-    
+
     if metrics_path is None:
         metrics_path = metrics_paths[0]  # Utiliser le premier pour les messages d'erreur
-    
+
     # Déterminer le chemin de sortie en fonction du chemin trouvé
     if metrics_path and metrics_path.exists():
         output_path = metrics_path.parent / "metrics_for_badges.json"
     else:
         # Fallback vers le premier chemin
-        output_path = repo_root / "arkalia-metrics-collector" / "metrics" / "metrics_for_badges.json"
+        output_path = (
+            repo_root / "arkalia-metrics-collector" / "metrics" / "metrics_for_badges.json"
+        )
 
     # Vérifier que le fichier metrics existe
     if not metrics_path.exists():

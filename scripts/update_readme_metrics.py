@@ -29,10 +29,10 @@ def update_readme_metrics():
         if path.exists():
             metrics_path = path
             break
-    
+
     if metrics_path is None:
         metrics_path = metrics_paths[0]  # Utiliser le premier pour les messages d'erreur
-    
+
     readme_path = repo_root / "README.md"
 
     # Vérifier que les fichiers existent
@@ -73,11 +73,11 @@ def update_readme_metrics():
         return
 
     # Remplacer métriques globales
-    total_modules = agg.get('total_modules', 52336)
-    total_tests = agg.get('total_tests', 11208)
-    total_lines = agg.get('total_lines_of_code', 24792057)
-    total_docs = agg.get('total_documentation_files', 6556)
-    
+    total_modules = agg.get("total_modules", 52336)
+    total_tests = agg.get("total_tests", 11208)
+    total_lines = agg.get("total_lines_of_code", 24792057)
+    total_docs = agg.get("total_documentation_files", 6556)
+
     replacements = {
         # Badges et métriques globales (utiliser virgules pour les badges)
         r"52,320_modules": f"{total_modules:,}_modules".replace(",", ","),
@@ -99,31 +99,29 @@ def update_readme_metrics():
 
     for pattern, replacement in replacements.items():
         readme = re.sub(pattern, replacement, readme)
-    
+
     # Mettre à jour les métriques spécifiques par projet
     for project in projects:
         project_name = project.get("name", "")
         project_tests = project.get("tests", 0)
         # project_modules = project.get("modules", 0)  # Réservé pour usage futur
-        
+
         # BBIA Reachy Sim
-        if ("bbia" in project_name.lower() and "sim" in project_name.lower()) or "reachy" in project_name.lower():
+        if (
+            "bbia" in project_name.lower() and "sim" in project_name.lower()
+        ) or "reachy" in project_name.lower():
             # Remplacer "1362 tests" ou autres nombres incorrects par le vrai nombre
             readme = re.sub(
                 r"\d{1,4}\s+\d{1,4}\s+\d{1,4}\s+tests",
                 f"{format_number(project_tests)} tests",
-                readme
+                readme,
             )
-            readme = re.sub(
-                r"1362 tests",
-                f"{format_number(project_tests)} tests",
-                readme
-            )
+            readme = re.sub(r"1362 tests", f"{format_number(project_tests)} tests", readme)
             # Remplacer aussi les patterns avec espaces multiples
             readme = re.sub(
                 r"(\d{1,3}(?:\s+\d{1,3}){2,})\s+tests",
                 f"{format_number(project_tests)} tests",
-                readme
+                readme,
             )
 
     # Mettre à jour le coverage global si disponible
