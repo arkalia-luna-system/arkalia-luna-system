@@ -39,10 +39,34 @@
 
 ---
 
+## 📊 En Chiffres
+
+<div align="center">
+
+**Vue d'ensemble de l'écosystème en quelques chiffres clés**
+
+| Métrique | Valeur | Détails |
+|:--------:|:------:|:-------|
+| **📦 Projets** | **12** | Projets en production active |
+| **🧪 Tests** | **550+** | Tests automatisés |
+| **📈 Couverture** | **~64%** | Couverture moyenne |
+| **🔧 Modules** | **550+** | Modules Python |
+| **🎨 Logos SVG** | **196** | Logos générés |
+| **🐳 Containers** | **5** | Containers Docker (Luna Pro) |
+| **⚙️ Workflows CI** | **12+** | Workflows GitHub Actions |
+| **🔌 Connecteurs** | **13** | Connecteurs santé (ARIA) |
+
+<sub>*Métriques mises à jour automatiquement via `arkalia-metrics-collector`*</sub>
+
+</div>
+
+---
+
 ## 📑 Table des Matières
 
 - [🌙 Arkalia Luna System](#-arkalia-luna-system)
     - [⚡ Métriques Clés](#-métriques-clés)
+  - [📊 En Chiffres](#-en-chiffres)
   - [📑 Table des Matières](#-table-des-matières)
   - [🎯 Vision Système](#-vision-système)
     - [🏗️ Architecture de l'Écosystème](#️-architecture-de-lécosystème)
@@ -191,7 +215,15 @@ Projets historiques conservés pour leur valeur pédagogique :
 
 ## 🚀 Projets Phares
 
-**Écosystème actif** — Chaque projet résout un problème réel : Robotique • Gaming • Design • Mobile • DevOps
+**Les 4 projets phares de l'écosystème** — Production-ready, documentés, testés
+
+**Hiérarchie** :
+- **🌕 luna-pro** : Orchestrateur IA modulaire pour l'entreprise
+- **📱 cia** : Assistant IA conversationnel santé mobile
+- **🎮 quest** : Jeu éducatif intelligent open-source
+- **🎨 logo** : Générateur de logos SVG techno-mystiques
+
+**🤖 BBIA Reachy Sim** : Projet principal robotique / R&D (voir section dédiée ci-dessus)
 
 </div>
 

@@ -15,6 +15,8 @@ import importlib.util
 spec = importlib.util.spec_from_file_location(
     "auto_update_readme", Path(__file__).parent.parent / "auto-update-readme.py"
 )
+if spec is None or spec.loader is None:
+    raise ImportError("Impossible de charger le module auto-update-readme.py")
 auto_update_readme = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(auto_update_readme)
 
