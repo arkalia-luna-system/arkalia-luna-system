@@ -118,10 +118,10 @@ Outils de génération et identité visuelle :
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests c...
+- **arkalia-metrics-collector** : 📊 **Mon outil interne de métriques pour tous mes projets** — Collecteur de métriques universel et professionnel pour projets Python (tests, couverture, modules, lignes de code, etc.)
+- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, documenté
+- **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
-- **arkalia-metrics-collector** : > **Collecteur de métriques universel et professionnel pour ...
-- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 
 #### 📦 **Archives**
 Projets historiques conservés pour leur valeur pédagogique :
