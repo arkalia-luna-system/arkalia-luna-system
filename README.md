@@ -50,12 +50,13 @@
       - [🎨 **Design \& Branding**](#-design--branding)
       - [🔧 **Outils \& Infrastructure**](#-outils--infrastructure)
       - [📦 **Archives**](#-archives)
-    - [🔄 Orchestration](#-orchestration)
   - [🔥 Featured Projects](#-featured-projects)
+  - [](#)
   - [🤖 Projet Principal : BBIA Reachy Sim](#-projet-principal--bbia-reachy-sim)
   - [🚀 Projets Phares](#-projets-phares)
     - [🌟 Autres Projets Principaux](#-autres-projets-principaux)
     - [📋 Tous les Projets](#-tous-les-projets)
+  - [| **ia-pipeline** | Générateur IA souverain, modulaire, testé, automatisé, documenté | FastAPI | 🔧 Tooling | ✅ Production |](#-ia-pipeline--générateur-ia-souverain-modulaire-testé-automatisé-documenté--fastapi---tooling---production-)
   - [🛠️ Stack Technique](#️-stack-technique)
   - [🗺️ Architecture Écosystème](#️-architecture-écosystème)
   - [📊 Métriques de l'Écosystème](#-métriques-de-lécosystème)
@@ -73,47 +74,34 @@
 
 Ce repository orchestre et centralise l'écosystème **Arkalia Luna System** : une suite complète de projets open-source couvrant la robotique, l'IA, le design, le mobile et l'infrastructure.
 
+<!-- AUTO-UPDATE:vision -->
 ### 🏗️ Architecture de l'Écosystème
 
 L'écosystème est organisé en **4 catégories principales** :
 
 #### 🏢 **Projets Production**
 Projets en production active, utilisés et maintenus :
-- **BBIA Reachy Sim** : Robot émotionnel avec moteur cognitif (12 émotions, IA Vision)
-- **Luna Pro** : Orchestrateur IA modulaire pour l'entreprise (7 modules, monitoring complet)
-- **Quest** : Jeu éducatif intelligent pour adolescents (cybersécurité, gamification)
-- **ARIA/CIA** : Applications santé mobile (suivi douleur, assistant conversationnel)
+- **Arkalia-aria** : Laboratoire personnel santé/IA : suivi douleur, patterns psy...
+- **arkalia-cia** : 📱 Assistant IA conversationnel santé mobile — Flutter + Pyth...
+- **bbia-sim** : 🤖 Cognitive robot engine for Reachy Mini | AI emotions, visi...
+- **arkalia-luna-pro** : 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Dock...
+- **arkalia-quest** : 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécur...
 
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
-- **Luna Logo** : Générateur de logos SVG techno-mystiques (8 styles, 5 variantes)
-- **BBIA Branding** : Identité visuelle complète (palette, typographie, assets)
+- **Arkalia-luna-logo** : 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 var...
+- **bbia_branding** : **Assets Premium pour l'identité visuelle BBIA**
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **Metrics Collector** : Analytics centralisées pour tous les projets
-- **IA Pipeline** : Pipeline DevOps IA souverain (62 commandes sécurisées)
-- **Base Template** : Starter kit FastAPI avec CI/CD
+- **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests c...
+- **arkalia-luna-system** : 🌙 Profil GitHub centralisé — Orchestration de l'écosystème A...
+- **arkalia-metrics-collector** : > **Collecteur de métriques universel et professionnel pour ...
+- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 
 #### 📦 **Archives**
 Projets historiques conservés pour leur valeur pédagogique :
-- **Nours Interface** : Interface web Flask (POC archivé 2025)
-
-### 🔄 Orchestration
-
-Ce repository (`github-profile-arkalia`) sert de **hub central** qui :
-- ✅ Détecte automatiquement tous les projets GitHub
-- ✅ Met à jour les métriques et statistiques
-- ✅ Génère la documentation consolidée
-- ✅ Assure la cohérence de l'écosystème
-
-**Workflow automatique** :
-1. `update-profile.py` → Découvre les projets (GitHub + local)
-2. `auto-update-readme.py` → Met à jour le README avec les données
-3. `scripts/audit-projects.py` → Audite la qualité de chaque projet
-4. GitHub Actions → Mise à jour quotidienne automatique
-
-Chaque projet résout un problème réel avec une architecture propre, des tests complets et une documentation exhaustive. L'écosystème est conçu pour être **modulaire**, **scalable** et **production-ready**.
+- **nours_interface** : 🌐 Interface web historique Flask + CSS/JS — POC archivé 2025...
 
 ---
 
@@ -121,11 +109,8 @@ Chaque projet résout un problème réel avec une architecture propre, des tests
 
 ## 🔥 Featured Projects
 
+<!-- AUTO-UPDATE:featured -->
 **Les 3 projets qui démontrent le mieux mes compétences techniques et ma capacité à livrer en production**
-
-</div>
-
-<br/>
 
 <div align="center">
 
@@ -133,50 +118,35 @@ Chaque projet résout un problème réel avec une architecture propre, des tests
 <tr>
 <td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Luna Pro"/>
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-luna-pro"/>
 <br/><br/>
-<strong>🌕 Arkalia Luna Pro</strong>
+<strong>arkalia-luna-pro</strong>
 <br/>
-<sub>Orchestration IA Production-Ready</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">5 containers • 671 tests • 59% coverage</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">Monitoring • Grafana • Prometheus</sub>
+<sub>🌕 Orchestrateur IA modulaire pour l'entreprise — P...</sub>
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/bbia-sim">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="BBIA Sim"/>
+<a href="https://github.com/arkalia-luna-system/Arkalia-luna-logo">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Arkalia-luna-logo"/>
 <br/><br/>
-<strong>🤖 BBIA Reachy Sim</strong>
+<strong>Arkalia-luna-logo</strong>
 <br/>
-<sub>Robot émotionnel • IA Vision</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">12 émotions • 1362 tests • 68.86% coverage</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">MuJoCo • YOLO • MediaPipe</sub>
+<sub>🎨 Générateur de logos SVG techno-mystiques — 8 sty...</sub>
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/bbia_branding">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="BBIA Branding"/>
+<a href="https://github.com/arkalia-luna-system/arkalia-cia">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-cia"/>
 <br/><br/>
-<strong>🎨 BBIA Branding</strong>
+<strong>arkalia-cia</strong>
 <br/>
-<sub>Identité visuelle complète</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">Palette hex • Typographie • Assets</sub>
-<br/>
-<sub style="font-size: 0.85em; color: #666;">Design system professionnel</sub>
+<sub>📱 Assistant IA conversationnel santé mobile — Flut...</sub>
 </a>
 </td>
 </tr>
 </table>
 
 </div>
-
-<br/>
-
 ---
 
 <div align="center">

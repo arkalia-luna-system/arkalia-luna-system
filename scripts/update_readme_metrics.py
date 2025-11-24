@@ -38,7 +38,9 @@ def update_readme_metrics():
     # Vérifier que les fichiers existent
     if not metrics_path.exists():
         print(f"⚠️  Fichier metrics non trouvé: {metrics_path}")
-        print("   Utilisation des métriques par défaut")
+        print("   💡 Le fichier aggregated_metrics.json sera généré par arkalia-metrics-collector")
+        print("   💡 Utilisation des métriques par défaut pour cette exécution")
+        print("   ✅ Le script continue sans erreur (gestion d'erreur gracieuse)")
         return
 
     if not readme_path.exists():

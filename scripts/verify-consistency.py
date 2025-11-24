@@ -17,7 +17,8 @@ def load_projects_data(data_file: Path) -> Dict[str, Any]:
     """Charge les données des projets"""
     try:
         with open(data_file, "r", encoding="utf-8") as f:
-            return json.load(f)
+            data: Dict[str, Any] = json.load(f)
+            return data
     except FileNotFoundError:
         print(f"❌ Fichier non trouvé : {data_file}")
         return {}

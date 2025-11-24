@@ -227,17 +227,17 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         # Image par défaut (logo Arkalia)
         img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
 
-        lines.append(f'<td align="center" width="33%">')
+        lines.append('<td align="center" width="33%">')
         lines.append(f'<a href="{github_url}">')
         lines.append(
             f'<img src="{img_url}" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="{name}"/>'
         )
-        lines.append(f"<br/><br/>")
+        lines.append("<br/><br/>")
         lines.append(f"<strong>{name}</strong>")
-        lines.append(f"<br/>")
+        lines.append("<br/>")
         lines.append(f"<sub>{desc}</sub>")
-        lines.append(f"</a>")
-        lines.append(f"</td>")
+        lines.append("</a>")
+        lines.append("</td>")
 
     lines.append("</tr>")
     lines.append("</table>")

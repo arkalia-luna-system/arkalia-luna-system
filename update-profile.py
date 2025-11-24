@@ -35,6 +35,8 @@ class ProjectInfo:
     language: str = ""
     stars: int = 0
     is_public: bool = True
+    branches: Optional[List[str]] = None
+    default_branch: Optional[str] = None
 
 
 class GitHubProfileUpdater:
@@ -460,6 +462,54 @@ class GitHubProfileUpdater:
 
         return []
 
+    def detect_branches(self, project_path: Path) -> tuple[List[str], Optional[str]]:
+        """Détecte les branches d'un projet local"""
+        branches: List[str] = []
+        default_branch: Optional[str] = None
+
+        if not project_path.exists() or not (project_path / ".git").exists():
+            return branches, default_branch
+
+        try:
+            import subprocess
+
+            # Détecte les branches locales
+            result = subprocess.run(
+                ["git", "branch", "--list"],
+                cwd=project_path,
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            if result.returncode == 0:
+                for line in result.stdout.split("\n"):
+                    branch = line.strip().lstrip("*").strip()
+                    if branch and not branch.startswith("("):
+                        branches.append(branch)
+                        if line.strip().startswith("*"):
+                            default_branch = branch
+
+            # Détecte aussi les branches distantes
+            result_remote = subprocess.run(
+                ["git", "branch", "-r", "--list"],
+                cwd=project_path,
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            if result_remote.returncode == 0:
+                for line in result_remote.stdout.split("\n"):
+                    if "->" in line:
+                        continue
+                    branch = line.strip().replace("origin/", "").replace("HEAD", "").strip()
+                    if branch and branch not in branches:
+                        branches.append(branch)
+
+        except (subprocess.TimeoutExpired, subprocess.SubprocessError, FileNotFoundError):
+            pass
+
+        return branches, default_branch
+
     def analyze_project(self, repo_data: Dict[str, Any]) -> ProjectInfo:
         """Analyse un projet et trouve ses infos locales"""
         repo_name = repo_data.get("name", "")
@@ -475,6 +525,7 @@ class GitHubProfileUpdater:
             language=repo_data.get("language", ""),
             stars=repo_data.get("stargazers_count", 0),
             is_public=not repo_data.get("private", False),
+            default_branch=repo_data.get("default_branch", "main"),
         )
 
         # Cherche le chemin local
@@ -483,13 +534,20 @@ class GitHubProfileUpdater:
             project.local_path = local_path
             project.readme_path = self.find_readme(local_path)
 
+            # Détecte les branches
+            branches, default_branch = self.detect_branches(local_path)
+            project.branches = branches
+            if default_branch:
+                project.default_branch = default_branch
+
             # Extrait la description depuis le README si disponible
             if project.readme_path:
                 readme_desc = self.extract_description_from_readme(project.readme_path)
                 if readme_desc and not project.description:
                     project.description = readme_desc
 
-            print(f"  ✅ {repo_name}: {local_path}")
+            branch_info = f" ({len(branches)} branches)" if branches else ""
+            print(f"  ✅ {repo_name}: {local_path}{branch_info}")
         else:
             print(f"  ⚠️  {repo_name}: non trouvé localement")
 
@@ -561,6 +619,8 @@ class GitHubProfileUpdater:
                     "language": p.language,
                     "stars": p.stars,
                     "is_public": p.is_public,
+                    "branches": p.branches if p.branches else None,
+                    "default_branch": p.default_branch,
                 }
                 for p in self.projects
             ],
