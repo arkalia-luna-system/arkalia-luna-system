@@ -56,7 +56,7 @@
   - [🚀 Projets Phares](#-projets-phares)
     - [🌟 Autres Projets Principaux](#-autres-projets-principaux)
     - [📋 Tous les Projets](#-tous-les-projets)
-  - [| **ia-pipeline** | Générateur IA souverain, modulaire, testé, automatisé, documenté | FastAPI | 🔧 Tooling | ✅ Production |](#-ia-pipeline--générateur-ia-souverain-modulaire-testé-automatisé-documenté--fastapi---tooling---production-)
+  - [| **ia-pipeline** | Générateur IA souverain, modulaire, testé, automatisé, documenté | IA | 🔧 Tooling | ✅ Production |](#-ia-pipeline--générateur-ia-souverain-modulaire-testé-automatisé-documenté--ia---tooling---production-)
   - [🛠️ Stack Technique](#️-stack-technique)
   - [🗺️ Architecture Écosystème](#️-architecture-écosystème)
   - [📊 Métriques de l'Écosystème](#-métriques-de-lécosystème)
@@ -95,7 +95,7 @@ Outils de génération et identité visuelle :
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
 - **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests c...
-- **arkalia-luna-system** : 🌙 Profil GitHub centralisé — Orchestration de l'écosystème A...
+- **arkalia-luna-system** : Mon profil GitHub personnalisé
 - **arkalia-metrics-collector** : > **Collecteur de métriques universel et professionnel pour ...
 - **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 
@@ -252,17 +252,17 @@ Projets historiques conservés pour leur valeur pédagogique :
 | Projet | Description | Stack | Rôle | Status |
 |:------:|:-----------:|:-----:|:----:|:-----:|
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l... | FastAPI | 🔧 Tooling | ✅ Template |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | 🌙 Profil GitHub centralisé — Orchestration de l'écosystème Arkalia Luna System \| 12 projets en pr... | Python | 🌙 Profil | ✅ Production |
-| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro | Python | 🏢 Prod | ✅ Production |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
+| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro | IA | 🏢 Prod | ✅ Production |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | > **Collecteur de métriques universel et professionnel pour projets Python** | Python + CLI | 🔧 Tooling | ✅ Production |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter | 🚧 Beta | 🚧 Beta |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | Python + MuJoCo | 🏢 Prod | ✅ Production |
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Python + Docker | 🏢 Prod | 🚀 Enterprise |
-| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Dock... | FastAPI + Docker | 🏢 Prod | ✅ Production |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter + IA | 🚧 Beta | 🚧 Beta |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | MuJoCo + IA | 🏢 Prod | ✅ Production |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Docker + Monitoring + IA | 🏢 Prod | 🚀 Enterprise |
+| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Dock... | Design | 🏢 Prod | ✅ Production |
 | **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | **Assets Premium pour l'identité visuelle BBIA** | Design | 🏢 Prod | ✅ Production |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architect... | Flask + IA | 🏢 Prod | ✅ Production |
-| **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | 🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'arch... | Flask + IA | 📦 Archive | 📦 Archivé |
-| **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | FastAPI | 🔧 Tooling | ✅ Production |
+| **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | 🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'arch... | Flask | 📦 Archive | 📦 Archivé |
+| **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | IA | 🔧 Tooling | ✅ Production |
 ---
 
 ## 🛠️ Stack Technique

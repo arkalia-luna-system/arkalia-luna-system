@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Import dynamique pour gérer le nom avec tirets
 import importlib.util
+
 spec = importlib.util.spec_from_file_location(
     "auto_update_readme", Path(__file__).parent.parent / "auto-update-readme.py"
 )
@@ -104,4 +105,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
