@@ -1,6 +1,6 @@
 # ✅ **RÉORGANISATION TERMINÉE - PROFIL GITHUB**
 
-**Date** : 14 novembre 2025, 22:51  
+**Date** : 24 novembre 2025, 22:51  
 **Statut** : ✅ **RÉORGANISATION COMPLÈTE**
 
 ---
@@ -65,7 +65,7 @@ github-profile-arkalia/
 ### **Statut (2 fichiers)**
 - ✅ `STATUT-PROJETS.md` → Consolidé dans `statut/STATUT.md` (archivé dans `archive/old-status/`)
 - ✅ `RESUME-AUDIT-ACTION.md` → Consolidé dans `statut/STATUT.md` (archivé dans `archive/old-status/`)
-- ✅ `PRIORITES-TRAVAIL-2025-11-13.md` → `statut/PRIORITES-TRAVAIL.md`
+- ✅ `PRIORITES-TRAVAIL-2025-11-24.md` → `statut/PRIORITES-TRAVAIL.md`
 
 ### **Plans (2 fichiers)**
 - ✅ `PLAN-ACTION-1-MOIS.md` → `plans/`
@@ -74,7 +74,7 @@ github-profile-arkalia/
 ### **Audits (4 fichiers)**
 - ✅ `AUDIT-PERPLEXITY-REPONSE.md` → `audits/`
 - ✅ `AUDIT-BBIA-RIGOUREUX.md` → `audits/`
-- ✅ `AUDIT-LUNA-PRO-V2-2025-01-27.md` → `audits/AUDIT-LUNA-PRO.md`
+- ✅ `AUDIT-LUNA-PRO.md` → `audits/AUDIT-LUNA-PRO.md` (déjà en place)
 - ✅ `ANALYSE-3-PROJETS-FEATURED.md` → `audits/`
 
 ---

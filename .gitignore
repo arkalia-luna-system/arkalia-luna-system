@@ -35,6 +35,16 @@ ENV/
 *~
 .DS_Store
 
+# macOS system files
+._*
+.!*
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+
 # Project specific
 projects-data.json.backup
 README.backup.*

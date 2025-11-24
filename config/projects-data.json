@@ -2,7 +2,7 @@
   "username": "arkalia-luna-system",
   "generated_at": "2025-11-23T02:40:41.302589",
   "stats": {
-    "total_projects": 11,
+    "total_projects": 12,
     "local_projects": 1,
     "projects_with_readme": 1,
     "total_stars": 0,
@@ -41,7 +41,7 @@
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
       "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
       "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
-      "description": "Mon profil GitHub personnalisé",
+      "description": "🌙 Profil GitHub centralisé — Orchestration de l'écosystème Arkalia Luna System | 12 projets en production • Automatisation métriques • Documentation complète | Robotique • IA • Design • DevOps • Mobile",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -51,7 +51,7 @@
       "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
       "local_path": null,
       "readme_path": null,
-      "description": null,
+      "description": "📊 Collecteur de métriques centralisé — Analytics automatisées pour tous les projets | Agrégation modules, tests, coverage, lignes de code | Export JSON/YAML/CSV/Markdown | Dashboard interactif | Python + CLI | Production-ready",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -71,7 +71,7 @@
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-aria",
       "local_path": null,
       "readme_path": null,
-      "description": "Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro",
+      "description": "🧠 Laboratoire personnel santé/IA — Suivi douleur chronique • Patterns psychologiques • Synchronisation CIA • Export professionnel | FastAPI + Flutter • RGPD • 13 connecteurs | Production-ready",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -91,7 +91,7 @@
       "github_url": "https://github.com/arkalia-luna-system/bbia_branding",
       "local_path": null,
       "readme_path": null,
-      "description": null,
+      "description": "🎨 Identité visuelle complète BBIA — Design system professionnel | Palette hex complète • Typographie • Assets SVG/PNG | Logo 2D/3D • Variantes émotionnelles • Guidelines | Production-ready",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -121,7 +121,17 @@
       "github_url": "https://github.com/arkalia-luna-system/ia-pipeline",
       "local_path": null,
       "readme_path": null,
-      "description": "Générateur IA souverain, modulaire, testé, automatisé, documenté",
+      "description": "🔧 Pipeline DevOps IA souverain — 62 commandes sécurisées • Automatisation complète • Modulaire • Testé • Documenté | FastAPI • Docker • CI/CD | Infrastructure enterprise-ready",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "base_template",
+      "github_url": "https://github.com/arkalia-luna-system/base_template",
+      "local_path": null,
+      "readme_path": null,
+      "description": "⚙️ Starter kit FastAPI production-ready — Template OSS solide • CI/CD complet • Tests automatisés • Monitoring • Documentation exhaustive | Python 3.11+ • FastAPI • Docker • Pytest | Template vérifié",
       "language": "Python",
       "stars": 0,
       "is_public": true

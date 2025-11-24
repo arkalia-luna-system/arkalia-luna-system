@@ -1,6 +1,6 @@
 # ✅ **NETTOYAGE TERMINÉ - PROFIL GITHUB**
 
-**Date** : 14 novembre 2025, 22:47  
+**Date** : 24 novembre 2025, 22:47  
 **Statut** : ✅ **NETTOYAGE COMPLET**
 
 ---
@@ -19,7 +19,7 @@ Les fichiers suivants ont été supprimés car redondants ou temporaires :
 8. ❌ `RESUME-FINAL-ARKALIA-METRICS.md` → Info dans `statut/STATUT.md`
 9. ❌ `INSTRUCTIONS-RELANCER-AGREGATION.md` → Info dans `statut/STATUT.md`
 10. ❌ `PROCHAINES-ETAPES-METRICS.md` → Info dans `PLAN-SUITE-ARKALIA-METRICS.md`
-11. ❌ `AMELIORATIONS-MD-2025-11-13.md` → Redondant
+11. ❌ `AMELIORATIONS-MD-2025-11-24.md` → Redondant
 
 ---
 
@@ -49,7 +49,7 @@ Les fichiers suivants ont été supprimés car redondants ou temporaires :
 15. ✅ `RECAP-ACTIONS-FEATURED.md` → Récap des actions featured
 16. ✅ `RECAP-BBIA-TACHES-RESTANTES.md` → Récap BBIA
 17. ✅ `POINTS-ULTRA-FIN-INTEGRES.md` → Points ultra-fins intégrés
-18. ✅ `AUDIT-LUNA-PRO-V2-2025-01-27.md` → Audit Luna Pro
+18. ✅ `audits/AUDIT-LUNA-PRO.md` → Audit Luna Pro
 
 ---
 

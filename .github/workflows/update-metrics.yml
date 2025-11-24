@@ -36,6 +36,15 @@ jobs:
           path: arkalia-metrics-collector
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Run metrics collector
+        run: |
+          cd arkalia-metrics-collector
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+          # Exécute l'agrégation si le script existe
+          python -m arkalia_metrics aggregate projects.json || echo "Metrics collection skipped"
+        continue-on-error: true
+
       - name: Update README metrics
         run: |
           python scripts/update_readme_metrics.py

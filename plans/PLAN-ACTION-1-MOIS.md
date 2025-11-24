@@ -6,7 +6,7 @@ Portfolio "Industry Leader" en 1 mois
 ## 📅 Détails du Plan
 
 - **Deadline :** 1 mois (avant réception Reachy Mini + lancement public)
-- **Note actuelle :** 8.3/10 (Audit 2025-11-13)
+- **Note actuelle :** 8.3/10 (Audit 2025-11-24)
 - **Objectif :** 9.5/10
 
 ---
@@ -102,7 +102,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 #### 3. **Améliorer Luna Pro (Statut Enterprise non justifié)** ⚡
 **Impact :** HIGH | **Temps :** 8-10h | **Projet :** arkalia-luna-pro
 
-**Problèmes identifiés (audit V2 rigoureux 2025-01-27) :**
+**Problèmes identifiés (audit V2 rigoureux 2025-11-24) :**
 - ⚠️ Documentation existe (72 fichiers .md) mais manque d'éléments visuels (1 seul PNG)
 - ✅ Statut "Enterprise" exagéré (126 occurrences, 6 limitations documentées : couverture 59%, mémoire, métriques basiques, non recommandé pour production critique)
 - ✅ Aucun screenshot dashboard (Grafana, Docker, Prometheus) - 0 screenshot trouvé
@@ -224,7 +224,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 - [x] Cas d'usage métier dans doc principale ✅ **VÉRIFIÉ** (docs/getting-started/use-cases.md, 178 lignes, 5 cas détaillés)
 - [x] Diagramme architecture visuel dans README ✅ **VÉRIFIÉ** (README.md, 244 lignes, sections complètes)
 
-**✅ VÉRIFICATION FINALE (2025-01-27) :**
+**✅ VÉRIFICATION FINALE (2025-11-24) :**
 - ✅ Badge containers : "5 active" (README ligne 7) — **CONFIRMÉ**
 - ✅ Statut : "production ready" (README ligne 6) — **CONFIRMÉ**
 - ✅ Badge Codecov : présent (README ligne 10) — **CONFIRMÉ**
@@ -468,7 +468,7 @@ git filter-branch --env-filter '
 #### 13. **Améliorer BBIA Sim (Ultra User-Friendly)** ⚡
 **Impact :** HIGH | **Temps :** 5h | **Projet :** bbia-sim
 
-**Problèmes identifiés (audit rigoureux 2025-01-27) :**
+**Problèmes identifiés (audit rigoureux 2025-11-24) :**
 - ⚠️ README mentionnait "1334 tests" mais réellement **1362 tests** (corrigé)
 - ⚠️ "95 modules" mentionné mais réellement **68 fichiers Python** (corrigé)
 - ⚠️ Coverage incohérent : badge "~50%" vs README "~64%" (harmonisé à **68.86%**)

@@ -140,6 +140,21 @@ class GitHubProfileUpdater:
         if "arkalia-luna-system" in repo_name.lower():
             variants.append("github-profile-arkalia")
             variants.append("arkalia-luna-system")
+        # Variations pour "arkalia finance" et projets finance
+        if "finance" in repo_name.lower() or "arkalia-finance" in repo_name.lower():
+            variants.append("arkalia-finance")
+            variants.append("arkalia_finance")
+            variants.append("finance")
+        # Variations pour "arkalia-aria" (avec majuscule)
+        if "aria" in repo_name.lower() and "arkalia" in repo_name.lower():
+            variants.append("Arkalia-aria")
+            variants.append("arkalia-aria")
+            variants.append("arkalia_aria")
+        # Variations pour "arkalia-luna-logo" (avec majuscule)
+        if "luna-logo" in repo_name.lower() or "luna_logo" in repo_name.lower():
+            variants.append("Arkalia-luna-logo")
+            variants.append("arkalia-luna-logo")
+            variants.append("arkalia_luna_logo")
 
         return list(set(variants))  # Supprime les doublons
 
@@ -161,6 +176,10 @@ class GitHubProfileUpdater:
             "github-profile-arkalia",
             "strict_backup",
             "strict_backup/arkalia_luna_backup",
+            "arkalia",  # Dossier arkalia général
+            "arkalia-projects",  # Dossier projets arkalia
+            "finance",  # Dossier finance
+            "arkalia-finance",  # Dossier finance spécifique
         ]
 
         # Chemins probables à vérifier
@@ -192,6 +211,10 @@ class GitHubProfileUpdater:
             self.base_path / "logo",
             self.base_path / "github-profile-arkalia",
             self.base_path / "strict_backup",
+            self.base_path / "arkalia",
+            self.base_path / "arkalia-projects",
+            self.base_path / "finance",
+            self.base_path / "arkalia-finance",
         ]
 
         # Ajoute Desktop si disponible

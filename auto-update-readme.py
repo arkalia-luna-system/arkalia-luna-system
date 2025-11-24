@@ -12,6 +12,7 @@ import json
 import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Tuple
+from datetime import datetime
 
 
 def load_projects_data(data_file: Path) -> Dict[str, Any]:
@@ -43,7 +44,7 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
         f"- **Projets** : {stats.get('total_projects', 0)} en production",
         f"- **Langages** : {lang_str}",
         "",
-        "<sub>*Dernière mise à jour : novembre 2025*</sub>",
+        f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>",
     ]
 
     return "\n".join(lines)
@@ -58,8 +59,8 @@ def generate_languages_table(stats: Dict[str, Any]) -> str:
 def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     """Génère le tableau des projets depuis les données JSON"""
     lines = [
-        "| Projet | Description | Stack | Status |",
-        "|:------:|:-----------:|:-----:|:-----:|",
+        "| Projet | Description | Stack | Rôle | Status |",
+        "|:------:|:-----------:|:-----:|:----:|:-----:|",
     ]
 
     for project in projects:
@@ -77,10 +78,24 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             status = "🚧 Beta"
         elif "enterprise" in name_lower or "pro" in name_lower or "athalia" in name_lower:
             status = "🚀 Enterprise"
+        elif "archive" in name_lower or "nours" in name_lower:
+            status = "📦 Archivé"
+
+        # Détermine le rôle basé sur le nom et la description
+        role = "🏢 Prod"
+        desc_lower = description.lower()
+        if "template" in name_lower or "base" in name_lower:
+            role = "🔧 Tooling"
+        elif "metrics" in name_lower or "collector" in name_lower:
+            role = "🔧 Tooling"
+        elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
+            role = "🔧 Tooling"
+        elif "archive" in name_lower or "nours" in name_lower or "poc" in desc_lower:
+            role = "📦 Archive"
+        elif "beta" in name_lower or "cia" in name_lower:
+            role = "🚧 Beta"
 
         # Stack intelligent basé sur description et nom
-        desc_lower = description.lower()
-        name_lower = name.lower()
         stack = language
 
         # Détection intelligente du stack
@@ -111,7 +126,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         # Limite la description
         desc_short = description[:80] + "..." if len(description) > 80 else description
 
-        lines.append(f"| **[{name}]({github_url})** | {desc_short} | {stack} | {status} |")
+        lines.append(f"| **[{name}]({github_url})** | {desc_short} | {stack} | {role} | {status} |")
 
     return "\n".join(lines)
 
