@@ -44,7 +44,15 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
         f"- **Projets** : {stats.get('total_projects', 0)} en production",
         f"- **Langages** : {lang_str}",
         "",
-        f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>",
+        f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>".replace(
+            "January", "janvier"
+        ).replace("February", "février").replace("March", "mars").replace(
+            "April", "avril"
+        ).replace("May", "mai").replace("June", "juin").replace(
+            "July", "juillet"
+        ).replace("August", "août").replace("September", "septembre").replace(
+            "October", "octobre"
+        ).replace("November", "novembre").replace("December", "décembre"),
     ]
 
     return "\n".join(lines)
@@ -84,7 +92,9 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         # Détermine le rôle basé sur le nom et la description
         role = "🏢 Prod"
         desc_lower = description.lower()
-        if "template" in name_lower or "base" in name_lower:
+        if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
+            role = "🌙 Profil"  # Profil GitHub centralisé
+        elif "template" in name_lower or "base" in name_lower:
             role = "🔧 Tooling"
         elif "metrics" in name_lower or "collector" in name_lower:
             role = "🔧 Tooling"
@@ -99,7 +109,9 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         stack = language
 
         # Détection intelligente du stack
-        if "flutter" in desc_lower or "flutter" in name_lower:
+        if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
+            stack = "Python"  # Profil GitHub = Python
+        elif "flutter" in desc_lower or "flutter" in name_lower:
             stack = "Flutter"
         elif "fastapi" in desc_lower or "fastapi" in name_lower:
             if "docker" in desc_lower:
@@ -123,8 +135,20 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         elif "metrics" in name_lower or "collector" in name_lower:
             stack = f"{language} + CLI"
 
-        # Limite la description
-        desc_short = description[:80] + "..." if len(description) > 80 else description
+        # Nettoie et limite la description (enlève emojis en début si trop nombreux)
+        desc_clean = description.strip()
+        # Enlève les emojis en début si présents (mais garde quelques-uns)
+        while desc_clean and desc_clean[0] in "🌙🤖🎨📱🧠🔧📊⚙️✅🚀📈🎮🧠📚🌐" and desc_clean.count(" ") < 3:
+            desc_clean = desc_clean[1:].strip()
+        
+        # Limite la description à 100 caractères max
+        if len(desc_clean) > 100:
+            desc_short = desc_clean[:97] + "..."
+        else:
+            desc_short = desc_clean
+
+        # Échappe les pipes dans la description pour éviter de casser le tableau
+        desc_short = desc_short.replace("|", "\\|")
 
         lines.append(f"| **[{name}]({github_url})** | {desc_short} | {stack} | {role} | {status} |")
 

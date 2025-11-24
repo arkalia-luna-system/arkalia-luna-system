@@ -28,10 +28,18 @@ python3 update-profile.py --export config/projects-data.json || {
 echo ""
 
 # 2. Mettre à jour le README automatiquement
-echo -e "${BLUE}📝 Étape 2/2 : Mise à jour du README...${NC}"
+echo -e "${BLUE}📝 Étape 2/3 : Mise à jour du README...${NC}"
 python3 auto-update-readme.py || {
     echo -e "${YELLOW}⚠️  Erreur lors de la mise à jour du README${NC}"
     exit 1
+}
+
+echo ""
+
+# 3. Lancer l'audit des projets (optionnel mais recommandé)
+echo -e "${BLUE}🔍 Étape 3/3 : Audit des projets...${NC}"
+python3 scripts/audit-projects.py --output audits/AUDIT-COMPLET-PROJETS.md || {
+    echo -e "${YELLOW}⚠️  Erreur lors de l'audit (non bloquant)${NC}"
 }
 
 echo ""
@@ -40,3 +48,4 @@ echo ""
 echo "💡 Fichiers mis à jour :"
 echo "   📄 config/projects-data.json"
 echo "   📄 README.md"
+echo "   📄 audits/AUDIT-COMPLET-PROJETS.md"

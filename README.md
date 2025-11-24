@@ -62,6 +62,7 @@
     - [📈 Statistiques](#-statistiques)
     - [🎯 Roadmap](#-roadmap)
   - [🤝 Contribuer](#-contribuer)
+  - [🔧 Automatisation](#-automatisation)
   - [📞 Contact](#-contact)
   - [📊 Impact \& Performance](#-impact--performance)
   - [🎯 FAQ](#-faq)
@@ -280,20 +281,18 @@ Chaque projet résout un problème réel avec une architecture propre, des tests
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Status |
 |:------:|:-----------:|:-----:|:----:|:-----:|
-| **[🌕 Luna Pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestration IA Production-Ready • 5 containers • Monitoring | Docker | 🏢 Prod | ✅ Production |
-| **[🤖 BBIA Reachy Sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robot émotionnel • 12 émotions • IA Vision | Python + MuJoCo | 🏢 Prod | ✅ Production |
-| **[🎨 BBIA Branding](https://github.com/arkalia-luna-system/bbia_branding)** | Identité visuelle complète • Assets design | Design | 🏢 Prod | ✅ Production |
-| **[🎨 Luna Logo](https://github.com/arkalia-luna-system/arkalia-luna-logo)** | Générateur logos SVG • 8 styles × 5 variantes | FastAPI + Docker | 🏢 Prod | ✅ v2.0.0 |
-| **[🎮 Arkalia Quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming éducatif cybersécurité | Flask + IA | 🏢 Prod | ✅ Production |
-| **[🧠 Arkalia ARIA](https://github.com/arkalia-luna-system/arkalia-aria)** | Tracking douleur • Bien-être mental • 13 connecteurs • RGPD | FastAPI + Flutter | 🏢 Prod | ✅ Production |
-| **[📱 Arkalia CIA](https://github.com/arkalia-luna-system/arkalia-cia)** | Mobile santé Flutter • AES-256 | Flutter | 🚧 Beta | 🚧 Beta |
-| **[🔧 Athalia DevOps](https://github.com/arkalia-luna-system/ia-pipeline)** | DevOps • 62 cmd sécurisées | FastAPI | 🔧 Tooling | 🚀 Enterprise |
-| **[📊 Metrics Collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Analytics centralisées | Python + CLI | 🔧 Tooling | ✅ Production |
-| **[⚙️ Base Template](https://github.com/arkalia-luna-system/base_template)** | Starter FastAPI • CI/CD | FastAPI | 🔧 Tooling | ✅ Template |
-| **[📚 Nours Interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web Flask • POC archivé 2025 | Flask | 📦 Archive | 📦 Archivé |
-
-<sub>**Note :** Tous les projets sont publics. **Rôles :** 🏢 Prod (Production) • 🚧 Beta • 🔧 Tooling (Outils) • 📦 Archive • **Statuts :** ✅ Production • 🚧 Beta • 🚀 Enterprise • ✅ Template • 📦 Archivé</sub>
-
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | Python + MuJoCo | 🏢 Prod | ✅ Production |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter | 🚧 Beta | 🚧 Beta |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | 🌙 Profil GitHub centralisé — Orchestration de l'écosystème Arkalia Luna System \| 12 projets en pr... | Python | 🌙 Profil | ✅ Production |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | 📊 Collecteur de métriques centralisé — Analytics automatisées pour tous les projets \| Agrégation ... | Python + CLI | 🔧 Tooling | ✅ Production |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Python + Docker | 🏢 Prod | 🚀 Enterprise |
+| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | 🧠 Laboratoire personnel santé/IA — Suivi douleur chronique • Patterns psychologiques • Synchronis... | Flutter | 🏢 Prod | ✅ Production |
+| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Dock... | FastAPI + Docker | 🏢 Prod | ✅ Production |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | 🎨 Identité visuelle complète BBIA — Design system professionnel \| Palette hex complète • Typograp... | Design | 🏢 Prod | ✅ Production |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architect... | Flask + IA | 🏢 Prod | ✅ Production |
+| **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | 🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'arch... | Flask + IA | 📦 Archive | 📦 Archivé |
+| **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | 🔧 Pipeline DevOps IA souverain — 62 commandes sécurisées • Automatisation complète • Modulaire • ... | FastAPI + Docker | 🔧 Tooling | ✅ Production |
+| **[base_template](https://github.com/arkalia-luna-system/base_template)** | ⚙️ Starter kit FastAPI production-ready — Template OSS solide • CI/CD complet • Tests automatisés... | FastAPI + Docker | 🔧 Tooling | ✅ Template |
 ---
 
 ## 🛠️ Stack Technique
@@ -397,7 +396,6 @@ flowchart TB
 - **Projets** : 12 en production
 - **Langages** : Python (10), Dart (1), JSON (1), Markdown (1), Shell (1)
 
-<!-- AUTO-UPDATE:stats -->
 <sub>*Dernière mise à jour : 24 novembre 2025*</sub>
 <!-- AUTO-UPDATE:languages -->
 
@@ -428,6 +426,22 @@ flowchart TB
 **Ressources :** [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) • [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) • [@arkalia-luna-system](https://github.com/arkalia-luna-system)
 
 <sub>*Réponse rapide pour les questions techniques et contributions. Tous les projets sont ouverts aux contributions.*</sub>
+
+---
+
+## 🔧 Automatisation
+
+Ce repository utilise un système d'automatisation complet pour maintenir le profil à jour :
+
+- **📡 Découverte automatique** : `update-profile.py` découvre tous les projets GitHub
+- **📝 Mise à jour automatique** : `auto-update-readme.py` met à jour le README
+- **🔍 Audit automatique** : `scripts/audit-projects.py` audite la qualité des projets
+- **📊 Métriques automatiques** : Intégration avec `arkalia-metrics-collector`
+- **🔄 CI/CD** : Workflows GitHub Actions pour tout automatiser
+
+**Documentation complète :** [docs/AUTOMATISATION-COMPLETE.md](docs/AUTOMATISATION-COMPLETE.md)
+
+**Script tout-en-un :** `./scripts/update-all.sh` (découvre, met à jour, audite)
 
 ---
 

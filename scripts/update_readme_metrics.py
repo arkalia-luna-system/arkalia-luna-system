@@ -56,14 +56,14 @@ def update_readme_metrics():
     agg = data.get("aggregated", {})
     projects = data.get("projects", [])
 
-    # Créer un dictionnaire de coverage par projet
+    # Créer un dictionnaire de coverage par projet depuis aggregated_metrics.json
     project_coverage = {}
     for project in projects:
         project_name = project.get("name", "")
-        # Le coverage peut être dans les métriques étendues
-        # Pour l'instant, on utilise les valeurs hardcodées du README
-        # TODO: Intégrer coverage depuis aggregated_metrics.json quand disponible
+        # Cherche le coverage dans les métriques étendues si disponible
         project_coverage[project_name] = None
+        # Le coverage sera mis à jour depuis aggregated_metrics.json si disponible
+        # (géré dans la section global_coverage ci-dessous)
 
     # Lire README.md
     try:

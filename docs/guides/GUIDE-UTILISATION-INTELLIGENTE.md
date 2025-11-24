@@ -2,7 +2,7 @@
 
 ## 🎯 Objectif
 
-Automatiser complètement la mise à jour de votre profil GitHub pour qu'il reflète toujours l'état réel de vos 11 projets.
+Automatiser complètement la mise à jour de votre profil GitHub pour qu'il reflète toujours l'état réel de vos 12 projets.
 
 ---
 
@@ -22,7 +22,7 @@ cd /Volumes/T7/github-profile-arkalia
 - ✅ Génère `projects-data.json` avec toutes les données
 - ✅ Génère `config/projects-data.json` avec données des projets
 
-**Résultat :** 11/11 projets trouvés, 11/11 README détectés
+**Résultat :** 12/12 projets trouvés, 12/12 README détectés
 
 ---
 
@@ -76,14 +76,14 @@ Ce script met à jour automatiquement les sections marquées dans votre README.
 - **🔢 550+ fichiers Python** (code source uniquement, mesuré)
 - **🧪 550+ tests automatisés** (100% CI/CD, mesuré)
 - **🎨 196 logos SVG générés** (mesuré)
-- **🌍 11 projets actifs** (production + développement)
+- **🌍 12 projets actifs** (production + développement)
 ```
 
 **Après (depuis auto-update-readme.py) :**
 ```markdown
-- **🔢 11 projets** au total
-- **📁 11 projets** trouvés localement
-- **📖 11 projets** avec README
+- **🔢 12 projets** au total
+- **📁 12 projets** trouvés localement
+- **📖 12 projets** avec README
 - **💻 Langages** : Shell, Python, HTML
 ```
 

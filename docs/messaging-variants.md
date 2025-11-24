@@ -40,7 +40,7 @@ Open source • Full-stack • Design
 ### **Bio GitHub**
 ```
 Développeur Full-Stack • IA • Robotique • Design
-11 projets en production • Python • FastAPI • Flutter
+12 projets en production • Python • FastAPI • Flutter
 Open source • Écosystème complet
 ```
 
