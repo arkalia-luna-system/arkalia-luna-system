@@ -19,9 +19,20 @@ def update_readme_metrics():
     """Met à jour les métriques dans README.md."""
     # Chemins
     repo_root = Path(__file__).parent.parent
-    metrics_path = (
-        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json"
-    )
+    # Chercher dans le même répertoire (pour GitHub Actions) ou dans le parent (pour local)
+    metrics_paths = [
+        repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
+        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
+    ]
+    metrics_path = None
+    for path in metrics_paths:
+        if path.exists():
+            metrics_path = path
+            break
+    
+    if metrics_path is None:
+        metrics_path = metrics_paths[0]  # Utiliser le premier pour les messages d'erreur
+    
     readme_path = repo_root / "README.md"
 
     # Vérifier que les fichiers existent
@@ -93,7 +104,7 @@ def update_readme_metrics():
     for project in projects:
         project_name = project.get("name", "")
         project_tests = project.get("tests", 0)
-        project_modules = project.get("modules", 0)
+        # project_modules = project.get("modules", 0)  # Réservé pour usage futur
         
         # BBIA Reachy Sim
         if ("bbia" in project_name.lower() and "sim" in project_name.lower()) or "reachy" in project_name.lower():
@@ -132,9 +143,15 @@ def update_readme_metrics():
         )
 
     # Lire le rapport d'évolution si disponible
-    evolution_path = (
-        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md"
-    )
+    evolution_paths = [
+        repo_root / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
+        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
+    ]
+    evolution_path = None
+    for path in evolution_paths:
+        if path.exists():
+            evolution_path = path
+            break
     if evolution_path.exists():
         try:
             evolution_report = evolution_path.read_text(encoding="utf-8")
@@ -177,10 +194,7 @@ def update_readme_metrics():
     else:
         print("   - Coverage global: N/A (non calculé)")
 
-    # Vérifier si un rapport d'évolution existe
-    evolution_path = (
-        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md"
-    )
+    # Vérifier si un rapport d'évolution existe (utiliser le même chemin trouvé précédemment)
     if evolution_path.exists():
         print("   - Rapport d'évolution disponible: EVOLUTION_REPORT.md")
 

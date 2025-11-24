@@ -18,12 +18,26 @@ def create_badges_metrics():
     """Crée metrics_for_badges.json."""
     # Chemins
     repo_root = Path(__file__).parent.parent
-    metrics_path = (
-        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json"
-    )
-    output_path = (
-        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "metrics_for_badges.json"
-    )
+    # Chercher dans le même répertoire (pour GitHub Actions) ou dans le parent (pour local)
+    metrics_paths = [
+        repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
+        repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
+    ]
+    metrics_path = None
+    for path in metrics_paths:
+        if path.exists():
+            metrics_path = path
+            break
+    
+    if metrics_path is None:
+        metrics_path = metrics_paths[0]  # Utiliser le premier pour les messages d'erreur
+    
+    # Déterminer le chemin de sortie en fonction du chemin trouvé
+    if metrics_path and metrics_path.exists():
+        output_path = metrics_path.parent / "metrics_for_badges.json"
+    else:
+        # Fallback vers le premier chemin
+        output_path = repo_root / "arkalia-metrics-collector" / "metrics" / "metrics_for_badges.json"
 
     # Vérifier que le fichier metrics existe
     if not metrics_path.exists():
