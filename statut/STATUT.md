@@ -1,7 +1,7 @@
 # 📊 TABLEAU DE BORD - STATUT GLOBAL
 
-**Dernière mise à jour :** 17 novembre 2025  
-**Prochaine revue :** 24 novembre 2025
+**Dernière mise à jour :** 24 novembre 2025  
+**Prochaine revue :** 1 décembre 2025
 
 ---
 
@@ -283,8 +283,8 @@ Avant lancement public, vérifier :
 ## 📞 CONTACT
 
 - **Responsable :** Équipe Technique
-- **Dernière révision :** 17/11/2025
-- **Prochaine mise à jour :** 18/11/2025
+- **Dernière révision :** 24/11/2025
+- **Prochaine mise à jour :** 01/12/2025
 
 ---
 

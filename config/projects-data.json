@@ -1,67 +1,43 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2025-11-23T02:40:41.302589",
+  "generated_at": "2025-11-24T17:10:59.373915",
   "stats": {
     "total_projects": 12,
-    "local_projects": 1,
-    "projects_with_readme": 1,
+    "local_projects": 12,
+    "projects_with_readme": 12,
     "total_stars": 0,
     "languages": {
-      "Python": 10,
+      "Python": 12,
+      "JSON": 10,
+      "Makefile": 7,
+      "Markdown": 12,
+      "Shell": 11,
+      "Dockerfile": 5,
+      "YAML": 8,
+      "HTML": 7,
       "Dart": 1,
-      "JSON": 1,
-      "Markdown": 1,
-      "Shell": 1
+      "CSS": 2,
+      "JavaScript": 1
     },
-    "last_updated": "2025-11-23T02:40:41.302598"
+    "last_updated": "2025-11-24T17:10:59.373930"
   },
   "projects": [
     {
-      "name": "bbia-sim",
-      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "name": "base_template",
+      "github_url": "https://github.com/arkalia-luna-system/base_template",
+      "local_path": "/Volumes/T7/base_template",
+      "readme_path": "/Volumes/T7/base_template/README.md",
+      "description": "⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l'emploi, documentation exhaustive 📚 Flask+Supervisord, monitoring intégré 📈 MIT license, production-ready",
       "language": "Python",
-      "stars": 0,
-      "is_public": true
-    },
-    {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
-      "local_path": null,
-      "readme_path": null,
-      "description": "📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100% offline, seniors-friendly, rappels intelligents 🔔 Tests: 61, couverture: 66%, CI/CD complet ⚡ Production-ready MVP",
-      "language": "Dart",
       "stars": 0,
       "is_public": true
     },
     {
       "name": "arkalia-luna-system",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
-      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
-      "description": "🌙 Profil GitHub centralisé — Orchestration de l'écosystème Arkalia Luna System | 12 projets en production • Automatisation métriques • Documentation complète | Robotique • IA • Design • DevOps • Mobile",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true
-    },
-    {
-      "name": "arkalia-metrics-collector",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
-      "local_path": null,
-      "readme_path": null,
-      "description": "📊 Collecteur de métriques centralisé — Analytics automatisées pour tous les projets | Agrégation modules, tests, coverage, lignes de code | Export JSON/YAML/CSV/Markdown | Dashboard interactif | Python + CLI | Production-ready",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true
-    },
-    {
-      "name": "arkalia-luna-pro",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
+      "local_path": "/Volumes/T7/github-profile-arkalia",
+      "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
+      "description": "🌙 Profil GitHub centralisé — Orchestration de l'écosystème Arkalia Luna System | 12 projets en production | Automatisation complète métriques, README, audits | Hub central pour robotique, IA, design, mobile, DevOps",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -69,9 +45,49 @@
     {
       "name": "Arkalia-aria",
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-aria",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🧠 Laboratoire personnel santé/IA — Suivi douleur chronique • Patterns psychologiques • Synchronisation CIA • Export professionnel | FastAPI + Flutter • RGPD • 13 connecteurs | Production-ready",
+      "local_path": "/Volumes/T7/arkalia-aria",
+      "readme_path": "/Volumes/T7/arkalia-aria/README.md",
+      "description": "Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "arkalia-metrics-collector",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
+      "local_path": "/Volumes/T7/arkalia-metrics-collector",
+      "readme_path": "/Volumes/T7/arkalia-metrics-collector/README.md",
+      "description": "> **Collecteur de métriques universel et professionnel pour projets Python**",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+      "local_path": "/Volumes/T7/arkalia-cia",
+      "readme_path": "/Volumes/T7/arkalia-cia/README.md",
+      "description": "📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100% offline, seniors-friendly, rappels intelligents 🔔 Tests: 61, couverture: 66%, CI/CD complet ⚡ Production-ready MVP",
+      "language": "Dart",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "bbia-sim",
+      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "local_path": "/Volumes/T7/bbia-reachy-sim",
+      "readme_path": "/Volumes/T7/bbia-reachy-sim/README.md",
+      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true
+    },
+    {
+      "name": "arkalia-luna-pro",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
+      "local_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO",
+      "readme_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO/README.md",
+      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -79,8 +95,8 @@
     {
       "name": "Arkalia-luna-logo",
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-luna-logo",
-      "local_path": null,
-      "readme_path": null,
+      "local_path": "/Volumes/T7/logo/Arkalia-luna-logo",
+      "readme_path": "/Volumes/T7/logo/Arkalia-luna-logo/README.md",
       "description": "🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker, monitoring Prometheus/Grafana 📡 Gen: 0.03s, tests: 151, couverture: 78% ⚡ Production-ready",
       "language": "Python",
       "stars": 0,
@@ -89,9 +105,9 @@
     {
       "name": "bbia_branding",
       "github_url": "https://github.com/arkalia-luna-system/bbia_branding",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🎨 Identité visuelle complète BBIA — Design system professionnel | Palette hex complète • Typographie • Assets SVG/PNG | Logo 2D/3D • Variantes émotionnelles • Guidelines | Production-ready",
+      "local_path": "/Users/athalia/Desktop/logo bbia/bbia_branding",
+      "readme_path": "/Users/athalia/Desktop/logo bbia/bbia_branding/README.md",
+      "description": "**Assets Premium pour l'identité visuelle BBIA**",
       "language": "Python",
       "stars": 0,
       "is_public": true
@@ -99,8 +115,8 @@
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": null,
-      "readme_path": null,
+      "local_path": "/Volumes/T7/devstation/arkalia-quest",
+      "readme_path": "/Volumes/T7/devstation/arkalia-quest/README.md",
       "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
       "language": "Python",
       "stars": 0,
@@ -109,8 +125,8 @@
     {
       "name": "nours_interface",
       "github_url": "https://github.com/arkalia-luna-system/nours_interface",
-      "local_path": null,
-      "readme_path": null,
+      "local_path": "/Volumes/T7/nours_interface",
+      "readme_path": "/Volumes/T7/nours_interface/README.md",
       "description": "🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'architecture propre pour débutants Python/Web 📆 42 fichiers, templates Jinja2, MIT license 📚",
       "language": "Python",
       "stars": 0,
@@ -119,19 +135,9 @@
     {
       "name": "ia-pipeline",
       "github_url": "https://github.com/arkalia-luna-system/ia-pipeline",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🔧 Pipeline DevOps IA souverain — 62 commandes sécurisées • Automatisation complète • Modulaire • Testé • Documenté | FastAPI • Docker • CI/CD | Infrastructure enterprise-ready",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true
-    },
-    {
-      "name": "base_template",
-      "github_url": "https://github.com/arkalia-luna-system/base_template",
-      "local_path": null,
-      "readme_path": null,
-      "description": "⚙️ Starter kit FastAPI production-ready — Template OSS solide • CI/CD complet • Tests automatisés • Monitoring • Documentation exhaustive | Python 3.11+ • FastAPI • Docker • Pytest | Template vérifié",
+      "local_path": "/Volumes/T7/athalia-dev-setup",
+      "readme_path": "/Volumes/T7/athalia-dev-setup/README.md",
+      "description": "Générateur IA souverain, modulaire, testé, automatisé, documenté",
       "language": "Python",
       "stars": 0,
       "is_public": true
