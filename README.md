@@ -75,10 +75,12 @@
       - [🔧 **Outils \& Infrastructure**](#-outils--infrastructure)
       - [📦 **Archives**](#-archives)
   - [🔥 Featured Projects](#-featured-projects)
+  - [](#)
   - [🤖 Projet Principal : BBIA Reachy Sim](#-projet-principal--bbia-reachy-sim)
   - [🚀 Projets Phares](#-projets-phares)
     - [🌟 Autres Projets Principaux](#-autres-projets-principaux)
     - [📋 Tous les Projets](#-tous-les-projets)
+  - [| **ia-pipeline** | Générateur IA souverain, modulaire, testé, automatisé, documenté | IA | 🔧 Tooling | ✅ Production |](#-ia-pipeline--générateur-ia-souverain-modulaire-testé-automatisé-documenté--ia---tooling---production-)
   - [🛠️ Stack Technique](#️-stack-technique)
   - [🗺️ Architecture Écosystème](#️-architecture-écosystème)
   - [📊 Métriques de l'Écosystème](#-métriques-de-lécosystème)
@@ -117,7 +119,7 @@ Outils de génération et identité visuelle :
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
 - **arkalia-metrics-collector** : 📊 **Mon outil interne de métriques pour tous mes projets** — Collecteur de métriques universel et professionnel pour projets Python (tests, couverture, modules, lignes de code, etc.)
-- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, documenté
+- **ia-pipeline** (Athalia) : 🔧 **Plateforme DevOps/Infrastructure** — Générateur IA souverain, modulaire, testé, automatisé, documenté. *Athalia = DevOps/infra, Luna-pro = IA métier/produit*
 - **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
 
