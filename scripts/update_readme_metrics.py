@@ -168,14 +168,23 @@ def update_readme_metrics():
     # Mettre à jour la date (format français)
     date_pattern = r"\*Dernière mise à jour : \d{1,2} \w+ \d{4}\*"
     months_fr = {
-        1: "janvier", 2: "février", 3: "mars", 4: "avril",
-        5: "mai", 6: "juin", 7: "juillet", 8: "août",
-        9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"
+        1: "janvier",
+        2: "février",
+        3: "mars",
+        4: "avril",
+        5: "mai",
+        6: "juin",
+        7: "juillet",
+        8: "août",
+        9: "septembre",
+        10: "octobre",
+        11: "novembre",
+        12: "décembre",
     }
     now = datetime.now()
     new_date = f"*Dernière mise à jour : {now.day} {months_fr[now.month]} {now.year}*"
     readme = re.sub(date_pattern, new_date, readme)
-    
+
     # Pattern alternatif pour "novembre 2025"
     date_pattern2 = r"\*Dernière mise à jour : \w+ \d{4}\*"
     readme = re.sub(date_pattern2, new_date, readme)

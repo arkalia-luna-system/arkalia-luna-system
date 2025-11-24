@@ -46,13 +46,18 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
         "",
         f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>".replace(
             "January", "janvier"
-        ).replace("February", "février").replace("March", "mars").replace(
-            "April", "avril"
-        ).replace("May", "mai").replace("June", "juin").replace(
-            "July", "juillet"
-        ).replace("August", "août").replace("September", "septembre").replace(
-            "October", "octobre"
-        ).replace("November", "novembre").replace("December", "décembre"),
+        )
+        .replace("February", "février")
+        .replace("March", "mars")
+        .replace("April", "avril")
+        .replace("May", "mai")
+        .replace("June", "juin")
+        .replace("July", "juillet")
+        .replace("August", "août")
+        .replace("September", "septembre")
+        .replace("October", "octobre")
+        .replace("November", "novembre")
+        .replace("December", "décembre"),
     ]
 
     return "\n".join(lines)
@@ -62,6 +67,184 @@ def generate_languages_table(stats: Dict[str, Any]) -> str:
     """Génère le tableau des langages (non utilisé actuellement, format intégré dans stats)"""
     # Cette fonction n'est plus utilisée car les langages sont dans la section stats
     return ""
+
+
+def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
+    """Génère automatiquement la section Vision Système depuis projects-data.json"""
+    # Groupe les projets par rôle
+    prod_projects: List[Dict[str, Any]] = []
+    design_projects: List[Dict[str, Any]] = []
+    tooling_projects: List[Dict[str, Any]] = []
+    archive_projects: List[Dict[str, Any]] = []
+
+    for project in projects:
+        name = project.get("name", "").lower()
+        desc = project.get("description", "").lower()
+
+        # Classification
+        if "template" in name or "base" in name:
+            tooling_projects.append(project)
+        elif "metrics" in name or "collector" in name:
+            tooling_projects.append(project)
+        elif "pipeline" in name or "devops" in desc or "athalia" in name:
+            tooling_projects.append(project)
+        elif "archive" in name or "nours" in name or "poc" in desc:
+            archive_projects.append(project)
+        elif "branding" in name or "logo" in name:
+            design_projects.append(project)
+        elif "luna-system" in name or "profile" in desc or "profil" in desc:
+            tooling_projects.append(project)
+        else:
+            prod_projects.append(project)
+
+    lines = [
+        "### 🏗️ Architecture de l'Écosystème",
+        "",
+        "L'écosystème est organisé en **4 catégories principales** :",
+        "",
+    ]
+
+    # Projets Production
+    if prod_projects:
+        lines.append("#### 🏢 **Projets Production**")
+        lines.append("Projets en production active, utilisés et maintenus :")
+        for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
+            name = proj.get("name", "")
+            desc = (
+                proj.get("description", "")[:60] + "..."
+                if len(proj.get("description", "")) > 60
+                else proj.get("description", "")
+            )
+            lines.append(f"- **{name}** : {desc}")
+        lines.append("")
+
+    # Design & Branding
+    if design_projects:
+        lines.append("#### 🎨 **Design & Branding**")
+        lines.append("Outils de génération et identité visuelle :")
+        for proj in design_projects:
+            name = proj.get("name", "")
+            desc = (
+                proj.get("description", "")[:60] + "..."
+                if len(proj.get("description", "")) > 60
+                else proj.get("description", "")
+            )
+            lines.append(f"- **{name}** : {desc}")
+        lines.append("")
+
+    # Outils & Infrastructure
+    if tooling_projects:
+        lines.append("#### 🔧 **Outils & Infrastructure**")
+        lines.append("Infrastructure et outils de développement :")
+        for proj in tooling_projects[:5]:  # Limite à 5
+            name = proj.get("name", "")
+            desc = (
+                proj.get("description", "")[:60] + "..."
+                if len(proj.get("description", "")) > 60
+                else proj.get("description", "")
+            )
+            lines.append(f"- **{name}** : {desc}")
+        lines.append("")
+
+    # Archives
+    if archive_projects:
+        lines.append("#### 📦 **Archives**")
+        lines.append("Projets historiques conservés pour leur valeur pédagogique :")
+        for proj in archive_projects:
+            name = proj.get("name", "")
+            desc = (
+                proj.get("description", "")[:60] + "..."
+                if len(proj.get("description", "")) > 60
+                else proj.get("description", "")
+            )
+            lines.append(f"- **{name}** : {desc}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
+    """Génère automatiquement les Featured Projects avec scoring"""
+    # Score chaque projet
+    scored_projects = []
+
+    for project in projects:
+        name = project.get("name", "").lower()
+        desc = project.get("description", "").lower()
+        stars = project.get("stars", 0)
+
+        score = 0
+
+        # Critères de scoring
+        if "pro" in name or "enterprise" in desc:
+            score += 30
+        if "production-ready" in desc or "production" in desc:
+            score += 20
+        if "test" in desc and any(char.isdigit() for char in desc):
+            score += 15
+        if "coverage" in desc or "couverture" in desc:
+            score += 10
+        if stars > 0:
+            score += stars * 2
+        if "docker" in desc or "monitoring" in desc:
+            score += 10
+        if "ia" in desc or "ai" in desc or "robot" in desc:
+            score += 5
+
+        # Exclut certains projets
+        if "template" in name or "archive" in name or "nours" in name:
+            score = 0
+
+        scored_projects.append((score, project))
+
+    # Trie par score et prend les top 3
+    scored_projects.sort(key=lambda x: x[0], reverse=True)
+    top_projects = [p[1] for p in scored_projects[:3] if p[0] > 0]
+
+    if not top_projects:
+        return ""
+
+    lines = [
+        "**Les 3 projets qui démontrent le mieux mes compétences techniques et ma capacité à livrer en production**",
+        "",
+    ]
+
+    # Génère le tableau HTML (format existant)
+    lines.append('<div align="center">')
+    lines.append("")
+    lines.append("<table>")
+    lines.append("<tr>")
+
+    for i, project in enumerate(top_projects):
+        name = project.get("name", "")
+        github_url = project.get("github_url", "")
+        desc = (
+            project.get("description", "")[:50] + "..."
+            if len(project.get("description", "")) > 50
+            else project.get("description", "")
+        )
+
+        # Image par défaut (logo Arkalia)
+        img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
+
+        lines.append(f'<td align="center" width="33%">')
+        lines.append(f'<a href="{github_url}">')
+        lines.append(
+            f'<img src="{img_url}" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="{name}"/>'
+        )
+        lines.append(f"<br/><br/>")
+        lines.append(f"<strong>{name}</strong>")
+        lines.append(f"<br/>")
+        lines.append(f"<sub>{desc}</sub>")
+        lines.append(f"</a>")
+        lines.append(f"</td>")
+
+    lines.append("</tr>")
+    lines.append("</table>")
+    lines.append("")
+    lines.append("</div>")
+
+    return "\n".join(lines)
 
 
 def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
@@ -138,9 +321,13 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         # Nettoie et limite la description (enlève emojis en début si trop nombreux)
         desc_clean = description.strip()
         # Enlève les emojis en début si présents (mais garde quelques-uns)
-        while desc_clean and desc_clean[0] in "🌙🤖🎨📱🧠🔧📊⚙️✅🚀📈🎮🧠📚🌐" and desc_clean.count(" ") < 3:
+        while (
+            desc_clean
+            and desc_clean[0] in "🌙🤖🎨📱🧠🔧📊⚙️✅🚀📈🎮🧠📚🌐"
+            and desc_clean.count(" ") < 3
+        ):
             desc_clean = desc_clean[1:].strip()
-        
+
         # Limite la description à 100 caractères max
         if len(desc_clean) > 100:
             desc_short = desc_clean[:97] + "..."
@@ -344,6 +531,27 @@ def main():
         if projects_updated:
             updated = True
             print("✅ Tableau des projets mis à jour")
+
+    # Met à jour la section Vision Système si marqueur présent
+    if "<!-- AUTO-UPDATE:vision -->" in content:
+        vision_content = generate_vision_section(projects)
+        content, vision_updated = update_readme_section(
+            content, "vision", vision_content, args.dry_run
+        )
+        if vision_updated:
+            updated = True
+            print("✅ Section Vision Système mise à jour")
+
+    # Met à jour les Featured Projects si marqueur présent
+    if "<!-- AUTO-UPDATE:featured -->" in content:
+        featured_content = generate_featured_projects(projects)
+        if featured_content:
+            content, featured_updated = update_readme_section(
+                content, "featured", featured_content, args.dry_run
+            )
+            if featured_updated:
+                updated = True
+                print("✅ Featured Projects mis à jour")
 
     # Sauvegarde si pas en dry-run
     if updated and not args.dry_run:

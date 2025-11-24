@@ -61,7 +61,9 @@ class ProjectAuditor:
 
             # Vérifications
             has_title = any(line.startswith("# ") for line in lines[:10])
-            has_description = len([line for line in lines[:30] if line.strip() and not line.startswith("#")]) > 0
+            has_description = (
+                len([line for line in lines[:30] if line.strip() and not line.startswith("#")]) > 0
+            )
             has_badges = "[!" in content
             has_installation = "install" in content.lower() or "setup" in content.lower()
             has_usage = "usage" in content.lower() or "example" in content.lower()
@@ -145,7 +147,9 @@ class ProjectAuditor:
         has_tests_dir = (project_path / "tests").exists() or (project_path / "test").exists()
         has_docs_dir = (project_path / "docs").exists() or (project_path / "documentation").exists()
         has_ci = (project_path / ".github").exists() or (project_path / ".gitlab-ci.yml").exists()
-        has_docker = (project_path / "Dockerfile").exists() or (project_path / "docker-compose.yml").exists()
+        has_docker = (project_path / "Dockerfile").exists() or (
+            project_path / "docker-compose.yml"
+        ).exists()
         has_requirements = (
             (project_path / "requirements.txt").exists()
             or (project_path / "pyproject.toml").exists()
@@ -234,7 +238,9 @@ class ProjectAuditor:
             "strengths": strengths,
         }
 
-    def audit_coherence(self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def audit_coherence(
+        self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
         """Audite la cohérence avec les autres projets"""
         issues: List[str] = []
         strengths: List[str] = []
@@ -268,7 +274,9 @@ class ProjectAuditor:
             "strengths": strengths,
         }
 
-    def audit_project(self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]) -> Dict[str, Any]:
+    def audit_project(
+        self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
         """Audite un projet complet"""
         name = project.get("name", "Unknown")
         print(f"\n🔍 Audit de {name}...")
@@ -319,7 +327,9 @@ class ProjectAuditor:
 
         return results
 
-    def generate_report(self, results: List[Dict[str, Any]], output_file: Optional[Path] = None) -> str:
+    def generate_report(
+        self, results: List[Dict[str, Any]], output_file: Optional[Path] = None
+    ) -> str:
         """Génère un rapport d'audit en Markdown"""
         lines = [
             "# 🔍 Rapport d'Audit - Projets Arkalia Luna System",
@@ -477,4 +487,3 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
-
