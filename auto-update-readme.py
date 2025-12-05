@@ -78,8 +78,8 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
     archive_projects: List[Dict[str, Any]] = []
 
     for project in projects:
-        name = project.get("name", "").lower()
-        desc = project.get("description", "").lower()
+        name = (project.get("name") or "").lower()
+        desc = (project.get("description") or "").lower()
 
         # Classification
         if "template" in name or "base" in name:
@@ -169,8 +169,8 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
     scored_projects = []
 
     for project in projects:
-        name = project.get("name", "").lower()
-        desc = project.get("description", "").lower()
+        name = (project.get("name") or "").lower()
+        desc = (project.get("description") or "").lower()
         stars = project.get("stars", 0)
 
         score = 0
