@@ -111,11 +111,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
             desc_raw = proj.get("description") or ""
-            desc = (
-                desc_raw[:60] + "..."
-                if len(desc_raw) > 60
-                else desc_raw
-            )
+            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -126,11 +122,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         for proj in design_projects:
             name = proj.get("name", "")
             desc_raw = proj.get("description") or ""
-            desc = (
-                desc_raw[:60] + "..."
-                if len(desc_raw) > 60
-                else desc_raw
-            )
+            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -141,11 +133,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         for proj in tooling_projects[:5]:  # Limite à 5
             name = proj.get("name", "")
             desc_raw = proj.get("description") or ""
-            desc = (
-                desc_raw[:60] + "..."
-                if len(desc_raw) > 60
-                else desc_raw
-            )
+            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -156,11 +144,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         for proj in archive_projects:
             name = proj.get("name", "")
             desc_raw = proj.get("description") or ""
-            desc = (
-                desc_raw[:60] + "..."
-                if len(desc_raw) > 60
-                else desc_raw
-            )
+            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -223,11 +207,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         name = project.get("name", "")
         github_url = project.get("github_url", "")
         desc_raw = project.get("description") or ""
-        desc = (
-            desc_raw[:50] + "..."
-            if len(desc_raw) > 50
-            else desc_raw
-        )
+        desc = desc_raw[:50] + "..." if len(desc_raw) > 50 else desc_raw
 
         # Image par défaut (logo Arkalia)
         img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
