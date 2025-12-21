@@ -104,22 +104,22 @@ L'écosystème est organisé en **4 catégories principales** :
 #### 🏢 **Projets Production**
 Projets en production active, utilisés et maintenus :
 - **Arkalia-aria** : Laboratoire personnel santé/IA : suivi douleur, patterns psy...
-- **arkalia-cia** : 📱 Assistant IA conversationnel santé mobile — Flutter + Pyth...
 - **bbia-sim** : 🤖 Cognitive robot engine for Reachy Mini | AI emotions, visi...
+- **arkalia-cia** : 📱 Assistant IA conversationnel santé mobile — Flutter + Pyth...
 - **arkalia-luna-pro** : 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Dock...
 - **arkalia-quest** : 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécur...
 
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
 - **Arkalia-luna-logo** : 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 var...
-- **bbia_branding** : **Assets Premium pour l'identité visuelle BBIA**
+- **bbia_branding** : 
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **arkalia-metrics-collector** : 📊 **Mon outil interne de métriques pour tous mes projets** — Collecteur de métriques universel et professionnel pour projets Python (tests, couverture, modules, lignes de code, etc.)
-- **ia-pipeline** (Athalia) : 🔧 **Plateforme DevOps/Infrastructure** — Générateur IA souverain, modulaire, testé, automatisé, documenté. *Athalia = DevOps/infra, Luna-pro = IA métier/produit*
-- **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD
+- **arkalia-metrics-collector** : 
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
+- **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests c...
+- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 
 #### 📦 **Archives**
 Projets historiques conservés pour leur valeur pédagogique :
@@ -281,15 +281,15 @@ Projets historiques conservés pour leur valeur pédagogique :
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Status |
 |:------:|:-----------:|:-----:|:----:|:-----:|
-| **[base_template](https://github.com/arkalia-luna-system/base_template)** | ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l... | FastAPI | 🔧 Tooling | ✅ Template |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Projet en développement | Python + CLI | 🔧 Tooling | ✅ Production |
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro | IA | 🏢 Prod | ✅ Production |
-| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | > **Collecteur de métriques universel et professionnel pour projets Python** | Python + CLI | 🔧 Tooling | ✅ Production |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter + IA | 🚧 Beta | 🚧 Beta |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | MuJoCo + IA | 🏢 Prod | ✅ Production |
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Docker + Monitoring + IA | 🏢 Prod | 🚀 Enterprise |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter + IA | 🚧 Beta | 🚧 Beta |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Dock... | Design | 🏢 Prod | ✅ Production |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | **Assets Premium pour l'identité visuelle BBIA** | Design | 🏢 Prod | ✅ Production |
+| **[base_template](https://github.com/arkalia-luna-system/base_template)** | ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l... | FastAPI | 🔧 Tooling | ✅ Template |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Docker + Monitoring + IA | 🏢 Prod | 🚀 Enterprise |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Projet en développement | Design | 🏢 Prod | ✅ Production |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architect... | Flask + IA | 🏢 Prod | ✅ Production |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | 🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'arch... | Flask | 📦 Archive | 📦 Archivé |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | IA | 🔧 Tooling | ✅ Production |
@@ -394,9 +394,9 @@ flowchart TB
 ### 📈 Statistiques
 
 - **Projets** : 12 en production
-- **Langages** : Python (12), Markdown (12), Shell (11), JSON (10), YAML (8), Makefile (7), HTML (7), Dockerfile (5), CSS (2), Dart (1), JavaScript (1)
+- **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
 
-<sub>*Dernière mise à jour : 24 novembre 2025*</sub>
+<sub>*Dernière mise à jour : 21 décembre 2025*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap
