@@ -103,9 +103,9 @@ L'écosystème est organisé en **4 catégories principales** :
 
 #### 🏢 **Projets Production**
 Projets en production active, utilisés et maintenus :
-- **arkalia-cia** : 📱 Assistant IA conversationnel santé mobile — Flutter + Pyth...
-- **bbia-sim** : 🤖 Cognitive robot engine for Reachy Mini | AI emotions, visi...
 - **Arkalia-aria** : Laboratoire personnel santé/IA : suivi douleur, patterns psy...
+- **arkalia-cia** : 📱 Assistant santé mobile pour seniors — Flutter + Python, do...
+- **bbia-sim** : 🤖 Cognitive robot engine for Reachy Mini | AI emotions, visi...
 - **arkalia-luna-pro** : 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Dock...
 - **arkalia-quest** : 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécur...
 
@@ -162,7 +162,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 <br/><br/>
 <strong>arkalia-cia</strong>
 <br/>
-<sub>📱 Assistant IA conversationnel santé mobile — Flut...</sub>
+<sub>📱 Assistant santé mobile pour seniors — Flutter + ...</sub>
 </a>
 </td>
 </tr>
@@ -282,10 +282,10 @@ Projets historiques conservés pour leur valeur pédagogique :
 | Projet | Description | Stack | Rôle | Status |
 |:------:|:-----------:|:-----:|:----:|:-----:|
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Projet en développement | Python + CLI | 🔧 Tooling | ✅ Production |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100... | Flutter + IA | 🚧 Beta | 🚧 Beta |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | MuJoCo + IA | 🏢 Prod | ✅ Production |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro | IA | 🏢 Prod | ✅ Production |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 10... | Flutter | 🚧 Beta | 🚧 Beta |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | MuJoCo + IA | 🏢 Prod | ✅ Production |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | 🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Dock... | Design | 🏢 Prod | ✅ Production |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l... | FastAPI | 🔧 Tooling | ✅ Template |
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | 🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, C... | Docker + Monitoring + IA | 🏢 Prod | 🚀 Enterprise |
@@ -396,7 +396,7 @@ flowchart TB
 - **Projets** : 12 en production
 - **Langages** : Python (11), Dart (1), JSON (1), Markdown (1), Shell (1)
 
-<sub>*Dernière mise à jour : 28 décembre 2025*</sub>
+<sub>*Dernière mise à jour : 04 janvier 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap

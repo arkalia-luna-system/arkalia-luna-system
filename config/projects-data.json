@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2025-12-28T02:46:42.752942",
+  "generated_at": "2026-01-04T02:48:06.326339",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -13,7 +13,7 @@
       "Markdown": 1,
       "Shell": 1
     },
-    "last_updated": "2025-12-28T02:46:42.752955"
+    "last_updated": "2026-01-04T02:48:06.326352"
   },
   "projects": [
     {
@@ -29,24 +29,24 @@
       "default_branch": "main"
     },
     {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+      "name": "Arkalia-aria",
+      "github_url": "https://github.com/arkalia-luna-system/Arkalia-aria",
       "local_path": null,
       "readme_path": null,
-      "description": "📱 Assistant IA conversationnel santé mobile — Flutter + Python, documents sécurisés AES-256 🔐 100% offline, seniors-friendly, rappels intelligents 🔔 Tests: 61, couverture: 66%, CI/CD complet ⚡ Production-ready MVP",
-      "language": "Dart",
+      "description": "Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro",
+      "language": "Python",
       "stars": 0,
       "is_public": true,
       "branches": null,
       "default_branch": "main"
     },
     {
-      "name": "bbia-sim",
-      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
       "local_path": null,
       "readme_path": null,
-      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
-      "language": "Python",
+      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
+      "language": "Dart",
       "stars": 0,
       "is_public": true,
       "branches": null,
@@ -67,11 +67,11 @@
       "default_branch": "main"
     },
     {
-      "name": "Arkalia-aria",
-      "github_url": "https://github.com/arkalia-luna-system/Arkalia-aria",
+      "name": "bbia-sim",
+      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
       "local_path": null,
       "readme_path": null,
-      "description": "Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro",
+      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
       "language": "Python",
       "stars": 0,
       "is_public": true,
