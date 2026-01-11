@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-01-04T02:48:06.326339",
+  "generated_at": "2026-01-11T02:47:47.200168",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -8,12 +8,12 @@
     "total_stars": 0,
     "languages": {
       "Python": 11,
-      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
-      "Shell": 1
+      "Shell": 1,
+      "Dart": 1
     },
-    "last_updated": "2026-01-04T02:48:06.326352"
+    "last_updated": "2026-01-11T02:47:47.200180"
   },
   "projects": [
     {
@@ -26,6 +26,20 @@
       "stars": 0,
       "is_public": true,
       "branches": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "arkalia-luna-system",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
+      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
+      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
+      "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "main"
+      ],
       "default_branch": "main"
     },
     {
@@ -50,20 +64,6 @@
       "stars": 0,
       "is_public": true,
       "branches": null,
-      "default_branch": "main"
-    },
-    {
-      "name": "arkalia-luna-system",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
-      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
-      "description": "Mon profil GitHub personnalisé",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "main"
-      ],
       "default_branch": "main"
     },
     {
