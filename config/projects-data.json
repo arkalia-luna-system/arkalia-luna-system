@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-01-11T02:47:47.200168",
+  "generated_at": "2026-01-18T02:46:46.744673",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -8,12 +8,12 @@
     "total_stars": 0,
     "languages": {
       "Python": 11,
+      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
-      "Shell": 1,
-      "Dart": 1
+      "Shell": 1
     },
-    "last_updated": "2026-01-11T02:47:47.200180"
+    "last_updated": "2026-01-18T02:46:46.744685"
   },
   "projects": [
     {
@@ -23,6 +23,18 @@
       "readme_path": null,
       "description": null,
       "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+      "local_path": null,
+      "readme_path": null,
+      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
+      "language": "Dart",
       "stars": 0,
       "is_public": true,
       "branches": null,
@@ -49,18 +61,6 @@
       "readme_path": null,
       "description": "Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro",
       "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main"
-    },
-    {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
-      "local_path": null,
-      "readme_path": null,
-      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
-      "language": "Dart",
       "stars": 0,
       "is_public": true,
       "branches": null,
