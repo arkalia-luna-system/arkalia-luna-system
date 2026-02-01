@@ -396,7 +396,7 @@ flowchart TB
 - **Projets** : 12 en production
 - **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
 
-<sub>*Dernière mise à jour : 25 janvier 2026*</sub>
+<sub>*Dernière mise à jour : 01 février 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap
