@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-02-01T03:02:53.640036",
+  "generated_at": "2026-02-08T03:03:02.930449",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -13,7 +13,7 @@
       "Shell": 1,
       "Dart": 1
     },
-    "last_updated": "2026-02-01T03:02:53.640049"
+    "last_updated": "2026-02-08T03:03:02.930462"
   },
   "projects": [
     {
@@ -29,11 +29,23 @@
       "default_branch": "main"
     },
     {
-      "name": "bbia-sim",
-      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "name": "ia-pipeline",
+      "github_url": "https://github.com/arkalia-luna-system/ia-pipeline",
       "local_path": null,
       "readme_path": null,
-      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "description": "Générateur IA souverain, modulaire, testé, automatisé, documenté",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main"
+    },
+    {
+      "name": "arkalia-quest",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
+      "local_path": null,
+      "readme_path": null,
+      "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
       "language": "Python",
       "stars": 0,
       "is_public": true,
@@ -52,6 +64,18 @@
       "branches": [
         "main"
       ],
+      "default_branch": "main"
+    },
+    {
+      "name": "bbia-sim",
+      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "local_path": null,
+      "readme_path": null,
+      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
       "default_branch": "main"
     },
     {
@@ -127,35 +151,11 @@
       "default_branch": "main"
     },
     {
-      "name": "arkalia-quest",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main"
-    },
-    {
       "name": "nours_interface",
       "github_url": "https://github.com/arkalia-luna-system/nours_interface",
       "local_path": null,
       "readme_path": null,
       "description": "🌐 Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'architecture propre pour débutants Python/Web 📆 42 fichiers, templates Jinja2, MIT license 📚",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main"
-    },
-    {
-      "name": "ia-pipeline",
-      "github_url": "https://github.com/arkalia-luna-system/ia-pipeline",
-      "local_path": null,
-      "readme_path": null,
-      "description": "Générateur IA souverain, modulaire, testé, automatisé, documenté",
       "language": "Python",
       "stars": 0,
       "is_public": true,
