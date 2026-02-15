@@ -117,8 +117,8 @@ Outils de génération et identité visuelle :
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
 - **arkalia-metrics-collector** : 
-- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
+- **ia-pipeline** : Générateur IA souverain, modulaire, testé, automatisé, docum...
 - **base_template** : ⚙️ Squelette projet Python/FastAPI pro — 58 scripts, tests c...
 
 #### 📦 **Archives**
@@ -282,9 +282,9 @@ Projets historiques conservés pour leur valeur pédagogique :
 | Projet | Description | Stack | Rôle | Status |
 |:------:|:-----------:|:-----:|:----:|:-----:|
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Projet en développement | Python + CLI | 🔧 Tooling | ✅ Production |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | IA | 🔧 Tooling | ✅ Production |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | 🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architect... | Flask + IA | 🏢 Prod | ✅ Production |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | ✅ Production |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | 🤖 Cognitive robot engine for Reachy Mini \| AI emotions, vision \| Python, MuJoCo | MuJoCo + IA | 🏢 Prod | ✅ Production |
 | **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | 📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 10... | Flutter | 🚧 Beta | 🚧 Beta |
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation CIA, export pro | IA | 🏢 Prod | ✅ Production |
@@ -396,7 +396,7 @@ flowchart TB
 - **Projets** : 12 en production
 - **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
 
-<sub>*Dernière mise à jour : 08 février 2026*</sub>
+<sub>*Dernière mise à jour : 15 février 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap
