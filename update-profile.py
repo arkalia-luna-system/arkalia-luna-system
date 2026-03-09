@@ -37,6 +37,7 @@ class ProjectInfo:
     is_public: bool = True
     branches: Optional[List[str]] = None
     default_branch: Optional[str] = None
+    pushed_at: Optional[str] = None
 
 
 class GitHubProfileUpdater:
@@ -526,6 +527,7 @@ class GitHubProfileUpdater:
             stars=repo_data.get("stargazers_count", 0),
             is_public=not repo_data.get("private", False),
             default_branch=repo_data.get("default_branch", "main"),
+            pushed_at=repo_data.get("pushed_at") or repo_data.get("updated_at"),
         )
 
         # Cherche le chemin local
@@ -621,6 +623,7 @@ class GitHubProfileUpdater:
                     "is_public": p.is_public,
                     "branches": p.branches if p.branches else None,
                     "default_branch": p.default_branch,
+                    "pushed_at": p.pushed_at,
                 }
                 for p in self.projects
             ],
