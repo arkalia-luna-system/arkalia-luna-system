@@ -234,13 +234,13 @@ Projets historiques conservés pour leur valeur pédagogique :
 
 ## 🚀 Projets Phares
 
-**Les 4 projets phares de l'écosystème** — Production-ready, documentés, testés
+**Les 4 piliers opérationnels de l'écosystème** — en production, observables, documentés.
 
 **Hiérarchie** :
-- **🌕 luna-pro** : Orchestrateur IA modulaire pour l'entreprise
-- **📱 cia** : Assistant IA conversationnel santé mobile
-- **🎮 quest** : Jeu éducatif intelligent open-source
-- **🎨 logo** : Générateur de logos SVG techno-mystiques
+- **Luna Pro** : Orchestrateur IA modulaire pour l'entreprise
+- **CIA** : Assistant IA conversationnel santé mobile
+- **Quest** : Plateforme de jeu éducatif sécurisé
+- **Luna Logo** : Générateur de logos SVG techno-mystiques
 
 **🤖 BBIA Reachy Sim** : Projet principal robotique / R&D (voir section dédiée ci-dessus)
 
@@ -537,7 +537,7 @@ A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/Y
 
 **🌙 Arkalia Luna System** — Open Source • 11 Projets • 550+ Modules • Design & Branding
 
-<code style="background: rgba(20, 184, 166, 0.1); padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(20, 184, 166, 0.3);">"Build. Ship. Iterate."</code>
+<code style="background: rgba(15, 23, 42, 0.9); color: #e5e7eb; padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(148, 163, 184, 0.5);">"Build. Ship. Observe. Iterate."</code>
 
 <br/>
 
