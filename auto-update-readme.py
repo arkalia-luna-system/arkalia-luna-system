@@ -11,8 +11,8 @@ import re
 import json
 import argparse
 from pathlib import Path
-from typing import Dict, List, Any, Tuple
-from datetime import datetime
+from typing import Dict, List, Any, Tuple, Optional
+from datetime import datetime, timezone
 
 
 def load_projects_data(data_file: Path) -> Dict[str, Any]:
@@ -147,6 +147,139 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
             desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
+
+    return "\n".join(lines)
+
+
+def _format_relative_time(iso_timestamp: Optional[str]) -> str:
+    """Formate un timestamp ISO GitHub (pushed_at) en temps relatif lisible."""
+    if not iso_timestamp:
+        return "N/A"
+
+    try:
+        # GitHub renvoie du ISO8601 avec 'Z' (UTC)
+        ts = datetime.fromisoformat(iso_timestamp.replace("Z", "+00:00"))
+    except ValueError:
+        return iso_timestamp
+
+    now = datetime.now(timezone.utc)
+    delta = now - ts
+
+    seconds = int(delta.total_seconds())
+    if seconds < 60:
+        return "il y a quelques secondes"
+    minutes = seconds // 60
+    if minutes < 60:
+        return f"il y a {minutes} min"
+    hours = minutes // 60
+    if hours < 48:
+        return f"il y a {hours} h"
+    days = hours // 24
+    if days < 60:
+        return f"il y a {days} j"
+
+    months = days // 30
+    if months < 24:
+        return f"il y a {months} mois"
+
+    years = months // 12
+    return f"il y a {years} an(s)"
+
+
+def generate_status_board(projects: List[Dict[str, Any]]) -> str:
+    """Génère un tableau de bord cyberpunk des systèmes clés."""
+    if not projects:
+        return ""
+
+    # Ordre d'affichage prioritaire
+    priority_order = [
+        "arkalia-luna-pro",
+        "arkalia-cia",
+        "Arkalia-aria",
+        "Arkalia-luna-logo",
+        "bbia-sim",
+        "arkalia-quest",
+        "arkalia-metrics-collector",
+        "arkalia-luna-system",
+    ]
+
+    indexed: Dict[str, Dict[str, Any]] = {p.get("name", ""): p for p in projects}
+
+    def _classify(project: Dict[str, Any]) -> Tuple[str, str]:
+        """Retourne (role, status) proches du tableau principal."""
+        name = (project.get("name") or "").lower()
+        desc = (project.get("description") or "").lower()
+
+        role = "Core"
+        status = "ONLINE"
+
+        if "luna-system" in name or "profile" in desc or "profil" in desc:
+            role = "Profil"
+        elif "template" in name or "base" in name:
+            role = "Tooling"
+        elif "metrics" in name or "collector" in name:
+            role = "Metrics"
+        elif "pipeline" in name or "devops" in desc or "athalia" in name:
+            role = "DevOps"
+        elif "branding" in name or "logo" in name:
+            role = "Design"
+        elif "cia" in name or "aria" in name:
+            role = "Santé / Mobile"
+        elif "quest" in name:
+            role = "Gaming"
+        elif "bbia" in name or "robot" in desc:
+            role = "Robotique"
+
+        if "beta" in name or "beta" in desc or "cia" in name:
+            status = "BETA"
+        elif "archive" in name or "nours" in name or "poc" in desc:
+            status = "ARCHIVED"
+        elif "pro" in name or "enterprise" in desc or "production" in desc:
+            status = "ONLINE"
+
+        return role, status
+
+    rows: List[Tuple[int, Dict[str, Any]]] = []
+    for idx, name in enumerate(priority_order):
+        proj = indexed.get(name)
+        if not proj:
+            continue
+        rows.append((idx, proj))
+
+    if not rows:
+        return ""
+
+    # Construire le markdown
+    lines: List[str] = [
+        "### 🔮 Tableau de Bord Système",
+        "",
+        "_Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._",
+        "",
+        "| Module | Rôle | Statut | Dernier commit | Branche par défaut |",
+        "|:------:|:----:|:------:|:--------------:|:-------------------:|",
+    ]
+
+    for _, proj in rows:
+        name = proj.get("name", "")
+        github_url = proj.get("github_url", "")
+        default_branch = proj.get("default_branch", "main")
+        pushed_at = proj.get("pushed_at")
+
+        role, status = _classify(proj)
+
+        status_label = {
+            "ONLINE": "🟢 ONLINE",
+            "BETA": "🟡 BETA",
+            "ARCHIVED": "⚫ ARCHIVED",
+        }.get(status, status)
+
+        last_commit = _format_relative_time(pushed_at)
+
+        module_label = f"**[{name}]({github_url})**" if github_url else f"**{name}**"
+
+        lines.append(
+            f"| {module_label} | {role} | `{status_label}` | {last_commit} | `{default_branch}` |"
+        )
 
     return "\n".join(lines)
 
@@ -539,6 +672,17 @@ def main():
         if vision_updated:
             updated = True
             print("✅ Section Vision Système mise à jour")
+
+    # Met à jour le tableau de bord système si marqueur présent
+    if "<!-- AUTO-UPDATE:status -->" in content:
+        status_content = generate_status_board(projects)
+        if status_content:
+            content, status_updated = update_readme_section(
+                content, "status", status_content, args.dry_run
+            )
+            if status_updated:
+                updated = True
+                print("✅ Tableau de bord système mis à jour")
 
     # Met à jour les Featured Projects si marqueur présent
     if "<!-- AUTO-UPDATE:featured -->" in content:

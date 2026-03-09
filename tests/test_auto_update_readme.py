@@ -24,6 +24,7 @@ generate_stats_section_markdown = auto_update_readme.generate_stats_section_mark
 generate_projects_table = auto_update_readme.generate_projects_table
 generate_vision_section = auto_update_readme.generate_vision_section
 generate_featured_projects = auto_update_readme.generate_featured_projects
+generate_status_board = auto_update_readme.generate_status_board
 
 
 def test_generate_stats_section():
@@ -85,6 +86,24 @@ def test_generate_featured_projects():
     # Peut être vide si score trop bas, mais ne doit pas crasher
     assert isinstance(result, str)
     print("✅ test_generate_featured_projects: OK")
+
+
+def test_generate_status_board():
+    """Test de génération du tableau de bord système"""
+    projects = [
+        {
+            "name": "arkalia-luna-pro",
+            "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
+            "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés",
+            "language": "Python",
+            "default_branch": "develop",
+            "pushed_at": "2025-11-24T17:15:13.612801Z",
+        }
+    ]
+    result = generate_status_board(projects)
+    assert "arkalia-luna-pro" in result
+    assert "ONLINE" in result or "🟢" in result
+    print("✅ test_generate_status_board: OK")
 
 
 def main():
