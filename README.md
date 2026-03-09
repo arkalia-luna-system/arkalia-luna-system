@@ -12,6 +12,16 @@
 
 <br/>
 
+## 🖤 Systèmes en Production
+
+- **Arkalia Luna Pro** — Orchestrateur IA d’entreprise (5 containers, monitoring complet, CI/CD).
+- **Arkalia CIA & ARIA** — Santé numérique : mobile seniors offline, laboratoire IA personnel, données chiffrées.
+- **BBIA Reachy Sim** — Moteur cognitif robotique (12 émotions, vision, IA temps réel).
+- **Arkalia Luna Logo & Branding** — Génération de logos SVG émotionnels pour tout l’écosystème.
+- **Arkalia Metrics Collector & Base Template** — Collecte de métriques multi‑repos et squelette FastAPI de production.
+
+---
+
 <div align="center">
 
 ### ⚡ Métriques Clés
@@ -143,7 +153,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 ## 🔥 Featured Projects
 
 <!-- AUTO-UPDATE:featured -->
-**Les 3 projets qui démontrent le mieux mes compétences techniques et ma capacité à livrer en production**
+**Trois systèmes qui illustrent le niveau de production (architecture, tests, observabilité) de l’écosystème Arkalia Luna System.**
 
 <div align="center">
 
