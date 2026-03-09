@@ -326,7 +326,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         return ""
 
     lines = [
-        "**Les 3 projets qui démontrent le mieux mes compétences techniques et ma capacité à livrer en production**",
+        "**Trois systèmes qui illustrent le niveau de production (architecture, tests, observabilité) de l’écosystème Arkalia Luna System.**",
         "",
     ]
 
