@@ -81,14 +81,14 @@ _Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._
 
 | Module | Rôle | Statut | Dernier commit | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Core | `🟢 ONLINE` | il y a 5 j | `main` |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BETA` | il y a 4 j | `main` |
-| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ONLINE` | il y a 4 j | `main` |
-| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ONLINE` | il y a 12 j | `main` |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ONLINE` | il y a 5 j | `main` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ONLINE` | il y a 2 j | `main` |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Core | `🟢 ONLINE` | il y a 12 j | `main` |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BETA` | il y a 11 j | `main` |
+| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ONLINE` | il y a 11 j | `main` |
+| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ONLINE` | il y a 19 j | `main` |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ONLINE` | il y a 12 j | `main` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ONLINE` | il y a 9 j | `main` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ONLINE` | il y a 5 min | `main` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ONLINE` | il y a 5 j | `main` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ONLINE` | il y a 6 j | `main` |
 ---
 
 ## 📑 Table des Matières
@@ -417,7 +417,7 @@ flowchart TB
 - **Projets** : 12 en production
 - **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
 
-<sub>*Dernière mise à jour : 15 mars 2026*</sub>
+<sub>*Dernière mise à jour : 22 mars 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ### 🎯 Roadmap
