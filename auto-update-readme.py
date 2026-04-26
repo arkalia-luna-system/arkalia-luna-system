@@ -15,6 +15,31 @@ from typing import Dict, List, Any, Tuple, Optional
 from datetime import datetime, timezone
 
 
+def _clean_description(raw_description: Optional[str], max_length: int = 100) -> str:
+    """Nettoie une description brute pour affichage markdown lisible."""
+    if not raw_description:
+        return "Projet en développement"
+
+    desc = raw_description.strip()
+
+    # Supprime syntaxe markdown fréquente introduite par extraction README.
+    desc = re.sub(r"^[>\-\*\s]+", "", desc)
+    desc = desc.replace("**", "").replace("__", "")
+    desc = re.sub(r"`([^`]*)`", r"\1", desc)
+    desc = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", desc)
+    desc = re.sub(r"\s+", " ", desc).strip()
+
+    # Retire les symboles/emoji en tête pour éviter artefacts visuels.
+    desc = re.sub(r"^[^0-9A-Za-zÀ-ÿ]+", "", desc).strip()
+
+    if not desc:
+        return "Projet en développement"
+
+    if len(desc) > max_length:
+        return desc[: max_length - 3].rstrip() + "..."
+    return desc
+
+
 def load_projects_data(data_file: Path) -> Dict[str, Any]:
     """Charge les données des projets"""
     try:
@@ -41,7 +66,7 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
     lines = [
         "### 📈 Statistiques",
         "",
-        f"- **Projets** : {stats.get('total_projects', 0)} en production",
+        f"- **Projets** : {stats.get('total_projects', 0)} au total",
         f"- **Langages** : {lang_str}",
         "",
         f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>".replace(
@@ -110,8 +135,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets en production active, utilisés et maintenus :")
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
-            desc_raw = proj.get("description") or ""
-            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
+            desc = _clean_description(proj.get("description"), max_length=63)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -121,8 +145,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Outils de génération et identité visuelle :")
         for proj in design_projects:
             name = proj.get("name", "")
-            desc_raw = proj.get("description") or ""
-            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
+            desc = _clean_description(proj.get("description"), max_length=63)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -132,8 +155,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Infrastructure et outils de développement :")
         for proj in tooling_projects[:5]:  # Limite à 5
             name = proj.get("name", "")
-            desc_raw = proj.get("description") or ""
-            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
+            desc = _clean_description(proj.get("description"), max_length=63)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -143,8 +165,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets historiques conservés pour leur valeur pédagogique :")
         for proj in archive_projects:
             name = proj.get("name", "")
-            desc_raw = proj.get("description") or ""
-            desc = desc_raw[:60] + "..." if len(desc_raw) > 60 else desc_raw
+            desc = _clean_description(proj.get("description"), max_length=63)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -339,8 +360,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
     for i, project in enumerate(top_projects):
         name = project.get("name", "")
         github_url = project.get("github_url", "")
-        desc_raw = project.get("description") or ""
-        desc = desc_raw[:50] + "..." if len(desc_raw) > 50 else desc_raw
+        desc = _clean_description(project.get("description"), max_length=53)
 
         # Image par défaut (logo Arkalia)
         img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
@@ -375,7 +395,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     for project in projects:
         name = project.get("name", "")
         github_url = project.get("github_url", "")
-        description = project.get("description", "") or "Projet en développement"
+        description = _clean_description(project.get("description"), max_length=100)
         language = project.get("language", "Python")
 
         # Détermine le statut basé sur le nom ou la description
@@ -450,20 +470,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             stack = language if language else "Python"
 
         # Nettoie et limite la description (enlève emojis en début si trop nombreux)
-        desc_clean = description.strip()
-        # Enlève les emojis en début si présents (mais garde quelques-uns)
-        while (
-            desc_clean
-            and desc_clean[0] in "🌙🤖🎨📱🧠🔧📊⚙️✅🚀📈🎮🧠📚🌐"
-            and desc_clean.count(" ") < 3
-        ):
-            desc_clean = desc_clean[1:].strip()
-
-        # Limite la description à 100 caractères max
-        if len(desc_clean) > 100:
-            desc_short = desc_clean[:97] + "..."
-        else:
-            desc_short = desc_clean
+        desc_short = description
 
         # Échappe les pipes dans la description pour éviter de casser le tableau
         desc_short = desc_short.replace("|", "\\|")
