@@ -7,6 +7,7 @@ Génère metrics_for_badges.json pour créer des badges dynamiques
 import json
 from pathlib import Path
 from datetime import datetime
+from typing import Any, Optional
 
 
 def format_number(num: int) -> str:
@@ -14,7 +15,7 @@ def format_number(num: int) -> str:
     return f"{num:,}".replace(",", " ")
 
 
-def create_badges_metrics():
+def create_badges_metrics() -> None:
     """Crée metrics_for_badges.json."""
     # Chemins
     repo_root = Path(__file__).parent.parent
@@ -23,7 +24,7 @@ def create_badges_metrics():
         repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
     ]
-    metrics_path = None
+    metrics_path: Optional[Path] = None
     for path in metrics_paths:
         if path.exists():
             metrics_path = path
@@ -69,42 +70,44 @@ def create_badges_metrics():
         }
 
     # Créer structure pour badges
-    badges_data = {
-        "updated_at": datetime.now().isoformat(),
-        "metrics": {
-            "modules": {
-                "value": default_metrics["total_modules"],
-                "formatted": format_number(default_metrics["total_modules"]),
-                "badge_url": (
-                    f"https://img.shields.io/badge/Python%20Modules-"
-                    f"{format_number(default_metrics['total_modules'])}-blue"
-                ),
-            },
-            "tests": {
-                "value": default_metrics["total_tests"],
-                "formatted": format_number(default_metrics["total_tests"]),
-                "badge_url": (
-                    f"https://img.shields.io/badge/Tests-"
-                    f"{format_number(default_metrics['total_tests'])}-green"
-                ),
-            },
-            "lines_of_code": {
-                "value": default_metrics["total_lines_of_code"],
-                "formatted": format_number(default_metrics["total_lines_of_code"]),
-                "badge_url": (
-                    f"https://img.shields.io/badge/Lines%20of%20Code-"
-                    f"{format_number(default_metrics['total_lines_of_code'])}-orange"
-                ),
-            },
-            "documentation": {
-                "value": default_metrics["total_documentation_files"],
-                "formatted": format_number(default_metrics["total_documentation_files"]),
-                "badge_url": (
-                    f"https://img.shields.io/badge/Documentation-"
-                    f"{format_number(default_metrics['total_documentation_files'])}%20files-purple"
-                ),
-            },
+    badges_metrics: dict[str, dict[str, Any]] = {
+        "modules": {
+            "value": default_metrics["total_modules"],
+            "formatted": format_number(default_metrics["total_modules"]),
+            "badge_url": (
+                f"https://img.shields.io/badge/Python%20Modules-"
+                f"{format_number(default_metrics['total_modules'])}-blue"
+            ),
         },
+        "tests": {
+            "value": default_metrics["total_tests"],
+            "formatted": format_number(default_metrics["total_tests"]),
+            "badge_url": (
+                f"https://img.shields.io/badge/Tests-"
+                f"{format_number(default_metrics['total_tests'])}-green"
+            ),
+        },
+        "lines_of_code": {
+            "value": default_metrics["total_lines_of_code"],
+            "formatted": format_number(default_metrics["total_lines_of_code"]),
+            "badge_url": (
+                f"https://img.shields.io/badge/Lines%20of%20Code-"
+                f"{format_number(default_metrics['total_lines_of_code'])}-orange"
+            ),
+        },
+        "documentation": {
+            "value": default_metrics["total_documentation_files"],
+            "formatted": format_number(default_metrics["total_documentation_files"]),
+            "badge_url": (
+                f"https://img.shields.io/badge/Documentation-"
+                f"{format_number(default_metrics['total_documentation_files'])}%20files-purple"
+            ),
+        },
+    }
+
+    badges_data: dict[str, Any] = {
+        "updated_at": datetime.now().isoformat(),
+        "metrics": badges_metrics,
     }
 
     # Écrire metrics_for_badges.json
@@ -119,7 +122,7 @@ def create_badges_metrics():
 
     # Afficher résumé
     print("\n📊 Badges générés:")
-    for key, value in badges_data["metrics"].items():
+    for key, value in badges_metrics.items():
         print(f"   - {key}: {value['formatted']}")
 
 
