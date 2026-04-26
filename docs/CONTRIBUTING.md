@@ -40,7 +40,7 @@
 
 ## 🏷️ **Labels pour Débutants**
 
-- ![Good First Issue](https://img.shields.io/badge/-good%20first%20issue-7057ff) : cohérent pour commencer
+- ![Good First Issue](https://img.shields.io/badge/-good%20first%20issue-7057ff) : idéal pour commencer
 - ![Help Wanted](https://img.shields.io/badge/-help%20wanted-008672) : Assistance bienvenue
 - ![Documentation](https://img.shields.io/badge/-documentation-0075ca) : Amélioration docs
 
