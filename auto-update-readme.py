@@ -12,7 +12,8 @@ import json
 import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Tuple, Optional
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 def _clean_description(raw_description: Optional[str], max_length: int = 100) -> str:
@@ -191,39 +192,19 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def _format_relative_time(iso_timestamp: Optional[str]) -> str:
-    """Formate un timestamp ISO GitHub (pushed_at) en temps relatif lisible."""
+def _format_commit_time(iso_timestamp: Optional[str]) -> str:
+    """Formate un timestamp ISO GitHub en heure locale Europe/Paris."""
     if not iso_timestamp:
         return "N/A"
 
     try:
-        # GitHub renvoie du ISO8601 avec 'Z' (UTC)
         ts = datetime.fromisoformat(iso_timestamp.replace("Z", "+00:00"))
     except ValueError:
         return iso_timestamp
 
-    now = datetime.now(timezone.utc)
-    delta = now - ts
-
-    seconds = int(delta.total_seconds())
-    if seconds < 60:
-        return "il y a quelques secondes"
-    minutes = seconds // 60
-    if minutes < 60:
-        return f"il y a {minutes} min"
-    hours = minutes // 60
-    if hours < 48:
-        return f"il y a {hours} h"
-    days = hours // 24
-    if days < 60:
-        return f"il y a {days} j"
-
-    months = days // 30
-    if months < 24:
-        return f"il y a {months} mois"
-
-    years = months // 12
-    return f"il y a {years} an(s)"
+    paris_tz = ZoneInfo("Europe/Paris")
+    local_time = ts.astimezone(paris_tz)
+    return local_time.strftime("%d/%m/%Y %H:%M %Z")
 
 
 def generate_status_board(projects: List[Dict[str, Any]]) -> str:
@@ -293,7 +274,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         "",
         "_Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._",
         "",
-        "| Module | Rôle | Statut | Dernier commit | Branche par défaut |",
+        "| Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |",
         "|:------:|:----:|:------:|:--------------:|:-------------------:|",
     ]
 
@@ -311,7 +292,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
             "ARCHIVE": "⚫ ARCHIVE",
         }.get(status, status)
 
-        last_commit = _format_relative_time(pushed_at)
+        last_commit = _format_commit_time(pushed_at)
 
         module_label = f"**[{name}]({github_url})**" if github_url else f"**{name}**"
 

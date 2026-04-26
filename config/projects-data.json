@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-04-26T19:50:12.686503",
+  "generated_at": "2026-04-26T20:24:50.872863",
   "stats": {
     "total_projects": 12,
     "local_projects": 12,
@@ -8,36 +8,20 @@
     "total_stars": 0,
     "languages": {
       "Python": 12,
-      "JSON": 10,
-      "Markdown": 12,
-      "Shell": 11,
       "Dockerfile": 5,
       "HTML": 6,
+      "JSON": 10,
       "Makefile": 7,
+      "Markdown": 12,
+      "Shell": 11,
       "YAML": 8,
       "CSS": 1,
       "JavaScript": 2,
       "Dart": 1
     },
-    "last_updated": "2026-04-26T19:50:12.686515"
+    "last_updated": "2026-04-26T20:24:50.872875"
   },
   "projects": [
-    {
-      "name": "arkalia-luna-system",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/Volumes/T7/github-profile-arkalia",
-      "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
-      "description": "Mon profil GitHub personnalisé",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "develop",
-        "main"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-04-26T17:48:21Z"
-    },
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
@@ -53,8 +37,24 @@
         "main",
         "gh-pages"
       ],
+      "default_branch": "backup-stable",
+      "pushed_at": "2026-04-26T18:24:06Z"
+    },
+    {
+      "name": "arkalia-luna-system",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
+      "local_path": "/Volumes/T7/github-profile-arkalia",
+      "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
+      "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "develop",
+        "main"
+      ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-26T17:47:25Z"
+      "pushed_at": "2026-04-26T18:22:38Z"
     },
     {
       "name": "arkalia-metrics-collector",
@@ -193,8 +193,8 @@
     {
       "name": "Arkalia-luna-logo",
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-luna-logo",
-      "local_path": "/Volumes/T7/logo/arkalia-luna-logo",
-      "readme_path": "/Volumes/T7/logo/arkalia-luna-logo/README.md",
+      "local_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO",
+      "readme_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO/README.md",
       "description": "🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker, monitoring Prometheus/Grafana 📡 Gen: 0.03s, tests: 151, couverture: 78% ⚡ Production-ready",
       "language": "Python",
       "stars": 0,
@@ -246,8 +246,8 @@
     {
       "name": "arkalia-luna-pro",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
-      "local_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO",
-      "readme_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO/README.md",
+      "local_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro",
+      "readme_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro/README.md",
       "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
       "language": "Python",
       "stars": 0,
@@ -270,8 +270,11 @@
       "language": "Python",
       "stars": 0,
       "is_public": true,
-      "branches": null,
-      "default_branch": "main",
+      "branches": [
+        "develop",
+        "main"
+      ],
+      "default_branch": "develop",
       "pushed_at": "2025-11-10T15:36:53Z"
     },
     {
