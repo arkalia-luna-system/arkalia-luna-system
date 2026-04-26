@@ -20,6 +20,8 @@
 - **Luna Logo & Branding** — Identité visuelle et génération SVG.
 - **Metrics Collector & Base Template** — Outillage métrique et base technique.
 
+<sub>Lecture rapide : commence par "Vue Rapide", puis "Tableau de Bord Système" et "Tous les Projets".</sub>
+
 ## 🎯 Positionnement
 
 - **Approche** — Construire des produits concrets, maintenables et documentés.
@@ -115,6 +117,8 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 - [Contact](#-contact)
 - [Références Factuelles](#-références-factuelles)
 - [FAQ](#-faq)
+
+<sub>Astuce mobile : les sections les plus utiles sont "Tableau de Bord Système" et "Tous les Projets".</sub>
 
 ---
 
@@ -248,6 +252,8 @@ Projets historiques conservés pour leur valeur pédagogique :
 - **Luna Logo** : Générateur de logos SVG techno-mystiques
 
 **🤖 BBIA Reachy Sim** : Projet principal robotique et R&D (voir section dédiée ci-dessus)
+
+<sub>Objectif de cette section : donner une vue d'ensemble, pas un statut de production.</sub>
 
 </div>
 
@@ -492,6 +498,8 @@ Ce repository utilise un système d'automatisation complet pour maintenir le pro
 | **Activité récente** | Relative par projet | Tableau de bord système |
 | **Statuts affichés** | Actif / Beta / Archivé | Classification prudente |
 | **Mise à jour** | Automatisée | `auto-update-readme.py` |
+
+<sub>Ces références sont basées sur les données générées localement et peuvent évoluer après chaque synchronisation.</sub>
 
 ---
 
