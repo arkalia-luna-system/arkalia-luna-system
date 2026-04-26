@@ -589,7 +589,7 @@ def add_section_markers_to_readme(readme_path: Path) -> bool:
     return markers_added
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="🌙 Mise à jour automatique du README principal")
     parser.add_argument("--dry-run", action="store_true", help="Mode test (ne modifie rien)")
     parser.add_argument(

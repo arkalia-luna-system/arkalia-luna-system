@@ -418,7 +418,7 @@ class GitHubProfileUpdater:
 
         found_languages: Dict[str, float] = {}  # Dict pour compter les occurrences
 
-        def count_language(lang: str):
+        def count_language(lang: str) -> None:
             """Compte les occurrences d'un langage"""
             found_languages[lang] = found_languages.get(lang, 0) + 1
 
@@ -635,7 +635,7 @@ class GitHubProfileUpdater:
         print(f"\n💾 Données exportées: {output_file}")
         return output_file
 
-    def print_summary(self):
+    def print_summary(self) -> None:
         """Affiche un résumé des projets trouvés"""
         print("\n" + "=" * 60)
         print("📋 RÉSUMÉ DES PROJETS")
@@ -668,7 +668,7 @@ class GitHubProfileUpdater:
         print("=" * 60)
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(
         description="🌙 Mise à jour intelligente du profil GitHub Arkalia Luna System"
     )

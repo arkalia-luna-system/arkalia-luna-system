@@ -443,7 +443,7 @@ class ProjectAuditor:
         return report
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="🔍 Audit complet des projets Arkalia Luna System")
     parser.add_argument(
         "--output",

@@ -112,7 +112,7 @@ def check_scripts(scripts_dir: Path) -> List[str]:
     return issues
 
 
-def main():
+def main() -> int:
     script_dir = Path(__file__).parent.parent
     data_file = script_dir / "config" / "projects-data.json"
     readme_path = script_dir / "README.md"
