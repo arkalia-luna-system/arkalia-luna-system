@@ -74,7 +74,7 @@ Vérifier que le projet `github-profile-arkalia` exploite à **100%** toutes ses
 **Fonction** : `generate_featured_projects()`
 
 **Fonctionnalités** :
-- Score automatique chaque projet (tests, coverage, production-ready, etc.)
+- Score automatique chaque projet (tests, coverage, documenté et maintenu, etc.)
 - Sélectionne les top 3 projets
 - Génère le tableau HTML automatiquement
 

@@ -1,6 +1,6 @@
 # 🎯 PRIORITÉS DE TRAVAIL - 2025-11-24
 
-**Objectif** : Atteindre 9.5/10 (Industry Leader)  
+**Objectif** : Atteindre 9.5/10 (niveau avancé)  
 **Note actuelle** : 8.3/10  
 **Deadline** : 1 mois
 

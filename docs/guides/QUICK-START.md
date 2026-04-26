@@ -10,7 +10,7 @@
 
 </div>
 
-## ⚡ Utilisation Ultra-Rapide
+## ⚡ Utilisation très rapide
 
 ```bash
 # Option 1: Script shell (le plus simple)

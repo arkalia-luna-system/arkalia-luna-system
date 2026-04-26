@@ -8,11 +8,11 @@
 ## 📋 RÉSUMÉ EXÉCUTIF
 
 - **Note actuelle :** 8.3/10 (Audit 2025-11-24)
-- **Objectif :** 9.5/10 (Industry Leader)
+- **Objectif :** 9.5/10 (niveau avancé)
 - **Progression :** 87% des objectifs atteints
 - **Deadline :** 1 mois (avant Reachy Mini + lancement public)
 
-**Verdict audit :** Profil **professionnel** avec quelques effets de style "prestige", très au-dessus des standards GitHub. Quelques ajustements nécessaires pour atteindre le niveau "industry leader".
+**Verdict audit :** Profil **professionnel** avec quelques effets de style "prestige", très au-dessus des standards GitHub. Quelques ajustements nécessaires pour atteindre le niveau avancé.
 
 ---
 
@@ -50,11 +50,11 @@
 
 ## 🔥 TOP 3 PROJETS FEATURED
 
-1. **🌕 Arkalia Luna Pro** — Orchestration IA Production-Ready
+1. **🌕 Arkalia Luna Pro** — Orchestration IA documenté et maintenu
    - 5 containers • 671 tests • 59% coverage
    - Monitoring • Grafana • Prometheus
    - ✅ Documentation complète (72 fichiers .md)
-   - ✅ Statut corrigé : "Production-Ready"
+   - ✅ Statut corrigé : "documenté et maintenu"
    - ✅ Badge Codecov officiel ajouté
    - ✅ Architecture des Containers documentée
    - ✅ Cas d'usage métier documentés (6 cas détaillés)
@@ -276,7 +276,7 @@ Avant lancement public, vérifier :
 - Messaging : 9/10
 - Professionnalisme : 10/10
 
-**Résultat :** Portfolio "Industry Leader" prêt pour Hugging Face, OpenAI, etc.
+**Résultat :** Portfolio "niveau avancé" prêt pour Hugging Face, OpenAI, etc.
 
 ---
 

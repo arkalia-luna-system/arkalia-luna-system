@@ -38,7 +38,7 @@ Les fichiers suivants ont été supprimés car redondants ou temporaires :
 8. ✅ `archive/old-status/RESUME-AUDIT-ACTION.md` → Archivé (consolidé dans `statut/STATUT.md`)
 
 ### **Audits et analyses (à garder)**
-9. ✅ `AUDIT-PERPLEXITY-REPONSE.md` → Audit complet ultra-rigoureux
+9. ✅ `AUDIT-PERPLEXITY-REPONSE.md` → Audit complet rigoureux
 10. ✅ `AUDIT-BBIA-RIGOUREUX.md` → Audit détaillé BBIA Sim
 11. ✅ `ANALYSE-3-PROJETS-FEATURED.md` → Analyse des 3 projets featured
 12. ✅ `PROMPT-AUDIT-PERPLEXITY.md` → Prompt utilisé pour l'audit
@@ -48,7 +48,7 @@ Les fichiers suivants ont été supprimés car redondants ou temporaires :
 14. ✅ `GUIDE-REORGANISATION-PINNED-REPOS.md` → Guide pour réorganiser les repos
 15. ✅ `RECAP-ACTIONS-FEATURED.md` → Récap des actions featured
 16. ✅ `RECAP-BBIA-TACHES-RESTANTES.md` → Récap BBIA
-17. ✅ `POINTS-ULTRA-FIN-INTEGRES.md` → Points ultra-fins intégrés
+17. ✅ `POINTS-ULTRA-FIN-INTEGRES.md` → Points détaillés intégrés
 18. ✅ `audits/AUDIT-LUNA-PRO.md` → Audit Luna Pro
 
 ---

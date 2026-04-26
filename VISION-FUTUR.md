@@ -7,7 +7,7 @@
 
 ## 🎯 Vision à Long Terme
 
-**Arkalia Luna System** vise à devenir un **écosystème open-source de référence** pour l'IA, la robotique et les systèmes intelligents, avec une approche modulaire, scalable et production-ready.
+**Arkalia Luna System** vise à devenir un **écosystème open-source de référence** pour l'IA, la robotique et les systèmes intelligents, avec une approche modulaire, scalable et documenté et maintenu.
 
 ---
 

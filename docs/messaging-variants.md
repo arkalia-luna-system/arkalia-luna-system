@@ -70,13 +70,13 @@ Open source • Écosystème complet
 ### **Bio GitHub**
 ```
 Enterprise AI & Robotics Solutions
-11 production-ready projects | Python • FastAPI • Docker
+11 maintained projects | Python • FastAPI • Docker
 Full-stack development • DevOps • Enterprise architecture
 ```
 
 ### **Slogan**
 - "Enterprise AI & Robotics Solutions"
-- "Production-Ready Systems"
+- "maintained systems"
 - "Scalable AI Solutions"
 
 ### **Ton**
@@ -151,7 +151,7 @@ Open source • Écosystème complet
 
 **Corporate :**
 ```
-Enterprise AI Solutions | Production-ready systems
+Enterprise AI Solutions | maintained systems
 11 projects | Python • FastAPI • Docker
 Full-stack • DevOps • Enterprise architecture
 ```
@@ -173,7 +173,7 @@ Building the future of cognitive systems
 |-------|----------------|----------------|----------------|
 | **Internationale** | "Building systems that matter" | "AI & Robotics Engineer" | "Cognitive Systems Developer" |
 | **Française** | "Construire des systèmes qui comptent" | "Développeur IA & Robotique" | "Systèmes cognitifs" |
-| **Corporate** | "Enterprise AI Solutions" | "Production-Ready Systems" | "Scalable AI Solutions" |
+| **Corporate** | "Enterprise AI Solutions" | "maintained systems" | "Scalable AI Solutions" |
 | **Startup** | "Pushing boundaries in AI" | "Building the Future" | "Innovation-Driven" |
 
 ---

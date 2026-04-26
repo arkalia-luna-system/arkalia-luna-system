@@ -1,7 +1,7 @@
 # 🎯 Plan d'Action - Perfectionnement du Profil GitHub
 
 ## Objectif
-Portfolio "Industry Leader" en 1 mois
+Portfolio "niveau avancé" en 1 mois
 
 ## 📅 Détails du Plan
 
@@ -115,7 +115,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 
 **🔴 CRITIQUE (Impact crédibilité) :**
 - [x] **Corriger badge README "7 containers" → "5 containers actifs"** ✅ **TERMINÉ**
-- [x] Corriger statut "Enterprise" → "Production-Ready" ✅ **TERMINÉ**
+- [x] Corriger statut "Enterprise" → "documenté et maintenu" ✅ **TERMINÉ**
 - [x] Ajouter badge Codecov officiel dans README ✅ **TERMINÉ**
 - [x] Documenter les 5 containers actifs : créer section "Architecture des Containers" dans README ✅ **TERMINÉ**
 
@@ -151,7 +151,7 @@ Ces points sont les plus visibles et impactent directement la crédibilité prof
 
 **Améliorations apportées :**
 - Badge "7 containers" → "5 containers actifs" corrigé
-- Statut "Enterprise" → "Production-Ready" corrigé dans README et docs
+- Statut "Enterprise" → "documenté et maintenu" corrigé dans README et docs
 - Badge Codecov officiel ajouté
 - Section "Architecture des Containers" avec tableau et diagramme Mermaid
 - Section "Cas d'Usage" avec 6 cas détaillés
@@ -333,12 +333,12 @@ git filter-branch --env-filter '
 **Actions :**
 - [ ] Réduire emojis dans les titres principaux
 - [ ] Garder emojis uniquement pour sections (navigation)
-- [ ] Remplacer "Production-ready" par descriptions concrètes
+- [ ] Remplacer "documenté et maintenu" par descriptions concrètes
 - [ ] Adopter ton plus sobre et professionnel
 
 **Exemples :**
 ```markdown
-**Avant :** ⚡ Production-ready • 🚀 Ultra-rapide • 💎 Premium
+**Avant :** ⚡ documenté et maintenu • 🚀 très rapide • 💎 Premium
 
 **Après :** Production (badge Codecov) • Performance (benchmarks) • Qualité (tests)
 ```
@@ -465,7 +465,7 @@ git filter-branch --env-filter '
 
 ---
 
-#### 13. **Améliorer BBIA Sim (Ultra User-Friendly)** ⚡
+#### 13. **Améliorer BBIA Sim (très User-Friendly)** ⚡
 **Impact :** HIGH | **Temps :** 5h | **Projet :** bbia-sim
 
 **Problèmes identifiés (audit rigoureux 2025-11-24) :**
@@ -714,7 +714,7 @@ git filter-branch --env-filter '
 
 ---
 
-#### 22. **Sécurité : Secrets & Credentials + Best Practices** ⚡
+#### 22. **Sécurité : Secrets & Credentials + bonnes pratiques** ⚡
 **Impact :** HIGH | **Temps :** 2h | **Projets :** Tous
 
 **Actions :**
@@ -723,7 +723,7 @@ git filter-branch --env-filter '
 - [ ] Vérifier que .env.example sont neutres (pas de vraies clés)
 - [ ] Ajouter .gitignore si manquant
 - [ ] Vérifier node_modules/logs/caches ne sont pas commités
-- [ ] **Mentionner "security best practices" dans README**
+- [ ] **Mentionner "bonnes pratiques de sécurité" dans README**
 - [ ] **Indiquer que code est audité pour sécurité**
 - [ ] **Mentionner que .env/example sont clean, jamais sensibles**
 
@@ -731,7 +731,7 @@ git filter-branch --env-filter '
 ```markdown
 ## 🔒 Sécurité
 
-- ✅ Code audité selon security best practices
+- ✅ Code audité selon bonnes pratiques de sécurité
 - ✅ .env.example toujours neutres (jamais de secrets)
 - ✅ Aucun credential dans sources publiques
 ```
@@ -744,7 +744,7 @@ git filter-branch --env-filter '
 - [ ] Aucun secret détecté dans repos publics
 - [ ] .gitignore complet sur tous projets
 - [ ] .env.example neutres
-- [ ] **Mention "security best practices" dans README**
+- [ ] **Mention "bonnes pratiques de sécurité" dans README**
 - [ ] **Sécurité documentée et visible**
 
 ---
@@ -1101,7 +1101,7 @@ python demo.py
 - ✅ Live Demo / Docs Hosted (4h)
 - ✅ Benchmarks Performance (3h)
 - ✅ Accessibilité Visuelle (2h)
-**Total :** ~25h | **Objectif :** Documentation parfaite
+**Total :** ~25h | **Objectif :** Documentation cohérente
 
 ### **Semaine 4 (Jours 22-28) : FINITIONS**
 - ✅ Git Conventions (11h - 1h/projet)
@@ -1111,7 +1111,7 @@ python demo.py
 - ✅ Langue Bilingue README (3h)
 - ✅ Technologies Secondaires Stack (1h)
 - ✅ Contributions Externes (variable, bonus)
-**Total :** ~28h | **Objectif :** Détails parfaits
+**Total :** ~28h | **Objectif :** Détails cohérents
 
 **TOTAL ESTIMÉ :** ~88h sur 1 mois (~22h/semaine)
 
@@ -1648,7 +1648,7 @@ Petites mises à jour régulières pour activity graph
 
 ---
 
-**🚀 Avec ces garanties, tu es sûr d'atteindre le niveau "Industry Leader" !**
+**🚀 Avec ces garanties, tu es sûr d'atteindre le niveau avancé !**
 
 ---
 
@@ -1666,7 +1666,7 @@ Petites mises à jour régulières pour activity graph
 - ✅ Messaging : 9/10
 - ✅ Professionnalisme : 10/10
 
-**Résultat attendu :** Portfolio "Industry Leader" prêt pour Hugging Face, OpenAI, etc.
+**Résultat attendu :** Portfolio "niveau avancé" prêt pour Hugging Face, OpenAI, etc.
 
 ---
 
@@ -1684,5 +1684,5 @@ Petites mises à jour régulières pour activity graph
 
 ---
 
-**🚀 Prêt à devenir "Industry Leader" !**
+**🚀 Prêt à devenir "niveau avancé" !**
 

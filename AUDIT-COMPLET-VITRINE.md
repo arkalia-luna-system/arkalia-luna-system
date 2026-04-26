@@ -1,7 +1,7 @@
 # 🔍 Audit Complet - Vitrine GitHub Profile
 
 **Date** : 24 novembre 2025  
-**Objectif** : Faire de `github-profile-arkalia` une vitrine parfaite pour gérer et présenter l'écosystème Arkalia Luna System
+**Objectif** : Faire de `github-profile-arkalia` une vitrine cohérente pour gérer et présenter l'écosystème Arkalia Luna System
 
 ---
 
@@ -209,7 +209,7 @@ Si "arkalia finance" n'apparaît pas :
 
 ## ✅ CHECKLIST FINALE
 
-Avant de considérer la vitrine "parfaite" :
+Avant de considérer la vitrine "cohérente" :
 
 - [x] Détection automatique améliorée
 - [x] Script d'audit créé
