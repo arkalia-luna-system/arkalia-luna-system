@@ -1,84 +1,20 @@
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" alt="Arkalia Luna System" width="180" height="180" style="border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.4);" title="Arkalia Luna System - Écosystème IA & Robotique">
-
 # 🌙 Arkalia Luna System
 
-**Architecture de systèmes IA & robotique • 12 projets suivis • Observabilité • DevOps**
+Profil GitHub pour piloter et documenter l'ecosysteme `arkalia-luna-system`.
 
-<code style="background: rgba(15, 23, 42, 0.9); color: #e5e7eb; padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(148, 163, 184, 0.5);">"Concevoir des systèmes robustes, lisibles et utiles."</code>
+## 🎯 Objectif
 
-</div>
+- Donner une vue claire des projets actifs.
+- Afficher des informations factuelles et verifiables.
+- Mettre a jour automatiquement les sections critiques.
 
-<br/>
+## ⚡ Vue Rapide
 
-## 🖤 Vue Rapide
+- **Domaines** : IA appliquee, robotique, sante numerique, outillage dev.
+- **Perimetre** : 12 projets suivis (repositories GitHub).
+- **Mise a jour** : via `update-profile.py` et `auto-update-readme.py`.
 
-- **Luna Pro** — Orchestrateur IA modulaire.
-- **CIA & ARIA** — Santé numérique (mobile + suivi personnel).
-- **BBIA Sim** — Robotique et R&D.
-- **Luna Logo & Branding** — Identité visuelle et génération SVG.
-- **Metrics Collector & Base Template** — Outillage métrique et base technique.
-
-<sub>Lecture rapide : commence par "Vue Rapide", puis "Tableau de Bord Système" et "Tous les Projets".</sub>
-
-## 🎯 Positionnement
-
-- **Approche** — Construire des produits concrets, maintenables et documentés.
-- **Standard** — Tests automatisés, CI/CD, observabilité et amélioration continue.
-- **Focus** — IA appliquée, robotique, santé numérique et outillage plateforme.
-
----
-
-<div align="center">
-
-### ⚡ Métriques Clés
-
-| ![Python](https://img.shields.io/badge/PYTHON-ecosystem-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Quality](https://img.shields.io/badge/QUALITY-checked-25A162?style=for-the-badge&logo=test&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-12_tracked-181717?style=for-the-badge&logo=github&logoColor=white) | ![Automation](https://img.shields.io/badge/AUTOMATION-enabled-FF6B9D?style=for-the-badge&logo=githubactions&logoColor=white) |
-|:---:|:---:|:---:|:---:|
-| **12 projets suivis** | **12 repos locaux détectés** | **12 README détectés** | **Mise à jour automatisée** |
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**Stack Technique**
-
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
-
-</div>
-
----
-
-## 📊 En Chiffres
-
-<div align="center">
-
-**Vue d'ensemble de l'écosystème en quelques chiffres clés**
-
-| Métrique | Valeur | Détails |
-|:--------:|:------:|:-------|
-| **📦 Projets** | **12** | Repos suivis dans l’écosystème |
-| **💻 Locaux détectés** | **12** | Repos trouvés localement |
-| **📘 README détectés** | **12** | Repos avec README détecté |
-| **🌿 Branche par défaut** | **Majorité `develop`** | Selon metadata GitHub |
-| **📦 Archives** | **1** | `nours_interface` |
-| **🤖 Mise à jour** | **Automatique** | `update-profile.py` + `auto-update-readme.py` |
-
-<sub>*Métriques mises à jour automatiquement via `arkalia-metrics-collector`*</sub>
-
-</div>
-
----
-
-## 🧬 Tableau de Bord Système
+## 🧬 Tableau de Bord
 
 <!-- AUTO-UPDATE:status -->
 ### 🔮 Tableau de Bord Système
@@ -92,39 +28,13 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ACTIF` | il y a 47 j | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | il y a 55 j | `develop` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | il y a 6 j | `develop` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 29 min | `develop` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 34 min | `develop` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ACTIF` | il y a 15 h | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 28 min | `develop` |
----
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 33 min | `develop` |
+## 🧩 Vision de l'ecosysteme
 
-## 📑 Table des Matières
-
-- [Vue Rapide](#-vue-rapide)
-- [Positionnement](#-positionnement)
-- [Métriques Clés](#-métriques-clés)
-- [En Chiffres](#-en-chiffres)
-- [Tableau de Bord Système](#-tableau-de-bord-système)
-- [Vision Système](#-vision-système)
-- [Projets à Voir](#-projets-à-voir)
-- [Projet Principal : BBIA Reachy Sim](#-projet-principal--bbia-reachy-sim)
-- [Projets Principaux](#-projets-principaux)
-- [Tous les Projets](#-tous-les-projets)
-- [Stack Technique](#-stack-technique)
-- [Architecture Écosystème](#-architecture-écosystème)
-- [Métriques de l'Écosystème](#-métriques-de-lécosystème)
-- [Contribuer](#-contribuer)
-- [Automatisation](#-automatisation)
-- [Contact](#-contact)
-- [Références Factuelles](#-références-factuelles)
-- [FAQ](#-faq)
-
-<sub>Astuce mobile : les sections les plus utiles sont "Tableau de Bord Système" et "Tous les Projets".</sub>
-
----
-
-## 🎯 Vision Système
-
-Ce repository orchestre et centralise l'écosystème **Arkalia Luna System** : une suite complète de projets open-source couvrant la robotique, l'IA, le design, le mobile et l'infrastructure.
+Ce repository centralise des projets Python/Flutter relies a plusieurs usages
+(applications, tooling, experimentation, archive pedagogique).
 
 <!-- AUTO-UPDATE:vision -->
 ### 🏗️ Architecture de l'Écosystème
@@ -155,11 +65,9 @@ Infrastructure et outils de développement :
 Projets historiques conservés pour leur valeur pédagogique :
 - **nours_interface** : Interface web historique Flask + CSS/JS — POC...
 
----
+## 🔥 Projets a Voir
 
-<div align="center">
-
-## 🔥 Projets à Voir
+Trois projets representatifs sont affiches automatiquement ci-dessous.
 
 <!-- AUTO-UPDATE:featured -->
 **Trois systèmes représentatifs de l’écosystème (architecture, usage, outillage).**
@@ -199,116 +107,9 @@ Projets historiques conservés pour leur valeur pédagogique :
 </table>
 
 </div>
----
+## 📋 Tous les Projets
 
-<div align="center">
-
-## 🤖 Projet Principal : BBIA Reachy Sim
-
-**Cognitive Engine • 12 émotions • IA appliquée**
-
-*Projet robotique open-source orienté expérimentation et fiabilité*
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_v2_SOURCE.svg" alt="BBIA Logo" width="300" height="300" style="margin: 24px 0; border-radius: 24px; box-shadow: 0 12px 24px rgba(20, 184, 166, 0.35);" title="BBIA - Cognitive Engine Robotique">
-
-[![Version](https://img.shields.io/badge/VERSION-1.3.2-14B8A6?style=for-the-badge&logo=version&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
-[![Python](https://img.shields.io/badge/PYTHON-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge&logo=license&logoColor=white)](https://github.com/arkalia-luna-system/bbia-sim)
-[![SDK](https://img.shields.io/badge/SDK-Reachy_Mini-25A162?style=for-the-badge&logo=sdk&logoColor=white)](https://github.com/pollen-robotics/reachy_mini)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-**Points Clés**
-
-| **Fonctionnalité** | **Technologie** |
-|:------------------:|:---------------:|
-| 🤖 **12 émotions robotiques** | Transitions fluides |
-| 👁️ **IA Vision** | YOLO + MediaPipe + DeepFace |
-| 🗣️ **IA Vocale** | Whisper STT/TTS |
-| 🎯 **Pose Detection** | MediaPipe 33 points |
-| 🚀 **Backend unifié** | Sim/Robot |
-| ✅ **État observé** | 68 fichiers Python, 1362 tests, 68.86% coverage |
-
-**[Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** • [Documentation](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) • [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
-
-</div>
-
----
-
-<div align="center">
-
-## 🚀 Projets Principaux
-
-**Les 4 piliers de l'écosystème** — actifs et maintenus.
-
-**Piliers** :
-- **Luna Pro** : Orchestrateur IA modulaire pour l'entreprise
-- **CIA** : Assistant IA conversationnel santé mobile
-- **Quest** : Plateforme de jeu éducatif sécurisé
-- **Luna Logo** : Générateur de logos SVG techno-mystiques
-
-**🤖 BBIA Reachy Sim** : Projet principal robotique et R&D (voir section dédiée ci-dessus)
-
-<sub>Objectif de cette section : donner une vue d'ensemble, pas un statut de production.</sub>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### 🌟 Autres Projets Principaux
-
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://github.com/arkalia-luna-system/arkalia-luna-logo">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Luna Logo"/>
-<br/><br/>
-<strong>Luna Logo</strong>
-<br/>
-<sub>Générateur SVG</sub>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/arkalia-luna-system/arkalia-quest">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="Quest"/>
-<br/><br/>
-<strong>Arkalia Quest</strong>
-<br/>
-<sub>Gaming éducatif</sub>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/arkalia-luna-system/arkalia-aria">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="ARIA"/>
-<br/><br/>
-<strong>Arkalia ARIA</strong>
-<br/>
-<sub>Santé IA • RGPD</sub>
-</a>
-</td>
-<td align="center" width="25%">
-<a href="https://github.com/arkalia-luna-system/ia-pipeline">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" width="90" height="90" style="border-radius: 16px; box-shadow: 0 8px 16px rgba(20, 184, 166, 0.3);" alt="IA Pipeline"/>
-<br/><br/>
-<strong>IA Pipeline</strong>
-<br/>
-<sub>DevOps • 62 cmd</sub>
-</a>
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-### 📋 Tous les Projets
+Tableau complet genere automatiquement depuis `config/projects-data.json`.
 
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Statut |
@@ -325,102 +126,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA... | Docker + IA | 🏢 Projet | 🟢 Actif |
 | **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | assets soignés pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique... | Flask | 📦 Archive | 📦 Archivé |
----
-
-## 🛠️ Stack Technique
-
-| Type | Technologies | Usage |
-|:----:|:------------:|:-----:|
-| **Core** | Python 3.11-3.12 | 100% projets backend |
-| **APIs** | FastAPI, Flask | 8 projets |
-| **IA** | PyTorch, Whisper, YOLO, HuggingFace, MediaPipe, DeepFace | BBIA, Quest |
-| **Graphics & Design** | SVG, Canvas, PIL, Branding Assets | Luna Logo, BBIA Branding |
-| **Mobile** | Flutter, Dart | CIA, ARIA |
-| **DevOps** | Docker, Prometheus, Grafana | Luna Pro, Logo |
-| **QA** | Pytest, Black, Ruff | Tests automatisés, 100% CI/CD |
-
----
-
-<div align="center">
-
-## 🗺️ Architecture Écosystème
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" alt="Snowy emotion" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" alt="Sunny emotion" width="35" height="35" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
-
-```mermaid
-flowchart TB
- subgraph stack["🛠️ Stack Technique"]
- PYTHON["🐍 Python 3.11+"]
- APIS["⚡ FastAPI • Flask"]
- AI["🤖 Whisper • YOLO • MediaPipe"]
- end
-
- subgraph core["🎯 Projets Core"]
- BBIA["🤖 BBIA Reachy Sim<br/>Robot émotionnel<br/>12 émotions • IA Vision"]
- QUEST["🎮 Arkalia Quest<br/>Gaming éducatif<br/>Cybersécurité"]
- LOGO["🎨 Luna Logo<br/>Génération SVG<br/>Métriques dans le repo dédié"]
- BRANDING["🎨 BBIA Branding<br/>Identité visuelle<br/>Assets design"]
- end
-
- subgraph infra["🔧 Infrastructure"]
- ATHALIA["🔧 Athalia DevOps<br/>62 commandes<br/>Security"]
- LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>5 containers documentés"]
- end
-
- subgraph mobile["📱 Mobile & Santé"]
- CIA["📱 Arkalia CIA<br/>Mobile santé<br/>Flutter • AES-256"]
- ARIA["🧠 Arkalia ARIA<br/>Tracking douleur<br/>RGPD • 13 connecteurs"]
- end
-
- subgraph utils["📊 Outils & Analytics"]
- METRICS["📊 Metrics Collector<br/>Analytics centralisées<br/>Python + CLI"]
- TEMPLATE["⚙️ Base Template<br/>Starter FastAPI<br/>CI/CD documenté"]
- end
-
- PYTHON --> BBIA
- PYTHON --> QUEST
- PYTHON --> LOGO
- PYTHON --> BRANDING
- PYTHON --> METRICS
- PYTHON --> TEMPLATE
-
- APIS --> BBIA
- APIS --> LUNA
- APIS --> ARIA
- APIS --> TEMPLATE
-
- AI --> BBIA
- AI --> QUEST
-
- METRICS --> BBIA
- METRICS --> QUEST
- METRICS --> LUNA
-
- TEMPLATE --> ATHALIA
- TEMPLATE --> LUNA
- TEMPLATE --> ARIA
-
- ATHALIA --> LUNA
- CIA --> ARIA
-
- style BBIA fill:#48bb78,stroke:#2d7a4d,stroke-width:3px
- style QUEST fill:#4299e1,stroke:#2c5aa0,stroke-width:3px
- style LOGO fill:#9f7aea,stroke:#6b46c1,stroke-width:3px
- style LUNA fill:#f6ad55,stroke:#c05621,stroke-width:3px
- style ARIA fill:#ed8936,stroke:#c05621,stroke-width:3px
- style METRICS fill:#38b2ac,stroke:#2c7a7b,stroke-width:3px
- style BRANDING fill:#ec4899,stroke:#be185d,stroke-width:3px
- style CIA fill:#14b8a6,stroke:#0d9488,stroke-width:3px
- style ATHALIA fill:#8b5cf6,stroke:#6d28d9,stroke-width:3px
- style TEMPLATE fill:#06b6d4,stroke:#0891b2,stroke-width:3px
-```
-
-</div>
-
----
-
-## 📊 Métriques de l'Écosystème
+## 📊 Metriques
 
 <!-- AUTO-UPDATE:stats -->
 ### 📈 Statistiques
@@ -431,127 +137,38 @@ flowchart TB
 <sub>*Dernière mise à jour : 26 avril 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
-### 🎯 Roadmap indicative
+## 🛠️ Stack Technique
 
-| Timeline | Projet | Objectif | Status |
-|:--------:|:------:|:--------:|:------:|
-| **Q1 2026** | BBIA v2.0 | Robots multiples + IA avancée | 📋 Planifié |
-| **Q1 2026** | Luna Logo v3.0 | Plugins & marketplace | 📋 Planifié |
-| **Q1 2026** | Arkalia CIA v1.0 | Release stable mobile | 🚧 En cours |
-| **Q2 2026** | Quest v4.0 | Multi-joueur + IA avancée | 📋 Planifié |
-| **Q2 2026** | Arkalia ARIA v2.0 | IA avancée + connecteurs | 📋 Planifié |
-| **Q3 2026** | Luna Pro v4.0 | Stabilisation et montée en charge | 📋 Planifié |
-| **Q4 2026** | Écosystème unifié | Intégrations cross-projets | 🌟 Vision |
+Les technologies ci-dessous sont deduites des repositories suivis :
 
----
+- **Langages** : Python, Dart, JavaScript, CSS, Shell.
+- **Backend** : FastAPI, Flask.
+- **Mobile** : Flutter.
+- **Infra** : Docker, CI GitHub Actions.
+- **IA/vision** : PyTorch, YOLO, Whisper, MediaPipe (selon projets).
 
-## 🤝 Contribuer
+## 🤝 Contribution
 
-<div align="center">
-
-**[Créer une issue](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)** • **[Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki)**
-
-</div>
-
-**Comment contribuer :** Corriger une typo • Reporter un bug • Proposer une feature • Ajouter un test • Améliorer la doc
-
-**Ressources :** [Wiki](https://github.com/arkalia-luna-system/arkalia-luna-system/wiki) • [Discussions](https://github.com/orgs/arkalia-luna-system/discussions) • [@arkalia-luna-system](https://github.com/arkalia-luna-system)
-
-<sub>*Réponse rapide pour les questions techniques et contributions. Tous les projets sont ouverts aux contributions.*</sub>
-
----
+- Ouvrir une issue : [Issues](https://github.com/arkalia-luna-system/arkalia-luna-system/issues/new)
+- Echanger : [Discussions](https://github.com/orgs/arkalia-luna-system/discussions)
+- Guide : [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 ## 🔧 Automatisation
 
-Ce repository utilise un système d'automatisation complet pour maintenir le profil à jour :
+- `update-profile.py` : collecte les metadonnees de projets.
+- `auto-update-readme.py` : regenere les sections marquees.
+- `scripts/verify-consistency.py` : verifie la coherence globale.
 
-- **📡 Découverte automatique** : `update-profile.py` découvre tous les projets GitHub
-- **📝 Mise à jour automatique** : `auto-update-readme.py` met à jour le README
-- **🔍 Audit automatique** : `scripts/audit-projects.py` audite la qualité des projets
-- **📊 Métriques automatiques** : Intégration avec `arkalia-metrics-collector`
-- **🔄 CI/CD** : Workflows GitHub Actions pour tout automatiser
+## 📌 References Factuelles
 
-**Documentation complète :** [docs/AUTOMATISATION-COMPLETE.md](docs/AUTOMATISATION-COMPLETE.md)
-
-**Script tout-en-un :** `./scripts/update-all.sh` (découvre, met à jour, audite)
-
----
+| Information | Source |
+|:--|:--|
+| Nombre de projets suivis | `config/projects-data.json` |
+| Liste des projets et liens | `config/projects-data.json` |
+| Activite recente par projet | Champ `pushed_at` dans `projects-data.json` |
+| Sections auto-generees | `auto-update-readme.py` |
 
 ## 📞 Contact
 
-<div align="center">
-
-**Email** : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com)  
-**GitHub** : [@arkalia-luna-system](https://github.com/arkalia-luna-system)
-
-</div>
-
----
-
-## 📊 Références Factuelles
-
-| Information | Valeur | Source |
-|:--------:|:------:|:-------|
-| **Projets suivis** | 12 | `config/projects-data.json` |
-| **Repos locaux détectés** | 12 | `update-profile.py` |
-| **README détectés** | 12 | `update-profile.py` |
-| **Activité récente** | Relative par projet | Tableau de bord système |
-| **Statuts affichés** | Actif / Beta / Archivé | Classification prudente |
-| **Mise à jour** | Automatisée | `auto-update-readme.py` |
-
-<sub>Ces références sont basées sur les données générées localement et peuvent évoluer après chaque synchronisation.</sub>
-
----
-
-## 🎯 FAQ
-
-<details>
-<summary><b>Q: Comment démarrer avec un projet ?</b></summary>
-
-A: *Consultez la section [Projets Principaux](#-projets-principaux) ci-dessus. Chaque projet a sa documentation complète dans son repository GitHub avec guides de démarrage rapide.*
-</details>
-
-<details>
-<summary><b>Q: Qui peut contribuer ?</b></summary>
-
-A: *Tous les contributeurs sont les bienvenus. Designer, développeur, maker... Chaque point de vue enrichit le projet.*
-</details>
-
-<details>
-<summary><b>Q: Que faire si je trouve un bug ?</b></summary>
-
-A: *Ouvrez une issue avec le contexte utile (étapes, logs, captures). Le traitement se fait selon la priorité.*
-</details>
-
-<details>
-<summary><b>Q: Comment sont organisés les projets ?</b></summary>
-
-A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture Écosystème](#-architecture-écosystème) pour plus de détails.*
-</details>
-
-<details>
-<summary><b>Q: Quelles technologies sont utilisées ?</b></summary>
-
-A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#-stack-technique) complète.*
-</details>
-
----
-
-<div align="center">
-
-**[Explorer les Projets](https://github.com/arkalia-luna-system)** • **[Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/docs/CONTRIBUTING.md)**
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-snowy-200.svg" alt="Snowy emotion" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Snowy" />
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/emotional/ultimate-sunny-200.svg" alt="Sunny emotion" width="40" height="40" style="opacity: 0.5; margin: 0 6px; border-radius: 6px;" title="Sunny" />
-
-<br/>
-
-**🌙 Arkalia Luna System** — Open Source • 12 Projets Suivis • Design & Branding
-
-<code style="background: rgba(15, 23, 42, 0.9); color: #e5e7eb; padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(148, 163, 184, 0.5);">"Build. Ship. Observe. Iterate."</code>
-
-<br/>
-
-</div>
+- GitHub : [@arkalia-luna-system](https://github.com/arkalia-luna-system)
+- Email : [arkalia.luna.system@gmail.com](mailto:arkalia.luna.system@gmail.com)
