@@ -36,6 +36,7 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
         "enterprise": "usage applicatif",
         "industry leader": "niveau avancé",
         "premium": "soigné",
+        "assets soigné": "assets soignés",
         "best": "solide",
         "ultimate": "complet",
         "ultra": "très",
@@ -406,7 +407,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
 def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     """Génère le tableau des projets depuis les données JSON"""
     lines = [
-        "| Projet | Description | Stack | Rôle | Status |",
+        "| Projet | Description | Stack | Rôle | Statut |",
         "|:------:|:-----------:|:-----:|:----:|:-----:|",
     ]
 
