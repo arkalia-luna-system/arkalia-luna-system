@@ -430,48 +430,32 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         elif "beta" in name_lower or "cia" in name_lower:
             role = "🚧 Bêta"
 
-        # Stack intelligent basé sur description et nom
-        stack = language
+        # Stack stricte : "langage" + au maximum une techno secondaire.
+        primary_stack = language if language else "Python"
+        secondary_stack: Optional[str] = None
 
-        # Détection intelligente du stack (améliorée)
-        stack_parts = []
-
-        # Framework principal
-        if "flutter" in desc_lower or "flutter" in name_lower or "dart" in language.lower():
-            stack_parts.append("Flutter")
-        elif "fastapi" in desc_lower or "fastapi" in name_lower:
-            stack_parts.append("FastAPI")
-        elif "flask" in desc_lower or "flask" in name_lower:
-            stack_parts.append("Flask")
-        elif language and language != "Python":
-            stack_parts.append(language)
-
-        # Technologies additionnelles
-        if "docker" in desc_lower or "container" in desc_lower:
-            stack_parts.append("Docker")
-        if "mujoco" in desc_lower or "mujoco" in name_lower:
-            stack_parts.append("MuJoCo")
-        if "pytorch" in desc_lower or "torch" in desc_lower:
-            stack_parts.append("PyTorch")
-        if "prometheus" in desc_lower or "grafana" in desc_lower:
-            stack_parts.append("Monitoring")
-        if "ia" in desc_lower or "ai" in desc_lower or "intelligence" in desc_lower:
-            if "flask" not in stack_parts:
-                stack_parts.append("IA")
-
-        # Cas spéciaux
         if "design" in desc_lower or "branding" in name_lower or "logo" in name_lower:
-            stack = "Design"
-        elif "template" in name_lower or "base" in name_lower:
-            stack = "FastAPI"  # Templates sont généralement FastAPI
+            primary_stack = "Design"
+        elif "flutter" in desc_lower or "flutter" in name_lower or "dart" in language.lower():
+            primary_stack = "Flutter"
         elif "metrics" in name_lower or "collector" in name_lower:
-            stack = f"{language} + CLI"
-        elif "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
-            stack = "Python"  # Profil GitHub = Python
-        elif stack_parts:
-            stack = " + ".join(stack_parts)
-        else:
-            stack = language if language else "Python"
+            secondary_stack = "CLI"
+        elif "fastapi" in desc_lower or "fastapi" in name_lower:
+            secondary_stack = "FastAPI"
+        elif "flask" in desc_lower or "flask" in name_lower:
+            secondary_stack = "Flask"
+        elif "mujoco" in desc_lower or "mujoco" in name_lower:
+            secondary_stack = "MuJoCo"
+        elif "docker" in desc_lower or "container" in desc_lower:
+            secondary_stack = "Docker"
+        elif "ia" in desc_lower or "ai" in desc_lower or "intelligence" in desc_lower:
+            secondary_stack = "IA"
+
+        stack = (
+            f"{primary_stack} + {secondary_stack}"
+            if secondary_stack and secondary_stack != primary_stack
+            else primary_stack
+        )
 
         # Nettoie et limite la description (enlève emojis en début si trop nombreux)
         desc_short = description
