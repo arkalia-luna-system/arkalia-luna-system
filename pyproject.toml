@@ -61,3 +61,7 @@ python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 
+[[tool.mypy.overrides]]
+module = ["setuptools"]
+ignore_missing_imports = true
+
