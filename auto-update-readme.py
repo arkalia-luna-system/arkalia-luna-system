@@ -38,6 +38,10 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
         "industry leader": "niveau avancé",
         "premium": "soigné",
         "assets soigné": "assets soignés",
+        "cognitive robot engine": "moteur robotique cognitif",
+        "for Reachy Mini": "pour Reachy Mini",
+        "ai emotions, vision": "IA emotions, vision",
+        "IA emotions, vision": "IA emotionnelle, vision",
         "best": "solide",
         "ultimate": "complet",
         "ultra": "très",
@@ -231,23 +235,23 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         name = (project.get("name") or "").lower()
         desc = (project.get("description") or "").lower()
 
-        role = "Core"
+        role = "Projet"
         status = "ACTIF"
 
         if "luna-system" in name or "profile" in desc or "profil" in desc:
             role = "Profil"
         elif "template" in name or "base" in name:
-            role = "Tooling"
+            role = "Outillage"
         elif "metrics" in name or "collector" in name:
-            role = "Metrics"
+            role = "Métriques"
         elif "pipeline" in name or "devops" in desc or "athalia" in name:
-            role = "DevOps"
+            role = "Outillage"
         elif "branding" in name or "logo" in name:
             role = "Design"
         elif "cia" in name or "aria" in name:
             role = "Santé / Mobile"
         elif "quest" in name:
-            role = "Gaming"
+            role = "Jeu"
         elif "bbia" in name or "robot" in desc:
             role = "Robotique"
 
@@ -288,7 +292,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
 
         status_label = {
             "ACTIF": "🟢 ACTIF",
-            "BETA": "🟡 BETA",
+            "BETA": "🟡 BÊTA",
             "ARCHIVE": "⚫ ARCHIVE",
         }.get(status, status)
 
@@ -395,8 +399,10 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     for project in projects:
         name = project.get("name", "")
         github_url = project.get("github_url", "")
+        raw_description = project.get("description")
         description = _clean_description(project.get("description"), max_length=84)
         language = project.get("language", "Python")
+        raw_desc_lower = (raw_description or "").lower()
 
         # Détermine le statut de manière conservative (sans sur-promesse)
         status = "🟢 Actif"
@@ -404,25 +410,25 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         if "template" in name_lower or "base" in name_lower:
             status = "🧩 Template"
         elif "beta" in name_lower or "cia" in name_lower:
-            status = "🚧 Beta"
+            status = "🚧 Bêta"
         elif "archive" in name_lower or "nours" in name_lower:
             status = "📦 Archivé"
 
         # Détermine le rôle basé sur le nom et la description
         role = "🏢 Projet"
-        desc_lower = description.lower()
+        desc_lower = raw_desc_lower
         if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
             role = "🌙 Profil"  # Profil GitHub centralisé
         elif "template" in name_lower or "base" in name_lower:
-            role = "🔧 Tooling"
+            role = "🔧 Outillage"
         elif "metrics" in name_lower or "collector" in name_lower:
-            role = "🔧 Tooling"
+            role = "🔧 Outillage"
         elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
-            role = "🔧 Tooling"
+            role = "🔧 Outillage"
         elif "archive" in name_lower or "nours" in name_lower or "poc" in desc_lower:
             role = "📦 Archive"
         elif "beta" in name_lower or "cia" in name_lower:
-            role = "🚧 Beta"
+            role = "🚧 Bêta"
 
         # Stack intelligent basé sur description et nom
         stack = language
