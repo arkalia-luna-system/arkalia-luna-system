@@ -124,7 +124,7 @@ def replace_emails_in_file(file_path: Path, dry_run: bool = False) -> Tuple[int,
     return (len(emails), replacements)
 
 
-def configure_git(repo_path: Path, dry_run: bool = False):
+def configure_git(repo_path: Path, dry_run: bool = False) -> None:
     """Configure git user.email et user.name"""
     if dry_run:
         print("   [DRY-RUN] git config user.email =", TARGET_EMAIL)
@@ -152,7 +152,7 @@ def configure_git(repo_path: Path, dry_run: bool = False):
         print(f"   ⚠️  Erreur config git: {e}")
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="🌙 Standardisation Email - Arkalia Luna System")
     parser.add_argument("--dry-run", action="store_true", help="Mode test (ne modifie rien)")
     parser.add_argument(

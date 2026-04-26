@@ -27,7 +27,7 @@ generate_featured_projects = auto_update_readme.generate_featured_projects
 generate_status_board = auto_update_readme.generate_status_board
 
 
-def test_generate_stats_section():
+def test_generate_stats_section() -> None:
     """Test de génération de la section stats"""
     stats = {
         "total_projects": 12,
@@ -39,7 +39,7 @@ def test_generate_stats_section():
     print("✅ test_generate_stats_section: OK")
 
 
-def test_generate_projects_table():
+def test_generate_projects_table() -> None:
     """Test de génération du tableau des projets"""
     projects = [
         {
@@ -55,7 +55,7 @@ def test_generate_projects_table():
     print("✅ test_generate_projects_table: OK")
 
 
-def test_generate_vision_section():
+def test_generate_vision_section() -> None:
     """Test de génération de la section vision"""
     projects = [
         {
@@ -73,7 +73,7 @@ def test_generate_vision_section():
     print("✅ test_generate_vision_section: OK")
 
 
-def test_generate_featured_projects():
+def test_generate_featured_projects() -> None:
     """Test de génération des featured projects"""
     projects = [
         {
@@ -88,7 +88,7 @@ def test_generate_featured_projects():
     print("✅ test_generate_featured_projects: OK")
 
 
-def test_generate_status_board():
+def test_generate_status_board() -> None:
     """Test de génération du tableau de bord système"""
     projects = [
         {
@@ -106,7 +106,7 @@ def test_generate_status_board():
     print("✅ test_generate_status_board: OK")
 
 
-def main():
+def main() -> int:
     """Exécute tous les tests"""
     print("🧪 Tests pour auto-update-readme.py\n")
     try:
