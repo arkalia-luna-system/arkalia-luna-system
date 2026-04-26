@@ -131,8 +131,8 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
 
     # Projets Production
     if prod_projects:
-        lines.append("#### 🏢 **Projets Production**")
-        lines.append("Projets en production active, utilisés et maintenus :")
+        lines.append("#### 🏢 **Projets Produits**")
+        lines.append("Projets actifs, suivis et maintenus :")
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
             desc = _clean_description(proj.get("description"), max_length=63)
@@ -227,12 +227,12 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
     indexed: Dict[str, Dict[str, Any]] = {p.get("name", ""): p for p in projects}
 
     def _classify(project: Dict[str, Any]) -> Tuple[str, str]:
-        """Retourne (role, status) proches du tableau principal."""
+        """Retourne (role, status) avec une classification prudente."""
         name = (project.get("name") or "").lower()
         desc = (project.get("description") or "").lower()
 
         role = "Core"
-        status = "ONLINE"
+        status = "ACTIF"
 
         if "luna-system" in name or "profile" in desc or "profil" in desc:
             role = "Profil"
@@ -254,9 +254,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         if "beta" in name or "beta" in desc or "cia" in name:
             status = "BETA"
         elif "archive" in name or "nours" in name or "poc" in desc:
-            status = "ARCHIVED"
-        elif "pro" in name or "enterprise" in desc or "production" in desc:
-            status = "ONLINE"
+            status = "ARCHIVE"
 
         return role, status
 
@@ -289,9 +287,9 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         role, status = _classify(proj)
 
         status_label = {
-            "ONLINE": "🟢 ONLINE",
+            "ACTIF": "🟢 ACTIF",
             "BETA": "🟡 BETA",
-            "ARCHIVED": "⚫ ARCHIVED",
+            "ARCHIVE": "⚫ ARCHIVE",
         }.get(status, status)
 
         last_commit = _format_relative_time(pushed_at)
@@ -347,7 +345,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         return ""
 
     lines = [
-        "**Trois systèmes qui illustrent le niveau de production (architecture, tests, observabilité) de l’écosystème Arkalia Luna System.**",
+        "**Trois systèmes représentatifs de l’écosystème (architecture, usage, outillage).**",
         "",
     ]
 
@@ -398,20 +396,18 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         description = _clean_description(project.get("description"), max_length=100)
         language = project.get("language", "Python")
 
-        # Détermine le statut basé sur le nom ou la description
-        status = "✅ Production"
+        # Détermine le statut de manière conservative (sans sur-promesse)
+        status = "🟢 Actif"
         name_lower = name.lower()
         if "template" in name_lower or "base" in name_lower:
-            status = "✅ Template"
+            status = "🧩 Template"
         elif "beta" in name_lower or "cia" in name_lower:
             status = "🚧 Beta"
-        elif "enterprise" in name_lower or "pro" in name_lower or "athalia" in name_lower:
-            status = "🚀 Enterprise"
         elif "archive" in name_lower or "nours" in name_lower:
             status = "📦 Archivé"
 
         # Détermine le rôle basé sur le nom et la description
-        role = "🏢 Prod"
+        role = "🏢 Projet"
         desc_lower = description.lower()
         if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
             role = "🌙 Profil"  # Profil GitHub centralisé
