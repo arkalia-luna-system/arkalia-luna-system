@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-power-200.svg" alt="Arkalia Luna System" width="90" height="90" style="border-radius: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.1);" title="Arkalia Luna System" />
 
-# 📋 **Instructions Ultra-Simples pour ton Profil GitHub**
+# 📋 **Instructions très simples pour ton Profil GitHub**
 
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/bbia_branding/main/logo_2d/final/bbia_mark_only_512x512.png" alt="BBIA Logo" width="70" height="70" style="border-radius: 8px; opacity: 0.9; margin: 10px 0;" title="BBIA" />
 

@@ -193,7 +193,7 @@ cat statut/STATUT.md
 
 ## ✅ **CHECKLIST DE VÉRIFICATION**
 
-Avant de considérer les métriques comme "parfaites", vérifie :
+Avant de considérer les métriques comme "cohérentes", vérifie :
 
 - [ ] Toutes les métriques sont sourcées depuis `aggregated_metrics.json`
 - [ ] Toutes les métriques sont cohérentes dans tous les fichiers
@@ -214,5 +214,5 @@ Avant de considérer les métriques comme "parfaites", vérifie :
 
 ---
 
-**Ce guide t'aide à maintenir des métriques parfaites et automatiques.** ✅
+**Ce guide t'aide à maintenir des métriques cohérentes et automatiques.** ✅
 

@@ -162,7 +162,7 @@ pytest
 
 ## 📊 **CHECKLIST RAPIDE**
 
-Avant de considérer un projet comme "parfait", vérifie :
+Avant de considérer un projet comme "cohérent", vérifie :
 
 - [ ] Toutes les métriques sont sourcées et vérifiables
 - [ ] Tous les liens fonctionnent

@@ -97,7 +97,7 @@ python3 scripts/update_readme_metrics.py
 
 ## ✅ **CHECKLIST RAPIDE**
 
-Avant de considérer ton profil comme "parfait", vérifie :
+Avant de considérer ton profil comme "cohérent", vérifie :
 
 - [ ] Toutes les métriques sont sourcées et vérifiables
 - [ ] Tous les liens fonctionnent

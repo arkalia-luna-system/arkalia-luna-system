@@ -43,7 +43,7 @@
 ### **6. RÉSULTATS DES AUDITS** (`audits/`)
 **Ces fichiers contiennent les résultats des audits effectués**
 
-- **`audits/AUDIT-PERPLEXITY-REPONSE.md`** → Audit complet ultra-rigoureux (réponse de Perplexity)
+- **`audits/AUDIT-PERPLEXITY-REPONSE.md`** → Audit complet rigoureux (réponse de Perplexity)
 - **`audits/AUDIT-BBIA-RIGOUREUX.md`** → Audit détaillé BBIA Sim
 - **`audits/AUDIT-LUNA-PRO.md`** → Audit Luna Pro
 - **`audits/ANALYSE-3-PROJETS-FEATURED.md`** → Analyse des 3 projets featured
@@ -54,7 +54,7 @@
 - **`RECAP-ACTIONS-FEATURED.md`** → Récap des actions sur les projets featured
 - **`RECAP-BBIA-TACHES-RESTANTES.md`** → Récap des tâches restantes BBIA
 - **`GUIDE-REORGANISATION-PINNED-REPOS.md`** → Guide pour réorganiser les repos
-- **`POINTS-ULTRA-FIN-INTEGRES.md`** → Points ultra-fins intégrés
+- **`POINTS-ULTRA-FIN-INTEGRES.md`** → Points détaillés intégrés
 
 ---
 

@@ -26,7 +26,7 @@
 
 4. **🎨 Arkalia-luna-logo** (8.7/10)
    - Générateur logos unique
-   - Génération ultra-rapide (0.03s)
+   - Génération très rapide (0.03s)
    - Visuel impactant
 
 5. **🎮 arkalia-quest** (8.6/10)

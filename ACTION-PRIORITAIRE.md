@@ -1,7 +1,7 @@
 # 🎯 **ACTION PRIORITAIRE - PROJETS À TRAVAILLER**
 
 **Date** : 24 novembre 2025  
-**Objectif** : Atteindre 9.5/10 (Industry Leader)  
+**Objectif** : Atteindre 9.5/10 (niveau avancé)  
 **Note actuelle** : 8.3/10
 
 ---
