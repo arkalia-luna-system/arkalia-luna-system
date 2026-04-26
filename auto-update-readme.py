@@ -50,7 +50,11 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
         return "Projet en développement"
 
     if len(desc) > max_length:
-        return desc[: max_length - 3].rstrip() + "..."
+        cut = desc[: max_length - 3].rstrip()
+        # Évite les fins coupées au milieu d'un mot dans le README.
+        if " " in cut:
+            cut = cut.rsplit(" ", 1)[0].rstrip()
+        return (cut or desc[: max_length - 3].rstrip()) + "..."
     return desc
 
 
