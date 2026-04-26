@@ -3,10 +3,10 @@
 ## 🎯 SITUATION ACTUELLE
 
 **Note actuelle :** 8.3/10 (Audit 2025-11-24)  
-**Objectif :** 9.5/10 (Industry Leader)  
+**Objectif :** 9.5/10 (niveau avancé)  
 **Deadline :** 1 mois (avant Reachy Mini + lancement public)
 
-**Verdict audit :** Profil **professionnel** avec quelques effets de style "prestige", très au-dessus des standards GitHub. Quelques ajustements nécessaires pour atteindre le niveau "industry leader".
+**Verdict audit :** Profil **professionnel** avec quelques effets de style "prestige", très au-dessus des standards GitHub. Quelques ajustements nécessaires pour atteindre le niveau avancé.
 
 ---
 
@@ -243,7 +243,7 @@ Avant lancement public, vérifier :
 - Messaging : 9/10
 - Professionnalisme : 10/10
 
-**Résultat :** Portfolio "Industry Leader" prêt pour Hugging Face, OpenAI, etc.
+**Résultat :** Portfolio "niveau avancé" prêt pour Hugging Face, OpenAI, etc.
 
 ---
 
@@ -293,7 +293,7 @@ Avant lancement public, vérifier :
 
 ---
 
-## 🎯 GARANTIES DE PERFECTION
+## 🎯 GARANTIES DE QUALITÉ
 
 **4 garanties pour atteindre la perfection :**
 

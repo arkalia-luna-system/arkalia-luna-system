@@ -1,6 +1,6 @@
 # 🔍 PROMPT AUDIT ULTRA-RIGOUREUX - PROFIL GITHUB ARKALIA LUNA SYSTEM
 
-**Version : 2.0 - Audit Perfectionniste**  
+**Version : 2.0 - Audit Exigeant**  
 **À copier-coller dans Perplexity Assistant**
 
 ---
@@ -9,7 +9,7 @@
 
 Tu es un **expert senior en audit de profils GitHub professionnels** avec 10+ ans d'expérience. Tu as audité des centaines de profils de développeurs senior, CTO, et contributeurs open-source de niveau industriel.
 
-Je te demande de faire un audit **ULTRA-RIGOUREUX, PERFECTIONNISTE ET EXHAUSTIF** de mon profil GitHub et de tous mes projets. 
+Je te demande de faire un audit **ULTRA-RIGOUREUX, EXIGEANT ET EXHAUSTIF** de mon profil GitHub et de tous mes projets. 
 
 **TON D'ÉVALUATION :**
 - Sois **EXTRAORDINAIREMENT CRITIQUE** : Un profil "9/10" pour toi doit être au niveau des meilleurs profils GitHub que tu as vus
@@ -17,7 +17,7 @@ Je te demande de faire un audit **ULTRA-RIGOUREUX, PERFECTIONNISTE ET EXHAUSTIF*
 - Sois **EXIGEANT** : Compare aux standards des profils de développeurs senior/CTO des grandes entreprises tech
 - Sois **CONSTRUCTIF** : Pour chaque problème, propose une solution concrète et actionnable
 - Sois **EXHAUSTIF** : Aucun détail ne doit t'échapper, même les plus subtils
-- Sois **OBJECTIF** : Distingue ce qui est vraiment "industry leader" de ce qui est juste "bon"
+- Sois **OBJECTIF** : Distingue ce qui est vraiment "niveau avancé" de ce qui est juste "bon"
 
 ### 🎯 OBJECTIF
 Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes projets pour identifier :
@@ -32,7 +32,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
 - ✅ Ce qui respecte les **standards de l'industrie**
 - ✅ Les **bonnes pratiques** appliquées
 
-**NIVEAU 3 - PERFECTION (objectif) :**
+**NIVEAU 3 - QUALITÉ (objectif) :**
 - ⭐ Ce qui est **exceptionnel** et se démarque
 - ⭐ Les **détails de perfection** qui font la différence
 - ⭐ Les **optimisations subtiles** qui élèvent le niveau
@@ -57,7 +57,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
 
 ### Points à vérifier sur le profil principal (VÉRIFICATION ULTRA-RIGOUREUSE) :
 
-1. **Structure & Organisation** (Niveau perfectionniste)
+1. **Structure & Organisation** (Niveau exigeant)
    - La hiérarchie de l'information est-elle **parfaitement** claire ?
    - Les sections sont-elles **logiquement** organisées selon les standards UX ?
    - Y a-t-il des redondances, même subtiles ?
@@ -67,7 +67,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
    - Les titres suivent-ils une **hiérarchie stricte** (H1 → H2 → H3) ?
    - Y a-t-il des sections **manquantes** (Contributing, License, Security) ?
 
-2. **Contenu & Messaging** (Niveau perfectionniste)
+2. **Contenu & Messaging** (Niveau exigeant)
    - Le message principal est-il **immédiatement** clair (première phrase) ?
    - Les descriptions sont-elles **précises** ou contiennent-elles des mots vides ("powerful", "amazing") ?
    - **Chaque** affirmation est-elle vérifiable et sourcée ?
@@ -78,7 +78,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
    - Les acronymes sont-ils **définis** à la première occurrence ?
    - Le ton est-il **cohérent** dans tout le document ?
 
-3. **Visuel & Design** (Niveau perfectionniste)
+3. **Visuel & Design** (Niveau exigeant)
    - La palette de couleurs est-elle **strictement** cohérente (codes hex identiques) ?
    - Les images/logos sont-ils **parfaitement** dimensionnés (pas de déformation) ?
    - Les badges sont-ils **tous** pertinents, actifs et à jour (vérifier chaque badge) ?
@@ -107,7 +107,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
    - Les pourcentages sont-ils **arrondis** de manière cohérente ?
    - Y a-t-il des **promesses non tenues** (features mentionnées mais absentes) ?
 
-6. **Ton & Style** (Niveau perfectionniste)
+6. **Ton & Style** (Niveau exigeant)
    - Le ton est-il **professionnel** sans être prétentieux ni trop modeste ?
    - Y a-t-il **trop** d'emojis (compter : max 5-10 pour tout le README) ?
    - Les descriptions sont-elles **concises** (pas de phrases de 3 lignes) ?
@@ -116,7 +116,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
    - Les phrases sont-elles **actives** (pas de passif inutile) ?
    - Le vocabulaire est-il **précis** (pas de mots vagues) ?
 
-7. **SEO & Discoverability** (Nouveau - Niveau perfectionniste)
+7. **SEO & Discoverability** (Nouveau - Niveau exigeant)
    - Les **topics GitHub** sont-ils présents et pertinents ?
    - La **description GitHub** (About) est-elle optimisée (160 caractères) ?
    - Les **mots-clés** sont-ils présents dans le README (pour recherche GitHub) ?
@@ -124,7 +124,7 @@ Analyser en profondeur mon profil GitHub (`arkalia-luna-system`) et tous mes pro
    - Y a-t-il un **site web** ou **documentation** liée ?
    - Les **social previews** (Open Graph) sont-ils configurés ?
 
-8. **Maintenance & Activité** (Nouveau - Niveau perfectionniste)
+8. **Maintenance & Activité** (Nouveau - Niveau exigeant)
    - La **dernière mise à jour** est-elle récente (< 3 mois) ?
    - Y a-t-il des **commits récents** (activité visible) ?
    - Les **issues** sont-elles traitées (pas de issues ouvertes depuis 6 mois) ?
@@ -221,7 +221,7 @@ Pour **CHAQUE projet**, vérifie **TOUS** ces points avec une rigueur absolue :
 - [ ] **Codecov** configuré (pas juste un badge custom) ?
 - [ ] Tests **rapides** (pas de tests qui prennent 10+ minutes) ?
 
-### ✅ **Documentation** (Niveau perfectionniste)
+### ✅ **Documentation** (Niveau exigeant)
 - [ ] README **informatif** (explique QUOI, POURQUOI, COMMENT) ?
 - [ ] **Exemples** d'utilisation **concrets** (pas juste "voir docs/") ?
 - [ ] Guide d'installation **détaillé** (prérequis, étapes, troubleshooting) ?
@@ -242,7 +242,7 @@ Pour **CHAQUE projet**, vérifie **TOUS** ces points avec une rigueur absolue :
 - [ ] **Statut** justifié (Production = vraiment en prod, pas juste "ready") ?
 - [ ] **Dates** cohérentes (pas de "2024" en 2025) ?
 
-### ✅ **Visuel** (Niveau perfectionniste)
+### ✅ **Visuel** (Niveau exigeant)
 - [ ] Logo/image de projet **présent** et **qualité** (pas de pixelisation) ?
 - [ ] Badges **pertinents** (pas de badges inutiles) ?
 - [ ] Badges **tous actifs** (tester chaque badge, pas de 404) ?
@@ -262,14 +262,14 @@ Pour **CHAQUE projet**, vérifie **TOUS** ces points avec une rigueur absolue :
 - [ ] **Security** policy présente (pour projets publics) ?
 - [ ] **Changelog** à jour (si versioning sémantique) ?
 
-### ✅ **Performance & Qualité** (Nouveau - Niveau perfectionniste)
+### ✅ **Performance & Qualité** (Nouveau - Niveau exigeant)
 - [ ] **Temps de build** raisonnable (< 10 min) ?
 - [ ] **Taille du repo** raisonnable (pas de fichiers binaires inutiles) ?
 - [ ] **Dépendances** optimisées (pas de dépendances lourdes inutiles) ?
 - [ ] **Bundle size** optimisé (pour projets JS/TS) ?
 - [ ] **Lighthouse score** > 90 (pour projets web) ?
 
-### ✅ **Accessibilité & Standards** (Nouveau - Niveau perfectionniste)
+### ✅ **Accessibilité & Standards** (Nouveau - Niveau exigeant)
 - [ ] **README** accessible (pas de texte en images) ?
 - [ ] **Liens** avec texte descriptif (pas de "cliquez ici") ?
 - [ ] **Tableaux** accessibles (headers définis) ?
@@ -306,7 +306,7 @@ Vérifie les incohérences entre :
 
 ---
 
-## 🎯 POINTS SPÉCIFIQUES À IDENTIFIER (NIVEAU PERFECTIONNISTE)
+## 🎯 POINTS SPÉCIFIQUES À IDENTIFIER (NIVEAU EXIGEANT)
 
 ### 🚫 **Ce qui fait AMATEUR** (Identifier même les détails subtils)
 - Descriptions vagues ou génériques ("powerful tool", "amazing project")
@@ -353,7 +353,7 @@ Vérifie les incohérences entre :
 - Changelog ou release notes
 - License claire et appropriée
 
-### ⭐ **Ce qui fait EXCEPTIONNEL** (Niveau industry leader)
+### ⭐ **Ce qui fait EXCEPTIONNEL** (Niveau avancé)
 - Documentation **exceptionnelle** (guides détaillés, exemples multiples, vidéos)
 - Code **exemplaire** (patterns avancés, architecture solide, performance optimisée)
 - Tests **complets** (coverage > 80%, tests E2E, mocks sophistiqués)
@@ -375,14 +375,14 @@ Vérifie les incohérences entre :
 
 Organise ta réponse en sections **extrêmement détaillées** dans un seul message complet :
 
-### 1. **RÉSUMÉ EXÉCUTIF** (Niveau perfectionniste)
+### 1. **RÉSUMÉ EXÉCUTIF** (Niveau exigeant)
 - **Note globale sur 10** (avec justification détaillée)
 - **Note par catégorie** (Structure, Code, Docs, Cohérence, Crédibilité, Design, Messaging, Professionnalisme)
 - **Points forts principaux** (5-7 avec exemples concrets)
 - **Points faibles principaux** (5-7 avec exemples concrets)
 - **Points d'excellence** (ce qui est vraiment exceptionnel)
 - **Verdict détaillé** : 
-  - Niveau actuel : Amateur / Professionnel / Senior / Industry Leader
+  - Niveau actuel : Amateur / Professionnel / Senior / niveau avancé
   - Niveau visé : [objectif]
   - Gap à combler : [liste précise]
 
@@ -456,13 +456,13 @@ Pour **CHAQUE** projet, fournis :
 - **Comparaisons** : Exemples de profils similaires bien faits
 - **Benchmarks** : Comparaison avec standards de l'industrie
 
-### 7. **MÉTRIQUES DÉTAILLÉES** (Nouveau - Niveau perfectionniste)
+### 7. **MÉTRIQUES DÉTAILLÉES** (Nouveau - Niveau exigeant)
 - **Comptage exact** : Modules, tests, coverage, fichiers, lignes
 - **Vérification** : Chaque métrique avec source et méthode
 - **Écarts** : Différences entre affirmations et réalité
 - **Recommandations** : Comment objectiver chaque métrique
 
-### 8. **ROADMAP D'AMÉLIORATION** (Nouveau - Niveau perfectionniste)
+### 8. **ROADMAP D'AMÉLIORATION** (Nouveau - Niveau exigeant)
 - **Phase 1** (Semaine 1) : Actions critiques
 - **Phase 2** (Semaine 2) : Actions importantes
 - **Phase 3** (Semaine 3-4) : Actions d'amélioration
@@ -509,7 +509,7 @@ Pour **CHAQUE** projet, fournis :
 2. **Sois EXTRAORDINAIREMENT CRITIQUE** : 
    - Ne sois **PAS gentil**, identifie **TOUS** les problèmes, même subtils
    - Compare aux **meilleurs** profils GitHub que tu connais
-   - Un profil "9/10" doit être au niveau des **industry leaders**
+   - Un profil "9/10" doit être au niveau des **profils avancés**
    - Identifie même les **nuances** qui font la différence
    - Identifie les **micro-détails** qui trahissent un manque de soin
    - Identifie les **incohérences subtiles** (majuscules/minuscules, tirets/underscores)
@@ -546,11 +546,11 @@ Pour **CHAQUE** projet, fournis :
    - Identifie le **gap** entre niveau actuel et niveau visé
    - Utilise des **critères mesurables** (pas d'impressions subjectives)
 
-7. **Sois PERFECTIONNISTE** : 
+7. **Sois EXIGEANT** : 
    - Identifie même les **détails** qui pourraient être améliorés
    - Propose des **optimisations subtiles** qui font la différence
    - Compare aux **meilleures pratiques** de l'industrie
-   - Vis le niveau **"industry leader"**, pas juste "bon"
+   - Vis le niveau **"niveau avancé"**, pas juste "bon"
    - Identifie les **micro-optimisations** (espacements, alignements, cohérence)
 
 8. **Sois ACTIONNABLE** : 
@@ -580,7 +580,7 @@ Pour **CHAQUE** projet, fournis :
 
 ---
 
-## 🔬 VÉRIFICATIONS MICRO-DÉTAILS (NIVEAU PERFECTIONNISTE)
+## 🔬 VÉRIFICATIONS MICRO-DÉTAILS (NIVEAU EXIGEANT)
 
 Avant de répondre, vérifie **TOUS** ces micro-détails pour **CHAQUE** projet :
 
