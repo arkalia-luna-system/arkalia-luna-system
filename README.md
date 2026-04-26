@@ -92,9 +92,9 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ACTIF` | il y a 47 j | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | il y a 55 j | `develop` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | il y a 6 j | `develop` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 21 min | `develop` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 23 min | `develop` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ACTIF` | il y a 15 h | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 20 min | `develop` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 22 min | `develop` |
 ---
 
 ## 📑 Table des Matières
@@ -169,15 +169,6 @@ Projets historiques conservés pour leur valeur pédagogique :
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-luna-pro"/>
-<br/><br/>
-<strong>arkalia-luna-pro</strong>
-<br/>
-<sub>Orchestrateur IA modulaire pour l'entrepri...</sub>
-</a>
-</td>
-<td align="center" width="33%">
 <a href="https://github.com/arkalia-luna-system/Arkalia-luna-logo">
 <img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Arkalia-luna-logo"/>
 <br/><br/>
@@ -187,12 +178,21 @@ Projets historiques conservés pour leur valeur pédagogique :
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/arkalia-cia">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-cia"/>
+<a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-luna-pro"/>
 <br/><br/>
-<strong>arkalia-cia</strong>
+<strong>arkalia-luna-pro</strong>
 <br/>
-<sub>Assistant santé mobile pour seniors — Flut...</sub>
+<sub>Orchestrateur IA modulaire pour l'entrepri...</sub>
+</a>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/arkalia-luna-system/arkalia-quest">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-quest"/>
+<br/><br/>
+<strong>arkalia-quest</strong>
+<br/>
+<sub>Jeu éducatif intelligent pour adolescents...</sub>
 </a>
 </td>
 </tr>
