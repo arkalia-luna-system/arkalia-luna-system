@@ -526,7 +526,7 @@ A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/Y
 
 <div align="center">
 
-**[Explorer les Projets](https://github.com/arkalia-luna-system)** • **[Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/CONTRIBUTING.md)**
+**[Explorer les Projets](https://github.com/arkalia-luna-system)** • **[Discussions](https://github.com/orgs/arkalia-luna-system/discussions)** • **[Contribuer](https://github.com/arkalia-luna-system/arkalia-luna-system/blob/main/docs/CONTRIBUTING.md)**
 
 <br/>
 
@@ -535,7 +535,7 @@ A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/Y
 
 <br/>
 
-**🌙 Arkalia Luna System** — Open Source • 11 Projets • 550+ Modules • Design & Branding
+**🌙 Arkalia Luna System** — Open Source • 12 Projets • 550+ Modules • Design & Branding
 
 <code style="background: rgba(15, 23, 42, 0.9); color: #e5e7eb; padding: 6px 14px; border-radius: 8px; font-size: 0.95em; border: 1px solid rgba(148, 163, 184, 0.5);">"Build. Ship. Observe. Iterate."</code>
 

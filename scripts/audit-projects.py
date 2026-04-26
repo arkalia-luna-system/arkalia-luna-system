@@ -204,7 +204,7 @@ class ProjectAuditor:
         issues: List[str] = []
         strengths: List[str] = []
 
-        description = project.get("description", "").lower()
+        description = (project.get("description") or "").lower()
 
         # Détection des métriques dans la description
         has_tests_mention = "test" in description and any(

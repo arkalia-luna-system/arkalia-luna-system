@@ -25,7 +25,6 @@
 
 - **`guides/GUIDE-DECOUVRIR-PROBLEMES.md`** → Comment découvrir les problèmes dans tes projets
 - **`guides/GUIDE-SOLUTIONS-METRIQUES.md`** → Solutions pour les problèmes de métriques
-- **`guides/GUIDE-AMELIORATION-PROFIL.md`** → Guide pour améliorer le profil
 - **`guides/CHECKLIST-VIGILANCE.md`** → Checklist avant lancement public
 
 ### **4. STATUT ACTUEL** (`statut/`)
@@ -40,7 +39,6 @@
 
 - **`plans/PLAN-ACTION-1-MOIS.md`** → Plan complet pour atteindre 9.5/10 en 1 mois
 - **`plans/PLAN-SUITE-ARKALIA-METRICS.md`** → Plan pour `arkalia-metrics-collector`
-- **`plans/PLAN-AMELIORATION-CONTINUE.md`** → Plan d'amélioration continue
 
 ### **6. RÉSULTATS DES AUDITS** (`audits/`)
 **Ces fichiers contiennent les résultats des audits effectués**
