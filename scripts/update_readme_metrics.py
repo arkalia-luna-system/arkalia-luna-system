@@ -8,6 +8,7 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 
 def format_number(num: int) -> str:
@@ -15,7 +16,7 @@ def format_number(num: int) -> str:
     return f"{num:,}".replace(",", " ")
 
 
-def update_readme_metrics():
+def update_readme_metrics() -> None:
     """Met à jour les métriques dans README.md."""
     # Chemins
     repo_root = Path(__file__).parent.parent
@@ -24,7 +25,7 @@ def update_readme_metrics():
         repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
     ]
-    metrics_path = None
+    metrics_path: Optional[Path] = None
     for path in metrics_paths:
         if path.exists():
             metrics_path = path
@@ -57,15 +58,6 @@ def update_readme_metrics():
 
     agg = data.get("aggregated", {})
     projects = data.get("projects", [])
-
-    # Créer un dictionnaire de coverage par projet depuis aggregated_metrics.json
-    project_coverage = {}
-    for project in projects:
-        project_name = project.get("name", "")
-        # Cherche le coverage dans les métriques étendues si disponible
-        project_coverage[project_name] = None
-        # Le coverage sera mis à jour depuis aggregated_metrics.json si disponible
-        # (géré dans la section global_coverage ci-dessous)
 
     # Lire README.md
     try:
@@ -147,12 +139,12 @@ def update_readme_metrics():
         repo_root / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
     ]
-    evolution_path = None
+    evolution_path: Optional[Path] = None
     for path in evolution_paths:
         if path.exists():
             evolution_path = path
             break
-    if evolution_path.exists():
+    if evolution_path is not None and evolution_path.exists():
         try:
             evolution_report = evolution_path.read_text(encoding="utf-8")
             # Extraire les deltas du rapport pour affichage
@@ -214,7 +206,7 @@ def update_readme_metrics():
         print("   - Coverage global: N/A (non calculé)")
 
     # Vérifier si un rapport d'évolution existe (utiliser le même chemin trouvé précédemment)
-    if evolution_path.exists():
+    if evolution_path is not None and evolution_path.exists():
         print("   - Rapport d'évolution disponible: EVOLUTION_REPORT.md")
 
 
