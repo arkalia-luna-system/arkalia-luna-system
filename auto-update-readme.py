@@ -33,8 +33,12 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
     marketing_rewrites = {
         "production-ready": "documenté et maintenu",
         "production ready": "documenté et maintenu",
-        "enterprise": "à usage professionnel",
+        "enterprise": "usage applicatif",
+        "industry leader": "niveau avancé",
         "premium": "soigné",
+        "best": "solide",
+        "ultimate": "complet",
+        "ultra": "très",
     }
     for src, dst in marketing_rewrites.items():
         desc = re.sub(rf"\b{re.escape(src)}\b", dst, desc, flags=re.IGNORECASE)
@@ -326,10 +330,10 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         score = 0
 
         # Critères de scoring
-        if "pro" in name or "enterprise" in desc:
-            score += 30
-        if "production-ready" in desc or "production" in desc:
-            score += 20
+        if "pro" in name:
+            score += 10
+        if "readme" in desc or "documentation" in desc or "documenté" in desc:
+            score += 10
         if "test" in desc and any(char.isdigit() for char in desc):
             score += 15
         if "coverage" in desc or "couverture" in desc:
@@ -337,6 +341,8 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         if stars > 0:
             score += stars * 2
         if "docker" in desc or "monitoring" in desc:
+            score += 10
+        if "fastapi" in desc or "flutter" in desc:
             score += 10
         if "ia" in desc or "ai" in desc or "robot" in desc:
             score += 5
