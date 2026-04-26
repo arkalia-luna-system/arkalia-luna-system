@@ -92,9 +92,9 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ACTIF` | il y a 47 j | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | il y a 55 j | `develop` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | il y a 6 j | `develop` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 28 min | `develop` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 29 min | `develop` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ACTIF` | il y a 15 h | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 27 min | `develop` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 28 min | `develop` |
 ---
 
 ## 📑 Table des Matières
@@ -142,7 +142,7 @@ Projets actifs, suivis et maintenus :
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
 - **Arkalia-luna-logo** : Générateur de logos SVG techno-mystiques — 8...
-- **bbia_branding** : Assets soigné pour l'identité visuelle BBIA
+- **bbia_branding** : assets soignés pour l'identité visuelle BBIA
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
@@ -311,7 +311,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 ### 📋 Tous les Projets
 
 <!-- AUTO-UPDATE:projects -->
-| Projet | Description | Stack | Rôle | Status |
+| Projet | Description | Stack | Rôle | Statut |
 |:------:|:-----------:|:-----:|:----:|:-----:|
 | **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | IA | 🏢 Projet | 🟢 Actif |
@@ -323,7 +323,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles... | Design | 🏢 Projet | 🟢 Actif |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀... | FastAPI | 🔧 Tooling | 🧩 Template |
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA... | Docker + IA | 🏢 Projet | 🟢 Actif |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Assets soigné pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | assets soignés pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique... | Flask | 📦 Archive | 📦 Archivé |
 ---
 
@@ -526,13 +526,13 @@ A: *Ouvrez une issue avec le contexte utile (étapes, logs, captures). Le traite
 <details>
 <summary><b>Q: Comment sont organisés les projets ?</b></summary>
 
-A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture Écosystème](#️-architecture-écosystème) pour plus de détails.*
+A: *L'écosystème est structuré en 4 catégories : Core (BBIA, Quest, Logo), Infrastructure (DevOps, Luna Pro), Mobile & Santé (CIA, ARIA), et Outils (Metrics, Template). Voir l'[Architecture Écosystème](#-architecture-écosystème) pour plus de détails.*
 </details>
 
 <details>
 <summary><b>Q: Quelles technologies sont utilisées ?</b></summary>
 
-A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#️-stack-technique) complète.*
+A: *Python 3.11+ pour le backend, FastAPI/Flask pour les APIs, PyTorch/Whisper/YOLO pour l'IA, Flutter pour le mobile, Docker pour l'orchestration. Voir la [Stack Technique](#-stack-technique) complète.*
 </details>
 
 ---
