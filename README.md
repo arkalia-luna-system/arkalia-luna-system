@@ -32,7 +32,7 @@
 
 ### ⚡ Métriques Clés
 
-| ![Python](https://img.shields.io/badge/PYTHON-550%2B_files-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Tests](https://img.shields.io/badge/TESTS-550%2B_Automated-25A162?style=for-the-badge&logo=test&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-12_active-181717?style=for-the-badge&logo=github&logoColor=white) | ![SVG](https://img.shields.io/badge/SVG-196_generated-FF6B9D?style=for-the-badge&logo=svg&logoColor=white) |
+| ![Python](https://img.shields.io/badge/PYTHON-ecosystem-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Quality](https://img.shields.io/badge/QUALITY-checked-25A162?style=for-the-badge&logo=test&logoColor=white) | ![Projects](https://img.shields.io/badge/PROJECTS-12_tracked-181717?style=for-the-badge&logo=github&logoColor=white) | ![Automation](https://img.shields.io/badge/AUTOMATION-enabled-FF6B9D?style=for-the-badge&logo=githubactions&logoColor=white) |
 |:---:|:---:|:---:|:---:|
 | **12 projets suivis** | **12 repos locaux détectés** | **12 README détectés** | **Mise à jour automatisée** |
 
@@ -81,7 +81,7 @@
 <!-- AUTO-UPDATE:status -->
 ### 🔮 Tableau de Bord Système
 
-_Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._
+_Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 
 | Module | Rôle | Statut | Dernier commit | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
@@ -90,9 +90,9 @@ _Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Santé / Mobile | `🟢 ACTIF` | il y a 47 j | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | il y a 55 j | `develop` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | il y a 6 j | `develop` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 7 min | `develop` |
-| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ACTIF` | il y a 14 h | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 6 min | `develop` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Gaming | `🟢 ACTIF` | il y a 19 min | `develop` |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Metrics | `🟢 ACTIF` | il y a 15 h | `develop` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | il y a 18 min | `develop` |
 ---
 
 ## 📑 Table des Matières
@@ -107,8 +107,8 @@ _Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._
 - [Projet Principal : BBIA Reachy Sim](#-projet-principal--bbia-reachy-sim)
 - [Projets Principaux](#-projets-principaux)
 - [Tous les Projets](#-tous-les-projets)
-- [Stack Technique](#️-stack-technique)
-- [Architecture Écosystème](#️-architecture-écosystème)
+- [Stack Technique](#-stack-technique)
+- [Architecture Écosystème](#-architecture-écosystème)
 - [Métriques de l'Écosystème](#-métriques-de-lécosystème)
 - [Contribuer](#-contribuer)
 - [Automatisation](#-automatisation)
@@ -138,7 +138,7 @@ Projets actifs, suivis et maintenus :
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
 - **Arkalia-luna-logo** : Générateur de logos SVG techno-mystiques — 8 styles, 5 varia...
-- **bbia_branding** : Assets Premium pour l'identité visuelle BBIA
+- **bbia_branding** : Assets soigné pour l'identité visuelle BBIA
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
@@ -201,7 +201,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 
 ## 🤖 Projet Principal : BBIA Reachy Sim
 
-**Cognitive Engine • 12 émotions • IA temps réel**
+**Cognitive Engine • 12 émotions • IA appliquée**
 
 *Robot émotionnel open-source avec moteur cognitif et expression d'émotions*
 
@@ -227,7 +227,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 | 🗣️ **IA Vocale** | Whisper STT/TTS |
 | 🎯 **Pose Detection** | MediaPipe 33 points |
 | 🚀 **Backend unifié** | Sim/Robot |
-| ✅ **Production-ready** | 68 fichiers Python, 1362 tests, 68.86% coverage |
+| ✅ **État observé** | 68 fichiers Python, 1362 tests, 68.86% coverage |
 
 **[Découvrir BBIA](https://github.com/arkalia-luna-system/bbia-sim)** • [Documentation](https://github.com/arkalia-luna-system/bbia-sim/blob/main/docs/GUIDE_DEBUTANT.md) • [Architecture](https://github.com/arkalia-luna-system/bbia-sim#-architecture-bbia-sim)
 
@@ -317,7 +317,7 @@ Projets historiques conservés pour leur valeur pédagogique :
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker... | Design | 🏢 Projet | 🟢 Actif |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀 Starter kit prêt à l'em... | FastAPI | 🔧 Tooling | 🧩 Template |
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA avancés : ZeroIA, Cog... | Docker + IA | 🏢 Projet | 🟢 Actif |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Assets Premium pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Assets soigné pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique 🎓 Example d'archit... | Flask | 📦 Archive | 📦 Archivé |
 ---
 
@@ -353,13 +353,13 @@ flowchart TB
  subgraph core["🎯 Projets Core"]
  BBIA["🤖 BBIA Reachy Sim<br/>Robot émotionnel<br/>12 émotions • IA Vision"]
  QUEST["🎮 Arkalia Quest<br/>Gaming éducatif<br/>Cybersécurité"]
- LOGO["🎨 Luna Logo<br/>Génération SVG<br/>0.03s • 196 logos"]
+ LOGO["🎨 Luna Logo<br/>Génération SVG<br/>Métriques dans le repo dédié"]
  BRANDING["🎨 BBIA Branding<br/>Identité visuelle<br/>Assets design"]
  end
 
  subgraph infra["🔧 Infrastructure"]
  ATHALIA["🔧 Athalia DevOps<br/>62 commandes<br/>Security"]
- LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>5 containers • Production-Ready"]
+ LUNA["🌕 Luna Pro<br/>Orchestrateur IA<br/>5 containers documentés"]
  end
 
  subgraph mobile["📱 Mobile & Santé"]
@@ -369,7 +369,7 @@ flowchart TB
 
  subgraph utils["📊 Outils & Analytics"]
  METRICS["📊 Metrics Collector<br/>Analytics centralisées<br/>Python + CLI"]
- TEMPLATE["⚙️ Base Template<br/>Starter FastAPI<br/>CI/CD ready"]
+ TEMPLATE["⚙️ Base Template<br/>Starter FastAPI<br/>CI/CD documenté"]
  end
 
  PYTHON --> BBIA
@@ -434,7 +434,7 @@ flowchart TB
 | **Q1 2026** | Arkalia CIA v1.0 | Release stable mobile | 🚧 En cours |
 | **Q2 2026** | Quest v4.0 | Multi-joueur + IA avancée | 📋 Planifié |
 | **Q2 2026** | Arkalia ARIA v2.0 | IA avancée + connecteurs | 📋 Planifié |
-| **Q3 2026** | Luna Pro v4.0 | Scaling enterprise | 📋 Planifié |
+| **Q3 2026** | Luna Pro v4.0 | Stabilisation et montée en charge | 📋 Planifié |
 | **Q4 2026** | Écosystème unifié | Intégrations cross-projets | 🌟 Vision |
 
 ---

@@ -29,6 +29,16 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
     desc = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", desc)
     desc = re.sub(r"\s+", " ", desc).strip()
 
+    # Réduit les formulations marketing pour garder un ton factuel.
+    marketing_rewrites = {
+        "production-ready": "documenté et maintenu",
+        "production ready": "documenté et maintenu",
+        "enterprise": "à usage professionnel",
+        "premium": "soigné",
+    }
+    for src, dst in marketing_rewrites.items():
+        desc = re.sub(rf"\b{re.escape(src)}\b", dst, desc, flags=re.IGNORECASE)
+
     # Retire les symboles/emoji en tête pour éviter artefacts visuels.
     desc = re.sub(r"^[^0-9A-Za-zÀ-ÿ]+", "", desc).strip()
 
@@ -272,7 +282,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
     lines: List[str] = [
         "### 🔮 Tableau de Bord Système",
         "",
-        "_Vue temps réel des modules principaux de l'écosystème Arkalia Luna System._",
+        "_Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._",
         "",
         "| Module | Rôle | Statut | Dernier commit | Branche par défaut |",
         "|:------:|:----:|:------:|:--------------:|:-------------------:|",
