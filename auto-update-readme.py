@@ -145,7 +145,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets actifs, suivis et maintenus :")
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=63)
+            desc = _clean_description(proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -155,7 +155,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Outils de génération et identité visuelle :")
         for proj in design_projects:
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=63)
+            desc = _clean_description(proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -165,7 +165,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Infrastructure et outils de développement :")
         for proj in tooling_projects[:5]:  # Limite à 5
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=63)
+            desc = _clean_description(proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -175,7 +175,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets historiques conservés pour leur valeur pédagogique :")
         for proj in archive_projects:
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=63)
+            desc = _clean_description(proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -368,7 +368,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
     for i, project in enumerate(top_projects):
         name = project.get("name", "")
         github_url = project.get("github_url", "")
-        desc = _clean_description(project.get("description"), max_length=53)
+        desc = _clean_description(project.get("description"), max_length=45)
 
         # Image par défaut (logo Arkalia)
         img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
@@ -403,7 +403,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     for project in projects:
         name = project.get("name", "")
         github_url = project.get("github_url", "")
-        description = _clean_description(project.get("description"), max_length=100)
+        description = _clean_description(project.get("description"), max_length=84)
         language = project.get("language", "Python")
 
         # Détermine le statut de manière conservative (sans sur-promesse)
