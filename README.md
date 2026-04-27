@@ -24,13 +24,13 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 | Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 09/03/2026 17:23 CET | `develop` |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 27/04/2026 16:39 CEST | `develop` |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 27/04/2026 16:40 CEST | `develop` |
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Archive | `⚫ ARCHIVE` | 27/04/2026 16:32 CEST | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 02/03/2026 10:25 CET | `develop` |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 27/04/2026 16:37 CEST | `develop` |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 27/04/2026 16:48 CEST | `develop` |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 27/04/2026 16:28 CEST | `develop` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 27/04/2026 04:58 CEST | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 26/04/2026 20:28 CEST | `develop` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 27/04/2026 16:41 CEST | `develop` |
 ## 🧩 Vision de l'ecosysteme
 
 Ce repository centralise des projets Python/Flutter relies a plusieurs usages
@@ -51,18 +51,18 @@ Projets actifs, suivis et maintenus :
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
 - **Arkalia-luna-logo** : Générateur de logos SVG techno-mystiques — 8...
-- **bbia_branding** : assets soignés pour l'identité visuelle BBIA
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **arkalia-metrics-collector** : Collecteur de métriques universel et professionnel...
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
+- **arkalia-metrics-collector** : Collecteur de métriques universel et professionnel...
 - **ia-pipeline** : Générateur IA souverain, modulaire, testé,...
 - **base_template** : Squelette projet Python/FastAPI pro — 58 scripts,...
 
 #### 📦 **Archives**
 Projets historiques conservés pour leur valeur pédagogique :
 - **Arkalia-aria** : Laboratoire personnel santé/IA : suivi douleur,...
+- **bbia_branding** : Ce repository est déprécié et va être archivé en...
 - **nours_interface** : Interface web historique Flask + CSS/JS — POC...
 
 ## 🔥 Projets a Voir
@@ -114,17 +114,17 @@ Tableau complet genere automatiquement depuis `config/projects-data.json`.
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Statut |
 |:------:|:-----------:|:-----:|:----:|:-----:|
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
 | **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Assistant santé mobile pour seniors — Flutter + Python, documents médicaux... | Flutter | 🚧 Bêta | 🚧 Bêta |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | Python + Flask | 🏢 Projet | 🟢 Actif |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur de métriques universel et professionnel pour projets Python | Python + CLI | 🔧 Outillage | 🟢 Actif |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | Python + IA | 🔧 Outillage | 🟢 Actif |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | moteur robotique cognitif pour Reachy Mini \| IA emotionnelle, vision \| Python,... | Python + MuJoCo | 🏢 Projet | 🟢 Actif |
 | **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation... | Python + IA | 📦 Archive | 📦 Archivé |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles... | Design | 🏢 Projet | 🟢 Actif |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀... | Python + FastAPI | 🔧 Outillage | 🧩 Template |
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA... | Python + Docker | 🏢 Projet | 🟢 Actif |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | assets soignés pour l'identité visuelle BBIA | Design | 🏢 Projet | 🟢 Actif |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Ce repository est déprécié et va être archivé en lecture seule. | Design | 📦 Archive | 📦 Archivé |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique... | Python + Flask | 📦 Archive | 📦 Archivé |
 ## 📊 Metriques
 
@@ -132,7 +132,7 @@ Tableau complet genere automatiquement depuis `config/projects-data.json`.
 ### 📈 Statistiques
 
 - **Projets** : 12 au total
-- **Langages** : Markdown (12), Python (12), Shell (11), JSON (10), YAML (8), Makefile (7), HTML (6), Dockerfile (5), JavaScript (2), Dart (1), CSS (1)
+- **Langages** : Python (12), Markdown (12), Shell (11), JSON (10), YAML (8), Makefile (7), HTML (6), Dockerfile (5), JavaScript (2), Dart (1), CSS (1)
 
 <sub>*Dernière mise à jour : 27 avril 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
