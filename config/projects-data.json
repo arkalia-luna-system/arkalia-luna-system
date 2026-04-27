@@ -1,27 +1,59 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-04-26T20:24:50.872863",
+  "generated_at": "2026-04-27T16:40:14.454621",
   "stats": {
     "total_projects": 12,
     "local_projects": 12,
     "projects_with_readme": 12,
     "total_stars": 0,
     "languages": {
-      "Python": 12,
-      "Dockerfile": 5,
+      "Dart": 1,
       "HTML": 6,
       "JSON": 10,
       "Makefile": 7,
       "Markdown": 12,
+      "Python": 12,
       "Shell": 11,
       "YAML": 8,
+      "Dockerfile": 5,
       "CSS": 1,
-      "JavaScript": 2,
-      "Dart": 1
+      "JavaScript": 2
     },
-    "last_updated": "2026-04-26T20:24:50.872875"
+    "last_updated": "2026-04-27T16:40:14.454633"
   },
   "projects": [
+    {
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+      "local_path": "/Volumes/T7/arkalia-cia",
+      "readme_path": "/Volumes/T7/arkalia-cia/README.md",
+      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
+      "language": "Dart",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "backup-note",
+        "backup/v1.3.0",
+        "backup/v1.3.1",
+        "dependabot/pip/pytest-9.0.0",
+        "develop",
+        "main",
+        "dependabot/github_actions/actions/configure-pages-6",
+        "dependabot/github_actions/actions/deploy-pages-5",
+        "dependabot/github_actions/actions/download-artifact-8",
+        "dependabot/github_actions/actions/upload-artifact-7",
+        "dependabot/github_actions/codecov/codecov-action-6",
+        "dependabot/pip/rich-15.0.0",
+        "dependabot/pip/starlette-1.0.0",
+        "dependabot/pub/arkalia_cia/connectivity_plus-7.1.1",
+        "dependabot/pub/arkalia_cia/file_picker-11.0.2",
+        "dependabot/pub/arkalia_cia/flutter_contacts-2.0.0",
+        "dependabot/pub/arkalia_cia/flutter_contacts-2.0.2",
+        "gh-pages"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-27T14:39:19Z"
+    },
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
@@ -37,24 +69,8 @@
         "main",
         "gh-pages"
       ],
-      "default_branch": "backup-stable",
-      "pushed_at": "2026-04-26T18:24:06Z"
-    },
-    {
-      "name": "arkalia-luna-system",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/Volumes/T7/github-profile-arkalia",
-      "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
-      "description": "Mon profil GitHub personnalisé",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "develop",
-        "main"
-      ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-26T18:22:38Z"
+      "pushed_at": "2026-04-27T14:28:00Z"
     },
     {
       "name": "arkalia-metrics-collector",
@@ -77,7 +93,23 @@
         "dependabot/github_actions/codecov/codecov-action-5"
       ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-26T02:58:22Z"
+      "pushed_at": "2026-04-27T02:58:46Z"
+    },
+    {
+      "name": "arkalia-luna-system",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
+      "local_path": "/Volumes/T7/github-profile-arkalia",
+      "readme_path": "/Volumes/T7/github-profile-arkalia/README.md",
+      "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "develop",
+        "main"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-26T18:28:43Z"
     },
     {
       "name": "ia-pipeline",
@@ -136,40 +168,30 @@
       "stars": 0,
       "is_public": true,
       "branches": [
-        "backup-v1.3.0-stable",
         "backup-v1.3.2-stable",
         "develop",
         "future",
         "main",
+        "backup",
         "backup-20251106",
-        "backup-main-20251116-212031"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-04-20T10:08:25Z"
-    },
-    {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
-      "local_path": "/Volumes/T7/arkalia-cia",
-      "readme_path": "/Volumes/T7/arkalia-cia/README.md",
-      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
-      "language": "Dart",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "backup-note",
-        "backup/v1.3.0",
-        "backup/v1.3.1",
-        "dependabot/pip/pytest-9.0.0",
-        "develop",
-        "main",
-        "dependabot/github_actions/actions/download-artifact-8",
+        "backup-main-20251116-212031",
+        "backup-v1.2.1-stable",
+        "backup-v1.3.0-stable",
         "dependabot/github_actions/actions/upload-artifact-7",
-        "dependabot/pub/arkalia_cia/flutter_contacts-2.0.0",
-        "gh-pages"
+        "dependabot/github_actions/codecov/codecov-action-6",
+        "dependabot/pip/aiohttp-gte-3.13.5",
+        "dependabot/pip/eclipse-zenoh-gte-1.9.0",
+        "dependabot/pip/gradio-gte-4.44.1",
+        "dependabot/pip/matplotlib-gte-3.10.8",
+        "dependabot/pip/mkdocs-gte-1.6.1",
+        "dependabot/pip/onnxruntime-gte-1.24.3",
+        "dependabot/pip/psutil-gte-5.9.8",
+        "dependabot/pip/python-dotenv-gte-1.2.2",
+        "dependabot/pip/reachy-mini-rust-kinematics-gte-1.0.3",
+        "dependabot/pip/requests-gte-2.33.1"
       ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-20T07:24:09Z"
+      "pushed_at": "2026-04-27T14:37:37Z"
     },
     {
       "name": "Arkalia-aria",
@@ -188,13 +210,13 @@
         "gh-pages"
       ],
       "default_branch": "develop",
-      "pushed_at": "2026-03-10T16:09:21Z"
+      "pushed_at": "2026-04-27T14:32:15Z"
     },
     {
       "name": "Arkalia-luna-logo",
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-luna-logo",
-      "local_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO",
-      "readme_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO/README.md",
+      "local_path": "/Volumes/T7/logo/arkalia-luna-logo",
+      "readme_path": "/Volumes/T7/logo/arkalia-luna-logo/README.md",
       "description": "🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker, monitoring Prometheus/Grafana 📡 Gen: 0.03s, tests: 151, couverture: 78% ⚡ Production-ready",
       "language": "Python",
       "stars": 0,
@@ -270,11 +292,8 @@
       "language": "Python",
       "stars": 0,
       "is_public": true,
-      "branches": [
-        "develop",
-        "main"
-      ],
-      "default_branch": "develop",
+      "branches": null,
+      "default_branch": "main",
       "pushed_at": "2025-11-10T15:36:53Z"
     },
     {
