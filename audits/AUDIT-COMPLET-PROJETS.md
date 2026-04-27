@@ -1,28 +1,29 @@
 # 🔍 Rapport d'Audit - Projets Arkalia Luna System
 
-**Date** : 26 April 2026, 20:07
+**Date** : 27 April 2026, 16:40
 **Projets audités** : 12
 
 ---
 
 ## 📊 Résumé Global
 
-- **Score moyen** : 9.4/10
-- **Points forts totaux** : 190
-- **Points à améliorer** : 55
+- **Score moyen** : 9.0/10
+- **Points forts totaux** : 183
+- **Points à améliorer** : 61
 
 ---
 
 ## 📋 Détails par Projet
 
-### arkalia-luna-system
+### arkalia-cia
 
-**Score** : 10/10 | [GitHub](https://github.com/arkalia-luna-system/arkalia-luna-system)
+**Score** : 10/10 | [GitHub](https://github.com/arkalia-luna-system/arkalia-cia)
 
 **✅ Points forts :**
 - ✅ Titre clair
 - ✅ Description présente
 - ✅ Badges présents
+- ✅ Section installation
 - ✅ Exemples d'utilisation
 - ✅ Tests documentés
 - ✅ License mentionnée
@@ -32,16 +33,15 @@
 - ✅ Documentation organisée
 - ✅ CI/CD configuré
 - ✅ Dépendances documentées
-- ✅ Configuration organisée
+- ✅ Tests mentionnés dans la description
+- ✅ Coverage mentionné
 - ✅ Nommage cohérent (préfixe arkalia)
 - ✅ Description présente et détaillée
-- ✅ Langage principal détecté : Python
+- ✅ Langage principal détecté : Dart
 
 **💡 Points à améliorer :**
-- 💡 Section installation recommandée
 - 💡 Docker recommandé pour production
-- 💡 Mentionner le nombre de tests dans la description
-- 💡 Coverage à mentionner si disponible
+- 💡 Dossier config recommandé
 - 💡 Version à mentionner
 
 ---
@@ -131,68 +131,6 @@
 - ✅ Langage principal détecté : Python
 
 **💡 Points à améliorer :**
-- 💡 Mentionner le nombre de tests dans la description
-- 💡 Coverage à mentionner si disponible
-- 💡 Version à mentionner
-
----
-
-### arkalia-cia
-
-**Score** : 10/10 | [GitHub](https://github.com/arkalia-luna-system/arkalia-cia)
-
-**✅ Points forts :**
-- ✅ Titre clair
-- ✅ Description présente
-- ✅ Badges présents
-- ✅ Section installation
-- ✅ Exemples d'utilisation
-- ✅ Tests documentés
-- ✅ License mentionnée
-- ✅ Guide de contribution
-- ✅ Documentation exhaustive
-- ✅ Dossier tests présent
-- ✅ Documentation organisée
-- ✅ CI/CD configuré
-- ✅ Dépendances documentées
-- ✅ Tests mentionnés dans la description
-- ✅ Coverage mentionné
-- ✅ Nommage cohérent (préfixe arkalia)
-- ✅ Description présente et détaillée
-- ✅ Langage principal détecté : Dart
-
-**💡 Points à améliorer :**
-- 💡 Docker recommandé pour production
-- 💡 Dossier config recommandé
-- 💡 Version à mentionner
-
----
-
-### Arkalia-aria
-
-**Score** : 10/10 | [GitHub](https://github.com/arkalia-luna-system/Arkalia-aria)
-
-**✅ Points forts :**
-- ✅ Titre clair
-- ✅ Description présente
-- ✅ Section installation
-- ✅ Exemples d'utilisation
-- ✅ Tests documentés
-- ✅ License mentionnée
-- ✅ Guide de contribution
-- ✅ Documentation exhaustive
-- ✅ Dossier tests présent
-- ✅ Documentation organisée
-- ✅ CI/CD configuré
-- ✅ Docker configuré
-- ✅ Dépendances documentées
-- ✅ Configuration organisée
-- ✅ Nommage cohérent (préfixe arkalia)
-- ✅ Description présente et détaillée
-- ✅ Langage principal détecté : Python
-
-**💡 Points à améliorer :**
-- 💡 Badges recommandés (version, tests, coverage)
 - 💡 Mentionner le nombre de tests dans la description
 - 💡 Coverage à mentionner si disponible
 - 💡 Version à mentionner
@@ -289,6 +227,36 @@
 
 ---
 
+### arkalia-luna-system
+
+**Score** : 9.0/10 | [GitHub](https://github.com/arkalia-luna-system/arkalia-luna-system)
+
+**✅ Points forts :**
+- ✅ Titre clair
+- ✅ Description présente
+- ✅ Exemples d'utilisation
+- ✅ Tests documentés
+- ✅ License mentionnée
+- ✅ Guide de contribution
+- ✅ Dossier tests présent
+- ✅ Documentation organisée
+- ✅ CI/CD configuré
+- ✅ Dépendances documentées
+- ✅ Configuration organisée
+- ✅ Nommage cohérent (préfixe arkalia)
+- ✅ Description présente et détaillée
+- ✅ Langage principal détecté : Python
+
+**💡 Points à améliorer :**
+- 💡 Badges recommandés (version, tests, coverage)
+- 💡 Section installation recommandée
+- 💡 Docker recommandé pour production
+- 💡 Mentionner le nombre de tests dans la description
+- 💡 Coverage à mentionner si disponible
+- 💡 Version à mentionner
+
+---
+
 ### ia-pipeline
 
 **Score** : 9.0/10 | [GitHub](https://github.com/arkalia-luna-system/ia-pipeline)
@@ -344,6 +312,37 @@
 - 💡 Docker recommandé pour production
 - 💡 Fichier requirements recommandé
 - 💡 Dossier config recommandé
+- 💡 Mentionner le nombre de tests dans la description
+- 💡 Coverage à mentionner si disponible
+- 💡 Version à mentionner
+
+---
+
+### Arkalia-aria
+
+**Score** : 6.5/10 | [GitHub](https://github.com/arkalia-luna-system/Arkalia-aria)
+
+**✅ Points forts :**
+- ✅ Titre clair
+- ✅ Description présente
+- ✅ Guide de contribution
+- ✅ Dossier tests présent
+- ✅ Documentation organisée
+- ✅ CI/CD configuré
+- ✅ Docker configuré
+- ✅ Dépendances documentées
+- ✅ Configuration organisée
+- ✅ Nommage cohérent (préfixe arkalia)
+- ✅ Description présente et détaillée
+- ✅ Langage principal détecté : Python
+
+**💡 Points à améliorer :**
+- 💡 Badges recommandés (version, tests, coverage)
+- 💡 Section installation recommandée
+- 💡 Exemples d'utilisation recommandés
+- 💡 Documentation des tests recommandée
+- 💡 License à clarifier
+- 💡 README assez court (enrichir avec plus de détails)
 - 💡 Mentionner le nombre de tests dans la description
 - 💡 Coverage à mentionner si disponible
 - 💡 Version à mentionner
