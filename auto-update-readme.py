@@ -137,7 +137,14 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
             tooling_projects.append(project)
         elif "pipeline" in name or "devops" in desc or "athalia" in name:
             tooling_projects.append(project)
-        elif "archive" in name or "nours" in name or "poc" in desc or "aria" in name:
+        elif (
+            "archive" in name
+            or "nours" in name
+            or "poc" in desc
+            or "aria" in name
+            or "dépréci" in desc
+            or "deprecated" in desc
+        ):
             archive_projects.append(project)
         elif "branding" in name or "logo" in name:
             design_projects.append(project)
@@ -257,7 +264,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         elif "bbia" in name or "robot" in desc:
             role = "Robotique"
 
-        if "aria" in name:
+        if "aria" in name or "dépréci" in desc or "deprecated" in desc:
             status = "ARCHIVE"
         elif "beta" in name or "beta" in desc or "cia" in name:
             status = "BETA"
@@ -415,7 +422,13 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             status = "🧩 Template"
         elif "beta" in name_lower or "cia" in name_lower:
             status = "🚧 Bêta"
-        elif "archive" in name_lower or "nours" in name_lower or "aria" in name_lower:
+        elif (
+            "archive" in name_lower
+            or "nours" in name_lower
+            or "aria" in name_lower
+            or "dépréci" in raw_desc_lower
+            or "deprecated" in raw_desc_lower
+        ):
             status = "📦 Archivé"
 
         # Détermine le rôle basé sur le nom et la description
@@ -429,7 +442,13 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             role = "🔧 Outillage"
         elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
             role = "🔧 Outillage"
-        elif "archive" in name_lower or "nours" in name_lower or "poc" in desc_lower:
+        elif (
+            "archive" in name_lower
+            or "nours" in name_lower
+            or "poc" in desc_lower
+            or "dépréci" in desc_lower
+            or "deprecated" in desc_lower
+        ):
             role = "📦 Archive"
         elif "beta" in name_lower or "cia" in name_lower:
             role = "🚧 Bêta"
