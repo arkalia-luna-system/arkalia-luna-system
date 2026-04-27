@@ -1,15 +1,15 @@
 # 🔍 Rapport d'Audit - Projets Arkalia Luna System
 
-**Date** : 27 April 2026, 16:40
+**Date** : 27 April 2026, 16:51
 **Projets audités** : 12
 
 ---
 
 ## 📊 Résumé Global
 
-- **Score moyen** : 9.0/10
-- **Points forts totaux** : 183
-- **Points à améliorer** : 61
+- **Score moyen** : 8.9/10
+- **Points forts totaux** : 182
+- **Points à améliorer** : 62
 
 ---
 
@@ -287,37 +287,6 @@
 
 ---
 
-### bbia_branding
-
-**Score** : 7.5/10 | [GitHub](https://github.com/arkalia-luna-system/bbia_branding)
-
-**✅ Points forts :**
-- ✅ Titre clair
-- ✅ Description présente
-- ✅ Badges présents
-- ✅ Section installation
-- ✅ Exemples d'utilisation
-- ✅ Tests documentés
-- ✅ License mentionnée
-- ✅ Guide de contribution
-- ✅ Documentation exhaustive
-- ✅ Documentation organisée
-- ✅ Nommage cohérent (préfixe bbia)
-- ✅ Description présente et détaillée
-- ✅ Langage principal détecté : Python
-
-**💡 Points à améliorer :**
-- 💡 Dossier tests recommandé
-- 💡 CI/CD recommandé
-- 💡 Docker recommandé pour production
-- 💡 Fichier requirements recommandé
-- 💡 Dossier config recommandé
-- 💡 Mentionner le nombre de tests dans la description
-- 💡 Coverage à mentionner si disponible
-- 💡 Version à mentionner
-
----
-
 ### Arkalia-aria
 
 **Score** : 6.5/10 | [GitHub](https://github.com/arkalia-luna-system/Arkalia-aria)
@@ -343,6 +312,37 @@
 - 💡 Documentation des tests recommandée
 - 💡 License à clarifier
 - 💡 README assez court (enrichir avec plus de détails)
+- 💡 Mentionner le nombre de tests dans la description
+- 💡 Coverage à mentionner si disponible
+- 💡 Version à mentionner
+
+---
+
+### bbia_branding
+
+**Score** : 6.5/10 | [GitHub](https://github.com/arkalia-luna-system/bbia_branding)
+
+**✅ Points forts :**
+- ✅ Description présente
+- ✅ Badges présents
+- ✅ Section installation
+- ✅ Exemples d'utilisation
+- ✅ Tests documentés
+- ✅ License mentionnée
+- ✅ Guide de contribution
+- ✅ Documentation exhaustive
+- ✅ Documentation organisée
+- ✅ Nommage cohérent (préfixe bbia)
+- ✅ Description présente et détaillée
+- ✅ Langage principal détecté : Python
+
+**💡 Points à améliorer :**
+- ⚠️  Titre manquant ou peu visible
+- 💡 Dossier tests recommandé
+- 💡 CI/CD recommandé
+- 💡 Docker recommandé pour production
+- 💡 Fichier requirements recommandé
+- 💡 Dossier config recommandé
 - 💡 Mentionner le nombre de tests dans la description
 - 💡 Coverage à mentionner si disponible
 - 💡 Version à mentionner
