@@ -64,6 +64,29 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
     return desc
 
 
+def _project_description_override(name: str, raw_description: Optional[str]) -> Optional[str]:
+    """Applique des formulations factuelles spécifiques à certains projets."""
+    name_lower = (name or "").lower()
+    desc = (raw_description or "").strip()
+
+    if name_lower in {"arkalia-luna-pro", "arkalia-luna-logo"}:
+        return "En développement"
+    if name_lower == "arkalia-cia":
+        return "En bêta, release v1.0 prévue Q2 2026"
+    if name_lower == "ia-pipeline":
+        return "Projet en pause (maintenance minimale)"
+
+    if desc:
+        return desc
+    return None
+
+
+def _display_description(name: str, raw_description: Optional[str], max_length: int) -> str:
+    """Prépare la description finale affichée dans le README."""
+    override = _project_description_override(name, raw_description)
+    return _clean_description(override, max_length=max_length)
+
+
 def load_projects_data(data_file: Path) -> Dict[str, Any]:
     """Charge les données des projets"""
     try:
@@ -166,7 +189,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets actifs, suivis et maintenus :")
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=55)
+            desc = _display_description(name, proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -176,7 +199,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Outils de génération et identité visuelle :")
         for proj in design_projects:
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=55)
+            desc = _display_description(name, proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -186,7 +209,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Infrastructure et outils de développement :")
         for proj in tooling_projects[:5]:  # Limite à 5
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=55)
+            desc = _display_description(name, proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -196,7 +219,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
         lines.append("Projets historiques conservés pour leur valeur pédagogique :")
         for proj in archive_projects:
             name = proj.get("name", "")
-            desc = _clean_description(proj.get("description"), max_length=55)
+            desc = _display_description(name, proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
         lines.append("")
 
@@ -374,7 +397,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
     for i, project in enumerate(top_projects):
         name = project.get("name", "")
         github_url = project.get("github_url", "")
-        desc = _clean_description(project.get("description"), max_length=45)
+        desc = _display_description(name, project.get("description"), max_length=45)
 
         # Image par défaut (logo Arkalia)
         img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
@@ -412,7 +435,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             continue
         github_url = project.get("github_url", "")
         raw_description = project.get("description")
-        description = _clean_description(project.get("description"), max_length=84)
+        description = _display_description(name, raw_description, max_length=84)
         language = project.get("language", "Python")
         raw_desc_lower = (raw_description or "").lower()
 
@@ -421,6 +444,8 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         name_lower = name.lower()
         if "template" in name_lower or "base" in name_lower:
             status = "🧩 Template"
+        elif "ia-pipeline" in name_lower:
+            status = "⏸️ En pause"
         elif "beta" in name_lower or "cia" in name_lower:
             status = "🚧 Bêta"
         elif (
