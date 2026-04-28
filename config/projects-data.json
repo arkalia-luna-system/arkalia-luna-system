@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-04-27T16:51:23.354980",
+  "generated_at": "2026-04-28T12:50:11.608300",
   "stats": {
     "total_projects": 12,
     "local_projects": 12,
@@ -8,20 +8,43 @@
     "total_stars": 0,
     "languages": {
       "Python": 12,
+      "HTML": 7,
       "JSON": 10,
       "Markdown": 12,
       "Shell": 11,
-      "Dart": 1,
-      "HTML": 6,
-      "Makefile": 7,
       "YAML": 8,
       "Dockerfile": 5,
-      "CSS": 1,
+      "Makefile": 7,
+      "Dart": 1,
+      "CSS": 2,
       "JavaScript": 2
     },
-    "last_updated": "2026-04-27T16:51:23.354994"
+    "last_updated": "2026-04-28T12:50:11.608312"
   },
   "projects": [
+    {
+      "name": "arkalia-metrics-collector",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
+      "local_path": "/Volumes/T7/arkalia-metrics-collector",
+      "readme_path": "/Volumes/T7/arkalia-metrics-collector/README.md",
+      "description": "> **Collecteur de métriques universel et professionnel pour projets Python**",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "backup",
+        "backup-main-20251124-204322",
+        "develop",
+        "main",
+        "dependabot/github_actions/actions/checkout-6",
+        "dependabot/github_actions/actions/download-artifact-6",
+        "dependabot/github_actions/actions/setup-python-6",
+        "dependabot/github_actions/actions/upload-artifact-5",
+        "dependabot/github_actions/codecov/codecov-action-5"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-28T10:49:40Z"
+    },
     {
       "name": "arkalia-luna-system",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
@@ -36,7 +59,41 @@
         "main"
       ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-27T14:41:18Z"
+      "pushed_at": "2026-04-28T10:48:51Z"
+    },
+    {
+      "name": "Arkalia-luna-logo",
+      "github_url": "https://github.com/arkalia-luna-system/Arkalia-luna-logo",
+      "local_path": "/Volumes/T7/logo/arkalia-luna-logo",
+      "readme_path": "/Volumes/T7/logo/arkalia-luna-logo/README.md",
+      "description": "🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker, monitoring Prometheus/Grafana 📡 Gen: 0.03s, tests: 151, couverture: 78% ⚡ Production-ready",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "backup",
+        "develop",
+        "main",
+        "dependabot/github_actions/actions/checkout-6",
+        "dependabot/github_actions/actions/setup-node-5",
+        "dependabot/github_actions/actions/setup-node-6",
+        "dependabot/github_actions/actions/setup-python-6",
+        "dependabot/github_actions/actions/upload-artifact-5",
+        "dependabot/pip/fastapi-0.116.1",
+        "dependabot/pip/fastapi-0.117.1",
+        "dependabot/pip/fastapi-0.120.0",
+        "dependabot/pip/fastapi-0.121.3",
+        "dependabot/pip/fonttools-4.60.0",
+        "dependabot/pip/fonttools-4.60.1",
+        "dependabot/pip/pyparsing-3.2.5",
+        "dependabot/pip/python-multipart-0.0.20",
+        "dependabot/pip/rich-14.2.0",
+        "dependabot/pip/uvicorn-standard--0.35.0",
+        "dependabot/pip/uvicorn-standard--0.36.0",
+        "dependabot/pip/uvicorn-standard--0.38.0"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-28T10:48:43Z"
     },
     {
       "name": "arkalia-cia",
@@ -59,22 +116,78 @@
         "dependabot/github_actions/actions/download-artifact-8",
         "dependabot/github_actions/actions/upload-artifact-7",
         "dependabot/github_actions/codecov/codecov-action-6",
+        "dependabot/pip/cryptography-47.0.0",
+        "dependabot/pip/fastapi-0.136.1",
+        "dependabot/pip/phonenumbers-9.0.29",
+        "dependabot/pip/pydantic-settings-2.14.0",
+        "dependabot/pip/pyjwt-2.12.1",
+        "dependabot/pip/pytest-9.0.3",
+        "dependabot/pip/python-jose-3.5.0",
         "dependabot/pip/rich-15.0.0",
         "dependabot/pip/starlette-1.0.0",
+        "dependabot/pip/uvicorn-0.46.0",
         "dependabot/pub/arkalia_cia/connectivity_plus-7.1.1",
         "dependabot/pub/arkalia_cia/file_picker-11.0.2",
         "dependabot/pub/arkalia_cia/flutter_contacts-2.0.0",
         "dependabot/pub/arkalia_cia/flutter_contacts-2.0.2",
+        "dependabot/pub/arkalia_cia/share_plus-12.0.2",
+        "dependabot/pub/arkalia_cia/shared_preferences-2.5.5",
         "gh-pages"
       ],
       "default_branch": "develop",
-      "pushed_at": "2026-04-27T14:40:32Z"
+      "pushed_at": "2026-04-28T10:44:57Z"
+    },
+    {
+      "name": "bbia-sim",
+      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "local_path": "/Volumes/T7/bbia-reachy-sim",
+      "readme_path": "/Volumes/T7/bbia-reachy-sim/README.md",
+      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "backup-v1.3.2-stable",
+        "develop",
+        "future",
+        "main",
+        "backup",
+        "backup-20251106",
+        "backup-main-20251116-212031",
+        "backup-v1.2.1-stable",
+        "backup-v1.3.0-stable",
+        "dependabot/pip/deepface-gte-0.0.99",
+        "dependabot/pip/dev-dependencies-7ac7462c68",
+        "dependabot/pip/httpx-gte-0.27.2-and-lt-0.29.0",
+        "dependabot/pip/pypandoc-binary-gte-1.17",
+        "dependabot/pip/websockets-gte-12.0-and-lt-17"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-28T10:19:44Z"
+    },
+    {
+      "name": "arkalia-luna-pro",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
+      "local_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro",
+      "readme_path": "/Volumes/T7/devstation/cursor/arkalia-luna-pro/README.md",
+      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "backup-main-20250831_152259",
+        "develop",
+        "gh-pages",
+        "main"
+      ],
+      "default_branch": "develop",
+      "pushed_at": "2026-04-27T15:41:17Z"
     },
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": "/Volumes/T7/devstation/ARKALIA-QUEST",
-      "readme_path": "/Volumes/T7/devstation/ARKALIA-QUEST/README.md",
+      "local_path": "/Volumes/T7/devstation/arkalia-quest",
+      "readme_path": "/Volumes/T7/devstation/arkalia-quest/README.md",
       "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
       "language": "Python",
       "stars": 0,
@@ -87,29 +200,6 @@
       ],
       "default_branch": "develop",
       "pushed_at": "2026-04-27T14:28:00Z"
-    },
-    {
-      "name": "arkalia-metrics-collector",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
-      "local_path": "/Volumes/T7/arkalia-metrics-collector",
-      "readme_path": "/Volumes/T7/arkalia-metrics-collector/README.md",
-      "description": "> **Collecteur de métriques universel et professionnel pour projets Python**",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "backup",
-        "backup-main-20251124-204322",
-        "develop",
-        "main",
-        "dependabot/github_actions/actions/checkout-6",
-        "dependabot/github_actions/actions/download-artifact-6",
-        "dependabot/github_actions/actions/setup-python-6",
-        "dependabot/github_actions/actions/upload-artifact-5",
-        "dependabot/github_actions/codecov/codecov-action-5"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-04-27T02:58:46Z"
     },
     {
       "name": "ia-pipeline",
@@ -159,41 +249,6 @@
       "pushed_at": "2026-03-09T15:28:57Z"
     },
     {
-      "name": "bbia-sim",
-      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
-      "local_path": "/Volumes/T7/bbia-reachy-sim",
-      "readme_path": "/Volumes/T7/bbia-reachy-sim/README.md",
-      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "backup-v1.3.2-stable",
-        "develop",
-        "future",
-        "main",
-        "backup",
-        "backup-20251106",
-        "backup-main-20251116-212031",
-        "backup-v1.2.1-stable",
-        "backup-v1.3.0-stable",
-        "dependabot/github_actions/actions/upload-artifact-7",
-        "dependabot/github_actions/codecov/codecov-action-6",
-        "dependabot/pip/aiohttp-gte-3.13.5",
-        "dependabot/pip/eclipse-zenoh-gte-1.9.0",
-        "dependabot/pip/gradio-gte-4.44.1",
-        "dependabot/pip/matplotlib-gte-3.10.8",
-        "dependabot/pip/mkdocs-gte-1.6.1",
-        "dependabot/pip/onnxruntime-gte-1.24.3",
-        "dependabot/pip/psutil-gte-5.9.8",
-        "dependabot/pip/python-dotenv-gte-1.2.2",
-        "dependabot/pip/reachy-mini-rust-kinematics-gte-1.0.3",
-        "dependabot/pip/requests-gte-2.33.1"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-04-27T14:48:44Z"
-    },
-    {
       "name": "Arkalia-aria",
       "github_url": "https://github.com/arkalia-luna-system/Arkalia-aria",
       "local_path": "/Volumes/T7/arkalia-aria",
@@ -211,40 +266,6 @@
       ],
       "default_branch": "develop",
       "pushed_at": "2026-04-27T14:32:15Z"
-    },
-    {
-      "name": "Arkalia-luna-logo",
-      "github_url": "https://github.com/arkalia-luna-system/Arkalia-luna-logo",
-      "local_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO",
-      "readme_path": "/Volumes/T7/logo/ARKALIA-LUNA-LOGO/README.md",
-      "description": "🎨 Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles 🌙 FastAPI + Docker, monitoring Prometheus/Grafana 📡 Gen: 0.03s, tests: 151, couverture: 78% ⚡ Production-ready",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "backup",
-        "develop",
-        "main",
-        "dependabot/github_actions/actions/checkout-6",
-        "dependabot/github_actions/actions/setup-node-5",
-        "dependabot/github_actions/actions/setup-node-6",
-        "dependabot/github_actions/actions/setup-python-6",
-        "dependabot/github_actions/actions/upload-artifact-5",
-        "dependabot/pip/fastapi-0.116.1",
-        "dependabot/pip/fastapi-0.117.1",
-        "dependabot/pip/fastapi-0.120.0",
-        "dependabot/pip/fastapi-0.121.3",
-        "dependabot/pip/fonttools-4.60.0",
-        "dependabot/pip/fonttools-4.60.1",
-        "dependabot/pip/pyparsing-3.2.5",
-        "dependabot/pip/python-multipart-0.0.20",
-        "dependabot/pip/rich-14.2.0",
-        "dependabot/pip/uvicorn-standard--0.35.0",
-        "dependabot/pip/uvicorn-standard--0.36.0",
-        "dependabot/pip/uvicorn-standard--0.38.0"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-03-02T09:25:24Z"
     },
     {
       "name": "base_template",
@@ -266,24 +287,6 @@
       "pushed_at": "2025-09-13T17:12:00Z"
     },
     {
-      "name": "arkalia-luna-pro",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
-      "local_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO",
-      "readme_path": "/Volumes/T7/devstation/cursor/ARKALIA-LUNA-PRO/README.md",
-      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "backup-main-20250831_152259",
-        "develop",
-        "gh-pages",
-        "main"
-      ],
-      "default_branch": "develop",
-      "pushed_at": "2026-03-09T16:23:05Z"
-    },
-    {
       "name": "bbia_branding",
       "github_url": "https://github.com/arkalia-luna-system/bbia_branding",
       "local_path": "/Users/athalia/Desktop/logo bbia/bbia_branding",
@@ -292,11 +295,8 @@
       "language": "Python",
       "stars": 0,
       "is_public": true,
-      "branches": [
-        "develop",
-        "main"
-      ],
-      "default_branch": "develop",
+      "branches": null,
+      "default_branch": "main",
       "pushed_at": "2026-04-27T14:48:30Z"
     },
     {
