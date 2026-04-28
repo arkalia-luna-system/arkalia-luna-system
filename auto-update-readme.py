@@ -227,7 +227,6 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
     priority_order = [
         "arkalia-luna-pro",
         "arkalia-cia",
-        "Arkalia-aria",
         "Arkalia-luna-logo",
         "bbia-sim",
         "arkalia-quest",
@@ -409,6 +408,8 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
 
     for project in projects:
         name = project.get("name", "")
+        if (name or "").lower() == "arkalia-aria":
+            continue
         github_url = project.get("github_url", "")
         raw_description = project.get("description")
         description = _clean_description(project.get("description"), max_length=84)

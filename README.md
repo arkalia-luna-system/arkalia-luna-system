@@ -25,7 +25,6 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 |:------:|:----:|:------:|:--------------:|:-------------------:|
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 09/03/2026 17:23 CET | `develop` |
 | **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 27/04/2026 16:40 CEST | `develop` |
-| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Archive | `⚫ ARCHIVE` | 27/04/2026 16:32 CEST | `develop` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 02/03/2026 10:25 CET | `develop` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 27/04/2026 16:48 CEST | `develop` |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 27/04/2026 16:28 CEST | `develop` |
@@ -120,7 +119,6 @@ Tableau complet genere automatiquement depuis `config/projects-data.json`.
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur de métriques universel et professionnel pour projets Python | Python + CLI | 🔧 Outillage | 🟢 Actif |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Générateur IA souverain, modulaire, testé, automatisé, documenté | Python + IA | 🔧 Outillage | 🟢 Actif |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | moteur robotique cognitif pour Reachy Mini \| IA emotionnelle, vision \| Python,... | Python + MuJoCo | 🏢 Projet | 🟢 Actif |
-| **[Arkalia-aria](https://github.com/arkalia-luna-system/Arkalia-aria)** | Laboratoire personnel santé/IA : suivi douleur, patterns psy, synchronisation... | Python + IA | 📦 Archive | 📦 Archivé |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Générateur de logos SVG techno-mystiques — 8 styles, 5 variantes émotionnelles... | Design | 🏢 Projet | 🟢 Actif |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀... | Python + FastAPI | 🔧 Outillage | 🧩 Template |
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Orchestrateur IA modulaire pour l'entreprise — Python/Docker \| 7 modules IA... | Python + Docker | 🏢 Projet | 🟢 Actif |
@@ -134,7 +132,7 @@ Tableau complet genere automatiquement depuis `config/projects-data.json`.
 - **Projets** : 12 au total
 - **Langages** : Python (12), Markdown (12), Shell (11), JSON (10), YAML (8), Makefile (7), HTML (6), Dockerfile (5), JavaScript (2), Dart (1), CSS (1)
 
-<sub>*Dernière mise à jour : 27 avril 2026*</sub>
+<sub>*Dernière mise à jour : 28 avril 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ## 🛠️ Stack Technique
