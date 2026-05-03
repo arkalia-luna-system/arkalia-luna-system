@@ -23,13 +23,13 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 
 | Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 27/04/2026 17:41 CEST | `develop` |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 28/04/2026 12:44 CEST | `develop` |
-| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 28/04/2026 12:48 CEST | `develop` |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 28/04/2026 12:19 CEST | `develop` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 27/04/2026 16:28 CEST | `develop` |
-| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 28/04/2026 12:49 CEST | `develop` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 28/04/2026 12:48 CEST | `develop` |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 28/04/2026 15:21 CEST | `main` |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 29/04/2026 07:15 CEST | `main` |
+| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 28/04/2026 12:48 CEST | `main` |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 28/04/2026 13:28 CEST | `main` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 28/04/2026 20:22 CEST | `main` |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 28/04/2026 13:21 CEST | `main` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 28/04/2026 13:18 CEST | `main` |
 ## 🧩 Vision de l'écosystème
 
 Ce repository centralise des projets Python/Flutter reliés à plusieurs usages
@@ -42,26 +42,26 @@ L'écosystème est organisé en **4 catégories principales** :
 
 #### 🏢 **Projets Produits**
 Projets actifs, suivis et maintenus :
+- **arkalia-quest** : Jeu éducatif intelligent pour adolescents — IA...
+- **arkalia-luna-pro** : En développement
 - **arkalia-cia** : En bêta, release v1.0 prévue Q2 2026
 - **bbia-sim** : moteur robotique cognitif pour Reachy Mini | IA...
-- **arkalia-luna-pro** : En développement
-- **arkalia-quest** : Jeu éducatif intelligent pour adolescents — IA...
 
 #### 🎨 **Design & Branding**
 Outils de génération et identité visuelle :
+- **bbia_branding** : Projet en développement
 - **Arkalia-luna-logo** : En développement
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **arkalia-metrics-collector** : Collecteur de métriques universel et professionnel...
 - **arkalia-luna-system** : Mon profil GitHub personnalisé
+- **arkalia-metrics-collector** : Projet en développement
 - **ia-pipeline** : Projet en pause (maintenance minimale)
 - **base_template** : Squelette projet Python/FastAPI pro — 58 scripts,...
 
 #### 📦 **Archives**
 Projets historiques conservés pour leur valeur pédagogique :
-- **Arkalia-aria** : Laboratoire personnel santé/IA : suivi douleur,...
-- **bbia_branding** : Ce repository est déprécié et va être archivé en...
+- **Arkalia-aria** : Archived on 2026-04-27. Active development moved...
 - **nours_interface** : Interface web historique Flask + CSS/JS — POC...
 
 ## 🔥 Projets à Voir
@@ -76,19 +76,19 @@ Trois projets représentatifs sont affichés automatiquement ci-dessous.
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/Arkalia-luna-logo">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Arkalia-luna-logo"/>
+<a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-luna-pro"/>
 <br/><br/>
-<strong>Arkalia-luna-logo</strong>
+<strong>arkalia-luna-pro</strong>
 <br/>
 <sub>En développement</sub>
 </a>
 </td>
 <td align="center" width="33%">
-<a href="https://github.com/arkalia-luna-system/arkalia-luna-pro">
-<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="arkalia-luna-pro"/>
+<a href="https://github.com/arkalia-luna-system/Arkalia-luna-logo">
+<img src="https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="Arkalia-luna-logo"/>
 <br/><br/>
-<strong>arkalia-luna-pro</strong>
+<strong>Arkalia-luna-logo</strong>
 <br/>
 <sub>En développement</sub>
 </a>
@@ -113,16 +113,16 @@ Tableau complet généré automatiquement depuis `config/projects-data.json`.
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Statut |
 |:------:|:-----------:|:-----:|:----:|:-----:|
-| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Collecteur de métriques universel et professionnel pour projets Python | Python + CLI | 🔧 Outillage | 🟢 Actif |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
-| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | En développement | Design | 🏢 Projet | 🟢 Actif |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | Python + Flask | 🏢 Projet | 🟢 Actif |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | En développement | Python + Docker | 🏢 Projet | 🟢 Actif |
 | **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | En bêta, release v1.0 prévue Q2 2026 | Flutter | 🚧 Bêta | 🚧 Bêta |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | moteur robotique cognitif pour Reachy Mini \| IA emotionnelle, vision \| Python,... | Python + MuJoCo | 🏢 Projet | 🟢 Actif |
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | En développement | Python + Docker | 🏢 Projet | 🟢 Actif |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | Python + Flask | 🏢 Projet | 🟢 Actif |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Projet en développement | Design | 🏢 Projet | 🟢 Actif |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Projet en développement | Python + CLI | 🔧 Outillage | 🟢 Actif |
+| **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | En développement | Design | 🏢 Projet | 🟢 Actif |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Projet en pause (maintenance minimale) | Python + IA | 🔧 Outillage | ⏸️ En pause |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀... | Python + FastAPI | 🔧 Outillage | 🧩 Template |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Ce repository est déprécié et va être archivé en lecture seule. | Design | 📦 Archive | 📦 Archivé |
 | **[nours_interface](https://github.com/arkalia-luna-system/nours_interface)** | Interface web historique Flask + CSS/JS — POC archivé 2025, valeur pédagogique... | Python + Flask | 📦 Archive | 📦 Archivé |
 ## 📊 Métriques
 
@@ -130,9 +130,9 @@ Tableau complet généré automatiquement depuis `config/projects-data.json`.
 ### 📈 Statistiques
 
 - **Projets** : 12 au total
-- **Langages** : Python (12), Markdown (12), Shell (11), JSON (10), YAML (8), HTML (7), Makefile (7), Dockerfile (5), CSS (2), JavaScript (2), Dart (1)
+- **Langages** : Python (11), Dart (1), JSON (1), Markdown (1), Shell (1)
 
-<sub>*Dernière mise à jour : 28 avril 2026*</sub>
+<sub>*Dernière mise à jour : 03 mai 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ## 🛠️ Stack Technique
