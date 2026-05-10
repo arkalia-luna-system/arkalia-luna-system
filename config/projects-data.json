@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-05-03T03:05:15.225116",
+  "generated_at": "2026-05-10T03:05:34.264511",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -8,14 +8,29 @@
     "total_stars": 0,
     "languages": {
       "Python": 11,
-      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
-      "Shell": 1
+      "Shell": 1,
+      "Dart": 1
     },
-    "last_updated": "2026-05-03T03:05:15.225129"
+    "last_updated": "2026-05-10T03:05:34.264522"
   },
   "projects": [
+    {
+      "name": "arkalia-luna-system",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
+      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
+      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
+      "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "main"
+      ],
+      "default_branch": "main",
+      "pushed_at": "2026-05-03T03:05:16Z"
+    },
     {
       "name": "arkalia-quest",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
@@ -40,7 +55,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-04-28T13:21:51Z"
+      "pushed_at": "2026-05-08T12:57:43Z"
     },
     {
       "name": "arkalia-cia",
@@ -66,22 +81,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-04-28T11:28:40Z"
-    },
-    {
-      "name": "arkalia-luna-system",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
-      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
-      "description": "Mon profil GitHub personnalisé",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "main"
-      ],
-      "default_branch": "main",
-      "pushed_at": "2026-04-28T11:18:51Z"
+      "pushed_at": "2026-05-08T12:45:12Z"
     },
     {
       "name": "Arkalia-aria",
@@ -120,7 +120,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-04-28T11:21:23Z"
+      "pushed_at": "2026-05-04T10:39:45Z"
     },
     {
       "name": "Arkalia-luna-logo",
@@ -133,7 +133,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-04-28T10:48:43Z"
+      "pushed_at": "2026-05-04T10:31:54Z"
     },
     {
       "name": "ia-pipeline",
