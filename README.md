@@ -23,13 +23,13 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 
 | Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 08/05/2026 14:57 CEST | `main` |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 29/04/2026 07:15 CEST | `main` |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 13/05/2026 10:11 CEST | `main` |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 15/05/2026 06:29 CEST | `main` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 04/05/2026 12:31 CEST | `main` |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 08/05/2026 14:45 CEST | `main` |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 28/04/2026 20:22 CEST | `main` |
-| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 04/05/2026 12:39 CEST | `main` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 03/05/2026 05:05 CEST | `main` |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 11/05/2026 14:37 CEST | `main` |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 12/05/2026 10:43 CEST | `main` |
+| **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 13/05/2026 11:36 CEST | `main` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 10/05/2026 05:05 CEST | `main` |
 ## 🧩 Vision de l'écosystème
 
 Ce repository centralise des projets Python/Flutter reliés à plusieurs usages
@@ -42,9 +42,9 @@ L'écosystème est organisé en **4 catégories principales** :
 
 #### 🏢 **Projets Produits**
 Projets actifs, suivis et maintenus :
-- **arkalia-quest** : Jeu éducatif intelligent pour adolescents — IA...
-- **arkalia-luna-pro** : En développement
 - **arkalia-cia** : En bêta, release v1.0 prévue Q2 2026
+- **arkalia-luna-pro** : En développement
+- **arkalia-quest** : Jeu éducatif intelligent pour adolescents — IA...
 - **bbia-sim** : moteur robotique cognitif pour Reachy Mini | IA...
 
 #### 🎨 **Design & Branding**
@@ -54,8 +54,8 @@ Outils de génération et identité visuelle :
 
 #### 🔧 **Outils & Infrastructure**
 Infrastructure et outils de développement :
-- **arkalia-luna-system** : Mon profil GitHub personnalisé
 - **arkalia-metrics-collector** : Projet en développement
+- **arkalia-luna-system** : Mon profil GitHub personnalisé
 - **ia-pipeline** : Projet en pause (maintenance minimale)
 - **base_template** : Squelette projet Python/FastAPI pro — 58 scripts,...
 
@@ -113,13 +113,13 @@ Tableau complet généré automatiquement depuis `config/projects-data.json`.
 <!-- AUTO-UPDATE:projects -->
 | Projet | Description | Stack | Rôle | Statut |
 |:------:|:-----------:|:-----:|:----:|:-----:|
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
-| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | Python + Flask | 🏢 Projet | 🟢 Actif |
-| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | En développement | Python + Docker | 🏢 Projet | 🟢 Actif |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | En bêta, release v1.0 prévue Q2 2026 | Flutter | 🚧 Bêta | 🚧 Bêta |
-| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | moteur robotique cognitif pour Reachy Mini \| IA emotionnelle, vision \| Python,... | Python + MuJoCo | 🏢 Projet | 🟢 Actif |
-| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Projet en développement | Design | 🏢 Projet | 🟢 Actif |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Projet en développement | Python + CLI | 🔧 Outillage | 🟢 Actif |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | En bêta, release v1.0 prévue Q2 2026 | Flutter | 🚧 Bêta | 🚧 Bêta |
+| **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | En développement | Python + Docker | 🏢 Projet | 🟢 Actif |
+| **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée,... | Python + Flask | 🏢 Projet | 🟢 Actif |
+| **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | moteur robotique cognitif pour Reachy Mini \| IA emotionnelle, vision \| Python,... | Python + MuJoCo | 🏢 Projet | 🟢 Actif |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Mon profil GitHub personnalisé | Python | 🌙 Profil | 🟢 Actif |
+| **[bbia_branding](https://github.com/arkalia-luna-system/bbia_branding)** | Projet en développement | Design | 🏢 Projet | 🟢 Actif |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | En développement | Design | 🏢 Projet | 🟢 Actif |
 | **[ia-pipeline](https://github.com/arkalia-luna-system/ia-pipeline)** | Projet en pause (maintenance minimale) | Python + IA | 🔧 Outillage | ⏸️ En pause |
 | **[base_template](https://github.com/arkalia-luna-system/base_template)** | Squelette projet Python/FastAPI pro — 58 scripts, tests complets, CI/CD 🚀... | Python + FastAPI | 🔧 Outillage | 🧩 Template |
@@ -130,9 +130,9 @@ Tableau complet généré automatiquement depuis `config/projects-data.json`.
 ### 📈 Statistiques
 
 - **Projets** : 12 au total
-- **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
+- **Langages** : Python (11), Dart (1), JSON (1), Markdown (1), Shell (1)
 
-<sub>*Dernière mise à jour : 10 mai 2026*</sub>
+<sub>*Dernière mise à jour : 17 mai 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ## 🛠️ Stack Technique

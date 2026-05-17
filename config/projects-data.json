@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-05-10T03:05:34.264511",
+  "generated_at": "2026-05-17T03:06:06.932383",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -8,14 +8,79 @@
     "total_stars": 0,
     "languages": {
       "Python": 11,
+      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
-      "Shell": 1,
-      "Dart": 1
+      "Shell": 1
     },
-    "last_updated": "2026-05-10T03:05:34.264522"
+    "last_updated": "2026-05-17T03:06:06.932396"
   },
   "projects": [
+    {
+      "name": "arkalia-metrics-collector",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
+      "local_path": null,
+      "readme_path": null,
+      "description": null,
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-13T09:36:35Z"
+    },
+    {
+      "name": "arkalia-cia",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+      "local_path": null,
+      "readme_path": null,
+      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
+      "language": "Dart",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-15T04:29:14Z"
+    },
+    {
+      "name": "arkalia-luna-pro",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
+      "local_path": null,
+      "readme_path": null,
+      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-13T08:11:20Z"
+    },
+    {
+      "name": "arkalia-quest",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
+      "local_path": null,
+      "readme_path": null,
+      "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-12T08:43:21Z"
+    },
+    {
+      "name": "bbia-sim",
+      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+      "local_path": null,
+      "readme_path": null,
+      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": null,
+      "default_branch": "main",
+      "pushed_at": "2026-05-11T12:37:33Z"
+    },
     {
       "name": "arkalia-luna-system",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
@@ -29,59 +94,7 @@
         "main"
       ],
       "default_branch": "main",
-      "pushed_at": "2026-05-03T03:05:16Z"
-    },
-    {
-      "name": "arkalia-quest",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🎮 Jeu éducatif intelligent pour adolescents — IA LUNA, sécurité avancée, gamification 🏆 Architecture Flask moderne, tests complets (179), monitoring temps réel ⚡ Performance optimisée, documentation exhaustive 📚",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main",
-      "pushed_at": "2026-04-28T18:22:17Z"
-    },
-    {
-      "name": "arkalia-luna-pro",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🌕 Orchestrateur IA modulaire pour l'entreprise — Python/Docker | 7 modules IA avancés : ZeroIA, Cognitive Reactor, ReflexIA, Sandozia, AssistantIA, Security, Monitoring | Grafana & Prometheus | CI/CD v2.8.0 🚀 | 671 tests, 59% couverture | Production-ready ⚡",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main",
-      "pushed_at": "2026-05-08T12:57:43Z"
-    },
-    {
-      "name": "arkalia-cia",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
-      "local_path": null,
-      "readme_path": null,
-      "description": "📱 Assistant santé mobile pour seniors — Flutter + Python, documents médicaux chiffrés AES-256, 100% hors ligne, rappels intelligents, contacts urgence. 509 tests, 72% couverture, CI/CD, production-ready ⚡",
-      "language": "Dart",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main",
-      "pushed_at": "2026-04-29T05:15:10Z"
-    },
-    {
-      "name": "bbia-sim",
-      "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
-      "local_path": null,
-      "readme_path": null,
-      "description": "🤖 Cognitive robot engine for Reachy Mini | AI emotions, vision | Python, MuJoCo",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main",
-      "pushed_at": "2026-05-08T12:45:12Z"
+      "pushed_at": "2026-05-10T03:05:35Z"
     },
     {
       "name": "Arkalia-aria",
@@ -108,19 +121,6 @@
       "branches": null,
       "default_branch": "main",
       "pushed_at": "2026-04-27T14:48:30Z"
-    },
-    {
-      "name": "arkalia-metrics-collector",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
-      "local_path": null,
-      "readme_path": null,
-      "description": null,
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": null,
-      "default_branch": "main",
-      "pushed_at": "2026-05-04T10:39:45Z"
     },
     {
       "name": "Arkalia-luna-logo",
