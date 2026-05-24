@@ -1,6 +1,6 @@
 {
   "username": "arkalia-luna-system",
-  "generated_at": "2026-05-17T03:06:06.932383",
+  "generated_at": "2026-05-24T03:06:08.536422",
   "stats": {
     "total_projects": 12,
     "local_projects": 1,
@@ -8,14 +8,29 @@
     "total_stars": 0,
     "languages": {
       "Python": 11,
-      "Dart": 1,
       "JSON": 1,
       "Markdown": 1,
-      "Shell": 1
+      "Shell": 1,
+      "Dart": 1
     },
-    "last_updated": "2026-05-17T03:06:06.932396"
+    "last_updated": "2026-05-24T03:06:08.536434"
   },
   "projects": [
+    {
+      "name": "arkalia-luna-system",
+      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
+      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
+      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
+      "description": "Mon profil GitHub personnalisé",
+      "language": "Python",
+      "stars": 0,
+      "is_public": true,
+      "branches": [
+        "main"
+      ],
+      "default_branch": "main",
+      "pushed_at": "2026-05-17T03:06:07Z"
+    },
     {
       "name": "arkalia-metrics-collector",
       "github_url": "https://github.com/arkalia-luna-system/arkalia-metrics-collector",
@@ -40,7 +55,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-05-15T04:29:14Z"
+      "pushed_at": "2026-05-22T04:28:20Z"
     },
     {
       "name": "arkalia-luna-pro",
@@ -53,7 +68,7 @@
       "is_public": true,
       "branches": null,
       "default_branch": "main",
-      "pushed_at": "2026-05-13T08:11:20Z"
+      "pushed_at": "2026-05-19T15:02:43Z"
     },
     {
       "name": "arkalia-quest",
@@ -80,21 +95,6 @@
       "branches": null,
       "default_branch": "main",
       "pushed_at": "2026-05-11T12:37:33Z"
-    },
-    {
-      "name": "arkalia-luna-system",
-      "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-system",
-      "local_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system",
-      "readme_path": "/home/runner/work/arkalia-luna-system/arkalia-luna-system/README.md",
-      "description": "Mon profil GitHub personnalisé",
-      "language": "Python",
-      "stars": 0,
-      "is_public": true,
-      "branches": [
-        "main"
-      ],
-      "default_branch": "main",
-      "pushed_at": "2026-05-10T03:05:35Z"
     },
     {
       "name": "Arkalia-aria",
