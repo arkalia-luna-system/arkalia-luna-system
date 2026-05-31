@@ -24,12 +24,12 @@ _Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._
 | Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |
 |:------:|:----:|:------:|:--------------:|:-------------------:|
 | **[arkalia-luna-pro](https://github.com/arkalia-luna-system/arkalia-luna-pro)** | Projet | `🟢 ACTIF` | 19/05/2026 17:02 CEST | `main` |
-| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 22/05/2026 06:28 CEST | `main` |
+| **[arkalia-cia](https://github.com/arkalia-luna-system/arkalia-cia)** | Santé / Mobile | `🟡 BÊTA` | 29/05/2026 06:30 CEST | `main` |
 | **[Arkalia-luna-logo](https://github.com/arkalia-luna-system/Arkalia-luna-logo)** | Design | `🟢 ACTIF` | 04/05/2026 12:31 CEST | `main` |
 | **[bbia-sim](https://github.com/arkalia-luna-system/bbia-sim)** | Robotique | `🟢 ACTIF` | 11/05/2026 14:37 CEST | `main` |
 | **[arkalia-quest](https://github.com/arkalia-luna-system/arkalia-quest)** | Jeu | `🟢 ACTIF` | 12/05/2026 10:43 CEST | `main` |
 | **[arkalia-metrics-collector](https://github.com/arkalia-luna-system/arkalia-metrics-collector)** | Métriques | `🟢 ACTIF` | 13/05/2026 11:36 CEST | `main` |
-| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 17/05/2026 05:06 CEST | `main` |
+| **[arkalia-luna-system](https://github.com/arkalia-luna-system/arkalia-luna-system)** | Profil | `🟢 ACTIF` | 24/05/2026 05:06 CEST | `main` |
 ## 🧩 Vision de l'écosystème
 
 Ce repository centralise des projets Python/Flutter reliés à plusieurs usages
@@ -132,7 +132,7 @@ Tableau complet généré automatiquement depuis `config/projects-data.json`.
 - **Projets** : 12 au total
 - **Langages** : Python (11), JSON (1), Markdown (1), Shell (1), Dart (1)
 
-<sub>*Dernière mise à jour : 24 mai 2026*</sub>
+<sub>*Dernière mise à jour : 31 mai 2026*</sub>
 <!-- AUTO-UPDATE:languages -->
 
 ## 🛠️ Stack Technique
