@@ -82,20 +82,20 @@ def test_generate_featured_projects() -> None:
             "description": "Cognitive robot engine",
         },
         {
-            "name": "arkalia-quest",
-            "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
-            "description": "Jeu narratif",
-        },
-        {
             "name": "arkalia-cia",
             "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
             "description": "Assistant santé",
         },
+        {
+            "name": "arkalia-luna-pro",
+            "github_url": "https://github.com/arkalia-luna-system/arkalia-luna-pro",
+            "description": "Orchestrateur IA expérimental",
+        },
     ]
     result = generate_featured_projects(projects)
     assert "bbia-sim" in result
-    assert "arkalia-quest" in result
     assert "arkalia-cia" in result
+    assert "arkalia-luna-pro" in result
     print("✅ test_generate_featured_projects: OK")
 
 

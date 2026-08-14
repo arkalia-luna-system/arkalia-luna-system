@@ -16,13 +16,12 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 # Trois dépôts réellement maintenus, dans cet ordre.
-FEATURED_ORDER = ["bbia-sim", "arkalia-quest", "arkalia-cia"]
+FEATURED_ORDER = ["bbia-sim", "arkalia-cia", "arkalia-luna-pro"]
 STATUS_BOARD_ORDER = [
     "bbia-sim",
-    "arkalia-quest",
     "arkalia-cia",
     "arkalia-luna-pro",
-    "arkalia-luna-system",
+    "az104-portfolio",
 ]
 TABLE_SKIP = {"arkalia-aria"}
 
@@ -90,7 +89,7 @@ def _project_description_override(name: str, raw_description: Optional[str]) -> 
         "arkalia-metrics-collector": "CLI de collecte de métriques pour projets Python.",
         "arkalia-luna-system": "Ce profil GitHub.",
         "certif-az104": "Notes privées de révision AZ-104.",
-        "az104-portfolio": "Notes publiques de préparation AZ-104. Pas encore certifiée.",
+        "az104-portfolio": "Notes AZ-104. Badge non obtenu.",
         "base_template": "Squelette Python/FastAPI, peu mis à jour.",
         "nours_interface": "Ancien POC web Flask, conservé en archive.",
         "bbia_branding": "Dépôt archivé. Les assets sont dans bbia-sim.",
@@ -287,6 +286,8 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
 
         if "luna-system" in name or "profile" in desc or "profil" in desc:
             role = "Profil"
+        elif "az104" in name or "certif" in name:
+            role = "Azure"
         elif "template" in name or "base" in name:
             role = "Outillage"
         elif "metrics" in name or "collector" in name:
@@ -296,14 +297,14 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         elif "branding" in name or "logo" in name:
             role = "Design"
         elif "cia" in name:
-            role = "Santé / Mobile"
+            role = "Santé"
         elif "aria" in name:
             role = "Archive"
         elif "quest" in name:
             role = "Jeu"
         elif "bbia" in name or "robot" in desc:
             role = "Robotique"
-        elif "pro" in name:
+        elif "luna-pro" in name:
             role = "R&D"
 
         if "aria" in name or "dépréci" in desc or "deprecated" in desc:
@@ -364,10 +365,7 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
         if key:
             indexed[key] = project
 
-    lines = [
-        "Ceux que je maintiens vraiment, dans cet ordre :",
-        "",
-    ]
+    lines: List[str] = []
     found = 0
     for featured_name in FEATURED_ORDER:
         maybe_project = indexed.get(featured_name.lower())
@@ -452,7 +450,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             role = "Jeu"
         elif "bbia" in name_lower:
             role = "Robotique"
-        elif "pro" in name_lower:
+        elif "luna-pro" in name_lower:
             role = "R&D"
         elif "logo" in name_lower or "branding" in name_lower:
             role = "Design"
