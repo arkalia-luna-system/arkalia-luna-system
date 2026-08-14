@@ -85,7 +85,7 @@ def _project_description_override(name: str, raw_description: Optional[str]) -> 
         "arkalia-quest": "Jeu narratif web (Flask) pour ados, autour d'une IA appelée LUNA.",
         "arkalia-luna-pro": "Orchestrateur IA expérimental, Python et Docker.",
         "arkalia-luna-logo": "Générateur de logos SVG, usage perso, peu actif.",
-        "ia-pipeline": "Projet en pause (maintenance minimale).",
+        "ia-pipeline": "Dépôt archivé. Ancien générateur de projets.",
         "arkalia-metrics-collector": "CLI de collecte de métriques pour projets Python.",
         "arkalia-luna-system": "Ce profil GitHub.",
         "certif-az104": "Notes privées de révision AZ-104.",
@@ -329,7 +329,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
     # Construire le markdown
     lines: List[str] = [
         "| Dépôt | Rôle | Statut | Dernier commit (Europe/Paris) | Branche |",
-        "|:------|:-----|:------:|:------------------------------|:--------|",
+        "|:------|:-----|:-------|:------------------------------|:--------|",
     ]
 
     for _, proj in rows:
@@ -388,8 +388,10 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
     """Génère le tableau des projets depuis les données JSON"""
     lines = [
         "| Projet | Description | Stack | Rôle | Statut |",
-        "|:------:|:-----------:|:-----:|:----:|:-----:|",
+        "|:-------|:------------|:------|:-----|:-------|",
     ]
+
+    ranked_rows: List[Tuple[int, str]] = []
 
     for project in projects:
         name = project.get("name", "")
@@ -407,7 +409,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         if "template" in name_lower or "base" in name_lower:
             status = "Template"
         elif "ia-pipeline" in name_lower:
-            status = "En pause"
+            status = "Archivé"
         elif "cia" in name_lower:
             status = "Bêta"
         elif "logo" in name_lower:
@@ -433,7 +435,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         elif "metrics" in name_lower or "collector" in name_lower:
             role = "Outillage"
         elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
-            role = "Outillage"
+            role = "Archive"
         elif (
             "archive" in name_lower
             or "nours" in name_lower
@@ -488,9 +490,30 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         # Échappe les pipes dans la description pour éviter de casser le tableau
         desc_short = desc_short.replace("|", "\\|")
 
-        lines.append(f"| **[{name}]({github_url})** | {desc_short} | {stack} | {role} | {status} |")
+        rank = _table_row_rank(name_lower, status)
+        ranked_rows.append(
+            (rank, f"| **[{name}]({github_url})** | {desc_short} | {stack} | {role} | {status} |")
+        )
 
+    ranked_rows.sort(key=lambda item: (item[0], item[1]))
+    lines.extend(row for _, row in ranked_rows)
     return "\n".join(lines)
+
+
+def _table_row_rank(name_lower: str, status: str) -> int:
+    """Ordre d'affichage : vitrine, puis le reste, archives à la fin."""
+    featured_rank = {name.lower(): index for index, name in enumerate(FEATURED_ORDER)}
+    if name_lower in featured_rank:
+        return featured_rank[name_lower]
+    if "az104" in name_lower:
+        return 10
+    if "quest" in name_lower:
+        return 20
+    if status == "Archivé":
+        return 90
+    if status in {"En pause", "Template", "Peu actif"}:
+        return 70
+    return 40
 
 
 def find_section_markers(content: str) -> List[Tuple[int, int, str]]:
@@ -547,7 +570,7 @@ def update_readme_section(
     before = content[:start]
     after = content[end:]
 
-    new_section = f"\n{new_content}\n"
+    new_section = f"\n{new_content}\n\n"
 
     if dry_run:
         print(f"\n📝 Section '{section_name}' serait mise à jour :")

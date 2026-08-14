@@ -45,11 +45,7 @@ def check_projects_count(data: Dict[str, Any], readme_path: Path) -> List[str]:
             f"{total_projects} projets" not in content
             and f"{total_projects} en production" not in content
         ):
-            # Vérifie si c'est mentionné différemment
-            if "11 projets" in content and total_projects == 12:
-                issues.append("⚠️  README mentionne 11 projets mais il y en a 12")
-            elif "12 projets" not in content and "12 en production" not in content:
-                issues.append(f"💡 README devrait mentionner {total_projects} projets")
+            issues.append(f"💡 README devrait mentionner {total_projects} projets")
 
     return issues
 

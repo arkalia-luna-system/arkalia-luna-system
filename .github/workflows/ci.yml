@@ -35,7 +35,7 @@ jobs:
         run: ruff check .
 
       - name: Run MyPy
-        run: mypy . || true
+        run: mypy .
 
   test:
     runs-on: ubuntu-latest
@@ -55,6 +55,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: |
-          # Tests à ajouter plus tard
-          echo "Tests à implémenter"
+        run: python -m pytest -q
