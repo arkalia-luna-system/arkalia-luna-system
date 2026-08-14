@@ -1,11 +1,8 @@
 name: Update Metrics
 
+# Cron OFF — vitrine README manuelle.
 on:
-  schedule:
-    # Tous les jours à 2h UTC
-    - cron: "0 2 * * *"
   workflow_dispatch:
-    # Permet de déclencher manuellement
 
 jobs:
   update:
