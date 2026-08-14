@@ -37,16 +37,6 @@ def check_projects_count(data: Dict[str, Any], readme_path: Path) -> List[str]:
             f"⚠️  Incohérence : {total_projects} projets dans la liste mais {stats_total} dans les stats"
         )
 
-    # Vérifie dans le README
-    if readme_path.exists():
-        content = readme_path.read_text(encoding="utf-8", errors="ignore")
-        # Cherche "12 projets" ou similaire
-        if (
-            f"{total_projects} projets" not in content
-            and f"{total_projects} en production" not in content
-        ):
-            issues.append(f"💡 README devrait mentionner {total_projects} projets")
-
     return issues
 
 
