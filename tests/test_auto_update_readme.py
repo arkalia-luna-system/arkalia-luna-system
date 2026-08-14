@@ -68,8 +68,8 @@ def test_generate_vision_section() -> None:
         },
     ]
     result = generate_vision_section(projects)
-    assert "Architecture" in result
-    assert "test-prod" in result or "Production" in result
+    assert "Organisation" in result
+    assert "test-prod" in result
     print("✅ test_generate_vision_section: OK")
 
 
@@ -77,14 +77,25 @@ def test_generate_featured_projects() -> None:
     """Test de génération des featured projects"""
     projects = [
         {
-            "name": "test-pro",
-            "description": "Production-ready project with tests",
-            "stars": 10,
-        }
+            "name": "bbia-sim",
+            "github_url": "https://github.com/arkalia-luna-system/bbia-sim",
+            "description": "Cognitive robot engine",
+        },
+        {
+            "name": "arkalia-quest",
+            "github_url": "https://github.com/arkalia-luna-system/arkalia-quest",
+            "description": "Jeu narratif",
+        },
+        {
+            "name": "arkalia-cia",
+            "github_url": "https://github.com/arkalia-luna-system/arkalia-cia",
+            "description": "Assistant santé",
+        },
     ]
     result = generate_featured_projects(projects)
-    # Peut être vide si score trop bas, mais ne doit pas crasher
-    assert isinstance(result, str)
+    assert "bbia-sim" in result
+    assert "arkalia-quest" in result
+    assert "arkalia-cia" in result
     print("✅ test_generate_featured_projects: OK")
 
 
@@ -102,7 +113,7 @@ def test_generate_status_board() -> None:
     ]
     result = generate_status_board(projects)
     assert "arkalia-luna-pro" in result
-    assert "ONLINE" in result or "🟢" in result
+    assert "R&D" in result or "Actif" in result
     print("✅ test_generate_status_board: OK")
 
 

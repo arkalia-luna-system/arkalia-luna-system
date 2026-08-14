@@ -15,6 +15,17 @@ from typing import Dict, List, Any, Tuple, Optional
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+# Trois dépôts réellement maintenus, dans cet ordre.
+FEATURED_ORDER = ["bbia-sim", "arkalia-quest", "arkalia-cia"]
+STATUS_BOARD_ORDER = [
+    "bbia-sim",
+    "arkalia-quest",
+    "arkalia-cia",
+    "arkalia-luna-pro",
+    "arkalia-luna-system",
+]
+TABLE_SKIP = {"arkalia-aria"}
+
 
 def _clean_description(raw_description: Optional[str], max_length: int = 100) -> str:
     """Nettoie une description brute pour affichage markdown lisible."""
@@ -69,12 +80,23 @@ def _project_description_override(name: str, raw_description: Optional[str]) -> 
     name_lower = (name or "").lower()
     desc = (raw_description or "").strip()
 
-    if name_lower in {"arkalia-luna-pro", "arkalia-luna-logo"}:
-        return "En développement"
-    if name_lower == "arkalia-cia":
-        return "En bêta, release v1.0 prévue Q2 2026"
-    if name_lower == "ia-pipeline":
-        return "Projet en pause (maintenance minimale)"
+    overrides = {
+        "arkalia-cia": "Assistant santé mobile Flutter, hors ligne. En bêta.",
+        "bbia-sim": "Simulation et moteur cognitif Python pour Reachy Mini.",
+        "arkalia-quest": "Jeu narratif web (Flask) pour ados, autour d'une IA appelée LUNA.",
+        "arkalia-luna-pro": "Orchestrateur IA expérimental, Python et Docker.",
+        "arkalia-luna-logo": "Générateur de logos SVG, usage perso, peu actif.",
+        "ia-pipeline": "Projet en pause (maintenance minimale).",
+        "arkalia-metrics-collector": "CLI de collecte de métriques pour projets Python.",
+        "arkalia-luna-system": "Ce profil GitHub.",
+        "certif-az104": "Notes et exercices pour la certification Azure AZ-104.",
+        "base_template": "Squelette Python/FastAPI, peu mis à jour.",
+        "nours_interface": "Ancien POC web Flask, conservé en archive.",
+        "bbia_branding": "Dépôt archivé. Les assets sont dans bbia-sim.",
+        "arkalia-aria": "Dépôt archivé. Le suivi santé a été fusionné dans CIA.",
+    }
+    if name_lower in overrides:
+        return overrides[name_lower]
 
     if desc:
         return desc
@@ -111,7 +133,7 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
         lang_str = "N/A"
 
     lines = [
-        "### 📈 Statistiques",
+        "### Statistiques",
         "",
         f"- **Projets** : {stats.get('total_projects', 0)} au total",
         f"- **Langages** : {lang_str}",
@@ -173,20 +195,22 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
             design_projects.append(project)
         elif "luna-system" in name or "profile" in desc or "profil" in desc:
             tooling_projects.append(project)
+        elif "certif" in name:
+            tooling_projects.append(project)
         else:
             prod_projects.append(project)
 
     lines = [
-        "### 🏗️ Architecture de l'Écosystème",
+        "### Organisation",
         "",
-        "L'écosystème est organisé en **4 catégories principales** :",
+        "Les dépôts se regroupent à peu près comme ça :",
         "",
     ]
 
     # Projets Production
     if prod_projects:
-        lines.append("#### 🏢 **Projets Produits**")
-        lines.append("Projets actifs, suivis et maintenus :")
+        lines.append("#### Projets principaux")
+        lines.append("Les dépôts applicatifs, pas tous au même rythme :")
         for proj in prod_projects[:6]:  # Limite à 6 pour lisibilité
             name = proj.get("name", "")
             desc = _display_description(name, proj.get("description"), max_length=55)
@@ -195,8 +219,8 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
 
     # Design & Branding
     if design_projects:
-        lines.append("#### 🎨 **Design & Branding**")
-        lines.append("Outils de génération et identité visuelle :")
+        lines.append("#### Design")
+        lines.append("Outils visuels, plutôt perso :")
         for proj in design_projects:
             name = proj.get("name", "")
             desc = _display_description(name, proj.get("description"), max_length=55)
@@ -205,8 +229,8 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
 
     # Outils & Infrastructure
     if tooling_projects:
-        lines.append("#### 🔧 **Outils & Infrastructure**")
-        lines.append("Infrastructure et outils de développement :")
+        lines.append("#### Outillage")
+        lines.append("Scripts, templates, notes, ce profil :")
         for proj in tooling_projects[:5]:  # Limite à 5
             name = proj.get("name", "")
             desc = _display_description(name, proj.get("description"), max_length=55)
@@ -215,8 +239,8 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
 
     # Archives
     if archive_projects:
-        lines.append("#### 📦 **Archives**")
-        lines.append("Projets historiques conservés pour leur valeur pédagogique :")
+        lines.append("#### Archives")
+        lines.append("Dépôts figés, gardés pour l'historique :")
         for proj in archive_projects:
             name = proj.get("name", "")
             desc = _display_description(name, proj.get("description"), max_length=55)
@@ -242,22 +266,15 @@ def _format_commit_time(iso_timestamp: Optional[str]) -> str:
 
 
 def generate_status_board(projects: List[Dict[str, Any]]) -> str:
-    """Génère un tableau de bord cyberpunk des systèmes clés."""
+    """Génère le tableau d'activité des dépôts principaux."""
     if not projects:
         return ""
 
-    # Ordre d'affichage prioritaire
-    priority_order = [
-        "arkalia-luna-pro",
-        "arkalia-cia",
-        "Arkalia-luna-logo",
-        "bbia-sim",
-        "arkalia-quest",
-        "arkalia-metrics-collector",
-        "arkalia-luna-system",
-    ]
+    priority_order = STATUS_BOARD_ORDER
 
-    indexed: Dict[str, Dict[str, Any]] = {p.get("name", ""): p for p in projects}
+    indexed: Dict[str, Dict[str, Any]] = {
+        (p.get("name") or "").lower(): p for p in projects if p.get("name")
+    }
 
     def _classify(project: Dict[str, Any]) -> Tuple[str, str]:
         """Retourne (role, status) avec une classification prudente."""
@@ -285,10 +302,12 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
             role = "Jeu"
         elif "bbia" in name or "robot" in desc:
             role = "Robotique"
+        elif "pro" in name:
+            role = "R&D"
 
         if "aria" in name or "dépréci" in desc or "deprecated" in desc:
             status = "ARCHIVE"
-        elif "beta" in name or "beta" in desc or "cia" in name:
+        elif "cia" in name:
             status = "BETA"
         elif "archive" in name or "nours" in name or "poc" in desc:
             status = "ARCHIVE"
@@ -297,7 +316,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
 
     rows: List[Tuple[int, Dict[str, Any]]] = []
     for idx, name in enumerate(priority_order):
-        proj = indexed.get(name)
+        proj = indexed.get(name.lower())
         if not proj:
             continue
         rows.append((idx, proj))
@@ -307,12 +326,8 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
 
     # Construire le markdown
     lines: List[str] = [
-        "### 🔮 Tableau de Bord Système",
-        "",
-        "_Vue synthétique des modules principaux de l'écosystème Arkalia Luna System._",
-        "",
-        "| Module | Rôle | Statut | Dernier commit (Europe/Paris) | Branche par défaut |",
-        "|:------:|:----:|:------:|:--------------:|:-------------------:|",
+        "| Dépôt | Rôle | Statut | Dernier commit (Europe/Paris) | Branche |",
+        "|:------|:-----|:------:|:------------------------------|:--------|",
     ]
 
     for _, proj in rows:
@@ -324,9 +339,9 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         role, status = _classify(proj)
 
         status_label = {
-            "ACTIF": "🟢 ACTIF",
-            "BETA": "🟡 BÊTA",
-            "ARCHIVE": "⚫ ARCHIVE",
+            "ACTIF": "Actif",
+            "BETA": "Bêta",
+            "ARCHIVE": "Archivé",
         }.get(status, status)
 
         last_commit = _format_commit_time(pushed_at)
@@ -334,91 +349,39 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         module_label = f"**[{name}]({github_url})**" if github_url else f"**{name}**"
 
         lines.append(
-            f"| {module_label} | {role} | `{status_label}` | {last_commit} | `{default_branch}` |"
+            f"| {module_label} | {role} | {status_label} | {last_commit} | `{default_branch}` |"
         )
 
     return "\n".join(lines)
 
 
 def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
-    """Génère automatiquement les Featured Projects avec scoring"""
-    # Score chaque projet
-    scored_projects = []
-
+    """Liste les trois dépôts à ouvrir en premier."""
+    indexed: Dict[str, Dict[str, Any]] = {}
     for project in projects:
-        name = (project.get("name") or "").lower()
-        desc = (project.get("description") or "").lower()
-        stars = project.get("stars", 0)
-
-        score = 0
-
-        # Critères de scoring
-        if "pro" in name:
-            score += 10
-        if "readme" in desc or "documentation" in desc or "documenté" in desc:
-            score += 10
-        if "test" in desc and any(char.isdigit() for char in desc):
-            score += 15
-        if "coverage" in desc or "couverture" in desc:
-            score += 10
-        if stars > 0:
-            score += stars * 2
-        if "docker" in desc or "monitoring" in desc:
-            score += 10
-        if "fastapi" in desc or "flutter" in desc:
-            score += 10
-        if "ia" in desc or "ai" in desc or "robot" in desc:
-            score += 5
-
-        # Exclut certains projets
-        if "template" in name or "archive" in name or "nours" in name:
-            score = 0
-
-        scored_projects.append((score, project))
-
-    # Trie par score et prend les top 3
-    scored_projects.sort(key=lambda x: x[0], reverse=True)
-    top_projects = [p[1] for p in scored_projects[:3] if p[0] > 0]
-
-    if not top_projects:
-        return ""
+        key = (project.get("name") or "").lower()
+        if key:
+            indexed[key] = project
 
     lines = [
-        "**Trois systèmes représentatifs de l’écosystème (architecture, usage, outillage).**",
+        "Ceux que je maintiens vraiment, dans cet ordre :",
         "",
     ]
-
-    # Génère le tableau HTML (format existant)
-    lines.append('<div align="center">')
-    lines.append("")
-    lines.append("<table>")
-    lines.append("<tr>")
-
-    for i, project in enumerate(top_projects):
-        name = project.get("name", "")
+    found = 0
+    for featured_name in FEATURED_ORDER:
+        maybe_project = indexed.get(featured_name.lower())
+        if maybe_project is None:
+            continue
+        project = maybe_project
+        name = project.get("name", featured_name)
         github_url = project.get("github_url", "")
-        desc = _display_description(name, project.get("description"), max_length=45)
+        desc = _display_description(name, project.get("description"), max_length=90)
+        label = f"**[{name}]({github_url})**" if github_url else f"**{name}**"
+        lines.append(f"- {label} — {desc}")
+        found += 1
 
-        # Image par défaut (logo Arkalia)
-        img_url = "https://raw.githubusercontent.com/arkalia-luna-system/arkalia-luna-logo/main/exports/screenshots/ultimate-serenity-200.svg"
-
-        lines.append('<td align="center" width="33%">')
-        lines.append(f'<a href="{github_url}">')
-        lines.append(
-            f'<img src="{img_url}" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 20px rgba(20, 184, 166, 0.4);" alt="{name}"/>'
-        )
-        lines.append("<br/><br/>")
-        lines.append(f"<strong>{name}</strong>")
-        lines.append("<br/>")
-        lines.append(f"<sub>{desc}</sub>")
-        lines.append("</a>")
-        lines.append("</td>")
-
-    lines.append("</tr>")
-    lines.append("</table>")
-    lines.append("")
-    lines.append("</div>")
-
+    if found == 0:
+        return ""
     return "\n".join(lines)
 
 
@@ -431,7 +394,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
 
     for project in projects:
         name = project.get("name", "")
-        if (name or "").lower() == "arkalia-aria":
+        if (name or "").lower() in TABLE_SKIP:
             continue
         github_url = project.get("github_url", "")
         raw_description = project.get("description")
@@ -440,14 +403,16 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         raw_desc_lower = (raw_description or "").lower()
 
         # Détermine le statut de manière conservative (sans sur-promesse)
-        status = "🟢 Actif"
+        status = "Actif"
         name_lower = name.lower()
         if "template" in name_lower or "base" in name_lower:
-            status = "🧩 Template"
+            status = "Template"
         elif "ia-pipeline" in name_lower:
-            status = "⏸️ En pause"
-        elif "beta" in name_lower or "cia" in name_lower:
-            status = "🚧 Bêta"
+            status = "En pause"
+        elif "cia" in name_lower:
+            status = "Bêta"
+        elif "logo" in name_lower:
+            status = "Peu actif"
         elif (
             "archive" in name_lower
             or "nours" in name_lower
@@ -455,19 +420,21 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             or "dépréci" in raw_desc_lower
             or "deprecated" in raw_desc_lower
         ):
-            status = "📦 Archivé"
+            status = "Archivé"
 
         # Détermine le rôle basé sur le nom et la description
-        role = "🏢 Projet"
+        role = "Projet"
         desc_lower = raw_desc_lower
         if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
-            role = "🌙 Profil"  # Profil GitHub centralisé
+            role = "Profil"
+        elif "certif" in name_lower:
+            role = "Notes"
         elif "template" in name_lower or "base" in name_lower:
-            role = "🔧 Outillage"
+            role = "Outillage"
         elif "metrics" in name_lower or "collector" in name_lower:
-            role = "🔧 Outillage"
+            role = "Outillage"
         elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
-            role = "🔧 Outillage"
+            role = "Outillage"
         elif (
             "archive" in name_lower
             or "nours" in name_lower
@@ -475,11 +442,19 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             or "dépréci" in desc_lower
             or "deprecated" in desc_lower
         ):
-            role = "📦 Archive"
-        elif "beta" in name_lower or "cia" in name_lower:
-            role = "🚧 Bêta"
+            role = "Archive"
+        elif "cia" in name_lower:
+            role = "Santé"
         elif "aria" in name_lower:
-            role = "📦 Archive"
+            role = "Archive"
+        elif "quest" in name_lower:
+            role = "Jeu"
+        elif "bbia" in name_lower:
+            role = "Robotique"
+        elif "pro" in name_lower:
+            role = "R&D"
+        elif "logo" in name_lower or "branding" in name_lower:
+            role = "Design"
 
         # Stack stricte : "langage" + au maximum une techno secondaire.
         primary_stack = language if language else "Python"
