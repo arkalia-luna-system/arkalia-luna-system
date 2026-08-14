@@ -89,7 +89,8 @@ def _project_description_override(name: str, raw_description: Optional[str]) -> 
         "ia-pipeline": "Projet en pause (maintenance minimale).",
         "arkalia-metrics-collector": "CLI de collecte de métriques pour projets Python.",
         "arkalia-luna-system": "Ce profil GitHub.",
-        "certif-az104": "Notes et exercices pour la certification Azure AZ-104.",
+        "certif-az104": "Notes privées de révision AZ-104.",
+        "az104-portfolio": "Notes publiques de préparation AZ-104. Pas encore certifiée.",
         "base_template": "Squelette Python/FastAPI, peu mis à jour.",
         "nours_interface": "Ancien POC web Flask, conservé en archive.",
         "bbia_branding": "Dépôt archivé. Les assets sont dans bbia-sim.",
@@ -195,7 +196,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
             design_projects.append(project)
         elif "luna-system" in name or "profile" in desc or "profil" in desc:
             tooling_projects.append(project)
-        elif "certif" in name:
+        elif "certif" in name or "az104" in name:
             tooling_projects.append(project)
         else:
             prod_projects.append(project)
@@ -231,7 +232,7 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
     if tooling_projects:
         lines.append("#### Outillage")
         lines.append("Scripts, templates, notes, ce profil :")
-        for proj in tooling_projects[:5]:  # Limite à 5
+        for proj in tooling_projects[:8]:
             name = proj.get("name", "")
             desc = _display_description(name, proj.get("description"), max_length=55)
             lines.append(f"- **{name}** : {desc}")
@@ -399,7 +400,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         github_url = project.get("github_url", "")
         raw_description = project.get("description")
         description = _display_description(name, raw_description, max_length=84)
-        language = project.get("language", "Python")
+        language = project.get("language") or "Markdown"
         raw_desc_lower = (raw_description or "").lower()
 
         # Détermine le statut de manière conservative (sans sur-promesse)
@@ -427,7 +428,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
         desc_lower = raw_desc_lower
         if "luna-system" in name_lower or "profile" in desc_lower or "profil" in desc_lower:
             role = "Profil"
-        elif "certif" in name_lower:
+        elif "certif" in name_lower or "az104" in name_lower:
             role = "Notes"
         elif "template" in name_lower or "base" in name_lower:
             role = "Outillage"
