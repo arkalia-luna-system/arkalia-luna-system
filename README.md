@@ -2,8 +2,6 @@
 
 Python, Flutter, robotique, jeu, santé. **13 projets** publics (archives comprises).
 
-
-> **Naming** : la vitrine publique = ce `README.md`. Les anciens brouillons (`RESUME-*`, checklists) sont dans [`archive/notes-profil/`](archive/notes-profil/).
 **Azure :** AZ-104 en préparation · exam **09/10/2026** · badge non obtenu · [az104-portfolio](https://github.com/arkalia-luna-system/az104-portfolio)
 
 ## Projets
