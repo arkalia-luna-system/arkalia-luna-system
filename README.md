@@ -6,9 +6,23 @@ dont trois que je maintiens vraiment.
 
 ## En bref
 
-- **Sujets** : robotique (Reachy Mini), jeu narratif web, assistant santé mobile.
-- **Périmètre** : 12 projets suivis (repositories GitHub), archives comprises.
+- **Sujets** : robotique (Reachy Mini), jeu narratif web, assistant santé mobile, **cloud Azure** (en cours).
+- **Périmètre** : projets open source suivis sur GitHub (actifs + archives).
 - **Mise à jour** : `update-profile.py` et `auto-update-readme.py`.
+
+## Parcours cloud / certifications
+
+Fait réel, sans anticipation de badge non obtenu :
+
+| Élément | Statut |
+|---------|--------|
+| **AZ-900** (Azure Fundamentals) | Assimilé · tests blancs Learn jusqu’à **~88 %** |
+| **AZ-104** (Azure Administrator) | **En préparation** · examen programmé **ven 09/10/2026** (OnVUE, FR) |
+| Labs Microsoft | Parcours Learn 100 % + labs MS (réseau, stockage, calcul, backup, monitor) sur abonnement réel |
+| Notes détaillées | Repo d’étude **privé** (organisation perso) |
+| Preuves publiques | [az104-portfolio](https://github.com/arkalia-luna-system/az104-portfolio) — règles & schémas (sans secrets) |
+
+> Quand l’AZ-104 sera réussi : mise à jour de cette section + badge Credly + bio GitHub. **Pas avant.**
 
 ## Activité récente
 
@@ -99,6 +113,7 @@ Ce que j'utilise vraiment, selon les dépôts :
 - **Mobile** : Flutter.
 - **Robotique** : MuJoCo, SDK Reachy Mini.
 - **Infra** : Docker, GitHub Actions.
+- **Cloud** : Azure (portail + Azure CLI) — formation AZ-104 en cours, pas encore un rôle pro cloud.
 
 ## Contact
 
