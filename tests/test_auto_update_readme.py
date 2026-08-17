@@ -130,9 +130,6 @@ def main() -> int:
     except AssertionError as e:
         print(f"\n❌ Test échoué : {e}")
         return 1
-    except Exception as e:
-        print(f"\n❌ Erreur : {e}")
-        return 1
 
 
 if __name__ == "__main__":

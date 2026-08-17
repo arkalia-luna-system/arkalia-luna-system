@@ -7,14 +7,14 @@ Usage:
     python update-profile.py [--dry-run] [--force] [--verbose]
 """
 
+import argparse
+import json
 import os
 import sys
-import json
-import argparse
-from pathlib import Path
-from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import UTC, datetime
+from pathlib import Path
+from typing import Any
 
 try:
     import requests
@@ -29,21 +29,21 @@ class ProjectInfo:
 
     name: str
     github_url: str
-    local_path: Optional[Path] = None
-    readme_path: Optional[Path] = None
+    local_path: Path | None = None
+    readme_path: Path | None = None
     description: str = ""
     language: str = ""
     stars: int = 0
     is_public: bool = True
-    branches: Optional[List[str]] = None
-    default_branch: Optional[str] = None
-    pushed_at: Optional[str] = None
+    branches: list[str] | None = None
+    default_branch: str | None = None
+    pushed_at: str | None = None
 
 
 class GitHubProfileUpdater:
     """Gestionnaire intelligent pour mettre à jour le profil GitHub"""
 
-    def __init__(self, username: str = "arkalia-luna-system", base_path: Optional[Path] = None):
+    def __init__(self, username: str = "arkalia-luna-system", base_path: Path | None = None):
         self.username = username
         self.base_path = base_path if base_path is not None else Path("/Volumes/T7")
         self.github_token = os.getenv("GITHUB_TOKEN")
@@ -57,19 +57,19 @@ class GitHubProfileUpdater:
                 }
             )
 
-        self.projects: List[ProjectInfo] = []
+        self.projects: list[ProjectInfo] = []
         self.profile_repo_path = Path(__file__).parent
 
-    def fetch_github_repos(self) -> List[Dict[str, Any]]:
+    def fetch_github_repos(self) -> list[dict[str, Any]]:
         """Récupère tous les repos GitHub via API"""
         print("🔍 Récupération des projets depuis GitHub...")
-        repos: List[Dict[str, Any]] = []
+        repos: list[dict[str, Any]] = []
         page = 1
         per_page = 100
 
         while True:
             url = f"https://api.github.com/users/{self.username}/repos"
-            params: Dict[str, Any] = {
+            params: dict[str, Any] = {
                 "type": "all",
                 "sort": "updated",
                 "direction": "desc",
@@ -101,7 +101,7 @@ class GitHubProfileUpdater:
         print(f"✅ {len(repos)} projets trouvés sur GitHub")
         return repos
 
-    def _generate_name_variants(self, repo_name: str) -> List[str]:
+    def _generate_name_variants(self, repo_name: str) -> list[str]:
         """Génère des variations du nom pour la recherche"""
         if not repo_name:
             return []
@@ -161,7 +161,7 @@ class GitHubProfileUpdater:
 
         return list(set(variants))  # Supprime les doublons
 
-    def find_local_project_path(self, repo_name: str) -> Optional[Path]:
+    def find_local_project_path(self, repo_name: str) -> Path | None:
         """Cherche intelligemment le chemin local d'un projet"""
         # Génère des variations du nom
         name_variants = self._generate_name_variants(repo_name)
@@ -258,17 +258,25 @@ class GitHubProfileUpdater:
                     repo_name_lower = repo_name.lower()
 
                     # Correspondance exacte
-                    if any(variant.lower() == item_name_lower for variant in name_variants):
-                        if (item / ".git").exists():
-                            return item
+                    if (
+                        any(variant.lower() == item_name_lower for variant in name_variants)
+                        and (item / ".git").exists()
+                    ):
+                        return item
 
                     # Correspondance partielle (pour athalia-dev-setup = ia-pipeline)
-                    if "pipeline" in repo_name_lower and "athalia" in item_name_lower:
-                        if (item / ".git").exists():
-                            return item
-                    if "athalia" in repo_name_lower and "athalia" in item_name_lower:
-                        if (item / ".git").exists():
-                            return item
+                    if (
+                        "pipeline" in repo_name_lower
+                        and "athalia" in item_name_lower
+                        and (item / ".git").exists()
+                    ):
+                        return item
+                    if (
+                        "athalia" in repo_name_lower
+                        and "athalia" in item_name_lower
+                        and (item / ".git").exists()
+                    ):
+                        return item
 
                     # Cherche un niveau de plus
                     for variant in name_variants:
@@ -280,14 +288,12 @@ class GitHubProfileUpdater:
 
         # Vérifie les chemins directs
         for path in search_paths:
-            if path.exists() and path.is_dir():
-                # Vérifie que c'est bien un repo git
-                if (path / ".git").exists():
-                    return path
+            if path.exists() and path.is_dir() and (path / ".git").exists():
+                return path
 
         return None
 
-    def find_readme(self, project_path: Path) -> Optional[Path]:
+    def find_readme(self, project_path: Path) -> Path | None:
         """Trouve le README racine d'un projet"""
         readme_variants = [
             "README.md",
@@ -326,24 +332,17 @@ class GitHubProfileUpdater:
                 # Ignore les lignes vides, badges, liens purs
                 if (
                     not line_stripped
-                    or line_stripped.startswith("#")
-                    or line_stripped.startswith("[!")
+                    or line_stripped.startswith(("#", "[!", "|", "---", "```"))
                     or (line_stripped.startswith("http") and " " not in line_stripped)
-                    or line_stripped.startswith("|")  # Tableaux
-                    or line_stripped.startswith("---")
-                    or line_stripped.startswith("```")
                 ):
                     if line_stripped.startswith("#"):
                         found_title = True
                     continue
 
                 # Cherche après le titre principal
-                if found_title and len(line_stripped) > 25:
-                    # Vérifie que ce n'est pas un titre de section
-                    if not line_stripped.startswith("##"):
-                        # Prend la première ligne significative
-                        description = line_stripped
-                        break
+                if found_title and len(line_stripped) > 25 and not line_stripped.startswith("##"):
+                    description = line_stripped
+                    break
 
             # Si pas trouvé, cherche dans les premières lignes avec patterns
             if not description:
@@ -351,15 +350,11 @@ class GitHubProfileUpdater:
                     line_stripped = line.strip()
                     if (
                         len(line_stripped) > 30
-                        and not line_stripped.startswith("#")
-                        and not line_stripped.startswith("[")
-                        and not line_stripped.startswith("|")
-                        and not line_stripped.startswith("```")
+                        and not line_stripped.startswith(("#", "[", "|", "```"))
+                        and any(char.isalpha() for char in line_stripped[:10])
                     ):
-                        # Vérifie que c'est une vraie description
-                        if any(char.isalpha() for char in line_stripped[:10]):
-                            description = line_stripped
-                            break
+                        description = line_stripped
+                        break
 
             # Nettoie la description
             if description:
@@ -376,9 +371,9 @@ class GitHubProfileUpdater:
             # Erreur lors de l'extraction de la description (fichier corrompu, encoding, etc.)
             return ""
 
-    def detect_secondary_languages(self, project_path: Path) -> List[str]:
+    def detect_secondary_languages(self, project_path: Path) -> list[str]:
         """Détecte intelligemment les langages secondaires dans un projet"""
-        languages: List[str] = []
+        languages: list[str] = []
 
         if not project_path.exists():
             return languages
@@ -416,7 +411,7 @@ class GitHubProfileUpdater:
             ".lua": "Lua",
         }
 
-        found_languages: Dict[str, float] = {}  # Dict pour compter les occurrences
+        found_languages: dict[str, float] = {}  # Dict pour compter les occurrences
 
         def count_language(lang: str) -> None:
             """Compte les occurrences d'un langage"""
@@ -463,10 +458,10 @@ class GitHubProfileUpdater:
 
         return []
 
-    def detect_branches(self, project_path: Path) -> tuple[List[str], Optional[str]]:
+    def detect_branches(self, project_path: Path) -> tuple[list[str], str | None]:
         """Détecte les branches d'un projet local"""
-        branches: List[str] = []
-        default_branch: Optional[str] = None
+        branches: list[str] = []
+        default_branch: str | None = None
 
         if not project_path.exists() or not (project_path / ".git").exists():
             return branches, default_branch
@@ -481,6 +476,7 @@ class GitHubProfileUpdater:
                 capture_output=True,
                 text=True,
                 timeout=5,
+                check=False,
             )
             if result.returncode == 0:
                 for line in result.stdout.split("\n"):
@@ -497,6 +493,7 @@ class GitHubProfileUpdater:
                 capture_output=True,
                 text=True,
                 timeout=5,
+                check=False,
             )
             if result_remote.returncode == 0:
                 for line in result_remote.stdout.split("\n"):
@@ -511,7 +508,7 @@ class GitHubProfileUpdater:
 
         return branches, default_branch
 
-    def analyze_project(self, repo_data: Dict[str, Any]) -> ProjectInfo:
+    def analyze_project(self, repo_data: dict[str, Any]) -> ProjectInfo:
         """Analyse un projet et trouve ses infos locales"""
         repo_name = repo_data.get("name", "")
         github_url = repo_data.get("html_url", "")
@@ -555,7 +552,7 @@ class GitHubProfileUpdater:
 
         return project
 
-    def discover_projects(self) -> List[ProjectInfo]:
+    def discover_projects(self) -> list[ProjectInfo]:
         """Découvre tous les projets (GitHub + local)"""
         print("\n🌙 Découverte des projets Arkalia Luna System...\n")
 
@@ -573,7 +570,7 @@ class GitHubProfileUpdater:
 
         return self.projects
 
-    def generate_profile_stats(self) -> Dict:
+    def generate_profile_stats(self) -> dict:
         """Génère les statistiques pour le profil"""
         stats = {
             "total_projects": len(self.projects),
@@ -581,11 +578,11 @@ class GitHubProfileUpdater:
             "projects_with_readme": sum(1 for p in self.projects if p.readme_path),
             "total_stars": sum(p.stars for p in self.projects),
             "languages": {},
-            "last_updated": datetime.now().isoformat(),
+            "last_updated": datetime.now(UTC).isoformat(),
         }
 
         # Compte les langages (principal + secondaires)
-        languages_dict: Dict[str, int] = {}
+        languages_dict: dict[str, int] = {}
         for project in self.projects:
             # Langage principal
             if project.language:
@@ -602,14 +599,14 @@ class GitHubProfileUpdater:
 
         return stats
 
-    def export_project_list(self, output_file: Optional[Path] = None) -> Path:
+    def export_project_list(self, output_file: Path | None = None) -> Path:
         """Exporte la liste des projets en JSON"""
         if output_file is None:
             output_file = self.profile_repo_path / "config" / "projects-data.json"
 
         data = {
             "username": self.username,
-            "generated_at": datetime.now().isoformat(),
+            "generated_at": datetime.now(UTC).isoformat(),
             "stats": self.generate_profile_stats(),
             "projects": [
                 {

@@ -7,12 +7,13 @@ Usage:
     python scripts/audit-projects.py [--output OUTPUT_FILE] [--verbose]
 """
 
+import argparse
 import json
 import sys
-import argparse
-from pathlib import Path
-from typing import Dict, List, Any, Optional
 from datetime import datetime
+from pathlib import Path
+from typing import Any
+from zoneinfo import ZoneInfo
 
 # Ajoute le répertoire parent au path pour importer update-profile
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -27,24 +28,24 @@ class ProjectAuditor:
     def __init__(self, projects_data_path: Path):
         self.projects_data_path = projects_data_path
         self.data = self._load_projects_data()
-        self.audit_results: List[Dict[str, Any]] = []
+        self.audit_results: list[dict[str, Any]] = []
 
-    def _load_projects_data(self) -> Dict[str, Any]:
+    def _load_projects_data(self) -> dict[str, Any]:
         """Charge les données des projets"""
         try:
             with open(self.projects_data_path, "r", encoding="utf-8") as f:
-                data: Dict[str, Any] = json.load(f)
+                data: dict[str, Any] = json.load(f)
                 return data
         except FileNotFoundError:
             print(f"❌ Fichier non trouvé : {self.projects_data_path}")
             print("💡 Exécutez d'abord : python update-profile.py")
             sys.exit(1)
 
-    def audit_readme(self, project: Dict[str, Any]) -> Dict[str, Any]:
+    def audit_readme(self, project: dict[str, Any]) -> dict[str, Any]:
         """Audite le README d'un projet"""
         readme_path = project.get("readme_path")
-        issues: List[str] = []
-        strengths: List[str] = []
+        issues: list[str] = []
+        strengths: list[str] = []
 
         if not readme_path:
             issues.append("⚠️  README non trouvé localement")
@@ -124,15 +125,15 @@ class ProjectAuditor:
                 "strengths": strengths,
             }
 
-        except Exception as e:
+        except (OSError, UnicodeError) as e:
             issues.append(f"❌ Erreur lors de la lecture : {e}")
             return {"has_readme": False, "issues": issues, "strengths": strengths}
 
-    def audit_structure(self, project: Dict[str, Any]) -> Dict[str, Any]:
+    def audit_structure(self, project: dict[str, Any]) -> dict[str, Any]:
         """Audite la structure d'un projet"""
         local_path = project.get("local_path")
-        issues: List[str] = []
-        strengths: List[str] = []
+        issues: list[str] = []
+        strengths: list[str] = []
 
         if not local_path:
             issues.append("⚠️  Projet non trouvé localement (impossible d'auditer la structure)")
@@ -199,10 +200,10 @@ class ProjectAuditor:
             "strengths": strengths,
         }
 
-    def audit_metrics(self, project: Dict[str, Any]) -> Dict[str, Any]:
+    def audit_metrics(self, project: dict[str, Any]) -> dict[str, Any]:
         """Audite les métriques d'un projet"""
-        issues: List[str] = []
-        strengths: List[str] = []
+        issues: list[str] = []
+        strengths: list[str] = []
 
         description = (project.get("description") or "").lower()
 
@@ -239,18 +240,18 @@ class ProjectAuditor:
         }
 
     def audit_coherence(
-        self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]
-    ) -> Dict[str, Any]:
+        self, project: dict[str, Any], all_projects: list[dict[str, Any]]
+    ) -> dict[str, Any]:
         """Audite la cohérence avec les autres projets"""
-        issues: List[str] = []
-        strengths: List[str] = []
+        issues: list[str] = []
+        strengths: list[str] = []
 
         name = project.get("name", "")
         description = project.get("description", "")
         language = project.get("language", "")
 
         # Vérifie la cohérence du nommage
-        if name.startswith("arkalia-") or name.startswith("Arkalia-"):
+        if name.startswith(("arkalia-", "Arkalia-")):
             strengths.append("✅ Nommage cohérent (préfixe arkalia)")
         elif name.startswith("bbia"):
             strengths.append("✅ Nommage cohérent (préfixe bbia)")
@@ -275,8 +276,8 @@ class ProjectAuditor:
         }
 
     def audit_project(
-        self, project: Dict[str, Any], all_projects: List[Dict[str, Any]]
-    ) -> Dict[str, Any]:
+        self, project: dict[str, Any], all_projects: list[dict[str, Any]]
+    ) -> dict[str, Any]:
         """Audite un projet complet"""
         name = project.get("name", "Unknown")
         print(f"\n🔍 Audit de {name}...")
@@ -315,7 +316,7 @@ class ProjectAuditor:
             "total_strengths": total_strengths,
         }
 
-    def audit_all(self) -> List[Dict[str, Any]]:
+    def audit_all(self) -> list[dict[str, Any]]:
         """Audite tous les projets"""
         projects = self.data.get("projects", [])
         print(f"🔍 Début de l'audit de {len(projects)} projets...\n")
@@ -328,13 +329,13 @@ class ProjectAuditor:
         return results
 
     def generate_report(
-        self, results: List[Dict[str, Any]], output_file: Optional[Path] = None
+        self, results: list[dict[str, Any]], output_file: Path | None = None
     ) -> str:
         """Génère un rapport d'audit en Markdown"""
         lines = [
             "# 🔍 Rapport d'Audit - Projets Arkalia Luna System",
             "",
-            f"**Date** : {datetime.now().strftime('%d %B %Y, %H:%M')}",
+            f"**Date** : {datetime.now(ZoneInfo('Europe/Brussels')).strftime('%d %B %Y, %H:%M')}",
             f"**Projets audités** : {len(results)}",
             "",
             "---",

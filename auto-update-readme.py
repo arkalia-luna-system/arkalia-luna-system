@@ -7,12 +7,12 @@ Usage:
     python auto-update-readme.py [--dry-run]
 """
 
-import re
-import json
 import argparse
-from pathlib import Path
-from typing import Dict, List, Any, Tuple, Optional
+import json
+import re
 from datetime import datetime
+from pathlib import Path
+from typing import Any
 from zoneinfo import ZoneInfo
 
 # Trois dépôts réellement maintenus, dans cet ordre.
@@ -26,7 +26,7 @@ STATUS_BOARD_ORDER = [
 TABLE_SKIP = {"arkalia-aria"}
 
 
-def _clean_description(raw_description: Optional[str], max_length: int = 100) -> str:
+def _clean_description(raw_description: str | None, max_length: int = 100) -> str:
     """Nettoie une description brute pour affichage markdown lisible."""
     if not raw_description:
         return "Projet en développement"
@@ -74,7 +74,7 @@ def _clean_description(raw_description: Optional[str], max_length: int = 100) ->
     return desc
 
 
-def _project_description_override(name: str, raw_description: Optional[str]) -> Optional[str]:
+def _project_description_override(name: str, raw_description: str | None) -> str | None:
     """Applique des formulations factuelles spécifiques à certains projets."""
     name_lower = (name or "").lower()
     desc = (raw_description or "").strip()
@@ -103,17 +103,17 @@ def _project_description_override(name: str, raw_description: Optional[str]) -> 
     return None
 
 
-def _display_description(name: str, raw_description: Optional[str], max_length: int) -> str:
+def _display_description(name: str, raw_description: str | None, max_length: int) -> str:
     """Prépare la description finale affichée dans le README."""
     override = _project_description_override(name, raw_description)
     return _clean_description(override, max_length=max_length)
 
 
-def load_projects_data(data_file: Path) -> Dict[str, Any]:
+def load_projects_data(data_file: Path) -> dict[str, Any]:
     """Charge les données des projets"""
     try:
         with open(data_file, "r", encoding="utf-8") as f:
-            data: Dict[str, Any] = json.load(f)
+            data: dict[str, Any] = json.load(f)
             return data
     except FileNotFoundError:
         raise FileNotFoundError(f"Fichier de données non trouvé : {data_file}")
@@ -121,7 +121,7 @@ def load_projects_data(data_file: Path) -> Dict[str, Any]:
         raise ValueError(f"Erreur de décodage JSON dans {data_file}: {e}")
 
 
-def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
+def generate_stats_section_markdown(stats: dict[str, Any]) -> str:
     """Génère la section statistiques en markdown"""
     # Compte les langages avec formatage
     lang_list = []
@@ -138,7 +138,7 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
         f"- **Projets** : {stats.get('total_projects', 0)} au total",
         f"- **Langages** : {lang_str}",
         "",
-        f"<sub>*Dernière mise à jour : {datetime.now().strftime('%d %B %Y')}*</sub>".replace(
+        f"<sub>*Dernière mise à jour : {datetime.now(ZoneInfo('Europe/Brussels')).strftime('%d %B %Y')}*</sub>".replace(
             "January", "janvier"
         )
         .replace("February", "février")
@@ -157,30 +157,34 @@ def generate_stats_section_markdown(stats: Dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
-def generate_languages_table(stats: Dict[str, Any]) -> str:
+def generate_languages_table(stats: dict[str, Any]) -> str:
     """Génère le tableau des langages (non utilisé actuellement, format intégré dans stats)"""
     # Cette fonction n'est plus utilisée car les langages sont dans la section stats
     return ""
 
 
-def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
+def generate_vision_section(projects: list[dict[str, Any]]) -> str:
     """Génère automatiquement la section Vision Système depuis projects-data.json"""
     # Groupe les projets par rôle
-    prod_projects: List[Dict[str, Any]] = []
-    design_projects: List[Dict[str, Any]] = []
-    tooling_projects: List[Dict[str, Any]] = []
-    archive_projects: List[Dict[str, Any]] = []
+    prod_projects: list[dict[str, Any]] = []
+    design_projects: list[dict[str, Any]] = []
+    tooling_projects: list[dict[str, Any]] = []
+    archive_projects: list[dict[str, Any]] = []
 
     for project in projects:
         name = (project.get("name") or "").lower()
         desc = (project.get("description") or "").lower()
 
         # Classification
-        if "template" in name or "base" in name:
-            tooling_projects.append(project)
-        elif "metrics" in name or "collector" in name:
-            tooling_projects.append(project)
-        elif "pipeline" in name or "devops" in desc or "athalia" in name:
+        if (
+            "template" in name
+            or "base" in name
+            or "metrics" in name
+            or "collector" in name
+            or "pipeline" in name
+            or "devops" in desc
+            or "athalia" in name
+        ):
             tooling_projects.append(project)
         elif (
             "archive" in name
@@ -193,9 +197,13 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
             archive_projects.append(project)
         elif "branding" in name or "logo" in name:
             design_projects.append(project)
-        elif "luna-system" in name or "profile" in desc or "profil" in desc:
-            tooling_projects.append(project)
-        elif "certif" in name or "az104" in name:
+        elif (
+            "luna-system" in name
+            or "profile" in desc
+            or "profil" in desc
+            or "certif" in name
+            or "az104" in name
+        ):
             tooling_projects.append(project)
         else:
             prod_projects.append(project)
@@ -250,33 +258,33 @@ def generate_vision_section(projects: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def _format_commit_time(iso_timestamp: Optional[str]) -> str:
-    """Formate un timestamp ISO GitHub en heure locale Europe/Paris."""
+def _format_commit_time(iso_timestamp: str | None) -> str:
+    """Formate un timestamp ISO GitHub en heure locale Europe/Brussels."""
     if not iso_timestamp:
         return "N/A"
 
     try:
-        ts = datetime.fromisoformat(iso_timestamp.replace("Z", "+00:00"))
+        # Python 3.11 n'accepte pas le suffixe Z dans fromisoformat (FURB162).
+        ts = datetime.fromisoformat(iso_timestamp.replace("Z", "+00:00"))  # noqa: FURB162
     except ValueError:
         return iso_timestamp
 
-    paris_tz = ZoneInfo("Europe/Paris")
-    local_time = ts.astimezone(paris_tz)
+    local_time = ts.astimezone(ZoneInfo("Europe/Brussels"))
     return local_time.strftime("%d/%m/%Y %H:%M %Z")
 
 
-def generate_status_board(projects: List[Dict[str, Any]]) -> str:
+def generate_status_board(projects: list[dict[str, Any]]) -> str:
     """Génère le tableau d'activité des dépôts principaux."""
     if not projects:
         return ""
 
     priority_order = STATUS_BOARD_ORDER
 
-    indexed: Dict[str, Dict[str, Any]] = {
+    indexed: dict[str, dict[str, Any]] = {
         (p.get("name") or "").lower(): p for p in projects if p.get("name")
     }
 
-    def _classify(project: Dict[str, Any]) -> Tuple[str, str]:
+    def _classify(project: dict[str, Any]) -> tuple[str, str]:
         """Retourne (role, status) avec une classification prudente."""
         name = (project.get("name") or "").lower()
         desc = (project.get("description") or "").lower()
@@ -316,7 +324,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
 
         return role, status
 
-    rows: List[Tuple[int, Dict[str, Any]]] = []
+    rows: list[tuple[int, dict[str, Any]]] = []
     for idx, name in enumerate(priority_order):
         proj = indexed.get(name.lower())
         if not proj:
@@ -327,7 +335,7 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
         return ""
 
     # Construire le markdown
-    lines: List[str] = [
+    lines: list[str] = [
         "| Dépôt | Rôle | Statut | Dernier commit (Europe/Paris) | Branche |",
         "|:------|:-----|:-------|:------------------------------|:--------|",
     ]
@@ -357,15 +365,15 @@ def generate_status_board(projects: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
+def generate_featured_projects(projects: list[dict[str, Any]]) -> str:
     """Liste les trois dépôts à ouvrir en premier."""
-    indexed: Dict[str, Dict[str, Any]] = {}
+    indexed: dict[str, dict[str, Any]] = {}
     for project in projects:
         key = (project.get("name") or "").lower()
         if key:
             indexed[key] = project
 
-    lines: List[str] = []
+    lines: list[str] = []
     found = 0
     for featured_name in FEATURED_ORDER:
         maybe_project = indexed.get(featured_name.lower())
@@ -384,14 +392,14 @@ def generate_featured_projects(projects: List[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
+def generate_projects_table(projects: list[dict[str, Any]]) -> str:
     """Génère le tableau des projets depuis les données JSON"""
     lines = [
         "| Projet | Description | Stack | Rôle | Statut |",
         "|:-------|:------------|:------|:-----|:-------|",
     ]
 
-    ranked_rows: List[Tuple[int, str]] = []
+    ranked_rows: list[tuple[int, str]] = []
 
     for project in projects:
         name = project.get("name", "")
@@ -430,18 +438,24 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
             role = "Profil"
         elif "certif" in name_lower or "az104" in name_lower:
             role = "Notes"
-        elif "template" in name_lower or "base" in name_lower:
-            role = "Outillage"
-        elif "metrics" in name_lower or "collector" in name_lower:
-            role = "Outillage"
-        elif "pipeline" in name_lower or "devops" in desc_lower or "athalia" in name_lower:
-            role = "Archive"
         elif (
-            "archive" in name_lower
-            or "nours" in name_lower
-            or "poc" in desc_lower
-            or "dépréci" in desc_lower
-            or "deprecated" in desc_lower
+            "template" in name_lower
+            or "base" in name_lower
+            or "metrics" in name_lower
+            or "collector" in name_lower
+        ):
+            role = "Outillage"
+        elif (
+            "pipeline" in name_lower
+            or "devops" in desc_lower
+            or "athalia" in name_lower
+            or (
+                "archive" in name_lower
+                or "nours" in name_lower
+                or "poc" in desc_lower
+                or "dépréci" in desc_lower
+                or "deprecated" in desc_lower
+            )
         ):
             role = "Archive"
         elif "cia" in name_lower:
@@ -459,7 +473,7 @@ def generate_projects_table(projects: List[Dict[str, Any]]) -> str:
 
         # Stack stricte : "langage" + au maximum une techno secondaire.
         primary_stack = language if language else "Python"
-        secondary_stack: Optional[str] = None
+        secondary_stack: str | None = None
 
         if "design" in desc_lower or "branding" in name_lower or "logo" in name_lower:
             primary_stack = "Design"
@@ -516,7 +530,7 @@ def _table_row_rank(name_lower: str, status: str) -> int:
     return 40
 
 
-def find_section_markers(content: str) -> List[Tuple[int, int, str]]:
+def find_section_markers(content: str) -> list[tuple[int, int, str]]:
     """Trouve les marqueurs de sections dans le README"""
     markers = []
 
@@ -543,7 +557,7 @@ def find_section_markers(content: str) -> List[Tuple[int, int, str]]:
 
 def update_readme_section(
     content: str, section_name: str, new_content: str, dry_run: bool = False
-) -> Tuple[str, bool]:
+) -> tuple[str, bool]:
     """Met à jour une section du README"""
 
     # Trouve le marqueur

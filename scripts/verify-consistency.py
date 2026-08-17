@@ -10,23 +10,23 @@ Usage:
 import json
 import sys
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Any
 
 
-def load_projects_data(data_file: Path) -> Dict[str, Any]:
+def load_projects_data(data_file: Path) -> dict[str, Any]:
     """Charge les données des projets"""
     try:
         with open(data_file, "r", encoding="utf-8") as f:
-            data: Dict[str, Any] = json.load(f)
+            data: dict[str, Any] = json.load(f)
             return data
     except FileNotFoundError:
         print(f"❌ Fichier non trouvé : {data_file}")
         return {}
 
 
-def check_projects_count(data: Dict[str, Any], readme_path: Path) -> List[str]:
+def check_projects_count(data: dict[str, Any], readme_path: Path) -> list[str]:
     """Vérifie que le nombre de projets est cohérent"""
-    issues: List[str] = []
+    issues: list[str] = []
 
     projects = data.get("projects", [])
     total_projects = len(projects)
@@ -40,9 +40,9 @@ def check_projects_count(data: Dict[str, Any], readme_path: Path) -> List[str]:
     return issues
 
 
-def check_projects_list(data: Dict[str, Any], readme_path: Path) -> List[str]:
+def check_projects_list(data: dict[str, Any], readme_path: Path) -> list[str]:
     """Vérifie que tous les projets sont dans le README"""
-    issues: List[str] = []
+    issues: list[str] = []
 
     projects = data.get("projects", [])
 
@@ -60,9 +60,9 @@ def check_projects_list(data: Dict[str, Any], readme_path: Path) -> List[str]:
     return issues
 
 
-def check_workflows(workflows_dir: Path) -> List[str]:
+def check_workflows(workflows_dir: Path) -> list[str]:
     """Vérifie que les workflows existent"""
-    issues: List[str] = []
+    issues: list[str] = []
 
     expected_workflows = [
         "update-profile.yml",
@@ -79,9 +79,9 @@ def check_workflows(workflows_dir: Path) -> List[str]:
     return issues
 
 
-def check_scripts(scripts_dir: Path) -> List[str]:
+def check_scripts(scripts_dir: Path) -> list[str]:
     """Vérifie que les scripts existent"""
-    issues: List[str] = []
+    issues: list[str] = []
 
     expected_scripts = [
         "update_readme_metrics.py",
@@ -114,7 +114,7 @@ def main() -> int:
         print("❌ Impossible de charger les données")
         return 1
 
-    all_issues: List[str] = []
+    all_issues: list[str] = []
 
     # Vérifications
     print("\n📊 Vérification du nombre de projets...")

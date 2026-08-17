@@ -6,9 +6,9 @@ Met à jour automatiquement les métriques dans README.md
 
 import json
 import re
-from pathlib import Path
 from datetime import datetime
-from typing import Optional
+from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 def format_number(num: int) -> str:
@@ -25,7 +25,7 @@ def update_readme_metrics() -> None:
         repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
     ]
-    metrics_path: Optional[Path] = None
+    metrics_path: Path | None = None
     for path in metrics_paths:
         if path.exists():
             metrics_path = path
@@ -50,9 +50,9 @@ def update_readme_metrics() -> None:
 
     # Lire aggregated_metrics.json
     try:
-        with open(metrics_path, "r", encoding="utf-8") as f:
+        with open(metrics_path, encoding="utf-8") as f:
             data = json.load(f)
-    except Exception as e:
+    except (OSError, json.JSONDecodeError) as e:
         print(f"❌ Erreur lecture metrics: {e}")
         return
 
@@ -62,15 +62,15 @@ def update_readme_metrics() -> None:
     # Lire README.md
     try:
         readme = readme_path.read_text(encoding="utf-8")
-    except Exception as e:
+    except OSError as e:
         print(f"❌ Erreur lecture README: {e}")
         return
 
     # Remplacer métriques globales
-    total_modules = agg.get("total_modules", 52336)
-    total_tests = agg.get("total_tests", 11208)
-    total_lines = agg.get("total_lines_of_code", 24792057)
-    total_docs = agg.get("total_documentation_files", 6556)
+    total_modules = agg.get("total_modules", 0)
+    total_tests = agg.get("total_tests", 0)
+    total_lines = agg.get("total_lines_of_code", 0)
+    total_docs = agg.get("total_documentation_files", 0)
 
     replacements = {
         # Badges et métriques globales (utiliser virgules pour les badges)
@@ -139,7 +139,7 @@ def update_readme_metrics() -> None:
         repo_root / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "EVOLUTION_REPORT.md",
     ]
-    evolution_path: Optional[Path] = None
+    evolution_path: Path | None = None
     for path in evolution_paths:
         if path.exists():
             evolution_path = path
@@ -156,7 +156,7 @@ def update_readme_metrics() -> None:
                 before, after, delta = match.groups()
                 if delta.strip() != "N/A":
                     print(f"   - Modules: {before} → {after} ({delta})")
-        except Exception as e:
+        except OSError as e:
             print(f"⚠️  Erreur lecture rapport évolution: {e}")
 
     # Mettre à jour la date (format français)
@@ -175,7 +175,7 @@ def update_readme_metrics() -> None:
         11: "novembre",
         12: "décembre",
     }
-    now = datetime.now()
+    now = datetime.now(ZoneInfo("Europe/Brussels"))
     new_date = f"*Dernière mise à jour : {now.day} {months_fr[now.month]} {now.year}*"
     readme = re.sub(date_pattern, new_date, readme)
 
@@ -187,18 +187,16 @@ def update_readme_metrics() -> None:
     try:
         readme_path.write_text(readme, encoding="utf-8")
         print("✅ README.md mis à jour avec succès")
-    except Exception as e:
+    except OSError as e:
         print(f"❌ Erreur écriture README: {e}")
         return
 
     # Afficher résumé
     print("\n📊 Métriques mises à jour:")
-    print(f"   - Modules: {format_number(agg.get('total_modules', 52320))}")
-    print(f"   - Tests: {format_number(agg.get('total_tests', 11204))}")
-    print(f"   - Lignes: {format_number(agg.get('total_lines_of_code', 24790076))}")
-    print(
-        f"   - Documentation: {format_number(agg.get('total_documentation_files', 6530))} fichiers"
-    )
+    print(f"   - Modules: {format_number(agg.get('total_modules', 0))}")
+    print(f"   - Tests: {format_number(agg.get('total_tests', 0))}")
+    print(f"   - Lignes: {format_number(agg.get('total_lines_of_code', 0))}")
+    print(f"   - Documentation: {format_number(agg.get('total_documentation_files', 0))} fichiers")
     global_coverage = agg.get("global_coverage")
     if global_coverage is not None:
         print(f"   - Coverage global: {global_coverage:.2f}%")

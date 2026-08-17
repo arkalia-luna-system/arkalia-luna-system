@@ -7,12 +7,11 @@ Usage:
     python scripts/standardize-email.py [--dry-run] [--repo-path PATH]
 """
 
-import re
-import os
-import sys
 import argparse
+import os
+import re
+import sys
 from pathlib import Path
-from typing import List, Tuple
 
 # Email cible
 TARGET_EMAIL = "arkalia.luna.system@gmail.com"
@@ -52,7 +51,7 @@ IGNORE_DIRS = {
 }
 
 
-def find_email_patterns(content: str) -> List[Tuple[str, int]]:
+def find_email_patterns(content: str) -> list[tuple[str, int]]:
     """Trouve tous les emails dans le contenu"""
     # Pattern pour emails (évite de matcher le target email)
     pattern = r"\b[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b"
@@ -77,14 +76,10 @@ def should_process_file(file_path: Path) -> bool:
     if file_path.suffix.lower() in EXTENSIONS:
         return True
 
-    # Vérifier les fichiers spéciaux
-    if file_path.name in SPECIAL_FILES:
-        return True
-
-    return False
+    return file_path.name in SPECIAL_FILES
 
 
-def replace_emails_in_file(file_path: Path, dry_run: bool = False) -> Tuple[int, int]:
+def replace_emails_in_file(file_path: Path, dry_run: bool = False) -> tuple[int, int]:
     """
     Remplace les emails dans un fichier
     Retourne (nombre_emails_trouvés, nombre_remplacés)
@@ -92,7 +87,7 @@ def replace_emails_in_file(file_path: Path, dry_run: bool = False) -> Tuple[int,
     try:
         with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
             content = f.read()
-    except Exception as e:
+    except (OSError, UnicodeError) as e:
         print(f"   ⚠️  Erreur lecture {file_path}: {e}")
         return (0, 0)
 
@@ -117,7 +112,7 @@ def replace_emails_in_file(file_path: Path, dry_run: bool = False) -> Tuple[int,
         try:
             with open(file_path, "w", encoding="utf-8") as f:
                 f.write(new_content)
-        except Exception as e:
+        except OSError as e:
             print(f"   ⚠️  Erreur écriture {file_path}: {e}")
             return (len(emails), 0)
 
@@ -176,26 +171,26 @@ def main() -> int:
 
     print("🌙 Standardisation Email - Arkalia Luna System")
     print("=" * 50)
-    print("")
+    print()
 
     if args.dry_run:
         print("🔍 Mode DRY-RUN (aucune modification)")
-        print("")
+        print()
 
     # Demander confirmation si pas dry-run
     if not args.dry_run and not args.yes:
         print("⚠️  Ce script va :")
         print("   1. Remplacer toutes les adresses email dans les fichiers")
         print("   2. Configurer git user.email localement")
-        print("")
+        print()
         response = input("Continuer ? (y/N) ")
         if response.lower() != "y":
             print("❌ Annulé")
             return 0
 
-    print("")
+    print()
     print("🔍 Recherche des fichiers contenant des emails...")
-    print("")
+    print()
 
     files_modified = 0
     emails_found = 0
@@ -220,19 +215,19 @@ def main() -> int:
                     status = "[DRY-RUN] " if args.dry_run else ""
                     print(f"   {status}✅ {file_path.relative_to(repo_path)} ({found} email(s))")
 
-    print("")
+    print()
     print("📧 Configuration Git...")
-    print("")
+    print()
     configure_git(repo_path, args.dry_run)
 
-    print("")
+    print()
     print("✅ Standardisation terminée !")
-    print("")
+    print()
     print("📊 Résumé :")
     print(f"   - Fichiers modifiés : {files_modified}")
     print(f"   - Emails trouvés : {emails_found}")
     print(f"   - Emails remplacés : {emails_replaced}")
-    print("")
+    print()
 
     if not args.dry_run:
         print("📝 Prochaines étapes :")
@@ -241,10 +236,10 @@ def main() -> int:
             f"   2. Commit : git add . && git commit -m '📧 Standardisation email : {TARGET_EMAIL}'"
         )
         print("   3. Push : git push")
-        print("")
+        print()
         print("⚠️  Note : Pour modifier l'historique Git (anciens commits),")
         print("   consultez PLAN-ACTION-1-MOIS.md section 'Standardisation Email'")
-        print("")
+        print()
 
     return 0
 

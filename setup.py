@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Setup script for github-profile-arkalia"""
 
-from setuptools import setup
 from pathlib import Path
+
+from setuptools import setup
 
 # Read README
 readme_file = Path(__file__).parent / "README.md"
@@ -27,7 +28,7 @@ setup(
         "dev": [
             "pytest>=7.0",
             "black>=23.0",
-            "ruff>=0.1.0",
+            "ruff>=0.16.3",
             "mypy>=1.0",
         ],
     },

@@ -5,9 +5,9 @@ Génère metrics_for_badges.json pour créer des badges dynamiques
 """
 
 import json
+from datetime import UTC, datetime
 from pathlib import Path
-from datetime import datetime
-from typing import Any, Optional
+from typing import Any
 
 
 def format_number(num: int) -> str:
@@ -24,7 +24,7 @@ def create_badges_metrics() -> None:
         repo_root / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
         repo_root / ".." / "arkalia-metrics-collector" / "metrics" / "aggregated_metrics.json",
     ]
-    metrics_path: Optional[Path] = None
+    metrics_path: Path | None = None
     for path in metrics_paths:
         if path.exists():
             metrics_path = path
@@ -47,26 +47,26 @@ def create_badges_metrics() -> None:
         print(f"⚠️  Fichier metrics non trouvé: {metrics_path}")
         print("   Utilisation des métriques par défaut")
         default_metrics = {
-            "total_modules": 52320,
-            "total_tests": 11204,
-            "total_lines_of_code": 24790076,
-            "total_documentation_files": 6530,
+            "total_modules": 0,
+            "total_tests": 0,
+            "total_lines_of_code": 0,
+            "total_documentation_files": 0,
         }
     else:
         # Lire aggregated_metrics.json
         try:
-            with open(metrics_path, "r", encoding="utf-8") as f:
+            with open(metrics_path, encoding="utf-8") as f:
                 data = json.load(f)
-        except Exception as e:
+        except (OSError, json.JSONDecodeError) as e:
             print(f"❌ Erreur lecture metrics: {e}")
             return
 
         agg = data.get("aggregated", {})
         default_metrics = {
-            "total_modules": agg.get("total_modules", 52320),
-            "total_tests": agg.get("total_tests", 11204),
-            "total_lines_of_code": agg.get("total_lines_of_code", 24790076),
-            "total_documentation_files": agg.get("total_documentation_files", 6530),
+            "total_modules": agg.get("total_modules", 0),
+            "total_tests": agg.get("total_tests", 0),
+            "total_lines_of_code": agg.get("total_lines_of_code", 0),
+            "total_documentation_files": agg.get("total_documentation_files", 0),
         }
 
     # Créer structure pour badges
@@ -106,7 +106,7 @@ def create_badges_metrics() -> None:
     }
 
     badges_data: dict[str, Any] = {
-        "updated_at": datetime.now().isoformat(),
+        "updated_at": datetime.now(UTC).isoformat(),
         "metrics": badges_metrics,
     }
 
@@ -116,7 +116,7 @@ def create_badges_metrics() -> None:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(badges_data, f, indent=2, ensure_ascii=False)
         print(f"✅ {output_path.name} créé avec succès")
-    except Exception as e:
+    except OSError as e:
         print(f"❌ Erreur écriture badges: {e}")
         return
 

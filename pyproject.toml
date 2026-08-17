@@ -32,7 +32,7 @@ dependencies = [
 dev = [
     "pytest>=7.0",
     "black>=23.0",
-    "ruff>=0.1.0",
+    "ruff>=0.16.3",
     "mypy>=1.0",
 ]
 
@@ -57,9 +57,9 @@ line-length = 100
 target-version = "py311"
 
 [tool.ruff.lint]
-# Même jeu de règles que le défaut historique (E4/E7/E9/F).
-# Évite qu'une version Ruff plus récente n'active UP/DTZ et casse la CI.
-select = ["E4", "E7", "E9", "F"]
+# Défaut Ruff 0.16 (épinglé en CI). EXE002 ignoré : volumes macOS
+# marquent parfois les fichiers +x alors que git les stocke en 100644.
+ignore = ["EXE002"]
 
 [tool.mypy]
 python_version = "3.11"
