@@ -10,8 +10,8 @@ Craft logiciel : **Kotlin / Compose**, Python, Flutter, robotique, Azure.
 **[Mon Mois Clair](https://github.com/arkalia-luna-system/mon-mois-clair)** — carnet Android local-first  
 Kotlin · Jetpack Compose · SQLCipher · Play Internal familial (pas un Store grand public)
 
-**Azure Administrator (AZ-104)** — examen **09/10/2026**  
-Learn + labs faits · [portfolio de notes](https://github.com/arkalia-luna-system/az104-portfolio) · **badge Credly pas encore obtenu**
+**Azure Administrator (AZ-104)** — **en préparation** · reprise approfondie  
+Learn + labs faits · [portfolio de notes](https://github.com/arkalia-luna-system/az104-portfolio) · **pas de date d’examen** · **badge Credly pas encore obtenu**
 
 ---
 
